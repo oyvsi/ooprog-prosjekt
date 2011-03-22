@@ -12,7 +12,6 @@ class Players {
 		~Players();
 
 		void new_player();
-
 };
 
 #endif
