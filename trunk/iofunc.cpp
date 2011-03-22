@@ -31,6 +31,7 @@ char* IOfunc::read_string(std::istream* in, char delim = '\n'){
 char* IOfunc::read_valid(char* txt, val_type v = none){
   cout << txt;
   char* c_read = read_string(&cin, '\n');
+  cin.ignore();
   return c_read;
 }
 
