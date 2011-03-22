@@ -60,8 +60,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\division.cpp" />
     <ClCompile Include="..\iofunc.cpp" />
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\player.cpp" />
+    <ClCompile Include="..\players.cpp" />
+    <ClCompile Include="..\result.cpp" />
+    <ClCompile Include="..\sport.cpp" />
+    <ClCompile Include="..\sports.cpp" />
+    <ClCompile Include="..\team.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\division.h" />
