@@ -20,7 +20,7 @@ bool IOfunc::is_number(char* c){
    return true;
 }
 
-char* IOfunc::read_string(std::istream* in, char delim = '\n'){
+char* IOfunc::read_string(std::istream* in, char delim){
   char* ptr, temp[STRLEN];
   in->get(temp, STRLEN, delim);               //  Leser fra in til temp
   ptr = new char[strlen(temp)+1];             //  Allokér minne for tekst + \0
