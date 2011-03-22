@@ -1,6 +1,8 @@
 #ifndef __IOFUNC_H
 #define __IOFUNC_H
 
+#include "global.h"
+
 class Iofunc {
 	private:
 		bool validate(char* txt, val_type v = none);
