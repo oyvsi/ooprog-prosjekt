@@ -29,5 +29,26 @@
     <ClInclude Include="..\global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\players.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\division.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -64,8 +64,15 @@
     <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\division.h" />
     <ClInclude Include="..\global.h" />
     <ClInclude Include="..\iofunc.h" />
+    <ClInclude Include="..\player.h" />
+    <ClInclude Include="..\players.h" />
+    <ClInclude Include="..\result.h" />
+    <ClInclude Include="..\sport.h" />
+    <ClInclude Include="..\sports.h" />
+    <ClInclude Include="..\team.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
