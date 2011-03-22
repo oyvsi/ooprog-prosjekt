@@ -29,6 +29,9 @@ char* IOfunc::read_string(std::istream* in, char delim = '\n'){
 }
 
 char* IOfunc::read_valid(char* txt, val_type v = none){
+  cout << txt;
+  char* c_read = read_string(&cin, '\n');
+  return c_read;
 }
 
 int IOfunc::read_number(char* txt, int min = 0, int max = 0){
