@@ -9,7 +9,7 @@
 using namespace std;
 
 bool IOfunc::validate(char* txt, val_type v = none){
-
+	return true;
 }
 
 bool IOfunc::is_number(char* c){
