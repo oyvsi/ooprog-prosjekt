@@ -1,6 +1,8 @@
 #ifndef __TEAM_H
 #define __TEAM_H
 
+#include "global.h"
+
 class Team {
 	private:
 		char* name;

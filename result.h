@@ -1,6 +1,8 @@
 #ifndef __RESULT_H
 #define __RESULT_H
 
+#include "global.h"
+
 class Result {
 	private:
 		char date[DATELEN];
