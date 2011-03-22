@@ -1,10 +1,10 @@
 #include <iostream>
 
-#include "test.h"
+#include "global.h"
 
 using namespace std;
 
 int main() {
-    cout << "hello world2!" << TEST;
+    cout << "hello world2!";
     return 0; // comment
 }
