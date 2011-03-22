@@ -7,7 +7,7 @@ class Iofunc {
 	public:
 		char* read_string(istream* in, char delim = '\n');
 		char* read_valid(char* desc, val_type v);
-		int	  read_number(char* desc, int min = -1, int max = -1);		
+		int	  read_number(char* desc, int min = -1, int max = -1);
 };
 
 #endif
