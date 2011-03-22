@@ -1,7 +1,7 @@
 #ifndef __GLOBAL_H
 #define __GLOBAL_H
 
-enum val_type {none, name, address};
+enum val_type {none, aname, anaddress};
 
 const int NAMELEN = 50;		//Default length on names
 const int STRLEN = 100;		//Default length on strings

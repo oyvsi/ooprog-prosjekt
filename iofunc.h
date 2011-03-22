@@ -9,7 +9,7 @@ class IOfunc {
 		bool validate(char* txt, val_type v);
 		bool is_number(char* c);
 	public:
-    char* read_string(std::istream* in, char delim);
+		char* read_string(std::istream* in, char delim);
 		char* read_valid(char* txt, val_type v);
 		int	  read_number(char* txt, int min, int max);
 };
