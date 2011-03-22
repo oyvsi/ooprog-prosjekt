@@ -14,6 +14,7 @@ class Player : public Num_element {
 		~Player();
 
 		virtual void display();
+		bool name_is(char* name);
 };
 
 #endif
