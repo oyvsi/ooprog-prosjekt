@@ -42,6 +42,9 @@
     <ClCompile Include="..\team.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\listtool2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\iofunc.h">
@@ -69,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\listtool2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

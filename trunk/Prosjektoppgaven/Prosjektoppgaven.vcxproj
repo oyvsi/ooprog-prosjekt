@@ -62,6 +62,7 @@
   <ItemGroup>
     <ClCompile Include="..\division.cpp" />
     <ClCompile Include="..\iofunc.cpp" />
+    <ClCompile Include="..\listtool2.cpp" />
     <ClCompile Include="..\main.cpp" />
     <ClCompile Include="..\player.cpp" />
     <ClCompile Include="..\players.cpp" />
@@ -74,6 +75,7 @@
     <ClInclude Include="..\division.h" />
     <ClInclude Include="..\global.h" />
     <ClInclude Include="..\iofunc.h" />
+    <ClInclude Include="..\listtool2.h" />
     <ClInclude Include="..\player.h" />
     <ClInclude Include="..\players.h" />
     <ClInclude Include="..\result.h" />
