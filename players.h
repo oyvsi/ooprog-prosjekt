@@ -12,6 +12,7 @@ class Players {
 		~Players();
 
 		void new_player();
+		void display();
 };
 
 #endif

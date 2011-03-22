@@ -20,9 +20,12 @@ Player::~Player() {
 	delete [] address;
 }
 void Player::display() {
-	cout << number << " - " << name << '\n' << address << '\n';
+	cout << number << ": " << name << '\n';
+}
+void Player::display_all() {
+	cout << number << ": " << name << '\n' << address << '\n';
 }
 bool Player::name_is(char* inname) {
 	if(strcmp(name, inname) == 0) return true;
-	else false;
+	else return false;
 }
