@@ -8,6 +8,10 @@ class Players {
 		int last_used;
 		List* playerlist;
 	public:
+		Players();
+		~Players();
+
+		void new_player();
 
 };
 
