@@ -1,8 +1,6 @@
 #include <iostream>
-#include <fstream>
 
 #include "player.h"
-#include "global.h"
 #include "listtool2.h"
 #include "iofunc.h"
 
@@ -18,4 +16,7 @@ Player::Player(int n) : Num_element(n) {
 Player::~Player() {
 	delete [] name;
 	delete [] address;
+}
+void Player::display() {
+	cout << number << " - " << name << '\n' << address << '\n';
 }
