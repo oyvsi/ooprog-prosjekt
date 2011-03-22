@@ -1,15 +1,23 @@
 #ifndef __IOFUNC_H
 #define __IOFUNC_H
 
+<<<<<<< .mine
+#include <fstream>
+#include "global.h"
+
+class IOfunc {
+=======
 #include "global.h"
 
 class Iofunc {
+>>>>>>> .r24
 	private:
-		bool validate(char* txt, val_type v = none);
+		bool validate(char* txt, val_type v);
+		bool is_number(char* c);
 	public:
-		char* read_string(istream* in, char delim = '\n');
-		char* read_valid(char* desc, val_type v);
-		int	  read_number(char* desc, int min = -1, int max = -1);
+    char* read_string(std::istream* in, char delim);
+		char* read_valid(char* txt, val_type v);
+		int	  read_number(char* txt, int min, int max);
 };
 
 #endif
