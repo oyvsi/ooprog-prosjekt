@@ -22,6 +22,27 @@ void Players::new_player() {
 	tmp = new Player(++last_used);
 	playerlist->add(tmp);
 }
+bool Players::remove_player(char* c_read) {
+	int i_read;
+	Player* tmp;
+
+	if (io.is_number(c_read)) {
+		i_read = atoi(c_read);
+		if(tmp = (Player*) playerlist->remove(i_read)) {
+			delete tmp;
+			return true;
+		}
+	} else
+		for(int i = 1; i <= playerlist->no_of_elements(); i++) {
+			tmp = (Player*) playerlist->remove_no(i);
+			if(tmp->name_is(c_read)) {
+				delete tmp;
+				return true;
+			} else
+				playerlist->add(tmp);
+		}
+	return false;
+}
 void Players::display() {
 	char* c_read = io.read_string(&cin);
 	int i_read;
@@ -47,4 +68,5 @@ void Players::display() {
 		if(!found)
 			cout << "Det finnes ingen spiller med dette navnet";
 	}
+	delete [] c_read;
 }

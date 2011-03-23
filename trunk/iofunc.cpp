@@ -21,17 +21,17 @@ bool IOfunc::is_number(char* c){
 }
 
 char* IOfunc::read_string(std::istream* in, char delim){
-  char* ptr, temp[STRLEN];
-  in->get(temp, STRLEN, delim);               //  Leser fra in til temp
-  ptr = new char[strlen(temp)+1];             //  Allokér minne for tekst + \0
-  strcpy(ptr, temp);                          //  Kopier tekst
-  return ptr;                                 //  Returnér peker til tekst
+	char* ptr, temp[STRLEN];
+	in->get(temp, STRLEN, delim);               //  Leser fra in til temp
+	in->ignore();
+	ptr = new char[strlen(temp)+1];             //  Allokér minne for tekst + \0
+	strcpy(ptr, temp);                          //  Kopier tekst
+	return ptr;                                 //  Returnér peker til tekst
 }
 
 char* IOfunc::read_valid(char* txt, val_type v = none){
   cout << '\t' << txt << ": ";
   char* c_read = read_string(&cin, '\n');
-  cin.ignore();
   return c_read;
 }
 
