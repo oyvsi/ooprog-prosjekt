@@ -12,7 +12,7 @@ class Players {
 		~Players();
 
 		void new_player();
-		bool remove_player(char* c_read);
+		bool remove_player();
 		void display();
 };
 
