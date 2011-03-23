@@ -1,6 +1,6 @@
 #ifndef __TEAM_H
 #define __TEAM_H
-
+#include <fstream>
 #include "global.h"
 
 class Team {
@@ -10,6 +10,12 @@ class Team {
 		int players[MAXPLAYERS];
 		int no_players;
 	public:
+        Team();
+        Team(ifstream* infile);
+        ~Team();
+
+        void add_player(int player_no);
+        void rem_player(int player_no);        
 
 };
 
