@@ -8,24 +8,27 @@ using namespace std;
 
 extern IOfunc io;
 
-Player::Player() : Num_element(0) {
-	cout << "PLAYER.CPP - WARNING!! - This constructor should not be called";
+Player::Player() : Num_element(0) {		//This class shall 
+	cout << "PLAYER.CPP - WARNING!! - "	//  never be constructed
+		 << "This constructor should "	//  without a parameter.
+		 << "never be called";
 }
 Player::Player(int n) : Num_element(n) {
-	name = io.read_valid("Spillernavn", aname);
-	address = io.read_valid("Adresse", anaddress);
+	name = io.read_valid("Spillernavn", aname);		//Read name and address from
+	address = io.read_valid("Adresse", anaddress);	//  the user.
 }
-Player::~Player() {
+Player::~Player() {			//release the memory this class used.
 	delete [] name;
 	delete [] address;
 }
-void Player::display() {
-	cout << number << ": " << name << '\n';
+void Player::display() {	//Write out the number and name, to a list over
+	cout << number << ": " << name << '\n';		//  several players.
 }
-void Player::display_all() {
-	cout << number << ": " << name << '\n' << address << '\n';
+void Player::display_all() {			//Writes out all the playerdata.
+	cout << number << ": " << name		//  Used where data from only one
+		 << '\n' << address << '\n';	//  player is displayed.
 }
-bool Player::name_is(char* inname) {
-	if(strcmp(name, inname) == 0) return true;
+bool Player::name_is(char* inname) {	//Returns true if name == inname.
+	if(strcmp(name, inname) == 0) return true;	//  False otherwise.
 	else return false;
 }
