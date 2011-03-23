@@ -15,6 +15,7 @@ int main() {
     //int tall = io.read_number("Tall fra 7 til 19: ", 7, 19);    
     //cout << "Takk for at du skrev " << tall << "!";
 	
+
 	players.new_player();
 	players.new_player();
 	players.display();
