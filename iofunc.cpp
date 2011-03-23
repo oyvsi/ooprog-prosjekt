@@ -29,7 +29,7 @@ char* IOfunc::read_string(std::istream* in, char delim){
 }
 
 char* IOfunc::read_valid(char* txt, val_type v = none){
-  cout << txt;
+  cout << '\t' << txt << ": ";
   char* c_read = read_string(&cin, '\n');
   cin.ignore();
   return c_read;
@@ -40,7 +40,7 @@ int IOfunc::read_number(char* txt, int min = 0, int max = 0){
   int   i_read = -1;
   
   do{                                         //  Loop til vi får et gyldig tall
-    cout << txt;
+    cout << '\t' << txt << ": ";
     c_read = read_string(&cin);
     cin.ignore();
     if (is_number(c_read))
