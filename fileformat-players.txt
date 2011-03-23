@@ -1,0 +1,2 @@
+<spillernummer> <spillenavn>
+<spilleradresse>

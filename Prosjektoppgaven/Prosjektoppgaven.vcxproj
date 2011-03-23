@@ -83,6 +83,9 @@
     <ClInclude Include="..\sports.h" />
     <ClInclude Include="..\team.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\fileformat-players.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
