@@ -11,6 +11,7 @@ IOfunc io;
 Players players;
 
 int main() {
+	char* tmp;
     //cout << "hello world2!" << endl;
     //int tall = io.read_number("Tall fra 7 til 19: ", 7, 19);    
     //cout << "Takk for at du skrev " << tall << "!";
@@ -19,7 +20,12 @@ int main() {
 	players.new_player();
 	cout << "Oppretter ny spiller...\n";
 	players.new_player();
-	cout << "A(lle) | <nr> | <navn> :";
+	cout << "Vis: A(lle) | <nr> | <navn> : ";
+	players.display();
+	cout << "Slett: <nr> | <navn> : ";
+	tmp = io.read_string(&cin);
+	players.remove_player(tmp);
+	cout << "Vis: A(lle) | <nr> | <navn> : ";
 	players.display();
 
     system("pause");
