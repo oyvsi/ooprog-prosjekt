@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 #include "player.h"
 #include "listtool2.h"
@@ -27,6 +28,10 @@ void Player::display() {	//Write out the number and name, to a list over
 void Player::display_all() {			//Writes out all the playerdata.
 	cout << number << ": " << name		//  Used where data from only one
 		 << '\n' << address << '\n';	//  player is displayed.
+}
+void Player::write(ostream* out) {		//Write data to stream
+	*out << number << ' ' << name << '\n'
+		 << address << '\n';
 }
 bool Player::name_is(char* inname) {	//Returns true if name == inname.
 	if(strcmp(name, inname) == 0) return true;	//  False otherwise.

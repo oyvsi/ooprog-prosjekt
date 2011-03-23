@@ -25,6 +25,7 @@ int main() {
 	players.remove_player();
 	cout << "Vis: A(lle) | <nr> | <navn> : ";
 	players.display();
+	players.write_file();
 
     system("pause");
     

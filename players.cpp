@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 
 #include "players.h"
 #include "player.h"
@@ -50,6 +51,20 @@ bool Players::remove_player() {
 	delete [] c_read;	//delete the string
 	return false;		//and return false.
 }
+void Players::write_file() {
+	Player* tmp;
+	ofstream out;				//Create ostream object
+	out.open("players.dat");	//Open file
+	out << last_used << '\n';	//Write out the last used number
+	for(int i = 1; i <= playerlist->no_of_elements(); i++) {	//Go trough all 
+		tmp = (Player*) playerlist->remove_no(i);	//players, and write them
+		tmp->write(&out);							//to file, and add them
+		playerlist->add(tmp);						//back to the list
+	}
+	cout << playerlist->no_of_elements() 
+		 << " spillere ble skrevet til fil\n";	//reciete to user
+	out.close();
+}
 void Players::display() {
 	char* c_read = io.read_string(&cin);	//Reads what the user want to see
 	int i_read;
@@ -61,9 +76,11 @@ void Players::display() {
 		playerlist->display_list();		//Display all players
 	} else if (io.is_number(c_read)) {	//If user writes a number
 		i_read = atoi(c_read);						//Convert text to number
-		tmp = (Player*) playerlist->remove(i_read);	//Pick player number x
-		tmp->display_all();							//display it
-		playerlist->add(tmp);						//Put it back in the list
+		if(tmp = (Player*) playerlist->remove(i_read)) {	//Pick player number x
+			tmp->display_all();					//display it
+			playerlist->add(tmp);				//Put it back in the list
+			found = true;
+		}
 	} else {	//If the user writes something else (read: a text)
 		//Loop trough all players, and look for the one with the right name.
 		for(int i = 1; i <= playerlist->no_of_elements(); i++) {
