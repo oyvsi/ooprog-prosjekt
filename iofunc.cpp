@@ -35,16 +35,17 @@ char* IOfunc::read_valid(char* txt, val_type v = none){
   return c_read;
 }
 
-int IOfunc::read_number(char* txt, int min = 0, int max = 0){
+int IOfunc::read_number(char* txt, int min, int max){
   char* c_read;
   int   i_read = -1;
   
   do{                                         //  Loop til vi får et gyldig tall
     cout << '\t' << txt << ": ";
     c_read = read_string(&cin);
-    cin.ignore();
     if (is_number(c_read))
       i_read = atoi(c_read);
+	if (i_read > max || i_read < min)
+		cout << "Ugyldig tall! (" << min << "-" << max << endl;
   } while(!is_number(c_read) || i_read > max || i_read < min);
 
   return i_read;                              //  Returnerer gyldig tall

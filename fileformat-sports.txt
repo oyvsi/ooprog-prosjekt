@@ -1,0 +1,14 @@
+<sportname>
+<tabletype>
+  <divisionname>
+  <no_teams>
+    <teamname>
+    <teamaddress>
+    <no_players>
+    <pl1> <pl2> <pl3> etc.
+    
+    <date>
+    <h_goals> <a_goals>
+    <extra_time>
+    <h_scorer1> <h_scorer2> etc
+    <a_scorer1> <a_scorer2> etc
