@@ -22,8 +22,7 @@ bool IOfunc::is_number(char* c){
 
 char* IOfunc::read_string(std::istream* in, char delim){
 	char* ptr, temp[STRLEN];
-	in->get(temp, STRLEN, delim);               //  Leser fra in til temp
-	in->ignore();
+	in->getline(temp, STRLEN, delim);           //  Leser fra in til temp
 	ptr = new char[strlen(temp)+1];             //  Allokér minne for tekst + \0
 	strcpy(ptr, temp);                          //  Kopier tekst
 	return ptr;                                 //  Returnér peker til tekst
@@ -44,8 +43,8 @@ int IOfunc::read_number(char* txt, int min, int max){
     c_read = read_string(&cin);
     if (is_number(c_read))
       i_read = atoi(c_read);
-	if (i_read > max || i_read < min)
-		cout << "Ugyldig tall! (" << min << "-" << max << endl;
+    if (!is_number(c_read) || i_read > max || i_read < min)
+		  cout << "\tUgyldig tallverdi!" << endl;
   } while(!is_number(c_read) || i_read > max || i_read < min);
 
   return i_read;                              //  Returnerer gyldig tall

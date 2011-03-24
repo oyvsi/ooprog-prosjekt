@@ -12,7 +12,7 @@ Players players;
 
 int main() {
     //cout << "hello world2!" << endl;
-    int tall = io.read_number("Tall fra 7 - 9");    
+    int tall = io.read_number("Tall fra 7 - 9", 7, 9);    
     cout << "Takk for at du skrev " << tall << "!";
 
 	/*cout << "Oppretter ny spiller...\n";
