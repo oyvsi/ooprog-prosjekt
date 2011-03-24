@@ -5,18 +5,19 @@
 #include "team.h"
 #include "result.h"
 
-class Division : public Text_element {
+class Division {//: public Text_element {
 	private:
-//		char* text;
+		char* text;
 		int no_teams;
+        Result*** results;
 		Team* teams[MAXTEAMS];
-		Result* results;	//Matrix shall be created dynamically
 	public:
         Division();
-        Division(char *name, std::ifstream* infile);
+        Division(std::ifstream* infile);
+        void display();
+
         ~Division();
     
-        virtual void display();
 
 
 };

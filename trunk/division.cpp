@@ -1,17 +1,39 @@
 #include <fstream>
+#include <iostream>
 #include "listtool2.h"
 #include "division.h"
+#include "iofunc.h"
 
 Division::Division() {  
-
 }
 
-Division::Division(char *name, std::ifstream* infile) : Text_element(name) {
-    // Read no_teams and teams from file
-    // Create teams and players
-    
-    // create array the size of all teams (this index will indicate home)
-    // each value in array should point to array where index will indicate away
-    // from this array we point to the actual result object.
+Division::Division(std::ifstream* infile) {//: Text_element(name) {
+    IOfunc io;
+    *infile >> no_teams;
+    if(no_teams <= MAXTEAMS) {
+        text = io.read_string(infile);          // Divisionname
+        results = new Result**[no_teams];       // array for home-teams
+        for(int i = 0; i < no_teams; i++) {
+            results[i] = new Result*[no_teams]; // array for away-teams
+            for (int j = 0; j < no_teams; j++)
+                results[i][j] = new Result;     // end result object
+        }
+    }
+    else {
+        std::cout << "Feil: antall lag kan ikke overgå " << MAXTEAMS << '\n';
+    }
+}
 
+void Division::display() {
+    results[0][3]->display();
+        
+}
+
+Division::~Division() {                         // Deallocate memory
+    for(int i = 0; i < no_teams; i++) {
+        delete results[i];
+        for(int j = 0; j < no_teams; j++)
+            delete results[i][j];
+    }
+    delete [] results;
 }
