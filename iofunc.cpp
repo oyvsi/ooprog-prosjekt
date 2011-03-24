@@ -8,7 +8,21 @@
 
 using namespace std;
 
-bool IOfunc::validate(char* txt, val_type v = none){
+bool IOfunc::validate(char* txt, val_type v = NONE){
+  int ch;
+  for (int i = 0; i < strlen(txt); i++){
+    switch (v){
+      case NAME    :
+                      if ( !(isalpha(txt[i]) || txt[i] == ' ' 
+                                             || txt[i] == '-') )
+                        return false;
+                      break;
+      case ADDRESS :  if ( !(isalnum(txt[i]) || txt[i] == ' ') ) 
+                        return false;
+                      break;
+    }
+  }
+  
 	return true;
 }
 
@@ -28,10 +42,14 @@ char* IOfunc::read_string(std::istream* in, char delim){
 	return ptr;                                 //  Returnér peker til tekst
 }
 
-char* IOfunc::read_valid(char* txt, val_type v = none){
+char* IOfunc::read_valid(char* txt, val_type v = NONE){
   cout << '\t' << txt << ": ";
   char* c_read = read_string(&cin, '\n');
-  return c_read;
+  
+  if (validate(c_read, v))
+    return c_read;
+  else
+    return NULL;
 }
 
 int IOfunc::read_number(char* txt, int min, int max){
