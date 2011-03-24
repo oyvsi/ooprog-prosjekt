@@ -13,7 +13,7 @@ class Result {
 		int a_scorers[MAXGOALS];	
 	public:
         Result();
-        Result(std::ifstream* infile);
+        void read_results(std::ifstream* infile);
         void display();
 
 };
