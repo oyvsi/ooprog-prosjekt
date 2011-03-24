@@ -15,8 +15,8 @@ Player::Player() : Num_element(0) {		//This class shall
 		 << "never be called";
 }
 Player::Player(int n) : Num_element(n) {
-	name = io.read_valid("Spillernavn", aname);		//Read name and address from
-	address = io.read_valid("Adresse", anaddress);	//  the user.
+	name = io.read_valid("Spillernavn", NAME);		//Read name and address from
+	address = io.read_valid("Adresse", ADDRESS);	//  the user.
 }
 Player::~Player() {			//release the memory this class used.
 	delete [] name;
