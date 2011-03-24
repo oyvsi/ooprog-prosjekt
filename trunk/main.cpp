@@ -11,10 +11,9 @@ IOfunc io;
 Players players;
 
 int main() {
-  
+
 /*
   TEST AV IOFUNC:
-  
   char* nvn = io.read_valid("Navn: ", NAME);
   
   if (nvn)
@@ -29,9 +28,7 @@ int main() {
   else
     cout << "Ugyldig adresse!" << endl;
 
-	
-  
-  
+      
   cout << "Oppretter ny spiller...\n";
 	players.new_player();
 	cout << "Oppretter ny spiller...\n";
