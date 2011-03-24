@@ -7,11 +7,14 @@ class Result {
 	private:
 		char date[DATELEN];
 		int h_goals;
-		int a_goals;				//Is g_goals better (GUESTS)?
+		int a_goals;			//(GUESTS)? According to wikipedia away team is the correct term
 		bool extra_time;
 		int h_scorers[MAXGOALS];
-		int a_scorers[MAXGOALS];	//Is g_scorers better (GUESTS)?
+		int a_scorers[MAXGOALS];	
 	public:
+        Result();
+        Result(std::ifstream* infile);
+        void display();
 
 };
 
