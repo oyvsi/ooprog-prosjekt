@@ -11,19 +11,30 @@ using namespace std;
 bool IOfunc::validate(char* txt, val_type v = NONE){
   int ch;
   for (int i = 0; i < strlen(txt); i++){
+    ch = (int) txt[i];
     switch (v){
       case NAME    :
-                      if ( !(isalpha(txt[i]) || txt[i] == ' ' 
+                      if ( !(isalpha(txt[i]) || isalex(txt[i])
+                                             || txt[i] == ' '
                                              || txt[i] == '-') )
                         return false;
                       break;
-      case ADDRESS :  if ( !(isalnum(txt[i]) || txt[i] == ' ') ) 
+      case ADDRESS :  if ( !(isalnum(txt[i]) || isalex(txt[i])
+                                             || txt[i] == ' ') ) 
                         return false;
                       break;
     }
   }
   
 	return true;
+}
+
+bool IOfunc::isalex(char c){                //  returnerer om c er æÆøØåÅ
+  unsigned short ic = c;
+  
+  return (ic == UNI_ae || ic == UNI_AE ||
+          ic == UNI_oe || ic == UNI_OE ||
+          ic == UNI_aa || ic == UNI_AA);
 }
 
 bool IOfunc::is_number(char* c){
