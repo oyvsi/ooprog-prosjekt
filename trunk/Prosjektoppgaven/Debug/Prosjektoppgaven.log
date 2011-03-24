@@ -1,0 +1,24 @@
+﻿Build started 24.03.2011 14:57:55.
+     1>Project "D:\Eigil\My Dropbox\dokumenter\HiG\2 - IMT1082 - ooprog\Prosjektoppgaven\Prosjektoppgaven\Prosjektoppgaven.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Prosjektoppgaven.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\iofunc.cpp ..\main.cpp ..\player.cpp ..\players.cpp
+         main.cpp
+     1>d:\eigil\my dropbox\dokumenter\hig\2 - imt1082 - ooprog\prosjektoppgaven\main.cpp(15): error C2660: 'IOfunc::read_number' : function does not take 1 arguments
+         Generating Code...
+         Compiling...
+         iofunc.cpp
+     1>d:\eigil\my dropbox\dokumenter\hig\2 - imt1082 - ooprog\prosjektoppgaven\iofunc.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\eigil\my dropbox\dokumenter\hig\2 - imt1082 - ooprog\prosjektoppgaven\iofunc.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Generating Code...
+         Compiling...
+         players.cpp
+         player.cpp
+         Generating Code...
+     1>Done Building Project "D:\Eigil\My Dropbox\dokumenter\HiG\2 - IMT1082 - ooprog\Prosjektoppgaven\Prosjektoppgaven\Prosjektoppgaven.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.69
