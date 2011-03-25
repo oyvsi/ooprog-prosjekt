@@ -16,6 +16,7 @@ class Sports {
 
 		void new_sport();
 		void write_file();
+		void display();
 };
 
 #endif
