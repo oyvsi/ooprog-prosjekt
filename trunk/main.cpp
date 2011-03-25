@@ -13,7 +13,7 @@ Players players;
 int main() {
 
 /*
-  TEST AV IOFUNC:
+//  TEST AV IOFUNC:
   char* nvn = io.read_valid("Navn: ", NAME);
   
   if (nvn)

@@ -24,11 +24,6 @@ Division::Division(std::ifstream* infile) {//: Text_element(name) {
     }
 }
 
-void Division::display() {
-    results[0][3]->display();
-        
-}
-
 Division::~Division() {                         // Deallocate memory
     for(int i = 0; i < no_teams; i++) {
         delete results[i];
@@ -36,4 +31,9 @@ Division::~Division() {                         // Deallocate memory
             delete results[i][j];
     }
     delete [] results;
+}
+
+void Division::display() {
+    results[0][3]->display();
+        
 }
