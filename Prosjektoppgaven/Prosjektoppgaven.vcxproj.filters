@@ -39,10 +39,13 @@
     <ClCompile Include="..\sports.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\team.cpp">
+    <ClCompile Include="..\listtool2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\listtool2.cpp">
+    <ClCompile Include="..\global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\team.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -68,18 +71,21 @@
     <ClInclude Include="..\division.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\team.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\result.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\listtool2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\fileformat-players.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\fileformat-sports.txt">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

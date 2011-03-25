@@ -14,9 +14,11 @@ class Division {//: public Text_element {
 	public:
         Division();
         Division(std::ifstream* infile);
-        void display();
-
         ~Division();
+
+		void display();
+		void write(ostream* out);
+
     
 
 

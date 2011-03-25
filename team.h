@@ -11,7 +11,7 @@ class Team {
 		int no_players;
 	public:
         Team();
-        Team(ifstream* infile);
+        Team(std::ifstream* infile);
         ~Team();
 
         void add_player(int player_no);
