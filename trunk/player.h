@@ -14,6 +14,7 @@ class Player : public Num_element {
 	public:
 		Player();
 		Player(int n);
+		Player(int n, char* in_name, char* in_address);
 		~Player();
 
 		virtual void display();

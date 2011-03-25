@@ -13,11 +13,13 @@ class Players {
 	public:
 		Players();
 		~Players();
-
+		
+		virtual void display();
 		void new_player();
 		bool remove_player();
 		void write_file();
-		void display();
+		int read_player(istream* input);
+
 };
 
 #endif

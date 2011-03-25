@@ -4,14 +4,16 @@
 #include "global.h"
 #include "iofunc.h"
 #include "players.h"
+#include "sports.h"
 
 using namespace std;
 
 IOfunc io;
 Players players;
+Sports sports;
 
 int main() {
-
+	sports.new_sport();
 /*
 //  TEST AV IOFUNC:
   char* nvn = io.read_valid("Navn: ", NAME);

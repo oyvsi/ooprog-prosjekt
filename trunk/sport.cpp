@@ -35,11 +35,11 @@ void Sport::display() {
 	divisionlist->display_list();
 }
 void Sport::write(ostream* out) {
-	Division* tmp; int i;
+	Division* tmp; int i = 1;
 	*out << text << '\n' << tabletype << '\n';
-	while(tmp = (Sport*) sportlist->remove_no(i)) {
+	while(tmp = (Division*) divisionlist->remove_no(i)) {
 		tmp->write(out);
-		sportlist->add(tmp);
+		divisionlist->add(tmp);
 		i++;
 	}
 };

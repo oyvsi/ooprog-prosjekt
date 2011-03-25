@@ -18,6 +18,10 @@ Player::Player(int n) : Num_element(n) {
 	name = io.read_valid("Spillernavn", NAME);		//Read name and address from
 	address = io.read_valid("Adresse", ADDRESS);	//  the user.
 }
+Player::Player(int n, char* in_name, char* in_address) : Num_element(n) {
+	name = io.store_string(in_name);
+	address = io.store_string(in_address);
+}
 Player::~Player() {			//release the memory this class used.
 	delete [] name;
 	delete [] address;
