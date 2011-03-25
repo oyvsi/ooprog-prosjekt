@@ -1,3 +1,7 @@
+//	PLAYER.CPP
+//	
+//	Sourcecode for the Player class.
+
 #include <iostream>
 #include <fstream>
 
