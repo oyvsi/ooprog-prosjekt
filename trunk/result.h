@@ -13,6 +13,7 @@ class Result {
 		int a_scorers[MAXGOALS];	
 	public:
         Result();
+        void set_date(char in_date[DATELEN]);
         void read_results(std::ifstream* infile);
         void display();
 

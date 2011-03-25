@@ -4,26 +4,26 @@
 #include "global.h"
 #include "team.h"
 #include "result.h"
-
-using namespace std;
+#include "listtool2.h"
 
 class Division : public Text_element {
-	private:
-		char* text;
-		int no_teams;
-        Result*** results;
-		Team* teams[MAXTEAMS];
-	public:
-        Division();
-        Division(std::ifstream* infile);
-        ~Division();
-
-		void display();
-		void write(ostream* out);
-
+private:
+	//	char* text;
+    int no_teams;
+    Result*** results;
+    Team* teams[MAXTEAMS];
+public:
+    Division();
+    Division(std::ifstream* infile);
+    ~Division();
     
-
-
+    int get_team(char* name);
+    void display();
+    void write(std::ostream* out);
+    
+    
+    
+    
 };
 
 #endif
