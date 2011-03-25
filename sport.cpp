@@ -1,3 +1,7 @@
+//	SPORT.CPP
+//	
+//	Sourcecode for the Sport class.
+
 #include <iostream>
 #include <fstream>
 
