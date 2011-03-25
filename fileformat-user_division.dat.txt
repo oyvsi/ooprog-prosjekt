@@ -1,0 +1,10 @@
+<divisionname>
+<no_teams>
+<teamname>
+<teamaddress>
+<no_players>
+<player> 			//navn eller spillernummer om allerede reg
+<playeraddress>		// hvis ikke spillernummer er oppgitt  
+<date>				// Terminliste
+<home_team>
+<away_team>	
