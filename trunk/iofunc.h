@@ -8,8 +8,8 @@ class IOfunc {
 	private:
 		bool validate(char* txt, val_type v);
 		bool isalex(char c);                    //  Sjekker om c er æøåÆØÅ
-		bool is_number(char* c);                //  Sjekker om *c er et tall
 	public:
+		bool is_number(char* c);                //  Sjekker om *c er et tall
 		char* read_string(std::istream* in, char delim = '\n');
 		char* read_valid(char* txt, val_type v);
 		int	  read_number(char* txt, int min, int max);
