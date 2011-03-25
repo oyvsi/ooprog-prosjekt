@@ -1,5 +1,6 @@
 <sportname>
 <tabletype>
+<no_divisions>
   <divisionname>
   <no_teams>
     <teamname>
