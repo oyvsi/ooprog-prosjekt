@@ -19,7 +19,9 @@ class Sport : public Text_element {
 		~Sport();
 
 		virtual void display();
+		void display_all();
 		void write(ostream* out);
+		bool name_is(char* nvn);
 };
 
 #endif

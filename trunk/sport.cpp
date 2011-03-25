@@ -20,13 +20,13 @@ Sport::Sport()  {						//This class shall
 		 << "never be called";
 }
 Sport::Sport(char* name) : Text_element(name) {
-	divisionlist = new List(Sorted);
+	divisionlist = new List(Sorted);				//Create the list
 
-	cout << "Hvilken tabelltype skal brukes?\n"
-		 << "1 - \"2-1-0\"\n"
-		 << "2 - \"3-1-0\"\n"
-		 << "3 - \"3-2-1-0\"\n";
-	tabletype = io.read_number("Tast inn et valg", 1, 3);
+	cout << "\t\tHvilken tabelltype skal brukes?\n"
+		 << "\t\t1 - \"2-1-0\"\n"
+		 << "\t\t2 - \"3-1-0\"\n"
+		 << "\t\t3 - \"3-2-1-0\"\n";
+	tabletype = io.read_number("Tast inn et valg", 1, 3);	//Read tabletype
 }
 Sport::Sport(char* name, istream* input) : Text_element(name) {
 
@@ -35,16 +35,31 @@ Sport::~Sport() {
 	delete divisionlist;
 }
 void Sport::display() {
-	cout << text << '\n';
+	cout << '\t' << text << " (" << divisionlist->no_of_elements()
+		 << " avdelinger) - Tabellform:";
+	switch (tabletype) {
+		case 1: cout << "2-1-0\n"; break;
+		case 2: cout << "3-1-0\n"; break;
+		case 3: cout << "3-2-1-0\n"; break;
+	};
+}
+void Sport::display_all() {
+	display();
 	divisionlist->display_list();
 }
 void Sport::write(ostream* out) {
 	Division* tmp; int i = 1;
 	*out << text << '\n' << tabletype << '\n';
 	while(tmp = (Division*) divisionlist->remove_no(i)) {
-		tmp->write(out);
+		//tmp->write(out);
 		divisionlist->add(tmp);
 		i++;
 	}
-};
+}
+bool Sport::name_is(char* nvn) {
+	if(strcmp(nvn, text) == 0) 
+		return true;
+	else 
+		return false;
+}
 
