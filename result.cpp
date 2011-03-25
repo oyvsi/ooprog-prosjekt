@@ -8,7 +8,11 @@ Result::Result() {  // called from division
     h_goals = -1;   // We have no results;    
 }
 
-void Result::read_results(std::ifstream* infile) {
+void Result::set_date(char in_date[DATELEN]) {
+    strcpy(date, in_date);
+}
+
+void Result::read_results(std::ifstream* infile) {  //TODO: check for errors
     infile->getline(date, DATELEN);
     *infile >> h_goals;
     *infile >> a_goals;
