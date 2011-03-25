@@ -96,3 +96,26 @@ void Players::display() {
 	}
 	delete [] c_read;	//Delete the string we read in.
 }
+int Players::read_player(istream* input) {
+	Player* tmp_player;
+	char* tmp_name, *tmp_address;
+	int tmp_number;
+	tmp_name = io.read_string(input);			//Read first string from file
+
+	if(io.is_number(tmp_name)) {				//If the string is a number
+		tmp_number = atoi(tmp_name);			//Convert it to an int
+		if(!playerlist->in_list(tmp_number))	//If a player with that number
+			tmp_number = 0;						//dont exist, set nr to 0
+
+		delete [] tmp_name;						//Delete the tmp string.
+		return tmp_number;						//Return playernumber, or 0.
+	} else {								//If the string is not a number
+		tmp_address = io.read_string(input);	//Read the second line
+												//Create a new player
+		tmp_player = new Player(++last_used, tmp_name, tmp_address);
+		playerlist->add(tmp_player);			//Add it to a list
+		delete [] tmp_name;						//Delete the tmp lines
+		delete [] tmp_address;					
+		return last_used;						//And return the number
+	}
+}

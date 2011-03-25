@@ -5,7 +5,9 @@
 #include "team.h"
 #include "result.h"
 
-class Division {//: public Text_element {
+using namespace std;
+
+class Division : public Text_element {
 	private:
 		char* text;
 		int no_teams;

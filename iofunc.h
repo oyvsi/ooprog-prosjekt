@@ -12,6 +12,7 @@ class IOfunc {
 		bool is_number(char* c);                //  Sjekker om *c er et tall
 		char* read_string(std::istream* in, char delim = '\n');
 		char* read_valid(char* txt, val_type v);
+		char* store_string(char* txt);
 		int	  read_number(char* txt, int min, int max);
 };
 

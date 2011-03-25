@@ -7,7 +7,7 @@
 Division::Division() {  
 }
 
-Division::Division(std::ifstream* infile) {//: Text_element(name) {
+Division::Division(std::ifstream* infile) : Text_element("") {
     IOfunc io;
     *infile >> no_teams;
     if(no_teams <= MAXTEAMS) {

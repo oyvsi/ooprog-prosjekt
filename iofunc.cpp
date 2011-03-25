@@ -63,6 +63,13 @@ char* IOfunc::read_valid(char* txt, val_type v = NONE){
     return NULL;
 }
 
+char* IOfunc::store_string(char* txt) {
+	char* ptr;
+	ptr = new char[strlen(txt) + 1];
+	strcpy(ptr, txt);
+	return ptr;
+}
+
 int IOfunc::read_number(char* txt, int min, int max){
   char* c_read;
   int   i_read = -1;
