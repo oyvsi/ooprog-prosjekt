@@ -12,7 +12,7 @@ void Result::set_date(char in_date[DATELEN]) {
     strcpy(date, in_date);
 }
 
-void Result::read_results(std::ifstream* infile) {  //TODO: check for errors
+void Result::read_results(std::istream* infile) {  //TODO: check for errors
     infile->getline(date, DATELEN);
     *infile >> h_goals;
     *infile >> a_goals;
@@ -32,13 +32,6 @@ void Result::display() {
         std::cout << "Vi har resultatene fra kampen\n";
 
     } else {
-        std::cout << "Vi har desverre ingen resultater"; 
+        std::cout << "Dato: " << date << '\n'; 
     }
 }
-
-/*
-<date>
-<h_goals> <a_goals>
-<extra_time>
-<h_scorer1> <h_scorer2> etc
-<a_scorer1> <a_scorer2> etc */

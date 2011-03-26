@@ -11,7 +11,7 @@ private:
     int no_players;
 public:
     Team();
-    Team(std::ifstream* infile);
+    Team(std::istream* infile);
     char* get_team();
     ~Team();
     

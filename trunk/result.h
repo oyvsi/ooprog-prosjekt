@@ -14,7 +14,7 @@ class Result {
 	public:
         Result();
         void set_date(char in_date[DATELEN]);
-        void read_results(std::ifstream* infile);
+        void read_results(std::istream* infile);
         void display();
 
 };

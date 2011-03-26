@@ -7,14 +7,16 @@
 Division::Division() {  
 }
 
-Division::Division(std::ifstream* infile) { //Creating division from file
+Division::Division(std::istream* infile) { //Creating division from file
     IOfunc io;
     no_teams = 0;
     int h_team_no, a_team_no;
-    
-    *infile >> no_teams;
+    char* h_team;
+    char* a_team;
+
+    text = io.read_string(infile);          // Divisionname
+    *infile >> no_teams; infile->ignore();
     if(no_teams <= MAXTEAMS) {
-        text = io.read_string(infile);          // Divisionname
         results = new Result**[no_teams];       // array for home-teams
         for(int i = 0; i < no_teams; i++) {
             teams[i] = new Team(infile);        // Create team-object. From there players are added
@@ -23,10 +25,13 @@ Division::Division(std::ifstream* infile) { //Creating division from file
                 results[i][j] = new Result;     // end result object
         }
         
-        for(int i = 0; i < no_teams*no_teams; i++) {    // Create schedule 
+        for(int i = 0; i < (no_teams*no_teams)-no_teams; i++) {    // Create schedule
             h_team_no = get_team(io.read_string(infile));
             a_team_no = get_team(io.read_string(infile));
-            results[h_team_no][a_team_no]->set_date(io.read_string(infile)); 
+            if(h_team_no != -1 && a_team_no != -1) 
+                results[h_team_no][a_team_no]->set_date(io.read_string(infile)); 
+            else
+                std::cout << "Feil i iterasjon: " << i << " h_team: " << h_team << ' ' << "a_team: " << a_team << '\n';
         }
         
     }
@@ -46,13 +51,22 @@ Division::~Division() {                         // Deallocate memory
 
 int Division::get_team(char* name) {        // Finds team_no from name
     for(int i = 0; i < no_teams; i++) {
-        if(!strcpy(teams[i]->get_team(), name))
+        if(!strcmp(teams[i]->get_team(), name))
             return i;
     }
     return -1;
 }
 
 void Division::display() {
-    results[0][1]->display();
+    for (int i = 0; i < no_teams; i++) {
+        for (int j = 0; j < no_teams; j++) {
+            if(i != j) { // Team will not play against itself
+                std::cout << teams[i]->get_team() << " - " 
+                          << teams[j]->get_team() << " - ";
+                results[i][j]->display();
+            }
+        }
+
+    }
     
 }
