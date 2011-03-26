@@ -11,10 +11,10 @@ class Sports {
 		List* sportlist;
 	public:
 		Sports();
-		Sports(istream* input);
 		~Sports();
 
 		void new_sport();
+		void read_file();
 		void write_file();
 		void display();
 };

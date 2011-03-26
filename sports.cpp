@@ -17,9 +17,6 @@ extern IOfunc io;
 Sports::Sports() {
 	sportlist = new List(Sorted);
 }
-Sports::Sports(istream* input) {
-
-}
 Sports::~Sports() {
 	delete sportlist;
 }
@@ -30,6 +27,24 @@ void Sports::new_sport() {
 	sprt = new Sport(tmp_string);				//Create a new sport object
 	sportlist->add(sprt);						//Add it to a list
 	delete [] tmp_string;						//Clean up tmp variable.
+}
+void Sports::read_file() {
+	char* tmp_str; Sport* tmp_sport;
+	tmp_str = io.read_valid("Filnavn", NONE);
+
+	ifstream in;
+	in.open(tmp_str);
+	delete [] tmp_str;
+	if(in) {
+		tmp_str = io.read_string(&in);
+		while(!in.eof()) {
+			tmp_sport = new Sport(tmp_str, &in);
+			sportlist->add(tmp_sport);
+			delete [] tmp_str;
+			tmp_str = io.read_string(&in);
+		}
+	} else
+		cout << "Finner ikke filen";
 }
 void Sports::write_file() {
 	char* filename; 
