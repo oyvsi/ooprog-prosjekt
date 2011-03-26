@@ -8,7 +8,7 @@
 Team::Team() {
 }
 
-Team::Team(std::ifstream* infile) {  //Read such things as name, address, no_players
+Team::Team(std::istream* infile) {  //Read such things as name, address, no_players
     IOfunc io;
     extern Players players;
     name = io.read_string(infile);

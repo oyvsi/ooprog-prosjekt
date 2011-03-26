@@ -14,14 +14,12 @@ private:
     Team* teams[MAXTEAMS];
 public:
     Division();
-    Division(std::ifstream* infile);
+    Division(std::istream* infile);
     ~Division();
     
     int get_team(char* name);
     void display();
-    void write(std::ostream* out);
-    
-    
+  //  void write(std::ostream* out);
     
     
 };

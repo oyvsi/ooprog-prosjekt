@@ -3,8 +3,8 @@
 <teamname>
 <teamaddress>
 <no_players>
-<player> 			//navn eller spillernummer om allerede reg
-<playeraddress>		// hvis ikke spillernummer er oppgitt  
-<date>				// Terminliste
-<home_team>
-<away_team>	
+<player> 		//navn eller spillernummer om allerede reg
+<playeraddress>		// hvis ikke spillernummer er oppgitt  		
+<home_team>		// Terminliste
+<away_team>
+<date>	
