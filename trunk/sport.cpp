@@ -14,7 +14,7 @@ using namespace std;
 
 extern IOfunc io;
 
-Sport::Sport()  {						//This class shall 
+Sport::Sport() : Text_element("")  {	//This class shall 
 	cout << "SPORT.CPP - WARNING!! - "	//  never be constructed
 		 << "This constructor should "	//  without a parameter.
 		 << "never be called";
@@ -28,8 +28,18 @@ Sport::Sport(char* name) : Text_element(name) {
 		 << "\t\t3 - \"3-2-1-0\"\n";
 	tabletype = io.read_number("Tast inn et valg", 1, 3);	//Read tabletype
 }
-Sport::Sport(char* name, istream* input) : Text_element(name) {
-
+Sport::Sport(char* name, istream* input) : Text_element(name) {	
+	divisionlist = new List(Sorted);				//Create the list
+	int no_divisions; char* divname;
+	Division* tmp_div;
+	*input >> tabletype >> no_divisions;
+	input->ignore();
+	for(int i = 1; i <= no_divisions; i++) {
+		//divname = io.read_string(input);
+		//tmp_div = new Division(divname, input);
+		//divisionlist->add(tmp_div);
+		//delete [] divname;
+	}
 }
 Sport::~Sport() {
 	delete divisionlist;
@@ -49,7 +59,8 @@ void Sport::display_all() {
 }
 void Sport::write(ostream* out) {
 	Division* tmp; int i = 1;
-	*out << text << '\n' << tabletype << '\n';
+	*out << text << '\n' << tabletype << '\n'
+		 << divisionlist->no_of_elements() << '\n';
 	while(tmp = (Division*) divisionlist->remove_no(i)) {
 		//tmp->write(out);
 		divisionlist->add(tmp);
