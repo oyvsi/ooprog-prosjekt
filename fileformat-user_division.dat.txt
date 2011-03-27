@@ -1,4 +1,3 @@
-<divisionname>
 <no_teams>
 <teamname>
 <teamaddress>

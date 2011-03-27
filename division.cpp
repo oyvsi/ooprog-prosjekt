@@ -8,14 +8,13 @@
 Division::Division() {  
 }
 
-Division::Division(istream* infile) { //Creating division from file
+Division::Division(istream* infile, char* divname) : Text_element(divname) { //Creating division from file
     IOfunc io;
     no_teams = 0;
     int h_team_no, a_team_no;
     char* h_team;
     char* a_team;
 
-    text = io.read_string(infile);          // Divisionname
     *infile >> no_teams; infile->ignore();
     if(no_teams <= MAXTEAMS) {
         results = new Result**[no_teams];       // array for home-teams
