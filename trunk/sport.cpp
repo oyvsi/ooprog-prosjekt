@@ -73,13 +73,33 @@ bool Sport::name_is(char* nvn) {
 	else 
 		return false;
 }
+void Sport::add_division() {
+	char* divisionname, * filename;
+	Division* tmp_division;
+
+	divisionname = io.read_valid("Divisjon", NONE);
+	if(divisionlist->in_list(divisionname)) {
+		cout << "Divisjonen finnes fra før!\n";
+	} else {
+		filename = io.read_valid("Filnavn", NONE);
+		ifstream in(filename);
+		if(in) {
+			tmp_division = new Division(&in, divisionname);
+			divisionlist->add(tmp_division);
+		} else {
+			cout << "Filen \"" << filename << "\" Finnes ikke!\n";
+		}
+		delete [] filename;
+	}
+	delete [] divisionname;
+}
 void Sport::term_list(ostream* out) {
 	char* division;
 	Division* tmp_division;
-	division = io.read_valid("Lagnavn", NAME);
+	division = io.read_valid("Divisjon", NAME);
 	if(divisionlist->in_list(division)) {
 		tmp_division = (Division*) divisionlist->remove(division);
-		//tmp_division->term_list(out);
+		tmp_division->term_list(out);
 		divisionlist->add(tmp_division);
 	} else {
 		cout << "Finner ikke idretten\n";

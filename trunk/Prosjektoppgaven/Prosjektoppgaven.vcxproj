@@ -86,7 +86,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\fileformat-players.txt" />
+    <None Include="..\fileformat-results.dat.txt" />
     <None Include="..\fileformat-sports.txt" />
+    <None Include="..\fileformat-user_division.dat.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
