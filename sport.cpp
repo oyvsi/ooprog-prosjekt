@@ -79,7 +79,7 @@ void Sport::term_list(ostream* out) {
 	division = io.read_valid("Lagnavn", NAME);
 	if(divisionlist->in_list(division)) {
 		tmp_division = (Division*) divisionlist->remove(division);
-		tmp_division->term_list(out);
+		//tmp_division->term_list(out);
 		divisionlist->add(tmp_division);
 	} else {
 		cout << "Finner ikke idretten\n";
