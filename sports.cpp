@@ -23,7 +23,7 @@ Sports::~Sports() {
 
 void Sports::new_sport() {
 	Sport* sprt; char* tmp_string;
-	tmp_string = io.read_valid("Sport", NAME);	//Read sportname
+	tmp_string = io.read_valid("Idrett", NAME);	//Read sportname
 	sprt = new Sport(tmp_string);				//Create a new sport object
 	sportlist->add(sprt);						//Add it to a list
 	delete [] tmp_string;						//Clean up tmp variable.
@@ -70,7 +70,7 @@ void Sports::display() {
 
 	//If the user writes 'A':
 	// if(strlen(c_read) == 1 && (c_read[0] == 'a' || c_read[0] == 'A')) {
-  if(strlen(c_read) == 1 && (to_upper(c_read[0]) == 'A')) {
+  if(strlen(c_read) == 1 && (io.to_upper(c_read[0]) == 'A')) {
 		if(sportlist->is_empty()) {
 			cout << "Det finnes ingen idretter i systemet\n";
 		} else {
@@ -92,8 +92,21 @@ void Sports::display() {
 	}
 	delete [] c_read;	//Delete the string we read in.
 }
+void Sports::add_division() {
+	char* team;
+	Sport* tmp_sport;
+
+	team = io.read_valid("Idrett", NAME);
+	if(sportlist->in_list(team)) {
+		tmp_sport = (Sport*) sportlist->remove(team);
+		tmp_sport->add_division();
+		sportlist->add(tmp_sport);
+	} else {
+		cout << "Finner ikke idretten\n";
+	}
+}
 void Sports::term_list() {
-	char* team, * filename;
+	char* sport, * filename;
 	Sport* tmp_sport;
 	ostream* out;
 
@@ -104,9 +117,9 @@ void Sports::term_list() {
 		out = new ofstream(filename);
 	}
 
-	team = io.read_valid("Lagnavn", NAME);
-	if(sportlist->in_list(team)) {
-		tmp_sport = (Sport*) sportlist->remove(team);
+	sport = io.read_valid("Idrett", NAME);
+	if(sportlist->in_list(sport)) {
+		tmp_sport = (Sport*) sportlist->remove(sport);
 		tmp_sport->term_list(out);
 		sportlist->add(tmp_sport);
 	} else {

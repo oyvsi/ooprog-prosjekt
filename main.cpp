@@ -13,7 +13,12 @@ Players players;
 Sports sports;
 
 int main() {
+	cout << "Oppretter idrett\n";
 	sports.new_sport();
+	cout << "Legger til divisjon\n";
+	sports.add_division();
+	cout << "Prøver å displaye terminlist\n";
+	sports.term_list();
 /*
 //  TEST AV IOFUNC:
   char* nvn = io.read_valid("Navn: ", NAME);

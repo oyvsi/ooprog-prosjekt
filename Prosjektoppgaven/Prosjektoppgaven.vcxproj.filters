@@ -88,5 +88,11 @@
     <None Include="..\fileformat-sports.txt">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\fileformat-results.dat.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\fileformat-user_division.dat.txt">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

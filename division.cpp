@@ -79,10 +79,11 @@ void Division::term_list(ostream* out) {    //Menu-option L
     for (int i = 0; i < no_teams; i++) {        //Rows
         *out << teams[i]->get_team();
         for (int j = 0; j < no_teams; j++) {
-            results[i][j]->get_date(date);
             *out << "\t\t";
-            if (i != j)
+            if (i != j) {
+				results[i][j]->get_date(date);
                 *out << date[6] << date[7] << '/' << date[4] << date[5];
+			}
         }              
         *out << '\n';
     }        
