@@ -12,14 +12,19 @@ const int DATELEN = 9;		//Default length on date strings
 
 
 #ifdef _WIN32                                        //  Bokstavkoder for ∆ÿ≈:
-const unsigned short UNI_ae = 0xFF91;
-const unsigned short UNI_AE = 0xFF92;
-const unsigned short UNI_oe = 0xFF9B;
-const unsigned short UNI_OE = 0xFF9D;
-const unsigned short UNI_aa = 0xFF86;
-const unsigned short UNI_AA = 0xFF8F;
+const int UNI_ae = -111;
+const int UNI_AE = -110;
+const int UNI_oe = -101;
+const int UNI_OE =  -99;
+const int UNI_aa = -122;
+const int UNI_AA = -113;
 #else
-const unsigned short UNI_ae = 0xFFC3;
+const int UNI_ae = 0xFFC3;
+const int UNI_AE = 0xFFC3;
+const int UNI_oe = 0xFFC3;
+const int UNI_OE = 0xFFC3;
+const int UNI_aa = 0xFFC3;
+const int UNI_AA = 0xFFC3;
 #endif
 
 #endif

@@ -30,7 +30,7 @@ bool IOfunc::validate(char* txt, val_type v = NONE){
 }
 
 bool IOfunc::isalex(char c){                //  returnerer om c er Ê∆¯ÿÂ≈
-  unsigned short ic = c;
+  int ic = (int) c;
   
   return (ic == UNI_ae || ic == UNI_AE ||
           ic == UNI_oe || ic == UNI_OE ||
@@ -54,13 +54,16 @@ char* IOfunc::read_string(std::istream* in, char delim){
 }
 
 char* IOfunc::read_valid(char* txt, val_type v = NONE){
-  cout << '\t' << txt << ": ";
-  char* c_read = read_string(&cin, '\n');
+  char* c_read = NULL;
   
-  if (validate(c_read, v))
-    return c_read;
-  else
-    return NULL;
+  while (!c_read){
+    cout << '\t' << txt << ": ";
+    c_read = read_string(&cin, '\n');
+    if (validate(c_read, v))
+      return c_read;
+    else
+      c_read = NULL;
+  }
 }
 
 char* IOfunc::store_string(char* txt) {
