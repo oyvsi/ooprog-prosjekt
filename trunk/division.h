@@ -6,6 +6,8 @@
 #include "result.h"
 #include "listtool2.h"
 
+using namespace std;
+
 class Division : public Text_element {
 private:
 	//	char* text;
@@ -14,12 +16,12 @@ private:
     Team* teams[MAXTEAMS];
 public:
     Division();
-    Division(std::istream* infile);
+    Division(istream* infile);
     ~Division();
     
     int get_team(char* name);
     void display();
-	void term_list(ostream* out);
+    void term_list(ostream* out);
   //  void write(std::ostream* out);
     
     
