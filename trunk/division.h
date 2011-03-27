@@ -19,6 +19,7 @@ public:
     
     int get_team(char* name);
     void display();
+	void term_list(ostream* out);
   //  void write(std::ostream* out);
     
     
