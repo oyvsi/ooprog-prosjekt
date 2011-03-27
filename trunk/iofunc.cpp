@@ -63,10 +63,12 @@ char* IOfunc::read_valid(char* txt, val_type v = NONE){
   while (!c_read){
     cout << '\t' << txt << ": ";
     c_read = read_string(&cin, '\n');
-    if (validate(c_read, v))
+    if (validate(c_read, v)) {
       return c_read;
-    else
+	} else {
+	  delete [] c_read;
       c_read = NULL;
+	}
   }
 }
 
