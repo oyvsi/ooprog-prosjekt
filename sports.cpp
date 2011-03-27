@@ -43,6 +43,7 @@ void Sports::read_file() {
 			delete [] tmp_str;
 			tmp_str = io.read_string(&in);
 		}
+		delete [] tmp_str;
 	} else
 		cout << "Finner ikke filen";
 }
@@ -89,4 +90,28 @@ void Sports::display() {
 			cout << "Det finnes ingen idretter med dette navnet";
 	}
 	delete [] c_read;	//Delete the string we read in.
+}
+void Sports::term_list() {
+	char* team, * filename;
+	Sport* tmp_sport;
+	ostream* out;
+
+	filename = io.read_valid("Filnavn (tomt for skjerm)", NONE);
+	if(strlen(filename) == 0) {
+		out = &cout;
+	} else {
+		out = new ofstream(filename);
+	}
+
+	team = io.read_valid("Lagnavn", NAME);
+	if(sportlist->in_list(team)) {
+		tmp_sport = (Sport*) sportlist->remove(team);
+		tmp_sport->term_list(out);
+		sportlist->add(tmp_sport);
+	} else {
+		cout << "Finner ikke idretten\n";
+	}
+
+	if(out != &cout)
+		delete out;
 }

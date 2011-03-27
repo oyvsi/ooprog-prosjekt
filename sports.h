@@ -17,6 +17,7 @@ class Sports {
 		void read_file();
 		void write_file();
 		void display();
+		void term_list();
 };
 
 #endif

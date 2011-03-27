@@ -73,4 +73,16 @@ bool Sport::name_is(char* nvn) {
 	else 
 		return false;
 }
+void Sport::term_list(ostream* out) {
+	char* division;
+	Division* tmp_division;
+	division = io.read_valid("Lagnavn", NAME);
+	if(divisionlist->in_list(division)) {
+		tmp_division = (Division*) divisionlist->remove(division);
+		tmp_division->term_list(out);
+		divisionlist->add(tmp_division);
+	} else {
+		cout << "Finner ikke idretten\n";
+	}
+}
 
