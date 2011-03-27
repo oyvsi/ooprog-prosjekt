@@ -16,7 +16,7 @@ private:
     Team* teams[MAXTEAMS];
 public:
     Division();
-    Division(istream* infile);
+    Division(istream* infile, char* divname);
     ~Division();
     
     int get_team(char* name);
