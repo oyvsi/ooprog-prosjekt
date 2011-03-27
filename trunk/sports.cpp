@@ -69,7 +69,8 @@ void Sports::display() {
 	Sport* tmp;
 
 	//If the user writes 'A':
-	if(strlen(c_read) == 1 && (c_read[0] == 'a' || c_read[0] == 'A')) {
+	// if(strlen(c_read) == 1 && (c_read[0] == 'a' || c_read[0] == 'A')) {
+  if(strlen(c_read) == 1 && (to_upper(c_read[0]) == 'A')) {
 		if(sportlist->is_empty()) {
 			cout << "Det finnes ingen idretter i systemet\n";
 		} else {
