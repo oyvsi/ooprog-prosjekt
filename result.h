@@ -2,6 +2,7 @@
 #define __RESULT_H
 
 #include "global.h"
+using namespace std;
 
 class Result {
 	private:
@@ -14,7 +15,8 @@ class Result {
 	public:
         Result();
         void set_date(char in_date[DATELEN]);
-        void read_results(std::istream* infile);
+        void get_date(char in_date[]);
+        void read_results(istream* infile);
         void display();
 
 };

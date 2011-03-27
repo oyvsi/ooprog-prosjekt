@@ -1,8 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include "result.h"
-#include "iofunc.h"
-
 
 Result::Result() {  // called from division 
     h_goals = -1;   // We have no results;    
@@ -10,6 +8,10 @@ Result::Result() {  // called from division
 
 void Result::set_date(char in_date[DATELEN]) {
     strcpy(date, in_date);
+}
+
+void Result::get_date(char in_date[]) {
+    strcpy(in_date, date);
 }
 
 void Result::read_results(std::istream* infile) {  //TODO: check for errors
@@ -29,9 +31,9 @@ void Result::read_results(std::istream* infile) {  //TODO: check for errors
 
 void Result::display() {    
     if(h_goals != -1) { // We have results from the game
-        std::cout << "Vi har resultatene fra kampen\n";
+        cout << "Vi har resultatene fra kampen\n";
 
     } else {
-        std::cout << "Dato: " << date << '\n'; 
+        cout << "Dato: " << date << '\n'; 
     }
 }
