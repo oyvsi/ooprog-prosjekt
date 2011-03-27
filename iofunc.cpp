@@ -45,6 +45,10 @@ bool IOfunc::is_number(char* c){
    return true;
 }
 
+char IOfunc::to_upper(char up){           //  Returnerer uppercaset char
+  return ((char) toupper(up));
+} 
+
 char* IOfunc::read_string(std::istream* in, char delim){
 	char* ptr, temp[STRLEN];
 	in->getline(temp, STRLEN, delim);           //  Leser fra in til temp
