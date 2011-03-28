@@ -68,19 +68,19 @@ void Sport::write(ostream* out) {
 	}
 }
 
-void Sport::read_result(istream* infile){
+void Sport::read_results(istream* infile){
 	char* divisionname;
 	Division* tmp_div;
 	int no_div;							// Antall divisjoner
 	*infile >> no_div;
-	
+	cout << "Las ant. div: " << no_div << endl;
 	
 	if (divisionlist->no_of_elements() == no_div){
 		for (int i = 0; i < no_div; i++){
 			divisionname = io.read_string(infile, '\n');
 			if (divisionlist->in_list(divisionname)){
 				tmp_div = (Division*) divisionlist->remove(divisionname);
-				tmp_div->read_results();
+				//tmp_div->read_results();
 				divisionlist->add(tmp_div);
 			}
 		}
