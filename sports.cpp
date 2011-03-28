@@ -28,6 +28,20 @@ void Sports::new_sport() {
 	sportlist->add(sprt);						//Add it to a list
 	delete [] tmp_string;						//Clean up tmp variable.
 }
+
+void Sports::remove_sport() {
+	Sport* sprt; char* tmp_string;
+	tmp_string = io.read_valid("Idrett", NAME);	//Read sportname
+	if (sportlist->in_list(tmp_string)){
+		char* sure = io.read_valid("Er du sikker?? J/n", NAME);
+		if (io.to_upper(sure[0]) == 'J'){
+			if (sportlist->destroy(tmp_string))
+				cout << "Idretten " << tmp_string << " ble slettet.";
+		}
+	} else
+		cout << "Fant ikke idretten!\n";
+}
+
 void Sports::read_file() {
 	char* tmp_str; Sport* tmp_sport;
 	tmp_str = io.read_valid("Filnavn", NONE);
