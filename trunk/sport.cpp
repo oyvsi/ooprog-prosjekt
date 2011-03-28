@@ -102,7 +102,7 @@ void Sport::term_list(ostream* out) {
 		tmp_division->term_list(out);
 		divisionlist->add(tmp_division);
 	} else {
-		cout << "Finner ikke idretten\n";
+		cout << "Finner ikke divisjonen\n";
 	}
 }
 
