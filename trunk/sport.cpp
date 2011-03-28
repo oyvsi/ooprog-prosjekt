@@ -147,4 +147,24 @@ void Sport::term_list(ostream* out) {
 		cout << "Finner ikke divisjonen\n";
 	}
 }
+void Sport::result_list(ostream* out) {
+	char* division, * date;
+	Division* tmp_division;
+	
+	division = io.read_valid("Divisjon", NAME);
+	date = io.read_valid("Dato", NONE);
+	
+	if(strlen(division) == 0) {
+		for(int i = 1; i <= divisionlist->no_of_elements(); i++) {
+			tmp_division = (Division*) divisionlist->remove_no(i);
+			tmp_division->result_list(out, date);
+			divisionlist->add(tmp_division);
+		}
+	} else if (divisionlist->in_list(division)) {
+		tmp_division = (Division*) divisionlist->remove(division);
+		tmp_division->result_list(out, date);
+		divisionlist->add(tmp_division);
+	} else
+		cout << "Finner ikke divisjonen";
+}
 
