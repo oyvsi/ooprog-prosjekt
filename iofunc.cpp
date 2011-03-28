@@ -14,8 +14,8 @@ bool IOfunc::validate(char* txt, val_type v = NONE){
 		switch (v){
 			case NAME:
 											if ( !(isalpha(txt[i]) || isalex(txt[i])
-																				 || txt[i] == ' '
-																				 || txt[i] == '-') )
+																						 || txt[i] == ' '
+																						 || txt[i] == '-') )
 												return false;
 											break;
 			case ADDRESS :	if ( !(isalnum(txt[i]) || isalex(txt[i])
