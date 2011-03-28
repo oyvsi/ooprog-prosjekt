@@ -92,19 +92,21 @@ void Division::term_list(ostream* out) {    //Menu option L
     }        
 }
 
-void Division::result_list(ostream* out, char in_date[]) {	//Menu option K
+void Division::result_list(ostream* out, char* in_date) {	//Menu option K
     char date[DATELEN];
     int h_goals;
     for (int i = 0; i < no_teams; i++) {
-        for (int j = 0; i < no_teams; i++) {
-            results[i][j]->get_date(date);
-            if(i != j && !strcmp(date, in_date)) {
-                *out << teams[i]->get_team() 
-                     << " - " << teams[j]->get_team();
-                h_goals = results[i][j]->get_hgls();
-                if (h_goals != -1)
-                    *out << " - " << h_goals << "-" 
+        for (int j = 0; j < no_teams; j++) {
+            if(i != j) {
+				results[i][j]->get_date(date);
+				if (!strcmp(date, in_date)) {
+					*out << teams[i]->get_team() 
+						<< " - " << teams[j]->get_team() << '\n';
+					h_goals = results[i][j]->get_hgls();
+					if (h_goals != -1)
+						*out << " - " << h_goals << "-" 
                          << results[i][j]->get_agls() << '\n';
+				}
             }
         }
     }
