@@ -76,8 +76,8 @@ void Players::display() {
 	Player* tmp;
 
 	//If the user writes 'A':
-	if(strlen(c_read) == 1 && (c_read[0] == 'a' || c_read[0] == 'A')) {
-		playerlist->display_list();		//Display all players
+	if(strlen(c_read) == 1 && (io.to_upper(c_read[0]) == 'A')) {
+		playerlist->display_list();				//Display all players
 	} else if (io.is_number(c_read)) {	//If user writes a number
 		i_read = atoi(c_read);						//Convert text to number
 		if(tmp = (Player*) playerlist->remove(i_read)) {	//Pick player number x
