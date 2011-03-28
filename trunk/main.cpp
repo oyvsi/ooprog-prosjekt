@@ -16,6 +16,7 @@ Sports sports;
 void display_menu();
 void new_psd();					// New player/sport/division
 void remove_psd();
+void read_results();
 
 int main() {
 	// Les inn data
@@ -34,7 +35,7 @@ int main() {
 			case 'L' : sports.term_list();break;
 			case 'K' : break;
 			case 'T' : break;
-			case 'R' : break;
+			case 'R' : read_results();		break;
 			case 'D' : break;
 			case 'E' : break;
 			case 'C' : break;
@@ -92,9 +93,10 @@ void read_results(){
 	bool error = false;
 	char* sportname;
 	
-	ifstream* infile = new ifstream("RESULTAT.DTA");
+	ifstream* infile = new ifstream("svn\\RESULTATER.DTA");
 	
-	sports.read_results(infile);
+	if (infile)
+		sports.read_results(infile);
 	
 	delete [] sportname;
 }
