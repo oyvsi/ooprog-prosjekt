@@ -93,6 +93,23 @@ void Sport::add_division() {
 	}
 	delete [] divisionname;
 }
+
+void Sport::remove_division() {
+	char* divisionname;
+	Division* tmp_division;
+
+	divisionname = io.read_valid("Divisjon", NONE);
+	if(divisionlist->in_list(divisionname)){
+		char* sure = io.read_valid("Er du sikker?? J/n", NAME);
+		if (io.to_upper(sure[0]) == 'J'){
+			if (divisionlist->destroy(divisionname))
+				cout << "Divisjonen " << divisionname << " ble slettet.";
+		}
+	} else
+		cout << "Fant ikke divisjonen!\n";
+	delete [] divisionname;
+}
+
 void Sport::term_list(ostream* out) {
 	char* division;
 	Division* tmp_division;

@@ -84,6 +84,6 @@ void remove_psd(){
 	switch (io.to_upper(choice)){
 		case 'S'	: players.remove_player(); 	break;
 		case 'I'	: sports.remove_sport();		break;
-		//case 'D'	: sports.remove_division();	break;
+		case 'D'	: sports.remove_division();	break;
 	}
 }
