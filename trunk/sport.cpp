@@ -75,13 +75,13 @@ void Sport::read_result(istream* infile){
 	*infile >> no_div;
 	
 	
-	if (divisionlist->no_in_list() == no_div){
-		for (int i = 0, i < no_div, i++){
-			divisionname = read_string(infile, '\n');
+	if (divisionlist->no_of_elements() == no_div){
+		for (int i = 0; i < no_div; i++){
+			divisionname = io.read_string(infile, '\n');
 			if (divisionlist->in_list(divisionname)){
-				tmp_division = (Division*) divisionlist->remove(divisionname);
-				tmp_division->read_results();
-				divisionlist->add(tmp_division);
+				tmp_div = (Division*) divisionlist->remove(divisionname);
+				tmp_div->read_results();
+				divisionlist->add(tmp_div);
 			}
 		}
 	}

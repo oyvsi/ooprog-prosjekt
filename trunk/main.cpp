@@ -94,7 +94,7 @@ void read_results(){
 	
 	ifstream* infile = new ifstream("RESULTAT.DTA");
 	
-	sports->read_results(infile);
+	sports.read_results(infile);
 	
 	delete [] sportname;
 }
