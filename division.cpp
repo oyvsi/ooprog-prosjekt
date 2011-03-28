@@ -56,21 +56,25 @@ int Division::get_team(char* name) {        // Finds team_no from name
     return -1;
 }
 
-void Division::display() {
-    for (int i = 0; i < no_teams; i++) {
-        for (int j = 0; j < no_teams; j++) {
-            if(i != j) { // Team will not play against itself
-                cout << teams[i]->get_team() << " - " 
-                          << teams[j]->get_team() << " - ";
-                results[i][j]->display();
-            }
-        }
-
-    }
-    
+void Division::display() {	// Menu-option i 
+	cout << "Navn: " << text << '\n';
+	cout << "Ant. lag: " << no_teams;
+	for (int i = 0; i < no_teams; i++)
+		teams[i]->display();
 }
 
-void Division::term_list(ostream* out) {    //Menu-option L
+/*for (int i = 0; i < no_teams; i++) {	//Menu option T
+ for (int j = 0; j < no_teams; j++) {
+ if(i != j) { // Team will not play against itself
+ cout << teams[i]->get_team() << " - " 
+ << teams[j]->get_team() << " - ";
+ results[i][j]->display();
+ }
+ }
+ 
+ }*/ 
+
+void Division::term_list(ostream* out) {    //Menu option L
     char date[DATELEN];
     for (int i = 0; i < no_teams; i++)
         *out << "\t\t" << teams[i]->get_team();   //Columns
@@ -88,7 +92,7 @@ void Division::term_list(ostream* out) {    //Menu-option L
     }        
 }
 
-void Division::result_list(ostream* out, char in_date[]) {
+void Division::result_list(ostream* out, char in_date[]) {	//Menu option K
     char date[DATELEN];
     int h_goals;
     for (int i = 0; i < no_teams; i++) {
@@ -104,5 +108,42 @@ void Division::result_list(ostream* out, char in_date[]) {
             }
         }
     }
+}
+
+bool Division::read_results(istream* in, bool update) {	// Menu option R + reading programdata
+	extern IOfunc io;
+	bool valid = false;
+	char date[DATELEN];
+	int h_team, a_team;
+    in->getline(date, DATELEN);
+	while (!in->eof()) {
+		h_team = get_team(io.read_string(in));
+		a_team = get_team(io.read_string(in));
+	    in->getline(date, DATELEN);
+		valid = results[h_team][a_team]->read_result(in, date, update);
+		in->getline(date, DATELEN);
+		if (!update && valid)
+			valid = (h_team != -1 && a_team != -1);
+		if(!valid)
+			return false;
+	}
+	return true;	
+}
+
+void Division::write(ostream* out) {
+	*out << text << '\n';
+	*out << no_teams << '\n';
+	for (int i = 0; i < no_teams; i++) {
+		teams[i]->write(out);
+	    for (int i = 0; i < no_teams; i++) {
+			for (int j = 0; j < no_teams; j++) {
+				if(i != j) {
+					*out << teams[i]->get_team() << '\n';
+					*out << teams[j]->get_team() << '\n';
+					results[i][j]->write(out);
+				}
+			}	
+		}
+	}
 }
 
