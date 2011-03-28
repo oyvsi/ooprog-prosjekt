@@ -6,8 +6,10 @@
     <teamname>
     <teamaddress>
     <no_players>
-    <pl1> <pl2> <pl3> etc.
-    
+    <pl1>
+    <pl2>
+    <pl3> 
+    etc.
     <date>
     <h_goals> <a_goals>
     <extra_time>
