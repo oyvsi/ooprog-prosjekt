@@ -70,21 +70,21 @@ void Sport::write(ostream* out) {
 
 bool Sport::read_results(istream* infile, bool update){
 	int no_div;							// Antall divisjoner
-	bool read_ok = true;
+	bool read_ok = true;		// Return-verdi
 	char* divisionname;
 	Division* tmp_div;
 
 	*infile >> no_div;
 	cout << "Las ant. div: " << no_div << endl;
 	
-	if (divisionlist->no_of_elements() == no_div){
-		for (int i = 0; i < no_div; i++){
+	if (divisionlist->no_of_elements() == no_div){		// Dersom dette stemmer
+		for (int i = 0; i < no_div; i++){								// Les alle divisjoner:
 			divisionname = io.read_string(infile, '\n');
 			if (divisionlist->in_list(divisionname)){
 				tmp_div = (Division*) divisionlist->remove(divisionname);
-				//tmp_div->read_results(infile, update);
+				//tmp_div->read_results(infile, update);		// flash?
 				divisionlist->add(tmp_div);
-			} else read_ok = false;
+			} else read_ok = false;												// feil på fil
 		}
 	} else read_ok = false;
 	
