@@ -87,3 +87,14 @@ void remove_psd(){
 		case 'D'	: sports.remove_division();	break;
 	}
 }
+
+void read_results(){
+	bool error = false;
+	char* sportname;
+	
+	ifstream* infile = new ifstream("RESULTAT.DTA");
+	
+	sports->read_results(infile);
+	
+	delete [] sportname;
+}
