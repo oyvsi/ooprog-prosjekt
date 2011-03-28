@@ -93,8 +93,8 @@ void read_results(){
 	ifstream* infile = new ifstream("svn\\RESULTATER.DTA");
 	
 	if (infile){
-		if (sports.read_results(infile, false))
-			sports.read_results(infile, true);
+		if (sports.read_results(infile, false))	// Leser uten å oppdatere resultater
+			sports.read_results(infile, true);		// Ingen feil funnet, oppdater res.
 		else 
 			cout << "Fila inneheld feil, fool!\n";
 	}
