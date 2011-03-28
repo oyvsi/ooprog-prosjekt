@@ -23,6 +23,7 @@ class Sport : public Text_element {
 		void write(ostream* out);
 		bool name_is(char* nvn);
 		void add_division();
+		void remove_division();
 		void term_list(ostream* out);
 };
 

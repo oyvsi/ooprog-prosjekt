@@ -117,7 +117,24 @@ void Sports::add_division() {
 	} else {
 		cout << "Finner ikke idretten!\n";
 	}
+	delete [] team;
 }
+
+void Sports::remove_division(){
+	char* tmp_str;
+	Sport* tmp_sport;
+
+	tmp_str = io.read_valid("Idrett", NAME);
+	if(sportlist->in_list(tmp_str)) {
+		tmp_sport = (Sport*) sportlist->remove(tmp_str);
+		tmp_sport->remove_division();
+		sportlist->add(tmp_sport);
+	} else {
+		cout << "Finner ikke idretten!\n";
+	}
+	delete [] tmp_str;
+}
+
 void Sports::term_list() {
 	char* sport, * filename;
 	Sport* tmp_sport;
