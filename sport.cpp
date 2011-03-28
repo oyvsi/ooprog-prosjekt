@@ -67,6 +67,27 @@ void Sport::write(ostream* out) {
 		i++;
 	}
 }
+
+void Sport::read_result(istream* infile){
+	char* divisionname;
+	Division* tmp_div;
+	int no_div;							// Antall divisjoner
+	*infile >> no_div;
+	
+	
+	if (divisionlist->no_in_list() == no_div){
+		for (int i = 0, i < no_div, i++){
+			divisionname = read_string(infile, '\n');
+			if (divisionlist->in_list(divisionname)){
+				tmp_division = (Division*) divisionlist->remove(divisionname);
+				tmp_division->read_results();
+				divisionlist->add(tmp_division);
+			}
+		}
+	}
+}
+
+
 bool Sport::name_is(char* nvn) {
 	if(strcmp(nvn, text) == 0) 
 		return true;

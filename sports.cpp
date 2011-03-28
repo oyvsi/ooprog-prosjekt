@@ -61,6 +61,19 @@ void Sports::read_file() {
 	} else
 		cout << "Finner ikke filen";
 }
+
+void Sports::read_results(istream* infile){
+	sportname = read_string(infile, '\n');
+	
+	if (sportlist->in_list(sportname)){
+		tmp_sport = sportlist.remove(sportname);
+		tmp_sport->read_results(infile);
+		sportlist->add(tmp_sport);
+	} else {}
+	
+	
+}
+
 void Sports::write_file() {
 	char* filename; 
 	Sport* tmp;
