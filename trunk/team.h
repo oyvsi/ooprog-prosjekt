@@ -3,6 +3,8 @@
 #include <fstream>
 #include "global.h"
 
+using namespace std;
+
 class Team {
 private:
     char* name;
@@ -11,12 +13,14 @@ private:
     int no_players;
 public:
     Team();
-    Team(std::istream* infile);
+    Team(istream* infile);
     char* get_team();
     ~Team();
     
+	void write(ostream* out);
     void add_player(int player_no);
-    void rem_player(int player_no);        
+    void rem_player(int player_no);
+	void display();
     
 };
 

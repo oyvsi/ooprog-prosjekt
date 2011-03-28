@@ -22,21 +22,22 @@ int Result::get_agls() {
     return a_goals;
 }
 
-
-void Result::read_results(std::istream* infile) {  //TODO: check for errors
-    infile->getline(date, DATELEN);
-    *infile >> h_goals;
-    *infile >> a_goals;
-    *infile >> extra_time;
+bool Result::read_result(istream* infile, char in_date[], bool update) { 
+	if (update) {
+		*infile >> h_goals;
+		*infile >> a_goals;
+		*infile >> extra_time;
     
-    for(int i = 0; i < h_goals; i++)
-        *infile >> h_scorers[i];
-    for(int i = 0; i < a_goals; i++)
-        *infile >> a_scorers[i];
-    infile->ignore();
+		for(int i = 0; i < h_goals; i++)
+			*infile >> h_scorers[i];
+		for(int i = 0; i < a_goals; i++)
+			*infile >> a_scorers[i];
+		infile->ignore();
+		return true;
+	} else {
+		return (h_goals == -1 && !strcmp(in_date, date));
+	}
 }
-
-
 
 void Result::display() {    
     if(h_goals != -1) { // We have results from the game
@@ -45,4 +46,15 @@ void Result::display() {
     } else {
         cout << "Dato: " << date << '\n'; 
     }
+}
+
+void Result::write(ostream* out) {
+	*out << date;
+	*out << h_goals << '\n';
+	*out << a_goals;
+	for (int i = 0; i < h_goals; i++)
+		*out << h_scorers[i] << ' ';
+	for (int i = 0; i < a_goals; i++)
+		*out << a_scorers[i] << ' ';
+	*out << '\n';
 }

@@ -8,8 +8,8 @@
 Team::Team() {
 }
 
-Team::Team(std::istream* infile) {  //Read such things as name, address, no_players
-    IOfunc io;
+Team::Team(istream* infile) {  //Read such things as name, address, no_players
+    extern IOfunc io;
     extern Players players;
     name = io.read_string(infile);
     address = io.read_string(infile);
@@ -31,7 +31,7 @@ void Team::add_player(int player_no) {
     if (no_players < MAXPLAYERS) 
         player_nos[++no_players] = player_no;
     else
-        std::cout << name << " has " << MAXPLAYERS 
+        cout << name << " has " << MAXPLAYERS 
         << " players, there is no room for more.";
 }
 
@@ -49,4 +49,17 @@ void Team::rem_player(int player_no) {
     } else {
         cout << "Player number " << player_no << " was not found";
     }
+}
+
+void Team::display() {
+	cout << name << '\n'
+		 << address << '\n'
+		 << "Ant. spillere: " << no_players;
+}
+
+void Team::write(ostream* out) {
+	*out << name;
+	*out << address;
+	for (int i = 0; i < no_players; i++) 
+		*out << player_nos[i];
 }
