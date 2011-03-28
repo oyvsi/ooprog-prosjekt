@@ -24,7 +24,8 @@ public:
 	bool read_results(istream* in, bool update);
     void term_list(ostream* out);
     void result_list(ostream* out, char in_date[]);
-    void write(std::ostream* out);
+    void write(ostream* out);
+	void write_results(ostream* out);
     
     
 };
