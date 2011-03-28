@@ -90,13 +90,12 @@ void remove_psd(){
 }
 
 void read_results(){
-	bool error = false;
-	char* sportname;
-	
 	ifstream* infile = new ifstream("svn\\RESULTATER.DTA");
 	
-	if (infile)
-		sports.read_results(infile);
-	
-	delete [] sportname;
+	if (infile){
+		if (sports.read_results(infile, false))
+			sports.read_results(infile, true);
+		else 
+			cout << "Fila inneheld feil, fool!\n";
+	}
 }

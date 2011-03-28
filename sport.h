@@ -20,7 +20,7 @@ class Sport : public Text_element {
 
 		virtual void display();
 		void display_all();
-		void read_results(istream* infile);
+		bool read_results(istream* infile, bool update);
 		void write(ostream* out);
 		bool name_is(char* nvn);
 		void add_division();
