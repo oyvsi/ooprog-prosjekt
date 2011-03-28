@@ -30,16 +30,16 @@ int main() {
 		switch (io.to_upper(choice)){
 			case 'S' : players.display();	break;
 			case 'I' : sports.display();	break;
-			case 'N' : new_psd();					break;
-			case 'F' : remove_psd();			break;
-			case 'L' : sports.term_list();break;
-			case 'K' : break;
+			case 'N' : new_psd();			break;
+			case 'F' : remove_psd();		break;
+			case 'L' : sports.lists('L');	break;
+			case 'K' : sports.lists('K');	break;
 			case 'T' : break;
 			case 'R' : read_results();		break;
 			case 'D' : break;
 			case 'E' : break;
 			case 'C' : break;
-			case 'Q' : quit = true; break;
+			case 'Q' : quit = true;			break;
 			default  : display_menu(); break;
 		}
 	}

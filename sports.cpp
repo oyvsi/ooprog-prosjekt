@@ -136,7 +136,6 @@ void Sports::add_division() {
 	}
 	delete [] team;
 }
-
 void Sports::remove_division(){
 	char* tmp_str;
 	Sport* tmp_sport;
@@ -151,11 +150,12 @@ void Sports::remove_division(){
 	}
 	delete [] tmp_str;
 }
-
-void Sports::term_list() {
+void Sports::lists(char valg) {
 	char* sport, * filename;
 	Sport* tmp_sport;
 	ostream* out;
+
+	valg = toupper(valg);
 
 	filename = io.read_valid("Filnavn (tomt for skjerm)", NONE);
 	if(strlen(filename) == 0) {
@@ -167,7 +167,8 @@ void Sports::term_list() {
 	sport = io.read_valid("Idrett", NAME);
 	if(sportlist->in_list(sport)) {
 		tmp_sport = (Sport*) sportlist->remove(sport);
-		tmp_sport->term_list(out);
+		if(valg == 'L')	tmp_sport->term_list(out);
+		if(valg == 'K') tmp_sport->result_list(out);
 		sportlist->add(tmp_sport);
 	} else {
 		cout << "Finner ikke idretten\n";
