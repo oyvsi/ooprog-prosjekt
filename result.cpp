@@ -14,6 +14,15 @@ void Result::get_date(char in_date[]) {
     strcpy(in_date, date);
 }
 
+int Result::get_hgls() {
+    return h_goals;
+}
+
+int Result::get_agls() {
+    return a_goals;
+}
+
+
 void Result::read_results(std::istream* infile) {  //TODO: check for errors
     infile->getline(date, DATELEN);
     *infile >> h_goals;

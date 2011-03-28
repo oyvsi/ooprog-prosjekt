@@ -17,6 +17,8 @@ class Result {
         void set_date(char in_date[DATELEN]);
         void get_date(char in_date[]);
         void read_results(istream* infile);
+        int get_hgls();
+        int get_agls();
         void display();
 
 };
