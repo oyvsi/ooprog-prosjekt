@@ -138,28 +138,25 @@ void Division::write(ostream* out) {
 	*out << no_teams << '\n';
 	for (int i = 0; i < no_teams; i++) {
 		teams[i]->write(out);
-	    for (int i = 0; i < no_teams; i++) {
-			for (int j = 0; j < no_teams; j++) {
-				if(i != j) {
-					results[i][j]->get_date(date);
-					*out << teams[i]->get_team() << '\n';
-					*out << teams[j]->get_team() << '\n';
-					*out << date << '\n';
-				}
-			}	
-		}
+		for (int j = 0; j < no_teams; j++) {
+			if(i != j) {
+				results[i][j]->get_date(date);
+				*out << teams[i]->get_team() << '\n';
+				*out << teams[j]->get_team() << '\n';
+				*out << date << '\n';
+			}
+		}	
+		
 	}
 }
 
 void Division::write_results(ostream* out) {
 	*out << text << '\n';
-	for (int i = 0; i < no_teams; i++) {
-	    for (int i = 0; i < no_teams; i++) {
-			for (int j = 0; j < no_teams; j++) {
-				if(i != j)
-					results[i][j]->write(out);
-			}	
-		}
-	}
+    for (int i = 0; i < no_teams; i++) {
+		for (int j = 0; j < no_teams; j++) {
+			if(i != j)
+				results[i][j]->write(out);
+		}	
+	}	
 }
 
