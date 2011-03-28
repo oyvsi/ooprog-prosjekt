@@ -131,6 +131,7 @@ bool Division::read_results(istream* in, bool update) {	// Menu option R + readi
 }
 
 void Division::write(ostream* out) {
+	char date[DATELEN];
 	*out << text << '\n';
 	*out << no_teams << '\n';
 	for (int i = 0; i < no_teams; i++) {
@@ -138,10 +139,23 @@ void Division::write(ostream* out) {
 	    for (int i = 0; i < no_teams; i++) {
 			for (int j = 0; j < no_teams; j++) {
 				if(i != j) {
+					results[i][j]->get_date(date);
 					*out << teams[i]->get_team() << '\n';
 					*out << teams[j]->get_team() << '\n';
-					results[i][j]->write(out);
+					*out << date << '\n';
 				}
+			}	
+		}
+	}
+}
+
+void Division::write_results(ostream* out) {
+	*out << text << '\n';
+	for (int i = 0; i < no_teams; i++) {
+	    for (int i = 0; i < no_teams; i++) {
+			for (int j = 0; j < no_teams; j++) {
+				if(i != j)
+					results[i][j]->write(out);
 			}	
 		}
 	}
