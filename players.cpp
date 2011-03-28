@@ -96,7 +96,7 @@ void Players::display() {
 			playerlist->add(tmp);		//Put the player back in the list.
 		}
 		if(!found)	//If we did'nt find a player, write a error message.
-			cout << "Det finnes ingen spiller med dette navnet";
+			cout << "Det finnes ingen spiller med dette navnet.\n";
 	}
 	delete [] c_read;	//Delete the string we read in.
 }

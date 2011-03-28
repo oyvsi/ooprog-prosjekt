@@ -14,10 +14,12 @@ class Sports {
 		~Sports();
 
 		void new_sport();
+		void remove_sport();
 		void read_file();
 		void write_file();
 		void display();
 		void add_division();
+		void remove_division();
 		void term_list();
 };
 
