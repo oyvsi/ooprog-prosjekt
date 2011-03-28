@@ -1,6 +1,5 @@
 #include <fstream>
 #include <iostream>
-#include <iomanip>
 #include "listtool2.h"
 #include "division.h"
 #include "iofunc.h"
@@ -9,7 +8,7 @@ Division::Division() {
 }
 
 Division::Division(istream* infile, char* divname) : Text_element(divname) { //Creating division from file
-    IOfunc io;
+    extern IOfunc io;
     no_teams = 0;
     int h_team_no, a_team_no;
     char* h_team;
@@ -88,3 +87,22 @@ void Division::term_list(ostream* out) {    //Menu-option L
         *out << '\n';
     }        
 }
+
+void Division::result_list(ostream* out, char in_date[]) {
+    char date[DATELEN];
+    int h_goals;
+    for (int i = 0; i < no_teams; i++) {
+        for (int j = 0; i < no_teams; i++) {
+            results[i][j]->get_date(date);
+            if(i != j && !strcmp(date, in_date)) {
+                *out << teams[i]->get_team() 
+                     << " - " << teams[j]->get_team();
+                h_goals = results[i][j]->get_hgls();
+                if (h_goals != -1)
+                    *out << " - " << h_goals << "-" 
+                         << results[i][j]->get_agls() << '\n';
+            }
+        }
+    }
+}
+

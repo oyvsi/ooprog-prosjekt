@@ -22,6 +22,7 @@ public:
     int get_team(char* name);
     void display();
     void term_list(ostream* out);
+    void result_list(ostream* out, char in_date[]);
   //  void write(std::ostream* out);
     
     
