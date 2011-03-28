@@ -62,18 +62,20 @@ void Sports::read_file() {
 		cout << "Finner ikke filen";
 }
 
-void Sports::read_results(istream* infile){
+bool Sports::read_results(istream* infile, bool update){
+	bool read_ok;
 	Sport* tmp_sport;
 	char* sportname = io.read_string(infile, '\n');
 	
 	if (sportlist->in_list(sportname)){
 		cout << "Las \"" << sportname << "\" OK!\n";
 		tmp_sport = (Sport*) sportlist->remove(sportname);
-		tmp_sport->read_results(infile);
+		read_ok = tmp_sport->read_results(infile, update);
 		sportlist->add(tmp_sport);
-	} else {}
-	
-	
+	} else {
+		read_ok = false;
+	}
+	return read_ok;
 }
 
 void Sports::write_file() {
