@@ -69,10 +69,9 @@ void Sports::display() {
 	Sport* tmp;
 
 	//If the user writes 'A':
-	// if(strlen(c_read) == 1 && (c_read[0] == 'a' || c_read[0] == 'A')) {
-  if(strlen(c_read) == 1 && (io.to_upper(c_read[0]) == 'A')) {
+	if(strlen(c_read) == 1 && (io.to_upper(c_read[0]) == 'A')) {
 		if(sportlist->is_empty()) {
-			cout << "Det finnes ingen idretter i systemet\n";
+			cout << "Det finnes ingen idretter i systemet.\n";
 		} else {
 			cout << "Følgende idretter finnes i systemet:\n";
 			sportlist->display_list();		//Display all players
@@ -102,7 +101,7 @@ void Sports::add_division() {
 		tmp_sport->add_division();
 		sportlist->add(tmp_sport);
 	} else {
-		cout << "Finner ikke idretten\n";
+		cout << "Finner ikke idretten!\n";
 	}
 }
 void Sports::term_list() {
