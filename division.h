@@ -23,7 +23,7 @@ public:
     void display();
 	bool read_results(istream* in, bool update);
     void term_list(ostream* out);
-    void result_list(ostream* out, char in_date[]);
+    void result_list(ostream* out, char* in_date);
     void write(ostream* out);
 	void write_results(ostream* out);
     
