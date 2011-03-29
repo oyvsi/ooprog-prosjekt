@@ -27,6 +27,7 @@ int main() {
 	bool quit = false;
 	while (!quit){
 		cout << "\n\tKommando: "; cin >> choice;
+		cin.ignore();
 		switch (io.to_upper(choice)){
 			case 'S' : players.display();	break;
 			case 'I' : sports.display();	break;
@@ -43,10 +44,6 @@ int main() {
 			default  : display_menu(); break;
 		}
 	}
-	
-	
-	// Skriv data
-	system("pause");
 	return 0;
 }
 
