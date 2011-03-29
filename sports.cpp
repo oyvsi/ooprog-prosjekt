@@ -168,7 +168,8 @@ void Sports::lists(char valg) {
 	if(sportlist->in_list(sport)) {
 		tmp_sport = (Sport*) sportlist->remove(sport);
 		if(valg == 'L')	tmp_sport->term_list(out);
-		if(valg == 'K') tmp_sport->result_list(out);
+		if(valg == 'K') tmp_sport->result_list(out, 'K');
+		if(valg == 'T') tmp_sport->result_list(out, 'T');
 		sportlist->add(tmp_sport);
 	} else {
 		cout << "Finner ikke idretten\n";

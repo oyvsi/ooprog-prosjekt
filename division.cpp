@@ -161,6 +161,10 @@ void Division::write_results(ostream* out) {
 	}	
 }
 
+void Division::table(ostream* out) {
+
+}
+
 void Division::write_top_ten() {
 	cout << "Filnavn (blankt for skjerm): ";
 	char* filename = io.read_string(&cin);
@@ -191,8 +195,8 @@ void Division::write_top_ten() {
   
   for (int i = 0; i < goalscorers.size();){
 		current_player = goalscorers[i];	
-		while (current_player == goalscorers[i]){  // Så lenge lik ID
-			++player_goals;                   				 // Legg til mål
+		while (current_player == goalscorers[i]){  // Sï¿½ lenge lik ID
+			++player_goals;                   				 // Legg til mï¿½l
 			++i;
 		}
 		int position = 0;

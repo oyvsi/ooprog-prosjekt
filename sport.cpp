@@ -147,7 +147,7 @@ void Sport::term_list(ostream* out) {
 		cout << "Finner ikke divisjonen\n";
 	}
 }
-void Sport::result_list(ostream* out) {
+void Sport::result_list(ostream* out, char typ) {
 	char* division, * date;
 	Division* tmp_division;
 	
@@ -157,18 +157,23 @@ void Sport::result_list(ostream* out) {
 	if(strlen(division) == 0) {
 		for(int i = 1; i <= divisionlist->no_of_elements(); i++) {
 			tmp_division = (Division*) divisionlist->remove_no(i);
-			tmp_division->result_list(out, date);
+			if(typ == 'K') 	tmp_division->result_list(out, date);
+			if(typ == 'T') 	tmp_division->table(out);
 			divisionlist->add(tmp_division);
 		}
 	} else if (divisionlist->in_list(division)) {
 		tmp_division = (Division*) divisionlist->remove(division);
-		tmp_division->result_list(out, date);
+			if(typ == 'K') 	tmp_division->result_list(out, date);
+			if(typ == 'T') 	tmp_division->table(out);
 		divisionlist->add(tmp_division);
 	} else
 		cout << "Finner ikke divisjonen";
 
 	delete [] division;
 	delete [] date;
+}
+void Sport::table(ostream* out) {
+	
 }
 
 void Sport::write_top_ten(){
