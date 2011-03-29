@@ -35,7 +35,7 @@ int main() {
 			case 'F' : remove_psd();		break;
 			case 'L' : sports.lists('L');	break;
 			case 'K' : sports.lists('K');	break;
-			case 'T' : break;
+			case 'T' : sports.lists('T');
 			case 'R' : read_results();		break;
 			case 'D' : break;
 			case 'E' : break;
