@@ -13,15 +13,15 @@ bool IOfunc::validate(char* txt, val_type v = NONE){
 		ch = (int) txt[i];
 		switch (v){
 			case NAME:
-											if ( !(isalpha(txt[i]) || isalex(txt[i])
-																						 || txt[i] == ' '
-																						 || txt[i] == '-') )
-												return false;
-											break;
-			case ADDRESS :	if ( !(isalnum(txt[i]) || isalex(txt[i])
-																						 || txt[i] == ' ') ) 
-												return false;
-											break;
+				if ( !(isalex(txt[i]) || isalpha(txt[i])
+									 || txt[i] == ' '
+									 || txt[i] == '-') )
+				return false;
+				break;
+			case ADDRESS :	if ( !(isalex(txt[i]) || isalpha(txt[i])
+												 || txt[i] == ' ') ) 
+				return false;
+				break;
 		}
 	}
 	return true;
