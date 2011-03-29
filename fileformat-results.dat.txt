@@ -1,10 +1,11 @@
 <sport>
 	<no_divisions>
 	<division1>
-    <date>
-    <h_team>
-    <a_team>
-    <h_goals> <a_goals>
-    <extra_time>
-    <h_scorer1> <h_scorer2> etc
-    <a_scorer1> <a_scorer2> etc
+	<no_results>
+		<date>
+	    <h_team>
+	    <a_team>
+	    <h_goals> <a_goals>
+		<extra_time>
+		<h_scorer1> <h_scorer2> etc
+		<a_scorer1> <a_scorer2> etc

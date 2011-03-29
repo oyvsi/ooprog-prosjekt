@@ -87,9 +87,9 @@ void remove_psd(){
 }
 
 void read_results(){
-	ifstream* infile = new ifstream("svn\\RESULTATER.DTA");
+	ifstream* infile = new ifstream("results.dta");
 	
-	if (infile){
+	if (*infile){
 		if (sports.read_results(infile, false))	// Leser uten å oppdatere resultater
 			sports.read_results(infile, true);		// Ingen feil funnet, oppdater res.
 		else 
