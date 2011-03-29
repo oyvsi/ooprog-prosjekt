@@ -41,9 +41,9 @@ Division::Division(istream* infile, char* divname) : Text_element(divname) { //C
 
 Division::~Division() {                         // Deallocate memory
     for(int i = 0; i < no_teams; i++) {
-        delete results[i];
         for(int j = 0; j < no_teams; j++)
             delete results[i][j];
+        delete [] results[i];
     }
     delete [] results;
 }
@@ -116,14 +116,14 @@ bool Division::read_results(istream* in, bool update) {	// Menu option R + readi
 	extern IOfunc io;
 	bool valid = false;
 	char date[DATELEN];
-	int h_team, a_team;
-    in->getline(date, DATELEN);
-	while (!in->eof()) {
+	int h_team, a_team, no_t;
+
+	*in >> no_t; in->ignore();
+	for(int i = 0; i < no_t; i++) {
+	    in->getline(date, DATELEN);
 		h_team = get_team(io.read_string(in));
 		a_team = get_team(io.read_string(in));
-	    in->getline(date, DATELEN);
 		valid = results[h_team][a_team]->read_result(in, date, update);
-		in->getline(date, DATELEN);
 		if (!update && valid)
 			valid = (h_team != -1 && a_team != -1);
 		if(!valid)
