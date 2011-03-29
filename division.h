@@ -26,6 +26,7 @@ public:
     void result_list(ostream* out, char* in_date);
     void write(ostream* out);
 	void write_results(ostream* out);
+	void write_top_ten();
     
     
 };

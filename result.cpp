@@ -1,9 +1,22 @@
 #include <iostream>
 #include <fstream>
+#include <vector>
 #include "result.h"
 
 Result::Result() {  // called from division 
     h_goals = -1;   // We have no results;    
+}
+
+vector<int>* Result::all_goals(){
+	vector<int>* gls = new vector<int>;
+
+	for (int i = 0; i < h_goals; i++)
+		gls->push_back(h_scorers[i]);
+		
+	for (int i = 0; i < a_goals; i++)
+		gls->push_back(a_scorers[i]);
+
+	return gls;
 }
 
 void Result::set_date(char in_date[DATELEN]) {

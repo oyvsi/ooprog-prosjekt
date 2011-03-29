@@ -27,6 +27,7 @@ class Sport : public Text_element {
 		void remove_division();
 		void term_list(ostream* out);
 		void result_list(ostream* out);
+		void write_top_ten();
 };
 
 #endif
