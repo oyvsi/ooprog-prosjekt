@@ -177,3 +177,12 @@ void Sports::lists(char valg) {
 	if(out != &cout)
 		delete out;
 }
+
+void Sports::write_top_ten(){
+	char* sportname = io.read_valid("Idrett", NONE); // ANTAR RIKTIG IDRETT, ENDRE ENUM!!
+	Sport* current_sport;
+
+	current_sport = (Sport*) sportlist->remove(sportname);
+	current_sport->write_top_ten();
+	sportlist->add(current_sport);
+}

@@ -39,7 +39,7 @@ int main() {
 			case 'R' : read_results();		break;
 			case 'D' : break;
 			case 'E' : break;
-			case 'C' : break;
+			case 'C' : sports.write_top_ten(); break;
 			case 'Q' : quit = true;			break;
 			default  : display_menu(); break;
 		}

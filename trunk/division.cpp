@@ -4,11 +4,12 @@
 #include "division.h"
 #include "iofunc.h"
 
+extern IOfunc io;
+
 Division::Division() {  
 }
 
 Division::Division(istream* infile, char* divname) : Text_element(divname) { //Creating division from file
-    extern IOfunc io;
     no_teams = 0;
     int h_team_no, a_team_no;
     char* h_team;
@@ -160,3 +161,66 @@ void Division::write_results(ostream* out) {
 	}	
 }
 
+void Division::write_top_ten() {
+	cout << "Filnavn (blankt for skjerm): ";
+	char* filename = io.read_string(&cin);
+	cout << "Lag (blankt for alle): ";
+	char* teamname = io.read_string(&cin);
+	
+	vector<int> goalscorers, * temp_vec;
+	vector<int>::iterator vec_it;
+
+	int top_ten[10];			// The top-ten table
+	int no_goals[10];			// Number of goals in each of the above table positions
+	int player_goals = 0;
+	int current_player; 
+	
+	memset(top_ten, 0, sizeof(top_ten));
+	memset(no_goals, 0, sizeof(no_goals));
+
+	for(int i = 0; i < no_teams; i++){
+  	for(int j = 0; j < no_teams; j++){
+			temp_vec = results[i][j]->all_goals();
+			vec_it = goalscorers.end();
+			goalscorers.insert(vec_it,temp_vec->begin(),temp_vec->end());
+			delete temp_vec;
+		}
+	}
+	
+	sort(goalscorers.begin(), goalscorers.end());
+  
+  for (int i = 0; i < goalscorers.size();){
+		current_player = goalscorers[i];	
+		while (current_player == goalscorers[i]){  // Så lenge lik ID
+			++player_goals;                   				 // Legg til mål
+			++i;
+		}
+		int position = 0;
+		while(player_goals < no_goals[position]){
+			++position;
+		}
+		if (position <= 9){
+			int y = 9 - position;
+			while (y > 0){
+				int a = position + y;
+				int b = position + (--y);
+				no_goals[a] = no_goals[b];
+				top_ten[a] = top_ten[b];
+			}
+			no_goals[position] = player_goals;
+			top_ten[position] = current_player;
+		}
+		player_goals = 0;
+	}
+	
+	ostream* out;
+	
+	if (strlen(filename))
+		out = new ofstream(filename);
+	else
+		out = &cout;
+		
+	for (int i = 0; i < 10; i++){
+		*out << i+1 << ": Player ID: " << top_ten[i] << ", Goals: " << no_goals[i] << "\n"; 
+	}
+}

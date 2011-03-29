@@ -1,6 +1,7 @@
 #ifndef __RESULT_H
 #define __RESULT_H
 
+#include <vector>
 #include "global.h"
 using namespace std;
 
@@ -14,6 +15,7 @@ class Result {
 		int a_scorers[MAXGOALS];	
 	public:
         Result();
+        vector<int>* all_goals();								// Returnerer vector med alle mål
         void set_date(char in_date[DATELEN]);
         void get_date(char in_date[]);
         bool read_result(istream* infile, char in_date[], bool update);

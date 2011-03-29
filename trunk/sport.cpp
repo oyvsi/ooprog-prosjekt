@@ -171,3 +171,11 @@ void Sport::result_list(ostream* out) {
 	delete [] date;
 }
 
+void Sport::write_top_ten(){
+	Division* current_division;
+	char* divisionname = io.read_valid("Divisjon", NONE);
+	current_division = (Division*) divisionlist->remove(divisionname);
+	current_division->write_top_ten();
+	divisionlist->add(current_division);
+}
+
