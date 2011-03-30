@@ -69,24 +69,26 @@ void Sport::write(ostream* out) {
 }
 
 bool Sport::read_results(istream* infile, bool update){
-	int no_div;							// Antall divisjoner
-	bool read_ok = true;		// Return-verdi
+        int no_div;                                                     // Antall divisjoner
+	bool read_ok = true;            // Return-verdi
 	char* divisionname;
 	Division* tmp_div;
 	int i = 0;
 	no_div = io.lines_in_level(infile, 1);
 	cout << "Las ant. div: " << no_div << endl;
-	while (read_ok && i < no_div) {							// Les alle divisjoner:
-			divisionname = io.read_string(infile, '\n');
-			if (divisionlist->in_list(divisionname)){
-				tmp_div = (Division*) divisionlist->remove(divisionname);
-				read_ok = tmp_div->read_results(infile, update);		// flash?
-				divisionlist->add(tmp_div);
-			} else read_ok = false; // feil på fil
+	while (read_ok && i < no_div) {                                                 // Les alle divisjoner:
+		divisionname = io.read_string(infile, '\n');
+		if (divisionlist->in_list(divisionname)){
+			tmp_div = (Division*) divisionlist->remove(divisionname);
+			read_ok = tmp_div->read_results(infile, update);                // flash?
+			divisionlist->add(tmp_div);
+		} else read_ok = false; // feil pŒ fil
 		i++;
 	}
 	return read_ok;
 }
+
+
 
 
 bool Sport::name_is(char* nvn) {
@@ -144,7 +146,7 @@ void Sport::term_list(ostream* out) {
 		cout << "Finner ikke divisjonen\n";
 	}
 }
-void Sport::result_list(ostream* out) {
+void Sport::result_list(ostream* out, char typ) {
 	char* division, * date;
 	Division* tmp_division;
 	
@@ -154,17 +156,27 @@ void Sport::result_list(ostream* out) {
 	if(strlen(division) == 0) {
 		for(int i = 1; i <= divisionlist->no_of_elements(); i++) {
 			tmp_division = (Division*) divisionlist->remove_no(i);
-			tmp_division->result_list(out, date);
+			if(typ == 'K') 	tmp_division->result_list(out, date);
+			if(typ == 'T') 	tmp_division->table(out, tabletype);
 			divisionlist->add(tmp_division);
 		}
 	} else if (divisionlist->in_list(division)) {
 		tmp_division = (Division*) divisionlist->remove(division);
-		tmp_division->result_list(out, date);
+			if(typ == 'K') 	tmp_division->result_list(out, date);
+			if(typ == 'T') 	tmp_division->table(out, tabletype);
 		divisionlist->add(tmp_division);
 	} else
 		cout << "Finner ikke divisjonen";
 
 	delete [] division;
 	delete [] date;
+}
+
+void Sport::write_top_ten(){
+	Division* current_division;
+	char* divisionname = io.read_valid("Divisjon", NONE);
+	current_division = (Division*) divisionlist->remove(divisionname);
+	current_division->write_top_ten();
+	divisionlist->add(current_division);
 }
 

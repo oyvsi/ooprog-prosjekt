@@ -14,12 +14,13 @@ class Players {
 		Players();
 		~Players();
 		
-		void display();
+		virtual void display();
 		void new_player();
 		bool remove_player();
 		void write_file();
 		int read_player(istream* input);
-
+		bool in_list(char* name);
+		int get_id(char* name);
 };
 
 #endif

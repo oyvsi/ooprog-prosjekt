@@ -45,3 +45,6 @@ bool Player::name_is(char* inname) {	//Returns true if name == inname.
 	if(strcmp(name, inname) == 0) return true;	//  False otherwise.
 	else return false;
 }
+int Player::get_number() {
+	return number;
+}

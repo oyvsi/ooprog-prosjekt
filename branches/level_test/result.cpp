@@ -1,12 +1,24 @@
 #include <iostream>
 #include <fstream>
+#include <vector>
 #include "result.h"
 #include "iofunc.h"
 extern IOfunc io;
 
-
 Result::Result() {  // called from division 
     h_goals = -1;   // We have no results;    
+}
+
+vector<int>* Result::all_goals(){
+	vector<int>* gls = new vector<int>;
+
+	for (int i = 0; i < h_goals; i++)
+		gls->push_back(h_scorers[i]);
+		
+	for (int i = 0; i < a_goals; i++)
+		gls->push_back(a_scorers[i]);
+
+	return gls;
 }
 
 void Result::set_date(char in_date[DATELEN]) {
@@ -29,7 +41,7 @@ bool Result::read_result(istream* infile, char in_date[], bool update) {
 	char* dummy;
 	if (update) {
 		*infile >> h_goals >> a_goals >> extra_time;
-    
+		
 		for(int i = 0; i < h_goals; i++)
 			*infile >> h_scorers[i];
 		for(int i = 0; i < a_goals; i++)
@@ -37,13 +49,14 @@ bool Result::read_result(istream* infile, char in_date[], bool update) {
 		infile->ignore();
 		return true;
 	} else {
-		for (int i = 0; i < 4; i++) {	// Skip past game info lines
+		for (int i = 0; i < 4; i++) {   // Skip past game info lines
 			dummy = io.read_string(infile);
 			delete [] dummy;
 		}
 		return (!strcmp(in_date, date));
 	}
 }
+
 
 void Result::display() {    
     if(h_goals != -1) { // We have results from the game
@@ -54,14 +67,34 @@ void Result::display() {
     }
 }
 
+void Result::table_add(tableobject* home, tableobject* away, int tabletype) {
+	int win_points = (tabletype == 1 || (tabletype == 3 && extra_time)) ? 2 : 3;
+	int draw_points = 1;
+	int loss_points = 0;
+	
+	if(h_goals > a_goals) {
+		home->no_win++; away->no_loss++;
+		home->score += win_points;
+		away->score += loss_points;
+	} else if (h_goals < a_goals) {
+		home->no_loss++; away->no_win++;
+		home->score += loss_points;
+		away->score += win_points;
+	} else {
+		home->no_draw++; away->no_draw++;
+		home->score += draw_points;
+		away->score += draw_points;
+	}
+	home->no_goals += h_goals;
+	away->no_goals += a_goals;
+}
+
 void Result::write(ostream* out) {
-	*out << date
-	     << h_goals << ' '
-	     << a_goals << '\n'
-		 << extra_time << '\n';
+	*out << date;
+	*out << h_goals << '\n';
+	*out << a_goals;
 	for (int i = 0; i < h_goals; i++)
 		*out << h_scorers[i] << ' ';
-	*out << '\n';
 	for (int i = 0; i < a_goals; i++)
 		*out << a_scorers[i] << ' ';
 	*out << '\n';
