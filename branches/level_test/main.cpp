@@ -91,6 +91,7 @@ void read_results(){
 	
 	if (*infile){
 		if (sports.read_results(infile, false)) {	// Leser uten å oppdatere resultater
+			infile->clear();
 			infile->seekg(0, ios::beg);
 			sports.read_results(infile, true);
 		}											// Ingen feil funnet, oppdater res.

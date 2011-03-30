@@ -73,21 +73,18 @@ bool Sport::read_results(istream* infile, bool update){
 	bool read_ok = true;		// Return-verdi
 	char* divisionname;
 	Division* tmp_div;
-
-	*infile >> no_div; infile->ignore();
+	int i = 0;
+	no_div = io.lines_in_level(infile, 1);
 	cout << "Las ant. div: " << no_div << endl;
-	
-	if (divisionlist->no_of_elements() == no_div){		// Dersom dette stemmer
-		for (int i = 0; i < no_div; i++){								// Les alle divisjoner:
+	while (read_ok && i < no_div) {							// Les alle divisjoner:
 			divisionname = io.read_string(infile, '\n');
 			if (divisionlist->in_list(divisionname)){
 				tmp_div = (Division*) divisionlist->remove(divisionname);
 				read_ok = tmp_div->read_results(infile, update);		// flash?
 				divisionlist->add(tmp_div);
-			} else read_ok = false;												// feil på fil
-		}
-	} else read_ok = false;
-	
+			} else read_ok = false; // feil på fil
+		i++;
+	}
 	return read_ok;
 }
 

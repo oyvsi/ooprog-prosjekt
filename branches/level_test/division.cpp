@@ -115,8 +115,6 @@ void Division::result_list(ostream* out, char* in_date) {	//Menu option K
 					h_team = teams[i]->get_team();
 					a_team = teams[j]->get_team();
 					*out << h_team << " - " << a_team;
-					delete [] h_team;
-					delete [] a_team;
 					h_goals = results[i][j]->get_hgls();
 					if (h_goals != -1)
 						*out << " - " << h_goals << "-" 
@@ -129,17 +127,17 @@ void Division::result_list(ostream* out, char* in_date) {	//Menu option K
 }
 
 bool Division::read_results(istream* in, bool update) {	// Menu option R + reading programdata
-	bool valid = false;
+	bool valid = true;
 	char* date;
 	char* h_team, * a_team;
-	int h_team_no, a_team_no, no_dates, no_games;
+	int i, j, h_team_no, a_team_no, no_dates, no_games;
 	no_dates = io.lines_in_level(in, 2);
-	
-	for(int i = 0; i < no_dates; i++) {		// loop all dates
+	i = 0;
+	while (valid && i < no_dates) { // loop all dates
 		date = io.read_string(in, '\n');	
 		no_games = io.lines_in_level(in, 3)/6;
-		
-		for (int j = 0; j < no_games; j++) { // loop all games at date
+		j = 0;
+		while (valid && j < no_games) { // loop all games at date
 			h_team = io.read_string(in);	// team names
 			a_team = io.read_string(in);
 			h_team_no = get_team(h_team);	// no in team-array
@@ -149,30 +147,28 @@ bool Division::read_results(istream* in, bool update) {	// Menu option R + readi
 			   // Check if dates match
 				if(results[h_team_no][a_team_no]->read_result(in, date, update)) {				
 				   // Check if we have a result stored allready
-					if(!update) { 
-						if(results[h_team_no][a_team_no]->get_hgls() == -1)	
-							valid = true;
-						else
-							cout << date << ": " << h_team << " - " << a_team
-							<< " har allerede et innlest resultat\n";
+					if(!update && results[h_team_no][a_team_no]->get_hgls() != -1) {	
+						valid = false;
+						cout << date << ": " << h_team << " - " << a_team
+						<< " har allerede et innlest resultat\n";
 					}
 				} else {
+						valid = false;
 						cout << "Iflg. terminlista skal ikke " << h_team << " - " 
 						<< a_team << " spilles " << date << '\n';
 				}
 			} else {
+					valid = false;
 					cout << ((h_team_no == -1) ? h_team : a_team) << " finnes ikke\n";
 			}
 			delete [] h_team;
 			delete [] a_team;
-			if(!valid) {
-				delete [] date;
-				return false;
-			}
+			j++;
 		}
 		delete date;
+		i++;
 	}
-	return true;	
+	return valid;	
 }
 
 void Division::write(ostream* out) {

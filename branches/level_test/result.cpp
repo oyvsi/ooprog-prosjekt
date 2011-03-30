@@ -1,6 +1,9 @@
 #include <iostream>
 #include <fstream>
 #include "result.h"
+#include "iofunc.h"
+extern IOfunc io;
+
 
 Result::Result() {  // called from division 
     h_goals = -1;   // We have no results;    
@@ -22,7 +25,8 @@ int Result::get_agls() {
     return a_goals;
 }
 
-bool Result::read_result(istream* infile, char in_date[], bool update) { 
+bool Result::read_result(istream* infile, char in_date[], bool update) {
+	char* dummy;
 	if (update) {
 		*infile >> h_goals >> a_goals >> extra_time;
     
@@ -33,6 +37,10 @@ bool Result::read_result(istream* infile, char in_date[], bool update) {
 		infile->ignore();
 		return true;
 	} else {
+		for (int i = 0; i < 4; i++) {	// Skip past game info lines
+			dummy = io.read_string(infile);
+			delete [] dummy;
+		}
 		return (!strcmp(in_date, date));
 	}
 }

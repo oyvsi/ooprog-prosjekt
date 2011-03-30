@@ -63,17 +63,22 @@ void Sports::read_file() {
 }
 
 bool Sports::read_results(istream* infile, bool update){
-	bool read_ok;																			// Return-verdi
+	bool read_ok = true;																			// Return-verdi
 	Sport* tmp_sport;
-	char* sportname = io.read_string(infile, '\n');		// Les idrettsnavn
+	int no_sports = io.lines_in_level(infile, 0);
+	int i = 0;
+	while (read_ok && i < no_sports) {
+		char* sportname = io.read_string(infile, '\n');		// Les idrettsnavn
 	
-	if (sportlist->in_list(sportname)){								// Dersom idretten fins
-		cout << "Las \"" << sportname << "\" OK!\n";
-		tmp_sport = (Sport*) sportlist->remove(sportname);	
-		read_ok = tmp_sport->read_results(infile, update);	// Les resultat
-		sportlist->add(tmp_sport);
-	} else {
-		read_ok = false;																// fins ikke, feil på fil
+		if (sportlist->in_list(sportname)){								// Dersom idretten fins
+			cout << "Las \"" << sportname << "\" OK!\n";
+			tmp_sport = (Sport*) sportlist->remove(sportname);	
+			read_ok = tmp_sport->read_results(infile, update);	// Les resultat
+			sportlist->add(tmp_sport);
+		} else {
+			read_ok = false;																// fins ikke, feil på fil
+		}
+		i++;
 	}
 	return read_ok;
 }
