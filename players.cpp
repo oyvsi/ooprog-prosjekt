@@ -110,16 +110,41 @@ int Players::read_player(istream* input) {
 		tmp_number = atoi(tmp_name);			//Convert it to an int
 		if(!playerlist->in_list(tmp_number))	//If a player with that number
 			tmp_number = 0;						//dont exist, set nr to 0
-
-		delete [] tmp_name;						//Delete the tmp string.
-		return tmp_number;						//Return playernumber, or 0.
 	} else {								//If the string is not a number
 		tmp_address = io.read_string(input);	//Read the second line
-												//Create a new player
-		tmp_player = new Player(++last_used, tmp_name, tmp_address);
-		playerlist->add(tmp_player);			//Add it to a list
-		delete [] tmp_name;						//Delete the tmp lines
+		if(in_list(tmp_name)) {
+			tmp_number = get_id(tmp_name);
+		} else {
+			tmp_player = new Player(++last_used, tmp_name, tmp_address);
+			playerlist->add(tmp_player);			//Add it to a list
+			tmp_number = last_used;
+		}						//Delete the tmp lines
 		delete [] tmp_address;					
-		return last_used;						//And return the number
 	}
+	delete [] tmp_name;
+	return tmp_number;
+}
+bool Players::in_list(char* name) {
+	Player* tmp_player;
+	for(int i = 1; i <= playerlist->no_of_elements(); i++) {
+		tmp_player = (Player*) playerlist->remove_no(i);
+		if(tmp_player->name_is(name)) {
+			playerlist->add(tmp_player);
+			return true;
+		}
+		playerlist->add(tmp_player);
+	}
+	return false;
+}
+int Players::get_id(char* name) {
+	Player* tmp_player;
+	for(int i = 1; i <= playerlist->no_of_elements(); i++) {
+		tmp_player = (Player*) playerlist->remove_no(i);
+		if(tmp_player->name_is(name)) {
+			playerlist->add(tmp_player);
+			return tmp_player->get_number();
+		}
+		playerlist->add(tmp_player);
+	}
+	return 0;
 }

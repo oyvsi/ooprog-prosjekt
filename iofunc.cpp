@@ -2,7 +2,7 @@
 		IO-funksjoner og validering av input.
 */
 
-#include <iostream>
+#include<iostream>
 #include "iofunc.h"
 
 using namespace std;
@@ -46,14 +46,13 @@ bool IOfunc::is_number(char* c){
 char IOfunc::to_upper(char up){			//Returnerer uppercaset char
 	return ((char) toupper(up));
 } 
-
 char* IOfunc::strip(char* input) {
 	char temp_str[STRLEN], * return_str;
 	int j = 0;
 	for(int i = 0; i <= strlen(input); i++) {
 		if(input[i] != ' ')
-			temp_str[j++] = input[i];		
-	}	
+			temp_str[j++] = input[i];               
+	}       
 	return_str = new char[strlen(temp_str)+1];
 	strcpy(return_str, temp_str); 
 	return return_str;
@@ -62,9 +61,10 @@ char* IOfunc::strip(char* input) {
 char* IOfunc::read_string(std::istream* in, char delim){
 	char* ptr, temp[STRLEN];
 	in->getline(temp, STRLEN, delim); //Leser fra in til temp
-	ptr = strip(temp);								//Kopier tekst
-	return ptr;												//Returnér peker til tekst
+	ptr = strip(temp);                                                              //Kopier tekst
+	return ptr;                                                                                             //ReturnŽr peker til tekst
 }
+
 
 char* IOfunc::read_valid(char* txt, val_type v = NONE){
 	char* c_read = NULL;
@@ -105,40 +105,40 @@ int IOfunc::read_number(char* txt, int min, int max){
 }
 
 /* If level is 0 function returns number of level 0 items in file. 
-   Otherwise it returns the number of items in specified level (from current 
-   position in file to the next outer level relative to specified level.) */
+ Otherwise it returns the number of items in specified level (from current 
+ position in file to the next outer level relative to specified level.) */
 int IOfunc::lines_in_level(istream* infile, int level) {
     streamoff cur_pos, new_pos;
-	streamoff temp_pos = 0;		
-	int outer_level = -1;		
+	streamoff temp_pos = 0;         
+	int outer_level = -1;           
     int no_in_level = 0;
 	char line[STRLEN];
     char dummy;
 	bool stop = false;
 	
-	cur_pos = infile->tellg();	// position we were at before func. call
+	cur_pos = infile->tellg();      // position we were at before func. call
 	
-	if (level > 0)	// level 0 has no outer level
+	if (level > 0)  // level 0 has no outer level
 		outer_level = level-1;
 	else 
-		infile->seekg(0, ios::beg);		//move to start
+		infile->seekg(0, ios::beg);             //move to start
 	temp_pos = cur_pos;
-	*infile >> dummy;				// read first non-blank
+	*infile >> dummy;                               // read first non-blank
     while(!infile->eof() && !stop) {
-		new_pos = infile->tellg();	// position after first non-blank
-			//check if we're at desired level
+		new_pos = infile->tellg();      // position after first non-blank
+		//check if we're at desired level
         if(new_pos == temp_pos+1+(level*LEVEL_BLANKS))  
             no_in_level++;
-			// check if we're at the outer level
+		// check if we're at the outer level
 		if(outer_level != -1 && new_pos == temp_pos+1+(outer_level*LEVEL_BLANKS)) {
-			stop = true;	// We're at the next level, so we can stop the loop
+			stop = true;    // We're at the next level, so we can stop the loop
 		}
-        infile->getline(line, STRLEN);	// Read rest of line so we can continue at next
-		temp_pos = infile->tellg();		// Position for start at line
-        *infile >> dummy;				// Read first non-blank
+        infile->getline(line, STRLEN);  // Read rest of line so we can continue at next
+		temp_pos = infile->tellg();             // Position for start at line
+        *infile >> dummy;                               // Read first non-blank
     }
-	infile->clear();				   // clear state flags
+	infile->clear();                                   // clear state flags
     infile->seekg(cur_pos, ios::beg);  // move back to original position
-	return no_in_level;				   // Return no of items
+	return no_in_level;                                // Return no of items
 }
 

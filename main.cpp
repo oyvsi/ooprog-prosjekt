@@ -35,11 +35,11 @@ int main() {
 			case 'F' : remove_psd();		break;
 			case 'L' : sports.lists('L');	break;
 			case 'K' : sports.lists('K');	break;
-			case 'T' : break;
+			case 'T' : sports.lists('T');
 			case 'R' : read_results();		break;
 			case 'D' : break;
 			case 'E' : break;
-			case 'C' : break;
+			case 'C' : sports.write_top_ten(); break;
 			case 'Q' : quit = true;			break;
 			default  : display_menu(); break;
 		}
@@ -55,10 +55,10 @@ void display_menu(){
 	"I - skriv idrett / alle idretter\n"
 	"N - ny spiller/idrett/divisjon\n"
 	"F - fjern s/i/d\n"
-	"L - skriv terminliste for divisjon\n"
+	"L - skriv terminliste for divisjon\n"/*
 	"K - skriv resultat av kamper en gitt dato for i/d\n"
 	"T - skriv tabell\n"
-	"R - les resultatliste fra fil\n"/*
+	"R - les resultatliste fra fil\n"
 	"D - sriver data om alle spillerne på et gitt lag\n"
 	"E - legg til/ fjer spillere på et lag\n"*/
 	"C - skriv toppscorere\n";
@@ -87,15 +87,18 @@ void remove_psd(){
 }
 
 void read_results(){
-	ifstream* infile = new ifstream("results.dat");
+	ifstream* infile = new ifstream("results.dta");
 	
 	if (*infile){
 		if (sports.read_results(infile, false)) {	// Leser uten å oppdatere resultater
 			infile->clear();
 			infile->seekg(0, ios::beg);
-			sports.read_results(infile, true);
-		}											// Ingen feil funnet, oppdater res.
-		else 
+			sports.read_results(infile, true);		// Ingen feil funnet, oppdater res.
+		} else { 
 			cout << "Fila inneheld feil, fool!\n";
+		}
+	}
+	else {
+		cout << "Kunne ikke Œpne fila 'results.dta'";
 	}
 }

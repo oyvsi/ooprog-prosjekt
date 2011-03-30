@@ -63,25 +63,27 @@ void Sports::read_file() {
 }
 
 bool Sports::read_results(istream* infile, bool update){
-	bool read_ok = true;																			// Return-verdi
+bool read_ok = true;                                                                                                                                                    // Return-verdi
 	Sport* tmp_sport;
 	int no_sports = io.lines_in_level(infile, 0);
 	int i = 0;
 	while (read_ok && i < no_sports) {
-		char* sportname = io.read_string(infile, '\n');		// Les idrettsnavn
-	
-		if (sportlist->in_list(sportname)){								// Dersom idretten fins
+		char* sportname = io.read_string(infile, '\n');         // Les idrettsnavn
+        
+		if (sportlist->in_list(sportname)){                                                             // Dersom idretten fins
 			cout << "Las \"" << sportname << "\" OK!\n";
-			tmp_sport = (Sport*) sportlist->remove(sportname);	
-			read_ok = tmp_sport->read_results(infile, update);	// Les resultat
+			tmp_sport = (Sport*) sportlist->remove(sportname);      
+			read_ok = tmp_sport->read_results(infile, update);      // Les resultat
 			sportlist->add(tmp_sport);
 		} else {
-			read_ok = false;																// fins ikke, feil på fil
+			read_ok = false;                                                                                                                                // fins ikke, feil pŒ fil
 		}
 		i++;
 	}
 	return read_ok;
 }
+
+
 
 void Sports::write_file() {
 	char* filename; 
@@ -173,7 +175,8 @@ void Sports::lists(char valg) {
 	if(sportlist->in_list(sport)) {
 		tmp_sport = (Sport*) sportlist->remove(sport);
 		if(valg == 'L')	tmp_sport->term_list(out);
-		if(valg == 'K') tmp_sport->result_list(out);
+		if(valg == 'K') tmp_sport->result_list(out, 'K');
+		if(valg == 'T') tmp_sport->result_list(out, 'T');
 		sportlist->add(tmp_sport);
 	} else {
 		cout << "Finner ikke idretten\n";
@@ -181,4 +184,13 @@ void Sports::lists(char valg) {
 
 	if(out != &cout)
 		delete out;
+}
+
+void Sports::write_top_ten(){
+	char* sportname = io.read_valid("Idrett", NONE); // ANTAR RIKTIG IDRETT, ENDRE ENUM!!
+	Sport* current_sport;
+
+	current_sport = (Sport*) sportlist->remove(sportname);
+	current_sport->write_top_ten();
+	sportlist->add(current_sport);
 }
