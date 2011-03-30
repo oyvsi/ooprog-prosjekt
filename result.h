@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "global.h"
+#include "division.h"
 using namespace std;
 
 class Result {
@@ -23,6 +24,7 @@ class Result {
         int get_hgls();
         int get_agls();
         void display();
+		void table_add(tableobject* home, tableobject* away, int type);
 
 };
 

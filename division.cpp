@@ -1,5 +1,7 @@
 #include <fstream>
 #include <iostream>
+#include <algorithm>
+#include <vector>
 #include "listtool2.h"
 #include "division.h"
 #include "iofunc.h"
@@ -161,8 +163,23 @@ void Division::write_results(ostream* out) {
 	}	
 }
 
-void Division::table(ostream* out) {
+void Division::table(ostream* out, int type) {
+	tableobject* table[MAXTEAMS];
+	for(int i = 0; i < no_teams; i++) {
+		table[i] = new tableobject;
+		table[i]->no_draw = table[i]->no_loss =
+			table[i]->no_win = table[i]->score = 
+			table[i]->no_goals = 0;
+		table[i]->team = teams[i];
+	}
 
+	for(int i = 0; i < no_teams; i++)
+		for(int j = 0; j < no_teams; j++)
+			if(i != j)
+				results[i][j]->table_add(table[i], table[j], type);
+			
+	
+	
 }
 
 void Division::write_top_ten() {
