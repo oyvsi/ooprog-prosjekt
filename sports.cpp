@@ -168,8 +168,7 @@ void Sports::lists(char valg) {
 	if(sportlist->in_list(sport)) {
 		tmp_sport = (Sport*) sportlist->remove(sport);
 		if(valg == 'L')	tmp_sport->term_list(out);
-		if(valg == 'K') tmp_sport->result_list(out, 'K');
-		if(valg == 'T') tmp_sport->result_list(out, 'T');
+		if(valg == 'K') tmp_sport->result_list(out);
 		sportlist->add(tmp_sport);
 	} else {
 		cout << "Finner ikke idretten\n";
@@ -177,13 +176,4 @@ void Sports::lists(char valg) {
 
 	if(out != &cout)
 		delete out;
-}
-
-void Sports::write_top_ten(){
-	char* sportname = io.read_valid("Idrett", NONE); // ANTAR RIKTIG IDRETT, ENDRE ENUM!!
-	Sport* current_sport;
-
-	current_sport = (Sport*) sportlist->remove(sportname);
-	current_sport->write_top_ten();
-	sportlist->add(current_sport);
 }

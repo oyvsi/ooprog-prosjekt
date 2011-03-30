@@ -1,7 +1,5 @@
 #include <fstream>
 #include <iostream>
-#include <algorithm>
-#include <vector>
 #include "listtool2.h"
 #include "division.h"
 #include "iofunc.h"
@@ -28,12 +26,17 @@ Division::Division(istream* infile, char* divname) : Text_element(divname) { //C
         }
         
         for(int i = 0; i < (no_teams*no_teams)-no_teams; i++) {    // Create schedule
-            h_team_no = get_team(io.read_string(infile));
-            a_team_no = get_team(io.read_string(infile));
+            h_team = io.read_string(infile);
+			a_team = io.read_string(infile);
+			h_team_no = get_team(h_team);
+            a_team_no = get_team(a_team);
+		
             if(h_team_no != -1 && a_team_no != -1) 
                 results[h_team_no][a_team_no]->set_date(io.read_string(infile)); 
             else
                 cout << "Feil i iterasjon: " << i << " h_team: " << h_team << ' ' << "a_team: " << a_team << '\n';
+			delete [] h_team; 
+			delete [] a_team;
         }
         
     }
@@ -79,6 +82,7 @@ void Division::display() {	// Menu-option i
 
 void Division::term_list(ostream* out) {    //Menu option L
     char date[DATELEN];
+	
     for (int i = 0; i < no_teams; i++)
         *out << "\t\t" << teams[i]->get_team();   //Columns
     *out << '\n';
@@ -88,7 +92,11 @@ void Division::term_list(ostream* out) {    //Menu option L
             *out << "\t\t";
             if (i != j) {
 				results[i][j]->get_date(date);
-                *out << date[6] << date[7] << '/' << date[4] << date[5];
+				if (results[i][j]->get_hgls() == -1)
+					*out << date[6] << date[7] << '/' << date[4] << date[5];
+				else
+					*out << results[i][j]->get_hgls() << '-'
+					<< results[i][j]->get_agls();
 			}
         }              
         *out << '\n';
@@ -98,39 +106,71 @@ void Division::term_list(ostream* out) {    //Menu option L
 void Division::result_list(ostream* out, char* in_date) {	//Menu option K
     char date[DATELEN];
     int h_goals;
+	char* h_team, * a_team;
     for (int i = 0; i < no_teams; i++) {
         for (int j = 0; j < no_teams; j++) {
             if(i != j) {
 				results[i][j]->get_date(date);
 				if (!strcmp(date, in_date)) {
-					*out << teams[i]->get_team() 
-						<< " - " << teams[j]->get_team() << '\n';
+					h_team = teams[i]->get_team();
+					a_team = teams[j]->get_team();
+					*out << h_team << " - " << a_team;
+					delete [] h_team;
+					delete [] a_team;
 					h_goals = results[i][j]->get_hgls();
 					if (h_goals != -1)
 						*out << " - " << h_goals << "-" 
                          << results[i][j]->get_agls() << '\n';
 				}
-            }
+		
+			}
         }
     }
 }
 
 bool Division::read_results(istream* in, bool update) {	// Menu option R + reading programdata
-	extern IOfunc io;
 	bool valid = false;
-	char date[DATELEN];
-	int h_team, a_team, no_t;
-
-	*in >> no_t; in->ignore();
-	for(int i = 0; i < no_t; i++) {
-	    in->getline(date, DATELEN);
-		h_team = get_team(io.read_string(in));
-		a_team = get_team(io.read_string(in));
-		valid = results[h_team][a_team]->read_result(in, date, update);
-		if (!update && valid)
-			valid = (h_team != -1 && a_team != -1);
-		if(!valid)
-			return false;
+	char* date;
+	char* h_team, * a_team;
+	int h_team_no, a_team_no, no_dates, no_games;
+	no_dates = io.lines_in_level(in, 2);
+	
+	for(int i = 0; i < no_dates; i++) {		// loop all dates
+		date = io.read_string(in, '\n');	
+		no_games = io.lines_in_level(in, 3)/6;
+		
+		for (int j = 0; j < no_games; j++) { // loop all games at date
+			h_team = io.read_string(in);	// team names
+			a_team = io.read_string(in);
+			h_team_no = get_team(h_team);	// no in team-array
+			a_team_no = get_team(a_team);
+		
+			if (h_team_no != -1 && a_team_no != -1) {	// One of the team names does not exist
+			   // Check if dates match
+				if(results[h_team_no][a_team_no]->read_result(in, date, update)) {				
+				   // Check if we have a result stored allready
+					if(!update) { 
+						if(results[h_team_no][a_team_no]->get_hgls() == -1)	
+							valid = true;
+						else
+							cout << date << ": " << h_team << " - " << a_team
+							<< " har allerede et innlest resultat\n";
+					}
+				} else {
+						cout << "Iflg. terminlista skal ikke " << h_team << " - " 
+						<< a_team << " spilles " << date << '\n';
+				}
+			} else {
+					cout << ((h_team_no == -1) ? h_team : a_team) << " finnes ikke\n";
+			}
+			delete [] h_team;
+			delete [] a_team;
+			if(!valid) {
+				delete [] date;
+				return false;
+			}
+		}
+		delete date;
 	}
 	return true;	
 }
@@ -163,85 +203,3 @@ void Division::write_results(ostream* out) {
 	}	
 }
 
-void Division::table(ostream* out, int type) {
-	tableobject* table[MAXTEAMS];
-	for(int i = 0; i < no_teams; i++) {
-		table[i] = new tableobject;
-		table[i]->no_draw = table[i]->no_loss =
-			table[i]->no_win = table[i]->score = 
-			table[i]->no_goals = 0;
-		table[i]->team = teams[i];
-	}
-
-	for(int i = 0; i < no_teams; i++)
-		for(int j = 0; j < no_teams; j++)
-			if(i != j)
-				results[i][j]->table_add(table[i], table[j], type);
-			
-	
-	
-}
-
-void Division::write_top_ten() {
-	cout << "Filnavn (blankt for skjerm): ";
-	char* filename = io.read_string(&cin);
-	cout << "Lag (blankt for alle): ";
-	char* teamname = io.read_string(&cin);
-	
-	vector<int> goalscorers, * temp_vec;
-	vector<int>::iterator vec_it;
-
-	int top_ten[10];			// The top-ten table
-	int no_goals[10];			// Number of goals in each of the above table positions
-	int player_goals = 0;
-	int current_player; 
-	
-	memset(top_ten, 0, sizeof(top_ten));
-	memset(no_goals, 0, sizeof(no_goals));
-
-	for(int i = 0; i < no_teams; i++){
-  	for(int j = 0; j < no_teams; j++){
-			temp_vec = results[i][j]->all_goals();
-			vec_it = goalscorers.end();
-			goalscorers.insert(vec_it,temp_vec->begin(),temp_vec->end());
-			delete temp_vec;
-		}
-	}
-	
-	sort(goalscorers.begin(), goalscorers.end());
-  
-  for (int i = 0; i < goalscorers.size();){
-		current_player = goalscorers[i];	
-		while (current_player == goalscorers[i]){  // S� lenge lik ID
-			++player_goals;                   				 // Legg til m�l
-			++i;
-		}
-		int position = 0;
-		while(player_goals < no_goals[position]){
-			++position;
-		}
-		if (position <= 9){
-			int y = 9 - position;
-			while (y > 0){
-				int a = position + y;
-				int b = position + (--y);
-				no_goals[a] = no_goals[b];
-				top_ten[a] = top_ten[b];
-			}
-			no_goals[position] = player_goals;
-			top_ten[position] = current_player;
-		}
-		player_goals = 0;
-	}
-	
-	ostream* out;
-	
-	if (strlen(filename))
-		out = new ofstream(filename);
-	else
-		out = &cout;
-		
-	for (int i = 0; i < 10; i++){
-		*out << i+1 << ": Player ID: " << top_ten[i] << ", Goals: " << no_goals[i] << "\n"; 
-	}
-}

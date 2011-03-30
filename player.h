@@ -21,7 +21,6 @@ class Player : public Num_element {
 		void display_all();
 		void write(ostream* out);
 		bool name_is(char* inname);
-		int get_number();
 };
 
 #endif

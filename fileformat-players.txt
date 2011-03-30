@@ -1,7 +1,0 @@
-<last_used>
-<playernumber> <playername>
-<playeraddress>
-<playernumber> <playername>
-<playeraddress>
-<playernumber> <playername>
-<playeraddress>
