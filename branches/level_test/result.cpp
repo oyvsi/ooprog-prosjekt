@@ -39,6 +39,7 @@ int Result::get_agls() {
 
 bool Result::read_result(istream* infile, char in_date[], bool update) {
 	char* dummy;
+	int valid_h_goals, valid_a_goals, game_l;
 	if (update) {
 		*infile >> h_goals >> a_goals >> extra_time;
 		
@@ -49,7 +50,12 @@ bool Result::read_result(istream* infile, char in_date[], bool update) {
 		infile->ignore();
 		return true;
 	} else {
-		for (int i = 0; i < 4; i++) {   // Skip past game info lines
+		game_l = 0;
+		*infile >> valid_h_goals >> valid_a_goals; infile->ignore();
+		game_l += (valid_h_goals) ? 0 : 1;	// If there are no goals there's no line
+		game_l += (valid_a_goals) ? 0 : 1;   //  for goal_scoreres
+			
+		for (;game_l < 3; game_l++) {   // Skip past game info lines
 			dummy = io.read_string(infile);
 			delete [] dummy;
 		}

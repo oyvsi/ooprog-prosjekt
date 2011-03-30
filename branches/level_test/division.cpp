@@ -133,7 +133,7 @@ bool Division::read_results(istream* in, bool update) { // Menu option R + readi
 	i = 0;
 	while (valid && i < no_dates) { // loop all dates
 		date = io.read_string(in, '\n');        
-		no_games = io.lines_in_level(in, 3)/6;
+		no_games = io.lines_in_level(in, 3)/2;
 		j = 0;
 		while (valid && j < no_games) { // loop all games at date
 			h_team = io.read_string(in);    // team names
