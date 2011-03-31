@@ -1,9 +1,11 @@
 #ifndef __RESULT_H
 #define __RESULT_H
 
+struct tableobject;
 #include <vector>
 #include "global.h"
 #include "division.h"
+
 using namespace std;
 
 class Result {

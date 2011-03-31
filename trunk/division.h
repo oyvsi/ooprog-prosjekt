@@ -1,12 +1,14 @@
 #ifndef __DIVISION_H
 #define __DIVISION_H
 
+class Result;
 #include "global.h"
 #include "team.h"
 #include "result.h"
 #include "listtool2.h"
 
 using namespace std;
+
 struct tableobject {
 	Team* team;
 	int no_win;
