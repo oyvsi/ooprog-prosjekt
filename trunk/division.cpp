@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <iomanip>
 #include <algorithm>
 #include <vector>
 #include "listtool2.h"
@@ -165,21 +166,44 @@ void Division::write_results(ostream* out) {
 
 void Division::table(ostream* out, int type) {
 	tableobject* table[MAXTEAMS];
-	for(int i = 0; i < no_teams; i++) {
-		table[i] = new tableobject;
-		table[i]->no_draw = table[i]->no_loss =
-			table[i]->no_win = table[i]->score = 
-			table[i]->no_goals = 0;
-		table[i]->team = teams[i];
-	}
+	tableobject* tmp_tobj;
+	int tmp;	bool change;
+
+	for(int i = 0; i < no_teams; i++)
+		table[i] = new tableobject(teams[i]);
 
 	for(int i = 0; i < no_teams; i++)
 		for(int j = 0; j < no_teams; j++)
 			if(i != j)
 				results[i][j]->table_add(table[i], table[j], type);
-			
 	
-	
+	for(int i = 0; i < no_teams-1; i++) {
+		tmp_tobj = table[i];
+		change = false;
+		for(int j = i+1; j < no_teams - 1; j++) {
+			if(tmp_tobj->score > table[i]->score) {
+				tmp_tobj = table[j];
+				tmp = j;
+				change = true;
+			}
+		}
+		if(change) {
+			table[tmp] = table[i];
+			table[i] = tmp_tobj;
+		}
+	}
+
+	cout << " #   Lagnavn                      "
+		 << " S  U  T  M  Poeng\n";
+	for(int i = 0; i < no_teams; i++) {
+		cout << right << setw(4) << i+1 << ": " 
+			 << left << setw(30) << table[i]->team->get_team()
+			 << setw(3) << table[i]->no_win
+			 << setw(3) << table[i]->no_draw
+			 << setw(3) << table[i]->no_loss
+			 << setw(3) << table[i]->no_goals
+			 << setw(6) << table[i]->score << '\n';
+	}
 }
 
 void Division::write_top_ten() {
@@ -200,7 +224,7 @@ void Division::write_top_ten() {
 	memset(no_goals, 0, sizeof(no_goals));
 
 	for(int i = 0; i < no_teams; i++){
-  	for(int j = 0; j < no_teams; j++){
+  		for(int j = 0; j < no_teams; j++){
 			temp_vec = results[i][j]->all_goals();
 			vec_it = goalscorers.end();
 			goalscorers.insert(vec_it,temp_vec->begin(),temp_vec->end());
@@ -210,7 +234,7 @@ void Division::write_top_ten() {
 	
 	sort(goalscorers.begin(), goalscorers.end());
   
-  for (int i = 0; i < goalscorers.size();){
+	for (int i = 0; i < goalscorers.size();){
 		current_player = goalscorers[i];	
 		while (current_player == goalscorers[i]){  // S� lenge lik ID
 			++player_goals;                   				 // Legg til m�l

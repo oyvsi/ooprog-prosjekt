@@ -152,7 +152,7 @@ void Sport::result_list(ostream* out, char typ) {
 	Division* tmp_division;
 	
 	division = io.read_valid("Divisjon", NAME);
-	date = io.read_valid("Dato", NONE);
+	if(typ == 'K') date = io.read_valid("Dato", NONE);
 	
 	if(strlen(division) == 0) {
 		for(int i = 1; i <= divisionlist->no_of_elements(); i++) {
@@ -170,7 +170,7 @@ void Sport::result_list(ostream* out, char typ) {
 		cout << "Finner ikke divisjonen";
 
 	delete [] division;
-	delete [] date;
+	if(typ == 'K') delete [] date;
 }
 
 void Sport::write_top_ten(){

@@ -1,22 +1,12 @@
 #ifndef __DIVISION_H
 #define __DIVISION_H
 
-class Result;
 #include "global.h"
 #include "team.h"
 #include "result.h"
 #include "listtool2.h"
 
 using namespace std;
-
-struct tableobject {
-	Team* team;
-	int no_win;
-	int no_draw;
-	int no_loss;
-	int no_goals;
-	int score;
-};
 
 class Division : public Text_element {
 private:

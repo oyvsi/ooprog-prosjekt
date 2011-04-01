@@ -1,12 +1,30 @@
 #ifndef __RESULT_H
 #define __RESULT_H
 
-struct tableobject;
 #include <vector>
 #include "global.h"
-#include "division.h"
 
 using namespace std;
+
+class Team;
+
+struct tableobject {
+	Team* team;
+	int no_win;
+	int no_draw;
+	int no_loss;
+	int no_goals;
+	int score;
+
+	tableobject(Team* t) {
+		team = t;
+		no_draw = 0;
+		no_loss = 0;
+		no_win = 0;
+		score = 0;
+		no_goals = 0;
+	}
+};
 
 class Result {
 	private:
