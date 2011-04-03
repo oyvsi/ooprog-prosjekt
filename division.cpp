@@ -80,6 +80,7 @@ void Division::display() {	// Menu-option i
 
 void Division::term_list(ostream* out) {    //Menu option L
     char date[DATELEN];
+	
     for (int i = 0; i < no_teams; i++)
         *out << "\t\t" << teams[i]->get_team();   //Columns
     *out << '\n';
@@ -89,51 +90,83 @@ void Division::term_list(ostream* out) {    //Menu option L
             *out << "\t\t";
             if (i != j) {
 				results[i][j]->get_date(date);
-                *out << date[6] << date[7] << '/' << date[4] << date[5];
+				if (results[i][j]->get_hgls() == -1)
+					*out << date[6] << date[7] << '/' << date[4] << date[5];
+				else
+					*out << results[i][j]->get_hgls() << '-'
+					<< results[i][j]->get_agls();
 			}
         }              
         *out << '\n';
     }        
 }
 
-void Division::result_list(ostream* out, char* in_date) {	//Menu option K
+void Division::result_list(ostream* out, char* in_date) {       //Menu option K
     char date[DATELEN];
     int h_goals;
+	char* h_team, * a_team;
     for (int i = 0; i < no_teams; i++) {
         for (int j = 0; j < no_teams; j++) {
             if(i != j) {
 				results[i][j]->get_date(date);
 				if (!strcmp(date, in_date)) {
-					*out << teams[i]->get_team() 
-						<< " - " << teams[j]->get_team() << '\n';
+					h_team = teams[i]->get_team();
+					a_team = teams[j]->get_team();
+					*out << h_team << " - " << a_team;
 					h_goals = results[i][j]->get_hgls();
 					if (h_goals != -1)
 						*out << " - " << h_goals << "-" 
-                         << results[i][j]->get_agls() << '\n';
+						<< results[i][j]->get_agls() << '\n';
 				}
-            }
+                
+			}
         }
     }
 }
 
-bool Division::read_results(istream* in, bool update) {	// Menu option R + reading programdata
-	extern IOfunc io;
-	bool valid = false;
-	char date[DATELEN];
-	int h_team, a_team, no_t;
-
-	*in >> no_t; in->ignore();
-	for(int i = 0; i < no_t; i++) {
-	    in->getline(date, DATELEN);
-		h_team = get_team(io.read_string(in));
-		a_team = get_team(io.read_string(in));
-		valid = results[h_team][a_team]->read_result(in, date, update);
-		if (!update && valid)
-			valid = (h_team != -1 && a_team != -1);
-		if(!valid)
-			return false;
+bool Division::read_results(istream* in, bool update) { // Menu option R + reading programdata
+	bool valid = true;
+	char* date;
+	char* h_team, * a_team;
+	int i, j, h_team_no, a_team_no, no_dates, no_games;
+	no_dates = io.lines_in_level(in, 2);
+	i = 0;
+	while (valid && i < no_dates) { // loop all dates
+		date = io.read_string(in, '\n');        
+		no_games = io.lines_in_level(in, 3)/2;
+		j = 0;
+		while (valid && j < no_games) { // loop all games at date
+			h_team = io.read_string(in);    // team names
+			a_team = io.read_string(in);
+			h_team_no = get_team(h_team);   // no in team-array
+			a_team_no = get_team(a_team);
+			
+			if (h_team_no != -1 && a_team_no != -1) {       // One of the team names does not exist
+				// Check if dates match
+				if(results[h_team_no][a_team_no]->read_result(in, date, update)) {                              
+					// Check if we have a result stored allready
+					if(!update && results[h_team_no][a_team_no]->get_hgls() != -1) {        
+						valid = false;
+						cout << date << ": " << h_team << " - " << a_team
+						<< " har allerede et innlest resultat\n";
+					}
+				} else {
+					valid = false;
+					cout << "Iflg. terminlista skal ikke " << h_team << " - " 
+					<< a_team << " spilles " << date << '\n';
+				}
+			} else {
+				valid = false;
+				cout << ((h_team_no == -1) ? h_team : a_team) << " finnes ikke\n";
+			}
+			delete [] h_team;
+			delete [] a_team;
+			j++;
+		}
+		delete date;
+		i++;
 	}
-	return true;	
+	return valid;   
 }
 
 void Division::write(ostream* out) {
@@ -155,11 +188,22 @@ void Division::write(ostream* out) {
 }
 
 void Division::write_results(ostream* out) {
-	*out << text << '\n';
+	char date[DATELEN];
+	*out << "  " << text << '\n';
     for (int i = 0; i < no_teams; i++) {
 		for (int j = 0; j < no_teams; j++) {
-			if(i != j)
-				results[i][j]->write(out);
+			if(i != j) {
+				if (results[i][j]->get_hgls() != -1) {	// write games with resutls
+					results[i][j]->get_date(date);
+					io.write_blank(out, LEVEL_BLANKS*2);
+					*out << date << '\n';
+					io.write_blank(out, LEVEL_BLANKS*3);
+					*out << teams[i]->get_team() << '\n';
+					io.write_blank(out, LEVEL_BLANKS*3);
+					*out << teams[j]->get_team() << '\n';
+					results[i][j]->write(out);
+				}
+			}
 		}	
 	}	
 }

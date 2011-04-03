@@ -30,7 +30,7 @@ class Result {
 	private:
 		char date[DATELEN];
 		int h_goals;
-		int a_goals;			//(GUESTS)? According to wikipedia away team is the correct term
+		int a_goals;			
 		bool extra_time;
 		int h_scorers[MAXGOALS];
 		int a_scorers[MAXGOALS];	
