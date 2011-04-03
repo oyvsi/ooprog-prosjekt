@@ -58,8 +58,8 @@ void Team::display() {
 }
 
 void Team::write(ostream* out) {
-	*out << name;
-	*out << address;
+	*out << name << '\n';
+	*out << address << '\n';
 	for (int i = 0; i < no_players; i++) 
-		*out << player_nos[i];
+		*out << player_nos[i] << '\n';
 }

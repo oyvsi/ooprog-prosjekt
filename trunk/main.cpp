@@ -90,9 +90,16 @@ void read_results(){
 	ifstream* infile = new ifstream("results.dta");
 	
 	if (*infile){
-		if (sports.read_results(infile, false))	// Leser uten å oppdatere resultater
+		if (sports.read_results(infile, false)) {	// Leser uten å oppdatere resultater
+			infile->clear();
+			infile->seekg(0, ios::beg);
 			sports.read_results(infile, true);		// Ingen feil funnet, oppdater res.
-		else 
+		} else { 
 			cout << "Fila inneheld feil, fool!\n";
+		}
+	}
+	else {
+		cout << "Kunne ikke Œpne fila 'results.dta'";
 	}
 }
+

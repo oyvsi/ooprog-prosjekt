@@ -69,27 +69,29 @@ void Sport::write(ostream* out) {
 }
 
 bool Sport::read_results(istream* infile, bool update){
-	int no_div;							// Antall divisjoner
-	bool read_ok = true;		// Return-verdi
+	int no_div;                                                     // Antall divisjoner
+	bool read_ok = true;            // Return-verdi
 	char* divisionname;
 	Division* tmp_div;
-
-	*infile >> no_div; infile->ignore();
+	int i = 0;
+	no_div = io.lines_in_level(infile, 1);
 	cout << "Las ant. div: " << no_div << endl;
-	
-	if (divisionlist->no_of_elements() == no_div){		// Dersom dette stemmer
-		for (int i = 0; i < no_div; i++){								// Les alle divisjoner:
-			divisionname = io.read_string(infile, '\n');
-			if (divisionlist->in_list(divisionname)){
-				tmp_div = (Division*) divisionlist->remove(divisionname);
-				read_ok = tmp_div->read_results(infile, update);
-				divisionlist->add(tmp_div);
-			} else read_ok = false;												// feil på fil
+	while (read_ok && i < no_div) {                                                 // Les alle divisjoner:
+		divisionname = io.read_string(infile, '\n');
+		if (divisionlist->in_list(divisionname)){
+			tmp_div = (Division*) divisionlist->remove(divisionname);
+			read_ok = tmp_div->read_results(infile, update);                // flash?
+			divisionlist->add(tmp_div);
+		} else { 
+			read_ok = false; // feil pŒ fil 
+			cout << "Divisjonen " << divisionname << " finnes ikke!\n";
 		}
-	} else read_ok = false;
-	
+		i++;
+	}
 	return read_ok;
 }
+
+
 
 
 bool Sport::name_is(char* nvn) {
