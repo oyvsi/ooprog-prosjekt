@@ -3,19 +3,19 @@
 4841 ARENDAL
 2 Bogdan Hatlevik
 2312 OTTESTAD
-3 Navnestatistikk, Bakka
+3 Lena Bakka
 0487 OSLO
 4 Mons Aaseth
 5903 ISDALSTØ
-5 Dagmar Flatland
+5 Mildrid Flatland
 5417 STORD
 6 Bartosz Lyngmo
 0774 OSLO
-7 Hermine Lode
+7 Renata Lode
 0116 OSLO
-8 Zahra Slåtten
+8 Maryam Slåtten
 6391 TRESFJORD
-9 Wenke Bjørseth
+9 Yasmin Bjørseth
 8093 KJERRINGØY
 10 Gjermund Revheim
 5815 BERGEN
@@ -31,25 +31,25 @@
 5534 HAUGESUND
 16 Johann Heggen
 2005 RÆLINGEN
-17 Kaia Kolsrud
+17 Nadia Kolsrud
 0569 OSLO
 18 Liv Sleire
 5956 VÅGSEIDET
-19 Mildrid Rikstad
+19 Åsta Rikstad
 4580 LYNGDAL
 20 Maximilian Olstad
 9269 TROMSØ
-21 Audhild Hynne
+21 Mille Hynne
 0781 OSLO
 22 Joacim Bru
 1832 ASKIM
-23 Sølvi Hetland
+23 Olaug Hetland
 3994 LANGESUND
 24 Vincent Seldal
 4827 FROLANDS VERK
 25 Jon Walstad
 4663 KRISTIANSAND S
-26 Leila Nysæther
+26 Trine-lise Nysæther
 0253 OSLO
 27 Sølve Ludvigsen
 0616 OSLO
@@ -59,11 +59,11 @@
 3041 DRAMMEN
 30 Vebjørn Grytten
 9287 TROMSØ
-31 Eivor Magnussen
+31 Leila Magnussen
 2317 HAMAR
 32 Cathrine Norland
 5412 STORD
-33 Iman Zhang
+33 Hulda Zhang
 1309 RUD
 34 Arnfinn Løvaas
 3749 SILJAN
@@ -73,15 +73,15 @@
 6918 SØR-SKORPA
 37 Syver Bryhn
 5122 MORVIK
-38 Lea Omdahl
+38 Alice Omdahl
 8618 MO I RANA
 39 Atle Kverneland
 7447 TRONDHEIM
-40 Anny Mannes
+40 Amanda Mannes
 6996 VADHEIM
 41 Maciej Hageland
 3620 FLESBERG
-42 Merethe Anthonsen
+42 Helle Anthonsen
 1684 VESTERØY
 43 Rasmus Kausar
 7212 KORSVEGEN
@@ -89,33 +89,33 @@
 3917 PORSGRUNN
 45 Krzysztof Solstad
 9910 BJØRNEVATN
-46 Oddrun Krogsrud
+46 Haldis Krogsrud
 3743 SKIEN
 47 Joacim Høie
 4790 LILLESAND
-48 Miriam Bekken
+48 Evy Bekken
 8613 MO I RANA
 49 Norvald Adam
 4022 STAVANGER
-50 Oddrun Alsvik
+50 Haldis Alsvik
 6657 RINDAL
 51 Olaf Hillestad
 9471 GRATANGEN
-52 Lina Kvalheim
+52 Tine Kvalheim
 8663 MOSJØEN
 53 Hogne Winge
 4420 ÅNA-SIRA
 54 Vemund Justad
 6008 ÅLESUND
-55 Alise Botten
+55 Ann-christin Botten
 6133 LAUVSTAD
 56 Eyvind Heltne
 1380 HEGGEDAL
 57 Oddbjørn Walderhaug
 7562 HUNDHAMAREN
-58 Elsa Engh
+58 Birgit Engh
 6196 NORANGSFJORDEN
-59 Vanessa Frogner
+59 Ågot Frogner
 6101 VOLDA
 60 Edward Idsø
 8009 BODØ
@@ -125,7 +125,7 @@
 3092 SUNDBYFOSS
 63 Sigurd Johansen
 0516 OSLO
-64 Trine-lise Hexeberg
+64 Møyfrid Hexeberg
 6770 NORDFJORDEID
 65 Mario Vaksdal
 1850 MYSEN
@@ -133,13 +133,13 @@
 7083 LEINSTRAND
 67 Egil Bjørn
 5412 STORD
-68 Ingvild Reitan
+68 Signe Reitan
 2612 SJUSJØEN
 69 Aron Wilhelmsen
 9136 VANNAREID
-70 Nanna Lode
+70 Gretha Lode
 2929 BAGN
-71 Eirin Djupvik
+71 Svanhild Djupvik
 5523 HAUGESUND
 72 Mikkel Brenden
 8297 TRANØY
@@ -147,9 +147,9 @@
 0984 OSLO
 74 Borgar Blindheim
 0128 OSLO
-75 Emmy Nordhus
+75 Nikoline Nordhus
 0570 OSLO
-76 Merethe Hveding
+76 Helle Hveding
 4182 SKARTVEIT
 77 Britt Fretheim
 0041 OSLO
@@ -161,7 +161,7 @@
 1690 HERFØL
 81 Oddvar Heide
 2653 VESTRE GAUSDAL
-82 Dina Venås
+82 Michelle Venås
 6453 KLEIVE
 83 Cathrine Linde
 4006 STAVANGER
@@ -171,13 +171,13 @@
 7533 KOPPERÅ
 86 Imre Bakketun
 0211 OSLO
-87 Ingvild Fotland
+87 Signe Fotland
 7495 TRONDHEIM
-88 Thordis Tyldum
+88 Clara Tyldum
 0254 OSLO
-89 Marielle Øglænd
+89 Harriet Øglænd
 1597 MOSS
-90 Thordis Svanevik
+90 Clara Svanevik
 3967 BAMBLE SOMMERRUTE
 91 Jostein Ferstad
 9742 KUNES
@@ -187,39 +187,39 @@
 0273 OSLO
 94 Andrzej Kroken
 3014 DRAMMEN
-95 Paula Solevåg
+95 Oddlaug Solevåg
 0764 OSLO
 96 Tron Rossebø
 1950 RØMSKOG
-97 Gudny Sandvær
+97 Lilli Sandvær
 8507 NARVIK
 98 Abdullahi Magnusson
 4580 LYNGDAL
-99 Bodil Aspen
+99 Ingunn Aspen
 0970 OSLO
-100 Gunnbjørg Rognstad
+100 Vilma Rognstad
 6470 ERESFJORD
 101 Bastian Staven
 3124 TØNSBERG
-102 Matilde Løvlie
+102 Elna Løvlie
 5987 HOSTELAND
-103 Belinda Brattli
+103 Ninni Brattli
 2318 HAMAR
 104 Yngve Skavhaug
 5889 BERGEN
 105 Harry Ødegård
 6504 KRISTIANSUND N
-106 Karianne Hope
+106 June Hope
 0134 OSLO
-107 Ingunn Rist
+107 Hanna Rist
 7256 HEMNSKJELA
 108 Kjersti Lunder
 3189 HORTEN
 109 Holger Pettersson
 7486 TRONDHEIM
-110 Kathrine Eike
+110 Mina Eike
 3739 SKIEN
-111 Margun Refseth
+111 Anne-sofie Refseth
 2100 SKARNES
 112 Waldemar Skjelbred
 7409 TRONDHEIM
@@ -227,41 +227,41 @@
 5828 BERGEN
 114 Dag Hånes
 7971 KOLVEREID
-115 Filippa Lundberg
+115 Ayse Lundberg
 5707 EVANGER
-116 Kristi Holst
+116 Irina Holst
 5593 SKÅNEVIK
 117 Imre Kvammen
 2030 NANNESTAD
-118 Solbjørg Nesland
+118 Ranveig Nesland
 2716 HARESTUA
-119 Ingunn Wiklund
+119 Hanna Wiklund
 1764 HALDEN
-120 Amy Sværen
+120 Ailin Sværen
 6494 VEVANG
-121 Brith Østmo
+121 Maia Østmo
 6494 VEVANG
 122 Christer Hatlestad
 4432 HIDRASUND
 123 Eilert Vestly
 2550 OS I ØSTERDALEN
-124 Frida Nord
+124 Amalie Nord
 5967 EIVINDVIK
-125 Eldbjørg Svenkerud
+125 Torild Svenkerud
 8220 RØSVIK
-126 Merete Kjelstad
+126 Trude Kjelstad
 7213 GÅSBAKKEN
-127 Fanny Viken
+127 Gitte Viken
 6320 ISFJORDEN
-128 Aagot Seljeseth
+128 Anbjørg Seljeseth
 3914 PORSGRUNN
 129 Erland Lossius
 1530 MOSS
-130 Kjellaug Palm
+130 Johanna Palm
 9583 LANGFJORDHAMN
-131 Åshild Totland
+131 Lill Totland
 9037 TROMSØ
-132 Sina Aakre
+132 Tatiana Aakre
 2665 LESJA
 133 Oddleif Alvheim
 4326 SANDNES
@@ -269,33 +269,33 @@
 4303 SANDNES
 135 Alex Hove
 6019 ÅLESUND
-136 Olga Norum
+136 Pia Norum
 7350 BUVIKA
 137 Nicolas Aarskog
 6396 VIKEBUKT
-138 Filippa Gustavson
+138 Ayse Gustavson
 1061 OSLO
-139 Susan Nord
+139 Jannike Nord
 3629 NORE
-140 Anne-britt Skotnes
+140 Tale Skotnes
 8041 BODØ
 141 Odin Rognli
 2166 OPPAKER
 142 Sven Fuglerud
 9980 BERLEVÅG
-143 Andrine Rognmo
+143 Madelen Rognmo
 5387 MØKSTER
-144 Elsa Haugsvær
+144 Birgit Haugsvær
 5033 BERGEN
-145 Lotta Astrup
+145 Sonia Astrup
 3175 RAMNES
-146 Ulrikke Kolstad
+146 Doris Kolstad
 4173 NORD-HIDLE
-147 Rigmor Haavik
+147 Gunhild Haavik
 8489 NORDMELA
 148 Frederik Romsdal
 8664 MOSJØEN
-149 Gunda Sørum
+149 Adriana Sørum
 3139 SKALLESTAD
 150 Oddbjørn Finnøy
 6887 LÆRDAL
@@ -305,11 +305,11 @@
 0155 OSLO
 153 Eric Taraldsen
 2646 GÅLÅ
-154 Lisbeth Husum
+154 Frida Husum
 3820 NORDAGUTU
 155 Kristin Støle
 3618 SKOLLENBORG
-156 Viktoria Skøien
+156 Isabell Skøien
 1642 SALTNES
 157 Amund Molteberg
 2330 VALLSET
@@ -323,9 +323,9 @@
 7462 TRONDHEIM
 162 Lasse Elnes
 3491 KLOKKARSTUA
-163 Tara Berg
+163 Kathe Berg
 0950 OSLO
-164 Margareth Rosenberg
+164 Marina Rosenberg
 1311 HØVIKODDEN
 165 Rikard Aaby
 6529 FREI
@@ -333,9 +333,9 @@
 9100 KVALØYSLETTA
 167 Dan Engevold
 8393 SØRVÅGEN
-168 Ingvild Bergan
+168 Signe Bergan
 1255 OSLO
-169 Isabel Dahlberg
+169 Gjertrud Dahlberg
 3848 MORGEDAL
 170 Torkil Skrede
 2205 KONGSVINGER
@@ -343,7 +343,7 @@
 0853 OSLO
 172 Andrea Tran
 0781 OSLO
-173 Maja Hepsø
+173 Magnhild Hepsø
 4794 LILLESAND
 174 Tomas Bilstad
 8656 MOSJØEN
@@ -357,17 +357,17 @@
 7742 YTTERVÅG
 179 Odin Rindal
 0976 OSLO
-180 Rakel Kanestrøm
+180 Andrine Kanestrøm
 0509 OSLO
 181 Tor-erik Langemyr
 9017 TROMSØ
-182 Lilli Finne
+182 Rose Finne
 3012 DRAMMEN
 183 Karoline Molvær
 0366 OSLO
-184 Aagot Helset
+184 Anbjørg Helset
 0356 OSLO
-185 Judit Østvold
+185 Lotta Østvold
 7201 KYRKSÆTERØRA
 186 Ludvik Aase
 4201 SAUDA
@@ -379,7 +379,7 @@
 5700 VOSS
 190 Torbjørn Samdal
 1619 FREDRIKSTAD
-191 Målfrid Saue
+191 Tiril Saue
 2609 LILLEHAMMER
 192 Lorentz Storvik
 0575 OSLO
@@ -389,13 +389,13 @@
 0306 OSLO
 195 Jonny Brænden
 4818 FÆRVIK
-196 Ingri Røisland
+196 Maud Røisland
 8860 TJØTTA
-197 Petra Eklund
+197 Mai Eklund
 5862 BERGEN
-198 Regina Holgersen
+198 Cathrin Holgersen
 4325 SANDNES
-199 Nathalie Vindenes
+199 Ronja Vindenes
 0851 OSLO
 200 Mohammed Anderssen
 8921 SØMNA
@@ -405,17 +405,17 @@
 1316 EIKSMARKA
 203 Rene Ljosland
 6144 SYLTE
-204 Guri Mogen
+204 Jane Mogen
 2005 RÆLINGEN
 205 Mattis Grønningsæter
 1743 KLAVESTADHAUGEN
-206 Alise Backe
+206 Ann-christin Backe
 1207 OSLO
 207 Leiv Røhne
 4985 VEGÅRSHEI
 208 Ismail Krog
 1712 GRÅLUM
-209 Stephanie Trones
+209 Fatma Trones
 4208 SAUDASJØEN
 210 Roar Solum
 1516 MOSS
@@ -423,13 +423,13 @@
 6779 HOLMØYANE
 212 Kay Egge
 0564 OSLO
-213 Aashild Rånes
+213 Gunnbjørg Rånes
 3259 LARVIK
-214 Tatiana Nærø
+214 Anne-britt Nærø
 1746 SKJEBERG
 215 Carsten Hofstad
 6431 BUD
-216 Jeanette Wiker
+216 Solfrid Wiker
 9925 SVANVIK
 217 Arkadiusz Thommesen
 7739 BEITSTAD
@@ -441,13 +441,13 @@
 4280 SKUDENESHAVN
 221 Glenn Tjelta
 5443 BØMLO
-222 Dagmar Obrestad
+222 Mildrid Obrestad
 1152 OSLO
-223 Emine Wright
+223 Else-marie Wright
 1709 SARPSBORG
-224 Frida Øvstebø
+224 Amalie Øvstebø
 1809 ASKIM
-225 Ronja Kjærstad
+225 Arnhild Kjærstad
 4076 VASSØY
 226 Linda Thune
 0757 OSLO
@@ -459,11 +459,11 @@
 0677 OSLO
 230 Joar Paulsen
 1604 FREDRIKSTAD
-231 Silvia Havnen
+231 Vibecke Havnen
 3523 NES I ÅDAL
-232 Susanne Innvær
+232 Gry Innvær
 3747 SKIEN
-233 Merete Bakkejord
+233 Trude Bakkejord
 8961 HOMMELSTØ
 234 Irene Holthe
 5787 LOFTHUS
@@ -471,35 +471,35 @@
 2831 RAUFOSS
 236 Truls Begum
 8171 SVARTISEN GÅRD
-237 Magda Vu
+237 Agnete Vu
 1176 OSLO
 238 Inge Hilleren
 3702 SKIEN
-239 Aurora Løvås
+239 Karina Løvås
 2210 GRANLI
 240 Adam Sveum
 9384 SKALAND
 241 Aud Rossebø
 8011 BODØ
-242 Pia Kirkhus
+242 Erna Kirkhus
 4990 SØNDELED
 243 Christian Aslam
 9152 SØRKJOSEN
-244 Jennifer Hanssen
+244 Mira Hanssen
 8382 NAPP
 245 Ragnvald Jordan
 2308 HAMAR
 246 Nina Otnes
 1683 VESTERØY
-247 Bergliot Bjørnevik
+247 Martina Bjørnevik
 0590 OSLO
-248 Audhild Engdal
+248 Mille Engdal
 3045 DRAMMEN
 249 Vetle Røgeberg
 8690 HATTFJELLDAL
 250 Sara Bjønnes
 2870 DOKKA
-251 Annika Hasan
+251 Gøril Hasan
 7387 SINGSÅS
 252 Anthony Trydal
 5443 BØMLO
@@ -507,9 +507,9 @@
 2476 ATNA
 254 Marek Sørdal
 8193 RØDØY
-255 Lovise Aaberg
+255 Maya Aaberg
 8260 INNHAVET
-256 Kerstin Molvær
+256 Mirjam Molvær
 3014 DRAMMEN
 257 Philip Smith
 2019 SKEDSMOKORSET
@@ -527,11 +527,11 @@
 1512 MOSS
 264 Tristan Frantzen
 2742 GRUA
-265 Aina Bergsvik
+265 Kristina Bergsvik
 6139 FISKÅBYGD
 266 Inge Truong
 5407 STORD
-267 Maja Raa
+267 Magnhild Raa
 0196 OSLO
 268 Gøran Norheim
 5514 HAUGESUND
@@ -539,29 +539,29 @@
 4887 GRIMSTAD
 270 Przemyslaw Langhelle
 4343 ORRE
-271 Marta Dalene
+271 Hjørdis Dalene
 3047 DRAMMEN
-272 Hilda Tidemann
+272 Sanna Tidemann
 5221 NESTTUN
 273 Hjalmar Bach
 3622 SVENE
 274 Pawel Guldberg
 1596 MOSS
-275 Ane Ekelund
+275 Tuva Ekelund
 3672 NOTODDEN
 276 Imre Nordeide
 8233 VALNESFJORD
 277 Michael Drange
 3902 PORSGRUNN
-278 Catherine Dalene
+278 Annelise Dalene
 4838 ARENDAL
-279 Elsa Frøystad
+279 Birgit Frøystad
 1639 GAMLE FREDRIKSTAD
-280 Yvonne Hegstad
+280 Madeleine Hegstad
 6918 SØR-SKORPA
 281 Radoslaw Remøy
 2402 ELVERUM
-282 Tilde Truong
+282 Karolina Truong
 5864 BERGEN
 283 Tonje Aarnes
 3743 SKIEN
@@ -571,9 +571,9 @@
 0774 OSLO
 286 Turid Bergan
 5033 BERGEN
-287 Hannah Langås
+287 Klara Langås
 9273 TROMSØ
-288 Solvår Turøy
+288 Herborg Turøy
 8264 ENGAN
 289 Scott Moan
 8732 ALDRA
@@ -585,7 +585,7 @@
 5531 HAUGESUND
 293 Torstein Voll
 1337 SANDVIKA
-294 Inga Angelsen
+294 Linnea Angelsen
 6174 BARSTADVIK
 295 Sverre Ulset
 7633 FROSTA
@@ -605,39 +605,39 @@
 9764 NORDKAPP
 303 Muhammad Kvilhaug
 5318 STRUSSHAMN
-304 Kaja Heia
+304 Jorun Heia
 1408 KRÅKSTAD
-305 Mali Simensen
+305 Ewa Simensen
 2803 GJØVIK
 306 Olav Holmefjord
 1779 HALDEN
-307 Signe Vaage
+307 Sofie Vaage
 3042 DRAMMEN
-308 Tamara Hella
+308 Justyna Hella
 2802 GJØVIK
-309 Lill Karlsson
+309 Olga Karlsson
 2027 KJELLER
-310 Sarah Fykse
+310 Aurora Fykse
 9276 TROMSØ
-311 Ågot Herigstad
+311 Brith Herigstad
 7418 TRONDHEIM
-312 Norma Bjørnå
+312 Filippa Bjørnå
 1326 LYSAKER
-313 Mai Borgen
+313 Unn Borgen
 1387 ASKER
-314 Josephine Evje
+314 Lykke Evje
 1478 LØRENSKOG
-315 Aslaug Kryger
+315 Katrine Kryger
 8058 TVERLANDET
 316 Reidun Østbø
 3516 HØNEFOSS
-317 Gabriela Omar
+317 Jelena Omar
 6687 VALSØYFJORD
 318 Andrea Røyrvik
 8274 MUSKEN
 319 Juan Langseth
 1604 FREDRIKSTAD
-320 Gunnlaug Synnes
+320 Edna Synnes
 2540 TOLGA
 321 Nicolas Egge
 5459 FJELBERG
@@ -655,9 +655,9 @@
 8096 BLIKSVÆR
 328 Imre Sørbø
 4902 TVEDESTRAND
-329 Hanna Begum
+329 Lisbeth Begum
 6488 MYKLEBOST
-330 Nelly Ringen
+330 Gunnhild Ringen
 5809 BERGEN
 331 Peder Bøen
 0766 OSLO
@@ -665,45 +665,45 @@
 4742 GRENDI
 333 Sten Vegsund
 3148 HVASSER
-334 Målfrid Telle
+334 Tiril Telle
 7023 TRONDHEIM
-335 Margrete Opdal
+335 Esther Opdal
 9750 HONNINGSVÅG
 336 Vetle Landro
 7227 GIMSE
 337 Jostein Graff
 4491 KVINESDAL
-338 Maya Barka
+338 Amina Barka
 5887 BERGEN
-339 Liss Aarrestad
+339 Iben Aarrestad
 6490 EIDE
-340 Asta Kjeldsen
+340 Bergljot Kjeldsen
 0772 OSLO
 341 Baard Angell
 2975 VANG I VALDRES
-342 Mie Todal
+342 Isabelle Todal
 5600 NORHEIMSUND
-343 Anne-marie Nystrøm
+343 Petra Nystrøm
 1005 OSLO
 344 Torger Eide
 7101 RISSA
 345 Johann Ekelund
 4839 ARENDAL
-346 Inger-lise Medhus
+346 Ingjerd Medhus
 2478 HANESTAD
 347 Haavard Leine
 5780 KINSARVIK
 348 Sivert Eggan
 8520 ANKENESSTRAND
-349 Sofia Pihl
+349 Lotte Pihl
 2901 FAGERNES
-350 Birte Holmsen
+350 Cornelia Holmsen
 0283 OSLO
 351 Carlos Roos
 6718 DEKNEPOLLEN
-352 Terese Goa
+352 Barbara Goa
 4844 ARENDAL
-353 Susanna Østgård
+353 Edit Østgård
 9480 HARSTAD
 354 Astrid Fjellanger
 9600 HAMMERFEST
@@ -723,13 +723,13 @@
 1007 OSLO
 362 Arkadiusz Wangberg
 1281 OSLO
-363 Evy Mørkved
+363 Hannah Mørkved
 3514 HØNEFOSS
 364 Mateusz Thoresen
 2060 GARDERMOEN
 365 Halvard Moe
 0310 OSLO
-366 Charlotte Tessem
+366 Christine Tessem
 2165 HVAM
 367 Trym Skagestad
 4053 RÆGE
@@ -741,11 +741,11 @@
 5822 BERGEN
 371 Inger Stabell
 8470 BØ I VESTERÅLEN
-372 Sabine Dramstad
+372 Gabriela Dramstad
 0452 OSLO
 373 Amir Monsen
 5726 VAKSDAL
-374 Vilma Østhus
+374 Elzbieta Østhus
 0963 OSLO
 375 Frank Aadland
 1604 FREDRIKSTAD
@@ -759,13 +759,13 @@
 6898 BALESTRAND
 380 Werner Kolstad
 2013 SKJETTEN
-381 Kerstin Huynh
+381 Mirjam Huynh
 2306 HAMAR
-382 Birte Hånes
+382 Cornelia Hånes
 5401 STORD
 383 Ole-christian Ugland
 4097 SOLA
-384 Anbjørg Tysnes
+384 Marry Tysnes
 4852 FÆRVIK
 385 Torkel Hole
 7584 SELBUSTRAND
@@ -773,15 +773,15 @@
 7053 RANHEIM
 387 Max Heien
 5019 BERGEN
-388 Erle Opedal
+388 Lisbet Opedal
 2412 SØRSKOGBYGDA
-389 Yvonne Egeberg
+389 Madeleine Egeberg
 1813 ASKIM
 390 Sigurd Mjøs
 4032 STAVANGER
-391 Lydia Morland
+391 Tilde Morland
 3715 SKIEN
-392 Jennifer Sharma
+392 Mira Sharma
 5532 HAUGESUND
 393 Hamid Buan
 4368 VARHAUG
@@ -789,7 +789,7 @@
 7358 BØRSA
 395 Agnar Øie
 1807 ASKIM
-396 Margrete Daae
+396 Esther Daae
 8922 SØMNA
 397 Osman Lee
 4308 SANDNES
@@ -803,17 +803,17 @@
 3242 SANDEFJORD
 402 Anne Sekse
 0368 OSLO
-403 Ranveig Schultz
+403 Asbjørg Schultz
 0242 OSLO
-404 Simone Bonsaksen
+404 Wenke Bonsaksen
 3173 VEAR
-405 Kjerstin Lilleland
+405 Emilia Lilleland
 3737 SKIEN
-406 Torunn Blom
+406 Kirsti Blom
 5859 BERGEN
 407 Kurt Bjørkhaug
 2636 ØYER
-408 Idunn Fylling
+408 Elinor Fylling
 8690 HATTFJELLDAL
 409 Hallvard Westerlund
 0381 OSLO
@@ -831,7 +831,7 @@
 4832 MYKLAND
 416 Tor-arne Osman
 5470 ROSENDAL
-417 Tara Grov
+417 Kathe Grov
 5983 HAUGSVÆR
 418 Birger Hoven
 3912 PORSGRUNN
@@ -839,29 +839,29 @@
 3360 GEITHUS
 420 Sissel Viddal
 7125 VANVIKAN
-421 Brynhild Bang
+421 Dagrun Bang
 5862 BERGEN
 422 Said Gullaksen
 1166 OSLO
 423 Jan Vestvik
 3753 TØRDAL
-424 Leah Rømo
+424 Ragna Rømo
 5780 KINSARVIK
 425 Stein Stormoen
 8485 DVERBERG
-426 Sylwia Tjelta
+426 Berta Tjelta
 2582 GRIMSBU
-427 Mariell Høydal
+427 Marlene Høydal
 5819 BERGEN
-428 Lotta Skog
+428 Sonia Skog
 7413 TRONDHEIM
-429 Astri Ditlefsen
+429 Kamilla Ditlefsen
 6433 HUSTAD
-430 Kine Thrane
+430 Ingebjørg Thrane
 1633 GAMLE FREDRIKSTAD
 431 Leon Tangerud
 0122 OSLO
-432 Guri Nordbø
+432 Jane Nordbø
 4041 HAFRSFJORD
 433 Ole-jørgen Rakvåg
 1639 GAMLE FREDRIKSTAD
@@ -869,11 +869,11 @@
 9950 VARDØ
 435 Tønnes Bjørlo
 6914 SVANØYBUKT
-436 Svanhild Oliversen
+436 Anny Oliversen
 2205 KONGSVINGER
-437 Brith Vestbø
+437 Maia Vestbø
 3481 TOFTE
-438 Catherine Stormo
+438 Annelise Stormo
 6461 EIDSVÅG I ROMSDAL
 439 Eva Lillebø
 6781 STRYN
@@ -881,19 +881,19 @@
 8309 KABELVÅG
 441 Vegard Aarskog
 4529 BYREMO
-442 Malene Kaspersen
+442 Annette Kaspersen
 5777 GRIMO
 443 Johan Bjørnevik
 6315 INNFJORDEN
 444 Artur Solsvik
 5502 HAUGESUND
-445 Herdis Eikås
+445 Dagmar Eikås
 5327 HAUGLANDSHELLA
 446 Torger Reppe
 9690 HAVØYSUND
-447 Gry Berstad
+447 Kine Berstad
 2232 TOBØL
-448 Elbjørg Bjørge
+448 Venche Bjørge
 1714 SARPSBORG
 449 Ingrid Hauglid
 8900 BRØNNØYSUND
@@ -907,19 +907,19 @@
 6877 FORTUN
 454 Bård Ihle
 3037 DRAMMEN
-455 Luna Karlsson
+455 Fredrikke Karlsson
 6003 ÅLESUND
-456 Trude Mæhre
+456 Victoria Mæhre
 1163 OSLO
-457 Guro Haarr
+457 Rigmor Haarr
 3746 SKIEN
 458 Stefan Rafoss
 2211 KONGSVINGER
 459 Julius Frantzen
 9392 STONGLANDSEIDET
-460 Anniken Øien
+460 Karianne Øien
 3996 PORSGRUNN
-461 Eira Lohne
+461 Zahra Lohne
 9489 HARSTAD
 462 Vilde Visnes
 7333 STORÅS
@@ -927,49 +927,49 @@
 5009 BERGEN
 464 Hamza Haugland
 7454 TRONDHEIM
-465 Alexandra Hestad
+465 Borgny Hestad
 3891 HØYDALSMO
-466 Kjerstin Hausken
+466 Emilia Hausken
 3707 SKIEN
 467 Levi Thuen
 2952 BEITO
 468 Even Valberg
 4834 RISDAL
-469 Fride Steffensen
+469 Ebba Steffensen
 5302 STRUSSHAMN
-470 Margrete Tronstad
+470 Esther Tronstad
 3004 DRAMMEN
-471 Hildegunn Kjørsvik
+471 Tora Kjørsvik
 9189 SKJERVØY
 472 Thorbjørn Gaustad
 6301 ÅNDALSNES
-473 Tine Langåker
+473 Astri Langåker
 8074 BODØ
-474 Elida Digre
+474 Adele Digre
 8187 JEKTVIK
 475 Dan Oppegaard
 4691 KRISTIANSAND S
 476 Emanuel Valen
 2266 ARNEBERG
-477 Solfrid Fjærestad
+477 Ane Fjærestad
 5032 BERGEN
 478 Radoslaw Fosshaug
 3270 LARVIK
-479 Lina Ramsøy
+479 Tine Ramsøy
 7801 NAMSOS
 480 Agnar Eidissen
 9424 KJØTTA
-481 Erle Huse
+481 Lisbet Huse
 6855 FRØNNINGEN
 482 Ludvik Øverli
 3037 DRAMMEN
 483 Tristan Mong
 5144 FYLLINGSDALEN
-484 Bertha Øvretveit
+484 Juliane Øvretveit
 4609 KARDEMOMME BY
 485 Kacper Lende
 1377 BILLINGSTAD
-486 Kjellaug Gjelsten
+486 Johanna Gjelsten
 8270 DRAG
 487 Marko Aasebø
 1590 RYGGE FLYSTASJON
@@ -977,21 +977,21 @@
 1053 OSLO
 489 Daniel Jessen
 7563 MALVIK
-490 Katinka Raa
+490 Solrun Raa
 0661 OSLO
-491 Vibecke Goa
+491 Simone Goa
 4005 STAVANGER
 492 Inger Værnes
 3932 PORSGRUNN
-493 Else-marie Grøtte
+493 Josephine Grøtte
 8622 MO I RANA
 494 Håvar Rovik
 3646 HVITTINGFOSS
 495 Hallvard Bakkan
 0712 OSLO
-496 Janet Rosenvinge
+496 Ramona Rosenvinge
 4857 ARENDAL
-497 Alma Rekkedal
+497 Tanja Rekkedal
 1776 HALDEN
 498 Ann Ryeng
 1903 GAN
@@ -999,9 +999,9 @@
 4619 MOSBY
 500 Roar Kyvik
 6455 KORTGARDEN
-501 Harriet Korneliussen
+501 Kristi Korneliussen
 2218 LUNDERSÆTER
-502 Oddlaug Eikås
+502 Norunn Eikås
 0862 OSLO
 503 Mark Lerøy
 3603 KONGSBERG
@@ -1009,15 +1009,15 @@
 5545 VORMEDAL
 505 Edvard Skurdal
 4611 KRISTIANSAND S
-506 Maia Muren
+506 Idun Muren
 0607 OSLO
 507 Thanh Rygg
 4820 FROLAND
-508 Laura Roen
+508 Josefine Roen
 6986 VÆRLANDET
-509 Julia Grinde
+509 Eirin Grinde
 0410 OSLO
-510 Anni Braut
+510 Elen Braut
 4150 RENNESØY
 511 Oddvar Hebnes
 6942 SVORTEVIK
@@ -1027,7 +1027,7 @@
 1870 ØRJE
 514 Max Ulseth
 3166 TOLVSRØD
-515 Norunn Dyrøy
+515 Karine Dyrøy
 4894 GRIMSTAD
 516 Wojciech Henriksen
 7624 EKNE
@@ -1035,41 +1035,41 @@
 8297 TRANØY
 518 Nikolay Brandt
 9406 HARSTAD
-519 Lina Rud
+519 Tine Rud
 0557 OSLO
 520 Eilert Saastad
 0514 OSLO
-521 Alexandra Østebø
+521 Borgny Østebø
 7235 LER
 522 Børge Kavli
 4621 KRISTIANSAND S
 523 Balder Reite
 5444 ESPEVÆR
-524 Beata Vu
+524 Betty Vu
 0001 OSLO
 525 Sami Halsen
 5184 OLSVIK
-526 Ninni Bjørkmo
+526 Mari-ann Bjørkmo
 6927 YTRØYGREND
 527 Maximilian Nordseth
 0573 OSLO
-528 Julianne Stenvik
+528 Melissa Stenvik
 1417 SOFIEMYR
-529 Kathrine Holberg
+529 Mina Holberg
 4005 STAVANGER
 530 Magnus Mælen
 2581 FOLLDAL
 531 Liam Kydland
 8210 FAUSKE
-532 Fadumo Gullaksen
+532 Regina Gullaksen
 0274 OSLO
 533 Torkil Moss
 1063 OSLO
-534 Kerstin Halleraker
+534 Mirjam Halleraker
 9171 LONGYEARBYEN
 535 Tristan Turøy
 6462 RAUDSAND
-536 Jorun Falck
+536 Mariann Falck
 9980 BERLEVÅG
 537 Jose Justad
 3482 TOFTE
@@ -1081,39 +1081,39 @@
 1081 OSLO
 541 Klaus Engevold
 1431 ÅS
-542 Birgitte Blix
+542 Benedicte Blix
 1458 FJELLSTRAND
-543 Christine Sønstebø
+543 Sandra Sønstebø
 4208 SAUDASJØEN
-544 Mariell Nordengen
+544 Marlene Nordengen
 8890 LEIRFJORD
-545 Johanne Hallan
+545 Oda Hallan
 2081 EIDSVOLL
 546 Jorunn Drivenes
 9402 HARSTAD
-547 Valborg Kolås
+547 Venke Kolås
 4861 ARENDAL
-548 Miriam Fossmo
+548 Evy Fossmo
 2686 LOM
-549 Katharina Bøen
+549 Susan Bøen
 1941 BJØRKELANGEN
 550 Wiggo Viddal
 2665 LESJA
 551 Håvar Erga
 3262 LARVIK
-552 Sylwia Haglund
+552 Berta Haglund
 3937 PORSGRUNN
-553 Gerda Nessa
+553 Elisabet Nessa
 6184 STORESTANDAL
-554 Sunniva Johanson
+554 Mathilde Johanson
 8003 BODØ
-555 Arna Holmefjord
+555 Ulla Holmefjord
 7447 TRONDHEIM
 556 Frederik Nessa
 9521 KAUTOKEINO
-557 Eirin Haugland
+557 Svanhild Haugland
 1341 SLEPENDEN
-558 Petra Hansen
+558 Mai Hansen
 0263 OSLO
 559 Ole-petter Nerland
 9593 BREIVIKBOTN
@@ -1121,17 +1121,17 @@
 3895 EDLAND
 561 Ingeborg Kind
 0037 OSLO
-562 Sunniva Sjølie
+562 Mathilde Sjølie
 4551 FARSUND
-563 Borghild Grønning
+563 Edith Grønning
 3114 TØNSBERG
 564 Jimmy Sævik
 5200 OS
-565 Una Linge
+565 Stella Linge
 2321 HAMAR
 566 Anita Bjønnes
 3183 HORTEN
-567 Marion Kolberg
+567 Greta Kolberg
 5542 KARMSUND
 568 Edwin Hidle
 5387 MØKSTER
@@ -1141,11 +1141,11 @@
 4272 SANDVE
 571 Lennart Aarstad
 6453 KLEIVE
-572 Ninni Sømme
+572 Mari-ann Sømme
 1815 ASKIM
 573 Herman Hult
 3970 LANGESUND
-574 Gitte Bøhn
+574 Reidunn Bøhn
 9593 BREIVIKBOTN
 575 Bjørnar Strømnes
 5954 MONGSTAD
@@ -1155,7 +1155,7 @@
 5416 STORD
 578 Imran Sæternes
 0458 OSLO
-579 Navnestatistikk, Sandvold
+579 Lena Sandvold
 4082 STAVANGER
 580 Hege Dyrøy
 2411 ELVERUM
@@ -1169,17 +1169,17 @@
 0369 OSLO
 585 Håvar Folland
 9600 HAMMERFEST
-586 Thi Granlund
+586 Mie Granlund
 6120 FOLKESTAD
 587 Amin Tjøstheim
 7600 LEVANGER
 588 Joachim Ribe
 0758 OSLO
-589 Anne-grethe Nilssen
+589 Marielle Nilssen
 3785 SKIEN
 590 Frithjof Grøstad
 8602 MO I RANA
-591 Toril Straume
+591 Renate Straume
 5341 STRAUME
 592 Haldor Hegre
 2073 BØN
@@ -1187,19 +1187,19 @@
 5593 SKÅNEVIK
 594 Halfdan Plassen
 6190 BJØRKE
-595 Sina Ramsdal
+595 Tatiana Ramsdal
 5858 BERGEN
-596 Ulla Øye
+596 Thi Øye
 9020 TROMSDALEN
 597 Reza Dyrhaug
 0382 OSLO
-598 Nathalie Nornes
+598 Ronja Nornes
 2819 GJØVIK
 599 Jorge Årdal
 8360 BØSTAD
 600 David Yildirim
 2005 RÆLINGEN
-601 Agnete Moa
+601 Mariam Moa
 5816 BERGEN
 602 Annar Skauge
 5517 HAUGESUND
@@ -1223,13 +1223,13 @@
 6516 KRISTIANSUND N
 612 Mindaugas Egeberg
 8283 LEINESFJORD
-613 Edit Sandvær
+613 Judit Sandvær
 1684 VESTERØY
 614 Grzegorz Grinde
 9297 TROMSØ
 615 Ted Chen
 3906 PORSGRUNN
-616 Ine Thorbjørnsen
+616 Judith Thorbjørnsen
 7530 MERÅKER
 617 Ida Reime
 7750 NAMDALSEID
@@ -1237,17 +1237,17 @@
 3412 LIERSTRANDA
 619 Steven Risan
 0694 OSLO
-620 Ingvill Lillegård
+620 Matilde Lillegård
 6421 MOLDE
 621 Kari Sandvold
 2879 ODNES
-622 Guro Berthelsen
+622 Rigmor Berthelsen
 4123 SØR-HIDLE
-623 Helga Bruaset
+623 Margit Bruaset
 4637 KRISTIANSAND S
 624 Rainer Kvalø
 7037 TRONDHEIM
-625 Ann-kristin Fossheim
+625 Hildegunn Fossheim
 6433 HUSTAD
 626 Kacper Rabben
 5502 HAUGESUND
@@ -1255,11 +1255,11 @@
 9007 TROMSØ
 628 Hjalmar Westgaard
 4857 ARENDAL
-629 Laura Nicolaisen
+629 Josefine Nicolaisen
 0701 OSLO
 630 Van Tjøstheim
 0214 OSLO
-631 Laura Bolme
+631 Josefine Bolme
 3721 SKIEN
 632 Jacob Ånensen
 0201 OSLO
@@ -1271,7 +1271,7 @@
 7730 BEITSTAD
 636 Otto Gloppen
 1667 ROLVSØY
-637 Magni Danielsen
+637 Luna Danielsen
 1420 SVARTSKOG
 638 Thore Ravndal
 8270 DRAG
@@ -1279,13 +1279,13 @@
 0017 OSLO
 640 Henryk Andorsen
 0712 OSLO
-641 Marthe Bjørgum
+641 Gunvor Bjørgum
 4536 BJELLAND
 642 Aaron Sandø
 6488 MYKLEBOST
 643 Rune Vagle
 2435 BRASKEREIDFOSS
-644 Åsne Hartveit
+644 Anne-karin Hartveit
 8181 MYKEN
 645 Jarand Due
 1827 HOBØL
@@ -1299,19 +1299,19 @@
 2074 EIDSVOLL VERK
 650 Raymond Langeland
 3140 NØTTERØY
-651 Tatjana Botten
+651 Susanna Botten
 7166 TARVA
 652 Siri Skinstad
 7438 TRONDHEIM
 653 Ari Nymo
 1515 MOSS
-654 Tatjana Ramsdal
+654 Susanna Ramsdal
 4110 FORSAND
 655 Ørnulf Frøshaug
 5970 BYRKNESØY
 656 Aron Thorsrud
 3928 PORSGRUNN
-657 Inga Welle
+657 Linnea Welle
 7098 SAUPSTAD
 658 Ryszard Øglænd
 0763 OSLO
@@ -1323,17 +1323,17 @@
 5519 HAUGESUND
 662 Liv Moi
 4485 FEDA
-663 Emmy Ose
+663 Nikoline Ose
 1389 HEGGEDAL
 664 Anita Forland
 3223 SANDEFJORD
 665 Toralf Storås
 8820 DØNNA
-666 Katharina Haddeland
+666 Susan Haddeland
 2216 ROVERUD
 667 Bjørg Berstad
 2007 KJELLER
-668 Margrethe Bø
+668 Inga Bø
 2631 RINGEBU
 669 Toralf Huynh
 2409 ELVERUM
@@ -1347,13 +1347,13 @@
 6817 NAUSTDAL
 674 Geir Busch
 8084 BODØ
-675 Embla Nerhus
+675 Kaisa Nerhus
 7016 TRONDHEIM
 676 Einar Dyb
 6064 HADDAL
 677 Bjarne Kvernberg
 7442 TRONDHEIM
-678 Mariel Misje
+678 Anne-marit Misje
 0568 OSLO
 679 Else Byrkjeland
 4127 LYSEBOTN
@@ -1361,11 +1361,11 @@
 0605 OSLO
 681 Ronny Fossnes
 0574 OSLO
-682 Solvor Hatlestad
+682 Alina Hatlestad
 0034 OSLO
 683 Sten Gashi
 3026 DRAMMEN
-684 Iris Johansen
+684 Kate Johansen
 2662 DOVRE
 685 Mustafa Austad
 7282 BOGØYVÆR
@@ -1375,53 +1375,53 @@
 9277 TROMSØ
 688 Arnt Melheim
 7863 OVERHALLA
-689 Mathilde Lyngstad
+689 Maja Lyngstad
 8195 GJERØY
 690 Åge Bøyum
 9014 TROMSØ
-691 Marita Styve
+691 Christina Styve
 2071 RÅHOLT
-692 Renee Åsheim
+692 Henrikke Åsheim
 7551 HOMMELVIK
-693 Rosa Kjærvik
+693 Tea Kjærvik
 7940 OTTERSØY
-694 Ann-christin Sandø
+694 Jofrid Sandø
 0182 OSLO
-695 Iben Lilleeng
+695 Beathe Lilleeng
 1891 RAKKESTAD
-696 Renee Blix
+696 Henrikke Blix
 6151 ØRSTA
-697 Agnethe Røren
+697 Claudia Røren
 8733 STUVLAND
-698 Kirsti Wahlstrøm
+698 Sonja Wahlstrøm
 4662 KRISTIANSAND S
-699 Fadumo Sandmo
+699 Regina Sandmo
 4028 STAVANGER
-700 Christina Stokkan
+700 Susanne Stokkan
 3209 SANDEFJORD
 701 Trym Hadland
 8130 SANDHORNØY
-702 Linea Grøtting
+702 Maj Grøtting
 2306 HAMAR
-703 Elzbieta Falck
+703 Gunda Falck
 5863 BERGEN
 704 Grzegorz Tang
 4368 VARHAUG
-705 Hjørdis By
+705 Tordis By
 7422 TRONDHEIM
 706 Gustav Neteland
 4389 VIKESÅ
 707 Evald Heskestad
 3235 SANDEFJORD
-708 Renate Merkesdal
+708 Guro Merkesdal
 5511 HAUGESUND
-709 Regina Fossen
+709 Cathrin Fossen
 0284 OSLO
-710 Isabella Rønnestad
+710 Hilda Rønnestad
 9503 ALTA
-711 Rebecca Saastad
+711 Siw Saastad
 5941 AUSTRHEIM
-712 Una Vevle
+712 Stella Vevle
 5748 STYVI
 713 Ulrik Tandstad
 0152 OSLO
@@ -1433,65 +1433,65 @@
 5555 FØRDE I HORDALAND
 717 Hallvard Sunde
 0705 OSLO
-718 Alma Amdal
+718 Tanja Amdal
 3744 SKIEN
-719 Judit Torset
+719 Lotta Torset
 3231 SANDEFJORD
 720 Mikkel Brudevoll
 7451 TRONDHEIM
-721 Margaret Utne
+721 Christin Utne
 0987 OSLO
-722 Anneli Hella
+722 Annlaug Hella
 5700 VOSS
 723 Hassan Albrigtsen
 6630 TINGVOLL
 724 Jean Reigstad
 8316 LAUPSTAD
-725 Oda Tverberg
+725 Aslaug Tverberg
 5819 BERGEN
 726 Agnar Vestvik
 3893 VINJESVINGEN
-727 Sanne Røgeberg
+727 Kjerstin Røgeberg
 6727 BREMANGER
 728 Andres Skorpen
 6921 HARDBAKKE
 729 Carsten Skaug
 3041 DRAMMEN
-730 Sarah Bhatti
+730 Aurora Bhatti
 1403 LANGHUS
 731 Bjørnar Vågenes
 0177 OSLO
-732 Helen Sæternes
+732 Birgitte Sæternes
 7619 SKOGN
 733 Egil Nesse
 2405 ELVERUM
-734 Dorota Abdi
+734 Anne-mari Abdi
 4844 ARENDAL
 735 Peter Vabø
 1326 LYSAKER
-736 Terese Fleischer
+736 Barbara Fleischer
 6927 YTRØYGREND
-737 Elise Bue
+737 Ingvild Bue
 4755 HOVDEN I SETESDAL
 738 Maria Welde
 2967 LOMEN
 739 Eyvind Gulli
 9388 FJORDGARD
-740 Ina Omar
+740 Borghild Omar
 4952 RISØR
 741 Edvard Arntzen
 2306 HAMAR
-742 Christin Liverød
+742 Audhild Liverød
 1970 HEMNES
 743 Hermann Tallaksen
 1758 HALDEN
-744 Judit Magnus
+744 Lotta Magnus
 4951 RISØR
 745 Rune Søvik
 6414 MOLDE
 746 Hauk Flatland
 5703 VOSS
-747 Sofia Sundal
+747 Lotte Sundal
 9442 RAMSUND
 748 Bengt Holmstrøm
 0561 OSLO
@@ -1499,17 +1499,17 @@
 4265 HÅVIK
 750 Kolbjørn Thomassen
 8370 LEKNES
-751 Edna Myhr
+751 Silja Myhr
 0572 OSLO
-752 Ane Alm
+752 Tuva Alm
 3296 NEVLUNGHAMN
 753 Ahmad Abdullahi
 3331 SKOTSELV
-754 Rebekka Stien
+754 Live Stien
 0462 OSLO
-755 Sofie Ødegården
+755 Charlotte Ødegården
 0310 OSLO
-756 Lilly Lønning
+756 Anniken Lønning
 1089 OSLO
 757 Anton Sletvold
 0490 OSLO
@@ -1517,29 +1517,29 @@
 9182 SEGLVIK
 759 Rita Krohn
 0170 OSLO
-760 Rebecca Sømme
+760 Siw Sømme
 4915 VESTRE SANDØYA
-761 Ylva Spilde
+761 Hedvig Spilde
 1704 SARPSBORG
 762 Svenn Skadberg
 0664 OSLO
 763 Alex Fadnes
 1364 FORNEBU
-764 Charlotte Røsnes
+764 Christine Røsnes
 7467 TRONDHEIM
-765 Edna Aden
+765 Silja Aden
 9403 HARSTAD
 766 Jonn Kirkerud
 3950 BREVIK
 767 Birk Hvidsten
 5559 SVEIO
-768 Margaret Evenrud
+768 Christin Evenrud
 1719 GREÅKER
-769 Edle Vilhelmsen
+769 Solvår Vilhelmsen
 7893 SKOROVATN
 770 Fritz Krasniqi
 0016 OSLO
-771 Siril Kvalvik
+771 Sylwia Kvalvik
 7713 STEINKJER
 772 Grzegorz Hauger
 0284 OSLO
@@ -1549,15 +1549,15 @@
 9513 ALTA
 775 Mikkel Paus
 8615 SKONSENG
-776 Mariel Borsheim
+776 Anne-marit Borsheim
 8414 HENNES
 777 Thormod Skoglund
 4853 HIS
 778 Børge Skansen
 1081 OSLO
-779 Aina Levang
+779 Kristina Levang
 1514 MOSS
-780 Ann-kristin Søbstad
+780 Hildegunn Søbstad
 5403 STORD
 781 Ahmad Dokken
 6921 HARDBAKKE
@@ -1571,11 +1571,11 @@
 4392 SANDNES
 786 Torodd Haugvaldstad
 7455 TRONDHEIM
-787 Tatjana Bech
+787 Susanna Bech
 3133 DUKEN
 788 Rasmus Dalheim
 4120 TAU
-789 Norma Grande
+789 Filippa Grande
 5580 ØLEN
 790 Torstein Jørgensen
 2614 LILLEHAMMER
@@ -1587,13 +1587,13 @@
 3160 STOKKE
 794 Martine Skaug
 8256 RØKLAND
-795 Elisa Corneliussen
+795 Fanny Corneliussen
 4853 HIS
-796 Ine Langaas
+796 Judith Langaas
 0262 OSLO
-797 Ailin Løvlien
+797 Bergliot Løvlien
 8210 FAUSKE
-798 Mariam Wie
+798 Kim Wie
 5836 BERGEN
 799 Bror Randen
 3230 SANDEFJORD
@@ -1605,7 +1605,7 @@
 2428 SØRE OSEN
 803 Michael Tufte
 0517 OSLO
-804 Jofrid Serigstad
+804 Katja Serigstad
 6386 MÅNDALEN
 805 Tor Otterstad
 2630 RINGEBU
@@ -1613,7 +1613,7 @@
 5059 BERGEN
 807 Leo Lillevik
 5695 UGGDAL
-808 Irmelin Mathiesen
+808 Aasta Mathiesen
 8830 VANDVE
 809 Lene Sørlie
 6222 IKORNNES
@@ -1623,15 +1623,15 @@
 7327 SVORKMO
 812 Ronald Viddal
 7029 TRONDHEIM
-813 Matilde Thomas
+813 Elna Thomas
 9445 TOVIK
 814 Kurt Ottersen
 3785 SKIEN
 815 Jørn Borch
 0690 OSLO
-816 Kjellrun Amdal
+816 Solvor Amdal
 5863 BERGEN
-817 Torun Strømsnes
+817 Gunnvor Strømsnes
 8850 HERØY
 818 Mindaugas Langfeldt
 4069 STAVANGER
@@ -1641,11 +1641,11 @@
 5472 SEIMSFOSS
 821 Tadeusz Moholt
 9471 GRATANGEN
-822 Kari-anne Brattås
+822 Linea Brattås
 6777 STÅRHEIM
 823 Elin Aanensen
 3280 TJODALYNG
-824 Zahra Løkkeberg
+824 Maryam Løkkeberg
 3232 SANDEFJORD
 825 Mohamad Sandve
 3138 SKALLESTAD
@@ -1655,43 +1655,43 @@
 4328 SANDNES
 828 Ole-martin Engstrøm
 0854 OSLO
-829 Gry Nyberg
+829 Kine Nyberg
 2000 LILLESTRØM
-830 Paula Melum
+830 Oddlaug Melum
 3661 RJUKAN
 831 Jerzy Woll
 5560 NEDSTRAND
 832 Ellen Joa
 4735 EVJE
-833 Lone Klemetsen
+833 Isabel Klemetsen
 5703 VOSS
-834 Ingvill Heier
+834 Matilde Heier
 4884 GRIMSTAD
-835 Oddrun Nybakk
+835 Haldis Nybakk
 1207 OSLO
 836 Konrad Lillejord
 3214 SANDEFJORD
-837 Agnete Harstad
+837 Mariam Harstad
 6139 FISKÅBYGD
 838 Birk Rødseth
 9846 TANA
 839 Milan Kjelstad
 3812 AKKERHAUGEN
-840 Jannike Eik
+840 Elida Eik
 2714 JAREN
-841 Mari-ann Egeland
+841 Suzanne Egeland
 2209 KONGSVINGER
 842 Ketil Eidet
 9170 LONGYEARBYEN
 843 Annar Tufte
 4868 SELÅSVATN
-844 Betty Sharma
+844 Marlen Sharma
 1354 BÆRUMS VERK
 845 Bjarne Melby
 4052 RØYNEBERG
 846 Stig Fagervold
 8006 BODØ
-847 Mildrid Fiskvik
+847 Åsta Fiskvik
 1616 FREDRIKSTAD
 848 Torbjørn Sæterbø
 4230 SAND
@@ -1699,17 +1699,17 @@
 1322 HØVIK
 850 Johnny Myreng
 5545 VORMEDAL
-851 Amalie Mjånes
+851 Marthe Mjånes
 6166 SÆBØ
 852 Camilla Jansson
 0775 OSLO
-853 Agathe Øvrebø
+853 Sabrina Øvrebø
 2936 BEGNADALEN
 854 Tove Storøy
 7610 LEVANGER
 855 Glenn Storhaug
 3539 FLÅ
-856 Solgunn Tjore
+856 Mariel Tjore
 3970 LANGESUND
 857 Oddbjørn Skog
 7338 MELDAL
@@ -1719,13 +1719,13 @@
 7563 MALVIK
 860 Ingebrigt Hjelseth
 3127 TØNSBERG
-861 Aleksandra Reitan
+861 Rønnaug Reitan
 5629 JONDAL
-862 Fredrikke Yusuf
+862 Belinda Yusuf
 2642 KVAM
-863 Anne-karin Strømsvåg
+863 Inger-johanne Strømsvåg
 9497 HARSTAD
-864 Eivor Harnes
+864 Leila Harnes
 7120 LEKSVIK
 865 Emir Viken
 9254 TROMSØ
@@ -1733,31 +1733,31 @@
 4503 MANDAL
 867 Frederik Hollund
 3197 HORTEN
-868 Frida Follestad
+868 Amalie Follestad
 9730 KARASJOK
-869 Signy Hatlevik
+869 Valborg Hatlevik
 1378 NESBRU
-870 Gretha Dagestad
+870 Elisa Dagestad
 6409 MOLDE
-871 Ronja Hoel
+871 Arnhild Hoel
 3528 HEDALEN
 872 Eirik Ring
 5643 STRANDVIK
-873 Mia Oshaug
+873 Lisa Oshaug
 1709 SARPSBORG
-874 Norma Løvstad
+874 Filippa Løvstad
 5498 MATRE
 875 Gudbrand Bjerkvik
 3725 SKIEN
 876 Dominik Røyset
 6069 HAREID
-877 Christine Moe
+877 Sandra Moe
 0267 OSLO
-878 Tea Heen
+878 Emmy Heen
 0551 OSLO
 879 Glen Slåen
 9486 HARSTAD
-880 Gabriela Odland
+880 Jelena Odland
 2808 GJØVIK
 881 Gøran Ross
 3269 LARVIK
@@ -1765,11 +1765,11 @@
 7005 TRONDHEIM
 883 Louis Green
 0001 OSLO
-884 Ebba Holmberg
+884 Erica Holmberg
 0486 OSLO
-885 Eldrid Skinstad
+885 Fride Skinstad
 0457 OSLO
-886 Mathilde Matre
+886 Maja Matre
 7971 KOLVEREID
 887 Alan Klausen
 0640 OSLO
@@ -1779,33 +1779,33 @@
 0373 OSLO
 890 Mathis Lier
 3258 LARVIK
-891 Serine Furre
+891 Beatrice Furre
 0861 OSLO
-892 Torhild Frafjord
+892 Selma Frafjord
 5257 KOKSTAD
 893 Bjørn Dahlberg
 9288 TROMSØ
 894 Brede Tunheim
 4836 ARENDAL
-895 Sylvi Svardal
+895 Nelly Svardal
 7492 TRONDHEIM
 896 Karol Dalseth
 0101 OSLO
 897 Frederik Røgeberg
 5011 BERGEN
-898 Rebekka Ree
+898 Live Ree
 5559 SVEIO
-899 Synøve Rogne
+899 Jennifer Rogne
 2967 LOMEN
 900 Helene Frydenberg
 0374 OSLO
-901 Eirin Brastad
+901 Svanhild Brastad
 9442 RAMSUND
 902 Oddvar Yusuf
 4150 RENNESØY
 903 Gunnar Sola
 6674 KVISVIK
-904 Marion Bull
+904 Greta Bull
 9131 KÅRVIK
 905 Fabian Hjelseth
 3014 DRAMMEN
@@ -1817,29 +1817,29 @@
 3017 DRAMMEN
 909 Walter Busch
 7203 VINJEØRA
-910 Kjellrun Sandhåland
+910 Solvor Sandhåland
 4868 SELÅSVATN
-911 Sahra Hilleren
+911 Solgunn Hilleren
 8536 EVENES
-912 Iman Skauge
+912 Hulda Skauge
 1771 HALDEN
 913 Tor Tveter
 7280 SULA
 914 Hamid Tyldum
 5243 FANA
-915 Anne-marie Jahren
+915 Petra Jahren
 0479 OSLO
-916 Hannah Almås
+916 Klara Almås
 3144 VEIERLAND
-917 Tina Varhaug
+917 Vibeke Varhaug
 1006 OSLO
 918 Ådne Sperre
 2862 FLUBERG
-919 Turi Hynne
+919 Silvia Hynne
 3185 SKOPPUM
 920 Birger Betten
 1379 NESBRU
-921 Patricia Gustavson
+921 Katrin Gustavson
 2091 HURDAL
 922 Reidar Refsnes
 0030 OSLO
@@ -1857,7 +1857,7 @@
 0129 OSLO
 929 Gert Eik
 3550 GOL
-930 Jofrid Dalene
+930 Katja Dalene
 3795 DRANGEDAL
 931 Rafal Langnes
 5058 BERGEN
@@ -1865,89 +1865,89 @@
 7289 SOKNEDAL
 933 Torolf Kjeldsberg
 5650 TYSSE
-934 Berta Træet
+934 Tatjana Træet
 5869 BERGEN
-935 Birgit Lundeby
+935 Sølvi Lundeby
 5293 LONEVÅG
 936 Ansgar Hodneland
 3261 LARVIK
 937 Jenny Gaarder
 2055 NORDKISA
-938 Margun Jevnaker
+938 Anne-sofie Jevnaker
 1535 MOSS
 939 Mateusz Flaten
 7178 STOKKØY
-940 Anbjørg Aarsland
+940 Marry Aarsland
 5341 STRAUME
 941 Alfred Karlson
 1272 OSLO
-942 Møyfrid Hannestad
+942 Jasmin Hannestad
 9190 AKKARVIK
-943 Sigrun Johnson
+943 Iselin Johnson
 7404 TRONDHEIM
 944 Jørgen Nordtømme
 5221 NESTTUN
-945 Ane Rovik
+945 Tuva Rovik
 3238 SANDEFJORD
 946 Lise Nicolaysen
 3262 LARVIK
 947 Julius Sandum
 9283 TROMSØ
-948 Rebecca Husum
+948 Siw Husum
 4892 GRIMSTAD
-949 Anny Sleire
+949 Amanda Sleire
 5565 TYSVÆRVÅG
 950 Ronald Dagsland
 2940 HEGGENES
-951 Rebekka Zachariassen
+951 Live Zachariassen
 7484 TRONDHEIM
 952 Nikolas Arneberg
 1518 MOSS
-953 Marlene Aarsland
+953 Ylva Aarsland
 4120 TAU
 954 Trym Risvik
 9526 SUOLOVUOPMI
-955 Miriam Fauskanger
+955 Evy Fauskanger
 3191 HORTEN
 956 Hussein Mikalsen
 6024 ÅLESUND
-957 Jelena Jama
+957 Serine Jama
 9426 BJARKØY
-958 Tuva Øverbø
+958 Sunniva Øverbø
 7428 TRONDHEIM
 959 Noah Fagerheim
 8202 FAUSKE
 960 Marek Brekke
 7357 SKAUN
-961 Frøydis Lønning
+961 Natalie Lønning
 3632 UVDAL
 962 Ingvald Ness
 3946 PORSGRUNN
-963 Merete Noreng
+963 Trude Noreng
 8250 ROGNAN
 964 Tony Bjørnevik
 1401 SKI
-965 Sophia Skjæveland
+965 Eivor Skjæveland
 7482 TRONDHEIM
 966 Åge Sikveland
 1603 FREDRIKSTAD
 967 Ole-petter Grønli
 4628 KRISTIANSAND S
-968 Susann Silden
+968 Kitty Silden
 3484 HOLMSBU
-969 Elida Hoddevik
+969 Adele Hoddevik
 3180 NYKIRKE
-970 Turi Selmer
+970 Silvia Selmer
 2890 ETNEDAL
 971 Andre Hammerstad
 4381 HAUGE I DALANE
-972 Tordis Forberg
+972 Malene Forberg
 6460 EIDSVÅG I ROMSDAL
-973 Gry Hveem
+973 Kine Hveem
 8723 HUSBY
 974 Patrik Kjesbu
 6901 FLORØ
-975 Helle Velde
+975 Guri Velde
 3660 RJUKAN
 976 Rudolf Bjerk
 0129 OSLO
@@ -1957,9 +1957,9 @@
 6680 HALSANAUSTAN
 979 Torvald Eike
 4403 FLEKKEFJORD
-980 Målfrid Halse
+980 Tiril Halse
 0675 OSLO
-981 May-britt Korneliussen
+981 Iren Korneliussen
 9424 KJØTTA
 982 Muhammad Kjesbu
 3886 DALEN
@@ -1969,29 +1969,29 @@
 8022 BODØ
 985 Grete Granerud
 5887 BERGEN
-986 Mildrid Hanstad
+986 Åsta Hanstad
 7459 TRONDHEIM
 987 Juan Horn
 2810 GJØVIK
-988 Sylvi Valberg
+988 Nelly Valberg
 0555 OSLO
-989 Mildrid Sandbæk
+989 Åsta Sandbæk
 1443 OSCARSBORG
 990 Hilmar Hårstad
 3941 PORSGRUNN
-991 Reidunn Sørbø
+991 Ulrikke Sørbø
 5003 BERGEN
 992 Sindre Askeland
 3997 PORSGRUNN
 993 Thomas Gaup
 2675 OTTA
-994 Maya Fjermestad
+994 Amina Fjermestad
 0182 OSLO
 995 Unni Langen
 9263 TROMSØ
 996 Liam Ulriksen
 8312 HENNINGSVÆR
-997 Jeanett Sjøberg
+997 Herdis Sjøberg
 8260 INNHAVET
 998 Georg Abbas
 1704 SARPSBORG
@@ -1999,17 +1999,17 @@
 7447 TRONDHEIM
 1000 Eilif Loe
 4328 SANDNES
-1001 Signy Rørvik
+1001 Valborg Rørvik
 0211 OSLO
-1002 Annette Algrøy
+1002 Sidsel Algrøy
 0477 OSLO
 1003 Bror Juliussen
 1484 HAKADAL
-1004 Trude Wisth
+1004 Victoria Wisth
 6080 GURSKØY
 1005 Oscar Aarrestad
 2016 FROGNER
-1006 Jannike Mørkved
+1006 Elida Mørkved
 5561 BOKN
 1007 Wieslaw Leikvoll
 4861 ARENDAL
@@ -2017,45 +2017,45 @@
 2673 HØVRINGEN
 1009 Tord Kjærvik
 8328 STOREMOLLA
-1010 Nicoline Grønning
+1010 Aashild Grønning
 9712 LAKSELV
-1011 Silvia Moss
+1011 Vibecke Moss
 8515 NARVIK
 1012 Manuel Kvilhaug
 8723 HUSBY
 1013 Ole Blomberg
 0363 OSLO
-1014 Ann-helen Ellingsen
+1014 Ingerid Ellingsen
 6018 ÅLESUND
 1015 Kato Henningsen
 4090 HAFRSFJORD
-1016 Aasta Sannes
+1016 Bertha Sannes
 9015 TROMSØ
-1017 Michelle Rykkje
+1017 Ine Rykkje
 3241 SANDEFJORD
 1018 Dani Svela
 0567 OSLO
-1019 Ulla Asphaug
+1019 Thi Asphaug
 0840 OSLO
 1020 Unni Hovd
 5366 MISJE
-1021 Vilja Landa
+1021 Fadumo Landa
 5238 RÅDAL
 1022 Isak Buseth
 6218 HELLESYLT
-1023 Doris Myrdal
+1023 Ann-karin Myrdal
 8283 LEINESFJORD
 1024 Thor Bærheim
 3580 GEILO
 1025 Steven Djuve
 5392 STOREBØ
-1026 Snefrid Oshaug
+1026 Anlaug Oshaug
 6211 VALLDAL
 1027 Jardar Aasheim
 7384 ÅLEN
 1028 Matthew Kleven
 3141 KJØPMANNSKJÆR
-1029 Mirjam Tverberg
+1029 Patricia Tverberg
 1532 MOSS
 1030 Carsten Heggen
 4887 GRIMSTAD
@@ -2071,29 +2071,29 @@
 9580 BERGSFJORD
 1036 Tore Holst
 2130 KNAPPER
-1037 Guri Rugland
+1037 Jane Rugland
 5243 FANA
 1038 Einar Elverum
 7492 TRONDHEIM
-1039 Vera Vaa
+1039 Eldbjørg Vaa
 1202 OSLO
-1040 Anja Rahimi
+1040 Kaja Rahimi
 3742 SKIEN
-1041 Alva Mæland
+1041 Julianne Mæland
 9263 TROMSØ
 1042 Karin Lillemo
 5516 HAUGESUND
 1043 Glenn Rødseth
 1751 HALDEN
-1044 Aleksandra Bjørvik
+1044 Rønnaug Bjørvik
 7470 TRONDHEIM
 1045 Sjur Ekrem
 0777 OSLO
-1046 Åslaug Zahl
+1046 Rut Zahl
 4516 MANDAL
-1047 Pia Elvenes
+1047 Erna Elvenes
 5862 BERGEN
-1048 Kristiane Einan
+1048 Eldrid Einan
 3264 LARVIK
 1049 Audun Brunborg
 3253 LARVIK
@@ -2103,9 +2103,9 @@
 1357 BEKKESTUA
 1052 Thore Bunes
 7716 STEINKJER
-1053 Gina Hamre
+1053 Hildur Hamre
 5803 BERGEN
-1054 Hulda Mjøen
+1054 Siril Mjøen
 7777 NORD-STATLAND
 1055 Andreas Rydningen
 8606 MO I RANA
@@ -2113,9 +2113,9 @@
 2235 MATRAND
 1057 Johannes Mikkelsen
 7510 SKATVAL
-1058 Kaja Grønvik
+1058 Jorun Grønvik
 6143 FISKÅBYGD
-1059 Elvira Hidle
+1059 Gudny Hidle
 1823 KNAPSTAD
 1060 Preben Ingebretsen
 5568 VIKEBYGD
@@ -2123,17 +2123,17 @@
 5987 HOSTELAND
 1062 Kirsten Sevaldsen
 3796 SKIEN
-1063 Fredrikke Høglund
+1063 Belinda Høglund
 1430 ÅS
-1064 Torunn Haugum
+1064 Kirsti Haugum
 6984 STONGFJORDEN
-1065 Elina Lindblad
+1065 Anneli Lindblad
 3173 VEAR
 1066 Ronny Warholm
 5951 LINDÅS
 1067 Trygve Morland
 6393 TOMREFJORD
-1068 Irina Sleire
+1068 Brynhild Sleire
 7301 ORKANGER
 1069 Khalid Rekstad
 6788 OLDEN
@@ -2141,11 +2141,11 @@
 0702 OSLO
 1071 Oskar Sagstad
 3032 DRAMMEN
-1072 Martha Brattli
+1072 Helen Brattli
 5747 GUDVANGEN
 1073 Birger Krohn
 3540 NESBYEN
-1074 Renata Lundquist
+1074 Cassandra Lundquist
 9350 SJØVEGAN
 1075 Yasin Tømmerås
 9046 OTEREN
@@ -2159,15 +2159,15 @@
 3914 PORSGRUNN
 1080 Håvard Hemmingsen
 3169 STOKKE
-1081 Edith Austrheim
+1081 Sarah Austrheim
 0127 OSLO
 1082 Przemyslaw Nærland
 9068 NORD-LENANGEN
-1083 Ingebjørg Flem
+1083 Aina Flem
 5563 FØRRESFJORDEN
-1084 Terese Haraldstad
+1084 Barbara Haraldstad
 0502 OSLO
-1085 Ingerid Reyes
+1085 Svetlana Reyes
 4044 HAFRSFJORD
 1086 Scott Bauer
 9981 BERLEVÅG
@@ -2175,25 +2175,25 @@
 5576 ØVRE VATS
 1088 Torill Broch
 9533 KONGSHUS
-1089 Sarah Fimland
+1089 Aurora Fimland
 0962 OSLO
-1090 Tina Torkelsen
+1090 Vibeke Torkelsen
 3735 SKIEN
-1091 Renathe Vikane
+1091 Hild Vikane
 5416 STORD
-1092 Magnhild Tysnes
+1092 Anja Tysnes
 5550 SVEIO
-1093 Mia Aaserud
+1093 Lisa Aaserud
 4604 KRISTIANSAND S
-1094 Lin Løland
+1094 Sol Løland
 4240 SULDALSOSEN
 1095 Jorge Hatlevik
 5119 ULSET
-1096 Bergljot Strandheim
+1096 Agnieszka Strandheim
 1391 VOLLEN
 1097 Asle Tufte
 8640 HEMNESBERGET
-1098 Ingjerd Melgård
+1098 Veronika Melgård
 3614 KONGSBERG
 1099 Finn Bruheim
 5235 RÅDAL
@@ -2209,25 +2209,25 @@
 3142 VESTSKOGEN
 1105 Edvard Svingen
 3280 TJODALYNG
-1106 Bianca Langedal
+1106 Elsie Langedal
 2208 KONGSVINGER
-1107 Embla Røyrvik
+1107 Kaisa Røyrvik
 1372 ASKER
-1108 Sandra Nordeng
+1108 Caroline Nordeng
 4553 FARSUND
-1109 Erna Liknes
+1109 Margrethe Liknes
 4678 KRISTIANSAND S
 1110 Eyvind Koppang
 1322 HØVIK
 1111 Sigrid Oppegård
 9511 ALTA
-1112 Susanne Skogen
+1112 Gry Skogen
 1705 SARPSBORG
-1113 Svanhild Berg
+1113 Anny Berg
 4379 EGERSUND
 1114 Are Malik
 3218 SANDEFJORD
-1115 Oline Heskestad
+1115 Erika Heskestad
 0556 OSLO
 1116 Viljar Bergli
 1771 HALDEN
@@ -2241,15 +2241,15 @@
 4376 HELLELAND
 1121 John Vinje
 6220 STRAUMGJERDE
-1122 Henriette Hoffmann
+1122 Mia Hoffmann
 2603 LILLEHAMMER
 1123 Eyvind Selnes
 6629 TORJULVÅGEN
-1124 Eira Havnen
+1124 Zahra Havnen
 8013 BODØ
-1125 Michelle Østerud
+1125 Ine Østerud
 2072 DAL
-1126 Thora Aarhus
+1126 Kerstin Aarhus
 8380 RAMBERG
 1127 Matthias Skretting
 1662 ROLVSØY
@@ -2261,11 +2261,11 @@
 7098 SAUPSTAD
 1131 Torleif Birkenes
 6142 EIDSÅ
-1132 Bergliot Rasmussen
+1132 Martina Rasmussen
 0955 OSLO
 1133 Paal Sæland
 5260 INDRE ARNA
-1134 Rakel Kleiveland
+1134 Andrine Kleiveland
 8503 NARVIK
 1135 Jozef Saue
 0485 OSLO
@@ -2275,7 +2275,7 @@
 9722 SKOGANVARRE
 1138 Thomas Hegna
 8820 DØNNA
-1139 Kristina Sverdrup
+1139 Hedda Sverdrup
 6190 BJØRKE
 1140 Anne Christophersen
 3623 LAMPELAND
@@ -2283,17 +2283,17 @@
 9049 NORDKJOSBOTN
 1142 Kurt Robberstad
 3524 NES I ÅDAL
-1143 Anniken Aurstad
+1143 Karianne Aurstad
 7153 GARTEN
 1144 Peder Leirdal
 5178 LODDEFJORD
-1145 Frøya Ødegården
+1145 Kajsa Ødegården
 9163 JØKELFJORD
 1146 Ingebrigt Birkedal
 0988 OSLO
 1147 Nils Jonassen
 7098 SAUPSTAD
-1148 Olga Kjørsvik
+1148 Pia Kjørsvik
 0770 OSLO
 1149 Sigvald Silseth
 0860 OSLO
@@ -2303,13 +2303,13 @@
 1525 MOSS
 1152 Bastian Bjorøy
 1364 FORNEBU
-1153 Henriette Austrheim
+1153 Mia Austrheim
 3011 DRAMMEN
 1154 Asmund Kongshaug
 4009 STAVANGER
 1155 Ronny Engelund
 2013 SKJETTEN
-1156 Nicoline Seldal
+1156 Aashild Seldal
 5636 VARALDSØY
 1157 Imre Melhus
 7483 TRONDHEIM
@@ -2317,7 +2317,7 @@
 2428 SØRE OSEN
 1159 May Nordrum
 0379 OSLO
-1160 Oddbjørg Øverbø
+1160 Oddrun Øverbø
 1361 ØSTERÅS
 1161 Mehdi Solstrand
 1667 ROLVSØY
@@ -2337,7 +2337,7 @@
 3055 KROKSTADELVA
 1169 Aud Fadnes
 9409 HARSTAD
-1170 Angelica Holmen
+1170 Susann Holmen
 1735 VARTEIG
 1171 Josef Abdullahi
 6740 SELJE
@@ -2345,17 +2345,17 @@
 5470 ROSENDAL
 1173 Mons Cappelen
 4085 HUNDVÅG
-1174 Anne-grete Holberg
+1174 Catherine Holberg
 7735 STEINKJER
 1175 Gustav Bekkevold
 2340 LØTEN
 1176 Johann Haakonsen
 2580 FOLLDAL
-1177 Annette Aase
+1177 Sidsel Aase
 3284 KVELDE
-1178 Hanna Solheim
+1178 Lisbeth Solheim
 5033 BERGEN
-1179 Mary Seeberg
+1179 Henriette Seeberg
 4683 SØGNE
 1180 Jenny Frafjord
 0787 OSLO
@@ -2363,39 +2363,39 @@
 5437 FINNÅS
 1182 Thorbjørn Haave
 6728 KALVÅG
-1183 Bettina Gilje
+1183 Torun Gilje
 6216 GEIRANGER
 1184 Bo Øvergaard
 3737 SKIEN
-1185 Rebekka Eng
+1185 Live Eng
 8542 KJELDEBOTN
-1186 Audhild Bjørgan
+1186 Mille Bjørgan
 1666 ROLVSØY
-1187 Tyra Vestvik
+1187 Amy Vestvik
 1420 SVARTSKOG
-1188 Inger-johanne Finsrud
+1188 Mali Finsrud
 8230 SULITJELMA
-1189 Ann-christin Hoffmann
+1189 Jofrid Hoffmann
 3257 LARVIK
 1190 Arnt Bjørge
 6782 STRYN
-1191 Judith Dyrøy
+1191 Rebekka Dyrøy
 0360 OSLO
 1192 Benjamin Øksendal
 3268 LARVIK
-1193 Birgit Egeland
+1193 Sølvi Egeland
 7434 TRONDHEIM
 1194 Sigmund Skrede
 6282 BRATTVÅG
-1195 Svanhild Sætren
+1195 Anny Sætren
 1348 RYKKINN
-1196 Gunnlaug Hognestad
+1196 Edna Hognestad
 3903 PORSGRUNN
 1197 Halvard Dyrøy
 0850 OSLO
 1198 Øistein Rød
 1593 SVINNDAL
-1199 Merete Sælen
+1199 Trude Sælen
 9497 HARSTAD
 1200 Ingeborg Leknes
 5264 GARNES
@@ -2411,15 +2411,15 @@
 0167 OSLO
 1206 Preben Willassen
 2864 FALL
-1207 Paulina Harstad
+1207 Iwona Harstad
 9709 PORSANGMOEN
-1208 Marry Stensby
+1208 Irma Stensby
 3132 HUSØYSUND
 1209 Per-arne Birkeland
 4951 RISØR
 1210 Edin Granum
 9030 SJURSNES
-1211 Magni Taule
+1211 Luna Taule
 7483 TRONDHEIM
 1212 Ryszard Walstad
 3209 SANDEFJORD
@@ -2429,23 +2429,23 @@
 4742 GRENDI
 1215 Øyvind Trønnes
 1805 TOMTER
-1216 Silja Grøtte
+1216 Gyda Grøtte
 0201 OSLO
 1217 Ann Sjøen
 0413 OSLO
 1218 Toralf Adolfsen
 7037 TRONDHEIM
-1219 Patricia Vedøy
+1219 Katrin Vedøy
 2015 LEIRSUND
-1220 Kristi Skorstad
+1220 Irina Skorstad
 3131 HUSØYSUND
-1221 Jeanette Hægeland
+1221 Solfrid Hægeland
 5163 LAKSEVÅG
 1222 Karen Nesse
 8543 KJELDEBOTN
 1223 Jorge Haga
 3903 PORSGRUNN
-1224 Mira Lauritzen
+1224 Elina Lauritzen
 0985 OSLO
 1225 Sigvart Forbord
 6915 ROGNALDSVÅG
@@ -2459,39 +2459,39 @@
 7232 LUNDAMO
 1230 Pål Brevig
 6856 SOGNDAL
-1231 Betty Molund
+1231 Marlen Molund
 9271 TROMSØ
 1232 Matias Melberg
 2930 BAGN
-1233 Cecilia Kjørstad
+1233 Ingun Kjørstad
 9405 HARSTAD
-1234 Margaret Becker
+1234 Christin Becker
 4557 VANSE
 1235 Mattis Lysgård
 7890 NAMSSKOGAN
 1236 Heidi Mirza
 9405 HARSTAD
-1237 Birgit Schjølberg
+1237 Sølvi Schjølberg
 8732 ALDRA
 1238 Ahmed Vikanes
 1081 OSLO
 1239 Yusuf Steffensen
 5605 ÅLVIK
-1240 Mali Nymo
+1240 Ewa Nymo
 9372 GIBOSTAD
 1241 Jørgen Smedstad
 0309 OSLO
-1242 Karine Gjerdrum
+1242 Katarzyna Gjerdrum
 6453 KLEIVE
 1243 Per-arne Bendixen
 5653 ÅRLAND
-1244 Irmelin Røstad
+1244 Aasta Røstad
 8186 TJONGSFJORDEN
-1245 Sylwia Halsen
+1245 Berta Halsen
 6144 SYLTE
-1246 Anne-berit Granås
+1246 Jolanta Granås
 0259 OSLO
-1247 Katarzyna Øen
+1247 Isabella Øen
 4017 STAVANGER
 1248 Tim Rønnestad
 8030 BODØ
@@ -2499,7 +2499,7 @@
 2303 HAMAR
 1250 Sølve Rian
 3147 VERDENS ENDE
-1251 Mirjam Jønsson
+1251 Patricia Jønsson
 7345 DRIVA
 1252 Søren Hjorth
 4357 KLEPP STASJON
@@ -2513,57 +2513,57 @@
 8407 GODFJORD
 1257 Jimmy Kjesbu
 0258 OSLO
-1258 Maryam Engeland
+1258 Sigfrid Engeland
 3196 HORTEN
 1259 Jostein Nystad
 4909 SONGE
 1260 Samir Bui
 0907 OSLO
-1261 Iren Viddal
+1261 Margaret Viddal
 3753 TØRDAL
-1262 Anlaug Tharaldsen
+1262 Elvira Tharaldsen
 4124 TAU
 1263 Edin Reinertsen
 7492 TRONDHEIM
 1264 Rudolf Røisland
 1520 MOSS
-1265 Veronika Finnerud
+1265 Annie Finnerud
 8450 STOKMARKNES
-1266 Gyda Rye
+1266 Magna Rye
 7760 SNÅSA
-1267 Annlaug Løvlie
+1267 Veslemøy Løvlie
 3912 PORSGRUNN
 1268 Rainer Erlandsen
 0122 OSLO
-1269 Alvilde Nordheim
+1269 Agathe Nordheim
 5601 NORHEIMSUND
 1270 Iver Eid
 0045 OSLO
-1271 Arnhild Negård
+1271 Rakel Negård
 9441 FJELLDAL
-1272 Fride Sørbø
+1272 Ebba Sørbø
 6805 FØRDE
-1273 Herborg Aasheim
+1273 Daniela Aasheim
 3617 KONGSBERG
-1274 Anett Natvig
+1274 Kristiane Natvig
 0461 OSLO
 1275 Viktor Husevåg
 5956 VÅGSEIDET
 1276 Imran Vollen
 0674 OSLO
-1277 Anny Fjell
+1277 Amanda Fjell
 0569 OSLO
-1278 Matilde Skomedal
+1278 Elna Skomedal
 0109 OSLO
 1279 Nicolas Sangolt
 8539 BOGEN I OFOTEN
 1280 George Narvestad
 1536 MOSS
-1281 Gry Helgestad
+1281 Kine Helgestad
 7383 HALTDALEN
 1282 Abdullahi Karlstad
 0973 OSLO
-1283 Jeanette Heltne
+1283 Solfrid Heltne
 6529 FREI
 1284 Ottar Sundnes
 4295 VEDAVÅGEN
@@ -2571,51 +2571,51 @@
 7190 BESSAKER
 1286 Bengt Havik
 5382 SKOGSVÅG
-1287 Magda Myrseth
+1287 Agnete Myrseth
 1281 OSLO
 1288 Fritz Fredheim
 0611 OSLO
 1289 Kurt Nyquist
 5136 MJØLKERÅEN
-1290 Yasmin Størseth
+1290 Christiane Størseth
 4023 STAVANGER
 1291 Audun Leine
 4619 MOSBY
 1292 Svend Nymark
 7256 HEMNSKJELA
-1293 Barbara Løvdal
+1293 Birthe Løvdal
 2120 SAGSTUA
-1294 Hilda Skjæveland
+1294 Sanna Skjæveland
 3540 NESBYEN
-1295 Ann-christin Bratli
+1295 Jofrid Bratli
 1783 HALDEN
 1296 Bård Anfinsen
 7631 ÅSEN
 1297 Eyvind Storsveen
 1541 VESTBY
-1298 Isabelle Staven
+1298 Terese Staven
 5537 HAUGESUND
-1299 Elsa Nordtveit
+1299 Birgit Nordtveit
 7088 HEIMDAL
 1300 Sara Hannisdal
 1109 OSLO
-1301 Nadia Nguyen
+1301 Nancy Nguyen
 1328 HØVIK
 1302 Mattis Espe
 3071 SANDE I VESTFOLD
 1303 Hege Fredheim
 7944 INDRE NÆRØY
-1304 Olaug Romundstad
+1304 Veronica Romundstad
 2051 JESSHEIM
 1305 Kacper Oterhals
 9011 TROMSØ
-1306 Eldbjørg Kvalnes
+1306 Torild Kvalnes
 3732 SKIEN
 1307 Malin Aaslund
 9910 BJØRNEVATN
-1308 Asbjørg Rognerud
+1308 Mathea Rognerud
 3726 SKIEN
-1309 Sabrina Bruheim
+1309 Yngvild Bruheim
 6822 SANDANE
 1310 Wenche Johnsen
 6710 RAUDEBERG
@@ -2623,7 +2623,7 @@
 4130 HJELMELAND
 1312 Torleiv Stormark
 2012 LILLESTRØM
-1313 Frøydis Liabø
+1313 Natalie Liabø
 7770 FLATANGER
 1314 Vladimir Lande
 1272 OSLO
@@ -2631,11 +2631,11 @@
 3714 SKIEN
 1316 Ronny Sandhåland
 0609 OSLO
-1317 Eileen Forbord
+1317 Janicke Forbord
 6510 KRISTIANSUND N
 1318 Lorentz Alvær
 6517 KRISTIANSUND N
-1319 Jane Grødem
+1319 Målfrid Grødem
 1719 GREÅKER
 1320 Bjørge Kvaale
 6183 TRANDAL
@@ -2643,9 +2643,9 @@
 1361 ØSTERÅS
 1322 Finn Søfteland
 0281 OSLO
-1323 Katrine Mundal
+1323 Aase Mundal
 7257 SNILLFJORD
-1324 Margun Nerli
+1324 Anne-sofie Nerli
 7468 TRONDHEIM
 1325 Alvin Helgheim
 7871 GRONG
@@ -2659,7 +2659,7 @@
 7629 YTTERØY
 1330 Eirik Moksnes
 7745 OPPLAND
-1331 Bianca Sanne
+1331 Elsie Sanne
 1341 SLEPENDEN
 1332 Finn Linge
 4563 BORHAUG
@@ -2667,17 +2667,17 @@
 6829 HYEN
 1334 Kaare Evje
 5805 BERGEN
-1335 Anne-marit Høiby
+1335 Bianca Høiby
 1787 BERG I ØSTFOLD
-1336 Anne-mette Khan
+1336 Stephanie Khan
 3915 PORSGRUNN
 1337 Sturle Breistein
 7081 SJETNEMARKA
-1338 Sigrun Hevrøy
+1338 Iselin Hevrøy
 7412 TRONDHEIM
-1339 Amalie Vestad
+1339 Marthe Vestad
 4724 IVELAND
-1340 Edit Omdal
+1340 Judit Omdal
 7119 STADSBYGD
 1341 Alfred Sandven
 4629 KRISTIANSAND S
@@ -2687,21 +2687,21 @@
 9148 OLDERDALEN
 1344 Arnljot Haakonsen
 6855 FRØNNINGEN
-1345 Edel Holmvik
+1345 Marta Holmvik
 3742 SKIEN
-1346 Elen Sølvberg
+1346 Jill Sølvberg
 5858 BERGEN
 1347 Stig Brataas
 0213 OSLO
 1348 Kazimierz Eidsvåg
 9670 TUFJORD
-1349 Rannveig Holmberg
+1349 Margareth Holmberg
 9430 SANDTORG
 1350 Gunnar Storlien
 3196 HORTEN
 1351 Bernhard Fremstad
 0311 OSLO
-1352 Gunvor Flønes
+1352 Tina Flønes
 5502 HAUGESUND
 1353 Elisabeth Sæterbø
 3528 HEDALEN
@@ -2721,37 +2721,37 @@
 7456 TRONDHEIM
 1361 Fillip Soma
 7032 TRONDHEIM
-1362 Harriet Grønn
+1362 Kristi Grønn
 5687 FLATRÅKER
-1363 Vera Digernes
+1363 Eldbjørg Digernes
 4560 VANSE
 1364 Mahmoud Michaelsen
 0566 OSLO
-1365 Yasmin Aaberg
+1365 Christiane Aaberg
 0037 OSLO
 1366 Tor-arne Skorstad
 1794 SPONVIKA
-1367 Sanne Andersen
+1367 Kjerstin Andersen
 1327 LYSAKER
 1368 Edward Tandstad
 3721 SKIEN
-1369 Svetlana Borch
+1369 Kari-anne Borch
 9616 HAMMERFEST
 1370 Åge Øverland
 4972 GJERSTAD
-1371 Renate Løge
+1371 Guro Løge
 5284 TYSSEBOTNEN
 1372 Roland Huseby
 0651 OSLO
 1373 Aage Torp
 3947 LANGANGEN
-1374 Beata Bjorøy
+1374 Betty Bjorøy
 3677 NOTODDEN
 1375 Thomas Bjønnes
 2582 GRIMSBU
 1376 Omar Risan
 3929 PORSGRUNN
-1377 Magdalena Krasniqi
+1377 Anine Krasniqi
 2651 ØSTRE GAUSDAL
 1378 Albert Juell
 5282 LONEVÅG
@@ -2763,7 +2763,7 @@
 8161 GLOMFJORD
 1382 Hassan Risa
 4434 ANDABELØY
-1383 Petra Ødegaard
+1383 Mai Ødegaard
 1266 OSLO
 1384 Jean Holden
 1163 OSLO
@@ -2771,59 +2771,59 @@
 5628 HERAND
 1386 Gorm Bakka
 5742 FLÅM
-1387 Lydia Honningsvåg
+1387 Tilde Honningsvåg
 2080 EIDSVOLL
 1388 Isac Heide
 7153 GARTEN
-1389 Stina Christiansen
+1389 Benedikte Christiansen
 2425 LJØRDALEN
-1390 Ågot Waaler
+1390 Brith Waaler
 7549 TANEM
-1391 Hedvig Hausken
+1391 Annika Hausken
 1607 FREDRIKSTAD
 1392 Thor Søndenå
 7032 TRONDHEIM
-1393 Halldis Haugli
+1393 Milla Haugli
 8074 BODØ
 1394 Brian Utgård
 9481 HARSTAD
-1395 Madeleine Svanberg
+1395 Alexandra Svanberg
 1413 TÅRNÅSEN
 1396 Amund Høydahl
 4376 HELLELAND
-1397 Solvor Fossen
+1397 Alina Fossen
 9915 KIRKENES
-1398 Alice Fadnes
+1398 Sylvi Fadnes
 5450 SUNDE I SUNNHORDLAND
 1399 Dan Yttervik
 7007 TRONDHEIM
 1400 Dominik Roland
 5819 BERGEN
-1401 Eira Josdal
+1401 Zahra Josdal
 3535 KRØDEREN
-1402 Olivia Kvande
+1402 Ingvill Kvande
 7268 TITRAN
 1403 Samuel Aaseth
 2076 DAL
-1404 Dorthe Holberg
+1404 Ingelin Holberg
 6040 VIGRA
 1405 Ivan Stendal
 7725 STEINKJER
 1406 Erling Sandstad
 2150 ÅRNES
-1407 Ulla Ahmed
+1407 Thi Ahmed
 3950 BREVIK
-1408 Guri Nesbø
+1408 Jane Nesbø
 2603 LILLEHAMMER
 1409 Sebastian Haraldseid
 2009 NORDBY
-1410 Anine Rohde
+1410 Paula Rohde
 0048 OSLO
 1411 Tonny Berntzen
 2065 GARDERMOEN
-1412 Ann-helen Smestad
+1412 Ingerid Smestad
 4201 SAUDA
-1413 Herborg Isdahl
+1413 Daniela Isdahl
 0279 OSLO
 1414 Damian Leirvåg
 4354 VOLL
@@ -2837,11 +2837,11 @@
 9253 TROMSØ
 1419 Tonje Igland
 4516 MANDAL
-1420 Fanny Bjørgen
+1420 Gitte Bjørgen
 7014 TRONDHEIM
 1421 Tom-erik Hjulstad
 9912 HESSENG
-1422 Åslaug Øksnes
+1422 Rut Øksnes
 5416 STORD
 1423 Otto Østhus
 6443 TORNES I ROMSDAL
@@ -2851,19 +2851,19 @@
 5411 STORD
 1426 Andrea Stokkeland
 0247 OSLO
-1427 Marta Øyen
+1427 Hjørdis Øyen
 3232 SANDEFJORD
 1428 Eyvind Kringstad
 1607 FREDRIKSTAD
-1429 Solvår Becker
+1429 Herborg Becker
 0152 OSLO
-1430 Tanja Worren
+1430 Louise Worren
 9379 GRYLLEFJORD
 1431 Borgar Rodal
 2260 KIRKENÆR
 1432 Malin Myrvoll
 4801 ARENDAL
-1433 Christiane Svensen
+1433 Angela Svensen
 6629 TORJULVÅGEN
 1434 Thoralf Sande
 5614 ÅLVIK
@@ -2871,21 +2871,21 @@
 0679 OSLO
 1436 Paal Bredesen
 8114 TOLLÅ
-1437 Veronica Høyer
+1437 Eline Høyer
 5779 UTNE
-1438 Runa Kielland
+1438 Gerda Kielland
 3247 SANDEFJORD
-1439 Louise Storli
+1439 Lea Storli
 6431 BUD
-1440 Christine Melvold
+1440 Sandra Melvold
 6020 ÅLESUND
 1441 Brede Kjørstad
 7042 TRONDHEIM
-1442 Alida Johnson
+1442 Amelia Johnson
 8186 TJONGSFJORDEN
-1443 Jane Koch
+1443 Målfrid Koch
 9306 FINNSNES
-1444 Alvilde Andresen
+1444 Agathe Andresen
 8298 HAMARØY
 1445 Pawel Misje
 4745 BYGLAND
@@ -2901,21 +2901,21 @@
 4304 SANDNES
 1451 Erling Viddal
 9950 VARDØ
-1452 KvinnenavnbruktavellerflereNrNamnAntall Kyllingstad
+1452 Therese Kyllingstad
 7985 FOLDEREID
-1453 Veronica Sandberg
+1453 Eline Sandberg
 1472 FJELLHAMAR
 1454 Frank Røssland
 4673 KRISTIANSAND S
-1455 Christin Borgersen
+1455 Audhild Borgersen
 6396 VIKEBUKT
 1456 Hilmar Havnen
 6100 VOLDA
 1457 Anton Rinden
 5284 TYSSEBOTNEN
-1458 Gry Hoem
+1458 Kine Hoem
 5845 BERGEN
-1459 Agathe Einarsen
+1459 Sabrina Einarsen
 5207 SØFTELAND
 1460 Frederik Torgersen
 1625 MANSTAD
@@ -2923,7 +2923,7 @@
 5784 ØVRE EIDFJORD
 1462 Reidar Grannes
 8447 LONKAN
-1463 Astri Kalstad
+1463 Kamilla Kalstad
 0193 OSLO
 1464 Muhammed Ramsøy
 9405 HARSTAD
@@ -2933,7 +2933,7 @@
 2061 GARDERMOEN
 1467 Sturle Øien
 1670 KRÅKERØY
-1468 Magnhild Runde
+1468 Anja Runde
 3291 STAVERN
 1469 Øivind Hegna
 8407 GODFJORD
@@ -2947,7 +2947,7 @@
 2326 HAMAR
 1474 Turid Rindal
 2618 LILLEHAMMER
-1475 Sandra Glad
+1475 Caroline Glad
 8023 BODØ
 1476 Fredrik Skjønberg
 0572 OSLO
@@ -2959,15 +2959,15 @@
 9481 HARSTAD
 1480 Lasse Zhang
 8261 INNHAVET
-1481 Benedicte Kolltveit
+1481 Julia Kolltveit
 5217 HAGAVIK
-1482 Hildegunn Os
+1482 Tora Os
 6789 LOEN
-1483 Aashild Tvedt
+1483 Gunnbjørg Tvedt
 2750 GRAN
 1484 Øyvind Petterson
 7563 MALVIK
-1485 Mariann Haugland
+1485 Pernille Haugland
 1591 SPERREBOTN
 1486 Lukas Alm
 3183 HORTEN
@@ -2975,29 +2975,29 @@
 4579 LYNGDAL
 1488 Mark Øvergård
 5895 BERGEN
-1489 Jofrid Aandal
+1489 Katja Aandal
 9288 TROMSØ
 1490 Sigrid Stordahl
 8004 BODØ
 1491 Villy Stiansen
 1722 SARPSBORG
-1492 Mildrid Ekker
+1492 Åsta Ekker
 3608 HEISTADMOEN
-1493 Jill Hovden
+1493 Catharina Hovden
 7629 YTTERØY
 1494 Ask Wiken
 3737 SKIEN
-1495 Nicole Grotle
+1495 Elfrid Grotle
 3912 PORSGRUNN
-1496 Tamara Gjestvang
+1496 Justyna Gjestvang
 9288 TROMSØ
 1497 Dan Olsnes
 9716 BØRSELV
-1498 Hermine Sørbø
+1498 Renata Sørbø
 5824 BERGEN
 1499 Otto Heggedal
 4356 KVERNALAND
-1500 Johanne Jahr
+1500 Oda Jahr
 
 1501 Mindaugas Dahl
 0504 OSLO
@@ -3009,19 +3009,19 @@
 9275 TROMSØ
 1505 Amund Rasch
 8608 MO I RANA
-1506 Ylva Rødland
+1506 Hedvig Rødland
 0557 OSLO
-1507 Gun Stormoen
+1507 Juni Stormoen
 9616 HAMMERFEST
-1508 Fanny Wold
+1508 Gitte Wold
 1825 TOMTER
-1509 Eldrid Haukeland
+1509 Fride Haukeland
 9049 NORDKJOSBOTN
 1510 Jardar Yildirim
 4158 BRU
-1511 Maya Fagerli
+1511 Amina Fagerli
 3125 TØNSBERG
-1512 Tamara Aaseth
+1512 Justyna Aaseth
 4754 BYKLE
 1513 Magnus Malvik
 1665 ROLVSØY
@@ -3029,31 +3029,31 @@
 3401 LIER
 1515 Imre Tjelta
 3730 SKIEN
-1516 Åsa Foss
+1516 Cecilia Foss
 1769 HALDEN
 1517 Ellen Fredriksen
 4575 LYNGDAL
-1518 Siw Ryeng
+1518 Oddny Ryeng
 3502 HØNEFOSS
-1519 Anne-britt Fremstad
+1519 Tale Fremstad
 3208 SANDEFJORD
 1520 Adam Gustad
 7977 HØYLANDET
 1521 Stine Trulsen
 9292 TROMSØ
-1522 Liss Valle
+1522 Iben Valle
 5105 EIDSVÅG I ÅSANE
 1523 Sigmund Gillebo
 0368 OSLO
-1524 Eileen Hollund
+1524 Janicke Hollund
 2920 LEIRA I VALDRES
-1525 Alina Mellum
+1525 Kjellfrid Mellum
 0410 OSLO
 1526 Ask Ekelund
 9981 BERLEVÅG
 1527 Reidar Røsten
 9624 REVSNESHAMN
-1528 Birte Bergquist
+1528 Cornelia Bergquist
 6411 MOLDE
 1529 Alvin Hokstad
 5977 ÅNNELAND
@@ -3065,17 +3065,17 @@
 0584 OSLO
 1533 Oddvin Leirdal
 8489 NORDMELA
-1534 Anne-marie Leirvåg
+1534 Petra Leirvåg
 4047 HAFRSFJORD
-1535 Åsta Soltveit
+1535 Angelica Soltveit
 0772 OSLO
 1536 Roald Rosseland
 4150 RENNESØY
 1537 Brynjulf Grønbech
 7596 FLAKNAN
-1538 Tale Tokle
+1538 Aida Tokle
 2432 SLETTÅS
-1539 Herborg Dokken
+1539 Daniela Dokken
 8733 STUVLAND
 1540 Roland Richardsen
 2214 KONGSVINGER
@@ -3089,13 +3089,13 @@
 2663 DOVRESKOGEN
 1545 Haldor Sundstrøm
 5531 HAUGESUND
-1546 Kjellfrid Dragland
+1546 Anni Dragland
 7742 YTTERVÅG
-1547 Mira Jansson
+1547 Elina Jansson
 0133 OSLO
 1548 Mohammad Jordan
 2004 LILLESTRØM
-1549 Gunnvor Sjøberg
+1549 Sanne Sjøberg
 2315 HAMAR
 1550 Amin Grini
 3853 VRÅDAL
@@ -3119,7 +3119,7 @@
 3132 HUSØYSUND
 1560 Arild Fjeldberg
 5583 VIKEDAL
-1561 Alida Granerud
+1561 Amelia Granerud
 3560 HEMSEDAL
 1562 Matthias Velle
 9802 VESTRE JAKOBSELV
@@ -3127,11 +3127,11 @@
 3174 REVETAL
 1564 Ørnulf Rishaug
 5305 FLORVÅG
-1565 Lisa Grønningsæter
+1565 Torunn Grønningsæter
 5981 MASFJORDNES
-1566 Stella Gjestad
+1566 Lydia Gjestad
 0772 OSLO
-1567 Tuva Våge
+1567 Sunniva Våge
 4633 KRISTIANSAND S
 1568 Hermod Brynjulfsen
 5329 FLORVÅG
@@ -3141,25 +3141,25 @@
 5591 ETNE
 1571 Dan Netland
 9489 HARSTAD
-1572 Nanna Lekve
+1572 Gretha Lekve
 7882 NORDLI
 1573 Mohamed Hol
 7873 HARRAN
 1574 Sigfred Salomonsen
 2809 GJØVIK
-1575 Haldis Grande
+1575 Ada Grande
 1830 ASKIM
 1576 Hugo Engstrøm
 5889 BERGEN
 1577 Ingebrigt Tjøtta
 4160 FINNØY
-1578 Madeleine Løvold
+1578 Alexandra Løvold
 5563 FØRRESFJORDEN
 1579 Yusuf Robstad
 3854 NISSEDAL
-1580 Ella Krasniqi
+1580 Anne-lise Krasniqi
 6645 TODALEN
-1581 Rachel Stokstad
+1581 Pauline Stokstad
 6021 ÅLESUND
 1582 Tarjei Tufte
 5464 DIMMELSVIK
@@ -3167,15 +3167,15 @@
 4134 JØSENFJORDEN
 1584 Gabriel Arnestad
 4737 HORNNES
-1585 Isabella Vogt
+1585 Hilda Vogt
 5397 BEKKJARVIK
-1586 Åslaug Seppola
+1586 Rut Seppola
 0276 OSLO
-1587 Frøydis Hånes
+1587 Natalie Hånes
 5779 UTNE
-1588 Tordis Bjørn
+1588 Malene Bjørn
 0487 OSLO
-1589 Oddveig Severinsen
+1589 Sofia Severinsen
 5637 ØLVE
 1590 Odd Vindenes
 9934 BUGØYFJORD
@@ -3185,45 +3185,45 @@
 3914 PORSGRUNN
 1593 Kåre Laugen
 1363 HØVIK
-1594 Veronica Veiby
+1594 Eline Veiby
 0040 OSLO
 1595 Erlend Haugo
 4335 DIRDAL
 1596 Amir Vestad
 3022 DRAMMEN
-1597 Jill Skinnes
+1597 Catharina Skinnes
 7003 TRONDHEIM
-1598 Ella Bruvoll
+1598 Anne-lise Bruvoll
 4705 ØVREBØ
 1599 Arnljot Lade
 0112 OSLO
-1600 Brith Borsheim
+1600 Maia Borsheim
 6828 HESTENESØYRA
-1601 Vanessa Rikardsen
+1601 Ågot Rikardsen
 7361 RØROS
-1602 Rigmor Wickstrøm
+1602 Gunhild Wickstrøm
 9448 RAMSUND
 1603 Tor-erik Skjervold
 9120 VENGSØY
 1604 Gunn Raza
 2033 ÅSGREINA
-1605 Caroline Sagmo
+1605 Merete Sagmo
 3916 PORSGRUNN
-1606 Nathalie Kausar
+1606 Ronja Kausar
 4846 ARENDAL
-1607 Malene Egenes
+1607 Annette Egenes
 1830 ASKIM
-1608 Terese Engenes
+1608 Barbara Engenes
 3238 SANDEFJORD
 1609 David Ngo
 9306 FINNSNES
-1610 Sylvia Holvik
+1610 Rannveig Holvik
 2960 RØN
 1611 Mahmoud Valø
 4022 STAVANGER
-1612 Celina Furre
+1612 Stina Furre
 3580 GEILO
-1613 Suzanne Dahlstrøm
+1613 Vilja Dahlstrøm
 4233 ERFJORD
 1614 Astrid Sandvik
 5642 HOLMEFJORD
@@ -3239,7 +3239,7 @@
 0403 OSLO
 1620 Minh Hatlen
 5847 BERGEN
-1621 Valborg Skomedal
+1621 Venke Skomedal
 2612 SJUSJØEN
 1622 Tom Josefsen
 6523 FREI
@@ -3251,7 +3251,7 @@
 7334 STORÅS
 1626 Håvar Eek
 7010 TRONDHEIM
-1627 Gretha Hilde
+1627 Elisa Hilde
 7551 HOMMELVIK
 1628 Linda Hope
 7099 FLATÅSEN
@@ -3259,15 +3259,15 @@
 0025 OSLO
 1630 Rudolf Garberg
 7231 LUNDAMO
-1631 Inga Evenstad
+1631 Linnea Evenstad
 2110 SLÅSTAD
-1632 Annika Øygard
+1632 Gøril Øygard
 3931 PORSGRUNN
-1633 Alexandra Gustad
+1633 Borgny Gustad
 2208 KONGSVINGER
 1634 Ragnhild Klette
 2403 ELVERUM
-1635 Elen Heiberg
+1635 Jill Heiberg
 1711 SARPSBORG
 1636 Trond Hauglid
 5104 EIDSVÅG I ÅSANE
@@ -3275,19 +3275,19 @@
 3540 NESBYEN
 1638 Sten Jonsson
 3501 HØNEFOSS
-1639 Elvira Tønnessen
+1639 Gudny Tønnessen
 5778 UTNE
 1640 Flemming Valde
 4953 RISØR
-1641 Ailin Strømstad
+1641 Bergliot Strømstad
 3291 STAVERN
-1642 Kjellaug Emanuelsen
+1642 Johanna Emanuelsen
 1709 SARPSBORG
-1643 Anniken Gustafsson
+1643 Karianne Gustafsson
 4827 FROLANDS VERK
-1644 Guri Marvik
+1644 Jane Marvik
 5519 HAUGESUND
-1645 Rakel Hatland
+1645 Andrine Hatland
 5574 SKJOLD
 1646 Teodor Natås
 6009 ÅLESUND
@@ -3295,27 +3295,27 @@
 6453 KLEIVE
 1648 Ted Oksnes
 4095 STAVANGER
-1649 Ann-karin Hegg
+1649 Magda Hegg
 3521 JEVNAKER
 1650 Edgar Salamonsen
 7425 TRONDHEIM
 1651 Ryszard Warsame
 9272 TROMSØ
-1652 Signe Bjune
+1652 Sofie Bjune
 1752 HALDEN
 1653 Kirsten Ranum
 6927 YTRØYGREND
-1654 Renate Brandvik
+1654 Guro Brandvik
 2687 BØVERDALEN
-1655 Erle Lindstad
+1655 Lisbet Lindstad
 3483 KANA
 1656 Baard Holand
 2966 SLIDRE
-1657 Inger-lise Sollien
+1657 Ingjerd Sollien
 6806 NAUSTDAL
-1658 Edle Våge
+1658 Solvår Våge
 1481 HAGAN
-1659 Astri Sæland
+1659 Kamilla Sæland
 0103 OSLO
 1660 Lars-erik Betten
 1870 ØRJE
@@ -3325,23 +3325,23 @@
 0595 OSLO
 1663 Adam Sørum
 0580 OSLO
-1664 Elbjørg Bakkan
+1664 Venche Bakkan
 4270 ÅKREHAMN
 1665 Hussein Repstad
 6601 SUNNDALSØRA
 1666 Pawel Log
 1112 OSLO
-1667 Nicole Aase
+1667 Elfrid Aase
 7540 KLÆBU
-1668 Torbjørg Fagerhaug
+1668 Inger-lise Fagerhaug
 4275 SÆVELANDSVIK
-1669 Eline Lund
+1669 Agnes Lund
 1628 ENGELSVIKEN
 1670 Ali Baltzersen
 9501 ALTA
-1671 Erika Bastiansen
+1671 Siren Bastiansen
 9291 TROMSØ
-1672 Malene Kristensen
+1672 Annette Kristensen
 2242 MOROKULIEN
 1673 Håvar Winje
 5729 MODALEN
@@ -3355,7 +3355,7 @@
 4092 STAVANGER
 1678 Martine Skjelvik
 3161 STOKKE
-1679 Dagmar Skaugen
+1679 Mildrid Skaugen
 9194 LAUKSLETTA
 1680 Anfinn Idland
 2816 GJØVIK
@@ -3365,31 +3365,31 @@
 7286 SØRBURØY
 1683 Alf Lundal
 2019 SKEDSMOKORSET
-1684 Anne-grete Stenberg
+1684 Catherine Stenberg
 9713 RUSSENES
 1685 Allan Nyseth
 0186 OSLO
 1686 Tonny Kleiven
 5835 BERGEN
-1687 Hildur Ihlen
+1687 Nathalie Ihlen
 6878 VEITASTROND
-1688 Katarina Klaussen
+1688 Asta Klaussen
 8011 BODØ
-1689 Jill Langøy
+1689 Catharina Langøy
 5721 DALEKVAM
-1690 Justyna Johannessen
+1690 Sabine Johannessen
 2072 DAL
-1691 Anine Sandbakken
+1691 Paula Sandbakken
 3490 KLOKKARSTUA
-1692 Erna Sandaker
+1692 Margrethe Sandaker
 5983 HAUGSVÆR
-1693 Helen Formo
+1693 Birgitte Formo
 1476 RASTA
-1694 Elen Brenna
+1694 Jill Brenna
 3673 NOTODDEN
 1695 Gjermund Blom
 2604 LILLEHAMMER
-1696 Torild Igland
+1696 Maiken Igland
 7321 FANNREM
 1697 Andrius Wiggen
 3028 DRAMMEN
@@ -3401,7 +3401,7 @@
 5641 FUSA
 1701 Torolf Jespersen
 4012 STAVANGER
-1702 Catharina Bjerkeli
+1702 Eira Bjerkeli
 8520 ANKENESSTRAND
 1703 Ingebrigt Stene
 6703 MÅLØY
@@ -3413,41 +3413,41 @@
 3222 SANDEFJORD
 1707 Sigvald Bentsen
 5518 HAUGESUND
-1708 Rebecka Lid
+1708 Emine Lid
 5412 STORD
 1709 Maria Alfredsen
 6293 LONGVA
-1710 Kathe Tellefsen
+1710 Idunn Tellefsen
 6069 HAREID
-1711 Maud Løvli
+1711 Aagot Løvli
 4605 KRISTIANSAND S
 1712 Balder Toft
 6985 ATLØY
-1713 Trude Kvame
+1713 Victoria Kvame
 9950 VARDØ
 1714 Syver Jevnaker
 1532 MOSS
-1715 Sanna Tessem
+1715 Connie Tessem
 2009 NORDBY
 1716 Dennis Sivertsen
 7690 MOSVIK
-1717 Susanna Tandberg
+1717 Edit Tandberg
 5417 STORD
 1718 Oddmund Bremseth
 9285 TROMSØ
 1719 Julie Hasund
 3166 TOLVSRØD
-1720 Eldbjørg Storeide
+1720 Torild Storeide
 0172 OSLO
-1721 Arna Erland
+1721 Ulla Erland
 5907 ALVERSUND
-1722 Haldis Gaup
+1722 Ada Gaup
 6729 KALVÅG
 1723 Nicklas Sund
 8657 MOSJØEN
 1724 Trygve Olavesen
 5457 HØYLANDSBYGD
-1725 Torunn Husebø
+1725 Kirsti Husebø
 4307 SANDNES
 1726 Ole-christian Hauger
 9509 ALTA
@@ -3457,15 +3457,15 @@
 6538 AVERØY
 1729 Michal Tveito
 2730 LUNNER
-1730 Christiane Grannes
+1730 Angela Grannes
 9175 SVEAGRUVA
 1731 Øystein Haukås
 1354 BÆRUMS VERK
-1732 Rikke Fonnes
+1732 Carina Fonnes
 1009 OSLO
 1733 Victor Myrhaug
 2646 GÅLÅ
-1734 Klara Hårstad
+1734 Lilly Hårstad
 1536 MOSS
 1735 Preben Bjørgum
 3905 PORSGRUNN
@@ -3477,41 +3477,41 @@
 2649 ØSTRE GAUSDAL
 1739 Mette Fossheim
 4403 FLEKKEFJORD
-1740 Mali Sundberg
+1740 Ewa Sundberg
 6408 AUREOSEN
 1741 Bengt Baardsen
 3701 SKIEN
-1742 Malgorzata Haarr
+1742 Birte Haarr
 3006 DRAMMEN
 1743 Patrik Solvang
 3045 DRAMMEN
-1744 Thi Mathiassen
+1744 Mie Mathiassen
 7127 OPPHAUG
-1745 Kjellrun Ryen
+1745 Solvor Ryen
 0562 OSLO
 1746 Edin Olaussen
 5993 OSTEREIDET
 1747 Jean Frøiland
 9590 HASVIK
-1748 Mie Høye
+1748 Isabelle Høye
 2266 ARNEBERG
-1749 Margit Gramstad
+1749 Toril Gramstad
 1641 RÅDE
-1750 Annika Woll
+1750 Gøril Woll
 1431 ÅS
-1751 Oddbjørg Mjelde
+1751 Oddrun Mjelde
 2860 HOV
 1752 Holger Nicolaisen
 6655 VINDØLA
-1753 Solvår Hogstad
+1753 Herborg Hogstad
 8805 SANDNESSJØEN
-1754 Eira Hval
+1754 Zahra Hval
 4696 KRISTIANSAND S
 1755 Mats Bolme
 1357 BEKKESTUA
-1756 Margrete Saur
+1756 Esther Saur
 4154 AUSTRE ÅMØY
-1757 Ingunn Thorud
+1757 Hanna Thorud
 7011 TRONDHEIM
 1758 Hans-petter Løtveit
 6611 FURUGRENDA
@@ -3521,39 +3521,39 @@
 5574 SKJOLD
 1761 Jørg Bjørge
 5398 STOLMEN
-1762 Malgorzata Thorud
+1762 Birte Thorud
 1487 HAKADAL
 1763 Mona Opland
 7439 TRONDHEIM
-1764 Amy Tveter
+1764 Ailin Tveter
 9600 HAMMERFEST
 1765 Balder Vike
 1734 HAFSLUNDSØY
-1766 Mai Mostad
+1766 Unn Mostad
 4045 HAFRSFJORD
-1767 Martina Schjelderup
+1767 Thordis Schjelderup
 9321 MOEN
 1768 Arve Rostad
 3611 KONGSBERG
-1769 Elen Krane
+1769 Jill Krane
 7401 TRONDHEIM
-1770 Zahra Kapstad
+1770 Maryam Kapstad
 8283 LEINESFJORD
 1771 Jan Lura
 1284 OSLO
-1772 Rannveig Tjøsvoll
+1772 Margareth Tjøsvoll
 9714 SNEFJORD
 1773 Mads Ulvestad
 8602 MO I RANA
-1774 Jessica Ryan
+1774 Ann-mari Ryan
 1633 GAMLE FREDRIKSTAD
 1775 Halvor Olufsen
 5058 BERGEN
-1776 Kitty Aarset
+1776 Arna Aarset
 2256 GRUE FINNSKOG
 1777 Jan-erik Eik
 3201 SANDEFJORD
-1778 Vera Sandbakk
+1778 Eldbjørg Sandbakk
 9277 TROMSØ
 1779 Mats Viken
 0266 OSLO
@@ -3561,17 +3561,17 @@
 6285 STOREKALVØY
 1781 Åge Svenkerud
 7884 SØRLI
-1782 Juni Løkkeberg
+1782 Teresa Løkkeberg
 4146 SKIFTUN
-1783 Emine Tømmerås
+1783 Else-marie Tømmerås
 8031 BODØ
-1784 Barbro Falk
+1784 May-britt Falk
 7744 HEPSØY
 1785 Aslak Osen
 3864 RAULAND
 1786 Bjørge Wibe
 3224 SANDEFJORD
-1787 Ingelin Fløtre
+1787 Janet Fløtre
 1373 ASKER
 1788 Vilhelm Konradsen
 3901 PORSGRUNN
@@ -3581,7 +3581,7 @@
 6853 SOGNDAL
 1791 Arnold Haveland
 6973 SANDE I SUNNFJORD
-1792 KvinnenavnbruktavellerflereNrNamnAntall Nes
+1792 Therese Nes
 0881 OSLO
 1793 Imran Smedstad
 0167 OSLO
@@ -3591,11 +3591,11 @@
 8618 MO I RANA
 1796 Mikkel Undheim
 6454 HJELSET
-1797 Stina Molden
+1797 Benedikte Molden
 7500 STJØRDAL
 1798 Noah Skogli
 5229 KALANDSEIDET
-1799 Brith Grinden
+1799 Maia Grinden
 0172 OSLO
 1800 Emanuel Hveding
 0080 OSLO
@@ -3605,9 +3605,9 @@
 4306 SANDNES
 1803 Øistein Lone
 0048 OSLO
-1804 Caroline Smedstad
+1804 Merete Smedstad
 3095 EIDSFOSS
-1805 Frøya Myller
+1805 Kajsa Myller
 9315 SØRREISA
 1806 Edward Kalland
 8266 MØRSVIKBOTN
@@ -3615,35 +3615,35 @@
 3201 SANDEFJORD
 1808 Aaron Thrane
 5402 STORD
-1809 Dorota Oliversen
+1809 Anne-mari Oliversen
 4473 KVINLOG
 1810 Olai Munthe
 5861 BERGEN
-1811 Magda Nordhaug
+1811 Agnete Nordhaug
 6450 HJELSET
-1812 Tatiana Viken
+1812 Anne-britt Viken
 0188 OSLO
-1813 Gina Høiland
+1813 Hildur Høiland
 0266 OSLO
-1814 Frida Sortland
+1814 Amalie Sortland
 5504 HAUGESUND
 1815 Jaroslaw Abelsen
 4154 AUSTRE ÅMØY
 1816 Tadeusz Lysne
 4674 KRISTIANSAND S
-1817 Else-marie Bjerke
+1817 Josephine Bjerke
 0690 OSLO
-1818 Lovise Haugseth
+1818 Maya Haugseth
 0317 OSLO
-1819 Vivian Fossmo
+1819 Gina Fossmo
 6200 STRANDA
-1820 Celina Saur
+1820 Stina Saur
 1802 ASKIM
-1821 Jessica Tørstad
+1821 Ann-mari Tørstad
 6260 SKODJE
-1822 Regina Mohamud
+1822 Cathrin Mohamud
 7310 GJØLME
-1823 Angela Åsen
+1823 Samira Åsen
 3087 BOTNE
 1824 Mohammed Tveitan
 1508 MOSS
@@ -3651,51 +3651,51 @@
 1814 ASKIM
 1826 Kim-andre Sandø
 7150 STORFOSNA
-1827 Lisa Høydahl
+1827 Torunn Høydahl
 2602 LILLEHAMMER
-1828 Renee Nøkleby
+1828 Henrikke Nøkleby
 8014 BODØ
 1829 Amir Myklebust
 3210 SANDEFJORD
-1830 Tale Idsøe
+1830 Aida Idsøe
 0587 OSLO
-1831 Aleksandra Dalheim
+1831 Rønnaug Dalheim
 5231 PARADIS
 1832 Dag Bertelsen
 4319 SANDNES
-1833 Madeleine Gill
+1833 Alexandra Gill
 5013 BERGEN
 1834 Kirsten Kalvik
 2309 HAMAR
 1835 Jose Wie
 0185 OSLO
-1836 Navnestatistikk, Tønsberg
+1836 Lena Tønsberg
 4715 ØVREBØ
-1837 Marina Engstrøm
+1837 Natalia Engstrøm
 5537 HAUGESUND
-1838 Synne Grønnevik
+1838 Ella Grønnevik
 2320 FURNES
 1839 Alex Devold
 1250 OSLO
 1840 Gunn Værnes
 1606 FREDRIKSTAD
-1841 KvinnenavnbruktavellerflereNrNamnAntall Nyhus
+1841 Therese Nyhus
 0150 OSLO
 1842 Wieslaw Bach
 3341 ÅMOT
 1843 Mahmoud Fagerland
 5405 STORD
-1844 Justyna Hesjedal
+1844 Sabine Hesjedal
 9846 TANA
-1845 Alina Øygard
+1845 Kjellfrid Øygard
 5416 STORD
 1846 Arnulf Skjerven
 7486 TRONDHEIM
-1847 Ågot Korslund
+1847 Brith Korslund
 4403 FLEKKEFJORD
-1848 Brita Utheim
+1848 Vera Utheim
 1910 ENEBAKKNESET
-1849 Peggy Thorshaug
+1849 Sophia Thorshaug
 4088 STAVANGER
 1850 Lucas Thuen
 2714 JAREN
@@ -3705,13 +3705,13 @@
 3502 HØNEFOSS
 1853 Steffan Aaberg
 5015 BERGEN
-1854 Renata Hussein
+1854 Cassandra Hussein
 1109 OSLO
-1855 Mariam Aasebø
+1855 Kim Aasebø
 1512 MOSS
-1856 Else-marie Nesje
+1856 Josephine Nesje
 8086 BODØ
-1857 Idunn Lindholm
+1857 Elinor Lindholm
 7540 KLÆBU
 1858 Cathrine Fischer
 3211 SANDEFJORD
@@ -3719,25 +3719,25 @@
 5427 URANGSVÅG
 1860 Tormod Throndsen
 3430 SPIKKESTAD
-1861 Jeanett Rosenberg
+1861 Herdis Rosenberg
 2000 LILLESTRØM
 1862 Torodd Børresen
 8415 HENNES
-1863 Lin Hassan
+1863 Sol Hassan
 4703 VENNESLA
 1864 Abdirahman Wiig
 4119 FORSAND
-1865 Hjørdis Gunnarsen
+1865 Tordis Gunnarsen
 0353 OSLO
 1866 Philip Dyrøy
 4335 DIRDAL
 1867 Gro Bentsen
 8641 HEMNESBERGET
-1868 Jorid Hojem
+1868 Elizabeth Hojem
 7820 SPILLUM
 1869 Matias Korsmo
 3277 STEINSHOLT
-1870 Møyfrid Stensrud
+1870 Jasmin Stensrud
 7540 KLÆBU
 1871 Elin Joa
 1823 KNAPSTAD
@@ -3747,7 +3747,7 @@
 3684 NOTODDEN
 1874 Karsten Røvik
 6404 MOLDE
-1875 Amalie Fosen
+1875 Marthe Fosen
 1407 VINTERBRO
 1876 Levi Møller
 0135 OSLO
@@ -3759,53 +3759,53 @@
 4307 SANDNES
 1880 Hanne Eriksson
 6293 LONGVA
-1881 Dagrun Krogsæter
+1881 Joanna Krogsæter
 0875 OSLO
 1882 Ruben Akram
 7485 TRONDHEIM
-1883 June Ferstad
+1883 Edel Ferstad
 0190 OSLO
-1884 Kathe Torkildsen
+1884 Idunn Torkildsen
 1815 ASKIM
 1885 Oliver Havn
 5637 ØLVE
 1886 Martinus Borchgrevink
 4146 SKIFTUN
-1887 Kim Stubberud
+1887 Rachel Stubberud
 6405 MOLDE
 1888 Audun Ims
 3294 STAVERN
 1889 Siv Fiksdal
 9650 AKKARFJORD
-1890 Mathea Anda
+1890 Margot Anda
 1407 VINTERBRO
-1891 Anne-mari Berntzen
+1891 Tara Berntzen
 0208 OSLO
-1892 Nancy Molden
+1892 Aleksandra Molden
 0687 OSLO
 1893 Svend Botnen
 1812 ASKIM
-1894 Helena Bjørlo
+1894 Frøydis Bjørlo
 4049 HAFRSFJORD
 1895 Dominik Stensby
 0196 OSLO
-1896 Brynhild Tøllefsen
+1896 Dagrun Tøllefsen
 5173 LODDEFJORD
 1897 Jon Kværner
 2817 GJØVIK
 1898 Børge Vanvik
 2005 RÆLINGEN
-1899 Guro Dahlen
+1899 Rigmor Dahlen
 7447 TRONDHEIM
-1900 Edel Venås
+1900 Marta Venås
 3760 NESLANDSVATN
 1901 Henry Hvattum
 8311 HENNINGSVÆR
 1902 Sveinung Haugland
 3269 LARVIK
-1903 Aina Wiik
+1903 Kristina Wiik
 0650 OSLO
-1904 Marion Rossebø
+1904 Greta Rossebø
 2312 OTTESTAD
 1905 Narve Skogmo
 9595 SØRVÆR
@@ -3831,15 +3831,15 @@
 2648 SØR-FRON
 1916 Njål Berntzen
 5978 MJØMNA
-1917 Anneli Stene
+1917 Annlaug Stene
 8488 NØSS
 1918 Ellen Asbjørnsen
 7454 TRONDHEIM
 1919 Grethe Natvik
 3481 TOFTE
-1920 Anett Høgås
+1920 Kristiane Høgås
 3690 HJARTDAL
-1921 Torhild Heggernes
+1921 Selma Heggernes
 0218 OSLO
 1922 Hassan Guldberg
 7533 KOPPERÅ
@@ -3851,17 +3851,17 @@
 4460 MOI
 1926 Alf Nicolaysen
 5868 BERGEN
-1927 Maya Fossland
+1927 Amina Fossland
 2718 BRANDBU
 1928 Arvid Isdahl
 7701 STEINKJER
 1929 Edwin Smedstad
 9195 ÅRVIKSAND
-1930 Matilde Sætran
+1930 Elna Sætran
 6881 ÅRDALSTANGEN
-1931 Cathrin Solsvik
+1931 Bertine Solsvik
 4023 STAVANGER
-1932 Gudveig Mjånes
+1932 Hermine Mjånes
 1503 MOSS
 1933 Axel Aga
 1714 SARPSBORG
@@ -3869,25 +3869,25 @@
 3786 SKIEN
 1935 Max Holstad
 3026 DRAMMEN
-1936 Marina Olsnes
+1936 Natalia Olsnes
 7273 NORDDYRØY
-1937 Gøril Handeland
+1937 Sigrunn Handeland
 7099 FLATÅSEN
 1938 Piotr Aasberg
 3916 PORSGRUNN
-1939 Natalia Bergland
+1939 Viktoria Bergland
 7950 ABELVÆR
 1940 Chris Hestad
 8439 MYRE
-1941 Erika Hjelm
+1941 Siren Hjelm
 0255 OSLO
-1942 Nicole Lauvås
+1942 Elfrid Lauvås
 6230 SYKKYLVEN
-1943 Simone Østlund
+1943 Wenke Østlund
 1285 OSLO
 1944 Tobias Raknes
 0042 OSLO
-1945 Anne-lise Friberg
+1945 Åshild Friberg
 4137 ÅRDAL I RYFYLKE
 1946 Scott Engvik
 2004 LILLESTRØM
@@ -3895,77 +3895,77 @@
 7370 BREKKEBYGD
 1948 Hege Westrum
 3280 TJODALYNG
-1949 Aase Balstad
+1949 Beate Balstad
 5136 MJØLKERÅEN
-1950 Torbjørg Claussen
+1950 Inger-lise Claussen
 7391 RENNEBU
 1951 Sjur Dalby
 8648 KORGEN
-1952 Jannicke Zachariassen
+1952 Dina Zachariassen
 5563 FØRRESFJORDEN
-1953 Susanna Hauger
+1953 Edit Hauger
 8854 AUSTBØ
 1954 Rene Hoel
 7241 ANSNES
-1955 Tamara Nydal
+1955 Justyna Nydal
 6822 SANDANE
 1956 Felix Nordanger
 0370 OSLO
-1957 Gøril Solbakken
+1957 Sigrunn Solbakken
 4327 SANDNES
-1958 Ingjerd Torbjørnsen
+1958 Veronika Torbjørnsen
 6993 HØYANGER
 1959 Njål Myller
 5093 BERGEN
-1960 Pernille Rosvold
+1960 Monika Rosvold
 3490 KLOKKARSTUA
 1961 Amir Færøy
 7088 HEIMDAL
-1962 Henriette Skavhaug
+1962 Mia Skavhaug
 1327 LYSAKER
 1963 Anette Korsmo
 2901 FAGERNES
-1964 Vilma Lieng
+1964 Elzbieta Lieng
 4891 GRIMSTAD
 1965 Morgan Vollen
 9027 RAMFJORDBOTN
 1966 Idar Gulliksen
 6973 SANDE I SUNNFJORD
-1967 Klara Leidland
+1967 Lilly Leidland
 6290 HARAMSØY
-1968 Brynhild Mørch
+1968 Dagrun Mørch
 6429 MOLDE
-1969 Magny Flaten
+1969 Catrine Flaten
 7809 NAMSOS
-1970 Beate Bjørnestad
+1970 Marita Bjørnestad
 7714 STEINKJER
 1971 Villy Sandvær
 5916 ISDALSTØ
 1972 Matias Trøan
 1294 OSLO
-1973 Mia Fagervik
+1973 Lisa Fagervik
 4059 RØYNEBERG
-1974 Amy Nicolaysen
+1974 Ailin Nicolaysen
 4024 STAVANGER
-1975 Erle Røkenes
+1975 Lisbet Røkenes
 2665 LESJA
 1976 Mohammed Sagen
 3533 TYRISTRAND
 1977 Narve Husdal
 3431 SPIKKESTAD
-1978 Ann-kristin Haave
+1978 Hildegunn Haave
 3140 NØTTERØY
-1979 Thora Samdal
+1979 Kerstin Samdal
 2860 HOV
 1980 Øistein Mohammad
 8007 BODØ
-1981 Ingri Amlie
+1981 Maud Amlie
 3151 TOLVSRØD
-1982 Frøydis Selstad
+1982 Natalie Selstad
 4506 MANDAL
 1983 Balder Østvold
 0510 OSLO
-1984 Sarah Blix
+1984 Aurora Blix
 9008 TROMSØ
 1985 Sindre Solli
 4656 HAMRESANDEN
@@ -3979,21 +3979,21 @@
 0213 OSLO
 1990 Brynjar Halden
 5342 STRAUME
-1991 Ine Ottersen
+1991 Judith Ottersen
 1721 SARPSBORG
 1992 Rasmus Schultz
 6390 VESTNES
-1993 Anne-berit Bjørn
+1993 Jolanta Bjørn
 1317 BÆRUMS VERK
-1994 Arna Barmen
+1994 Ulla Barmen
 4679 FLEKKERØY
-1995 Ana Reigstad
+1995 Jessica Reigstad
 3114 TØNSBERG
 1996 Bjørg Frøseth
 8275 STORJORD I TYSFJORD
-1997 Fanny Lyng
+1997 Gitte Lyng
 7288 SOKNEDAL
-1998 Maja Honningsvåg
+1998 Magnhild Honningsvåg
 5474 LØFALLSTRAND
 1999 Aaron Munkvold
 7869 SKAGE I NAMDALEN
