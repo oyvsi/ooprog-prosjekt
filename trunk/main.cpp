@@ -37,7 +37,7 @@ int main() {
 			case 'K' : sports.lists('K');	break;
 			case 'T' : sports.lists('T');	break;
 			case 'R' : read_results();		break;
-			case 'D' : break;
+			case 'D' : sports.write_team(); break;
 			case 'E' : break;
 			case 'C' : sports.write_top_ten(); break;
 			case 'Q' : quit = true;			break;

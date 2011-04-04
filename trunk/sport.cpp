@@ -183,3 +183,15 @@ void Sport::write_top_ten(){
 	divisionlist->add(current_division);
 }
 
+void Sport::write_team() {
+	char* div_name = io.read_valid("Divisjon", NAME);
+	Division* div_ptr = (Division*) divisionlist->remove(div_name);
+	if(div_ptr) {
+		div_ptr->write_team();
+		divisionlist->add(div_ptr);
+	} else {
+		cout << "Divisjonen " << div_name << " finnes ikke!\n";
+	}
+	delete [] div_name; 
+}
+

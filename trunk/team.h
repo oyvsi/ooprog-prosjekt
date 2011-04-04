@@ -21,6 +21,7 @@ public:
     void add_player(int player_no);
     void rem_player(int player_no);
 	void display();
+	void write_team();
     
 };
 

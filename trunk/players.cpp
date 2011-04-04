@@ -100,6 +100,15 @@ void Players::display() {
 	}
 	delete [] c_read;	//Delete the string we read in.
 }
+
+void Players::display(int no) {
+	Player* player_ptr = (Player*) playerlist->remove(no);
+	if (player_ptr) {
+		player_ptr->display_all();
+		playerlist->add(player_ptr);
+	}
+}
+
 int Players::read_player(istream* input) {
 	Player* tmp_player;
 	char* tmp_name, *tmp_address;

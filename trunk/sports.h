@@ -23,6 +23,7 @@ class Sports {
 		void lists(char valg);	//Valg == K || Valg == L
 		void remove_division();
 		void write_top_ten();
+		void write_team();
 };
 
 #endif

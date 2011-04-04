@@ -1,16 +1,17 @@
 #include <iostream>
 #include <fstream>
 #include "iofunc.h"
+#include "player.h"
 #include "players.h"
 #include "team.h"
 
+extern IOfunc io;
+extern Players players;
 
 Team::Team() {
 }
 
 Team::Team(istream* infile) {  //Read such things as name, address, no_players
-    extern IOfunc io;
-    extern Players players;
     name = io.read_string(infile);
     address = io.read_string(infile);
     *infile >> no_players; infile->ignore();
@@ -51,10 +52,15 @@ void Team::rem_player(int player_no) {
     }
 }
 
+void Team::write_team() {
+	for (int i = 0; i < no_players; i++) 
+		players.display(player_nos[i]);	
+}
+
 void Team::display() {
 	cout << name << '\n'
 		 << address << '\n'
-		 << "Ant. spillere: " << no_players;
+		 << "Ant. spillere: " << no_players << '\n';
 }
 
 void Team::write(ostream* out) {
