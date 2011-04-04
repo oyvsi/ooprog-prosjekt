@@ -42,6 +42,15 @@ void Sports::remove_sport() {
 		cout << "Fant ikke idretten!\n";
 }
 
+void Sports::remove_player(int player_no) {
+	Sport* sport_ptr;
+	for (int i = 1; i <= sportlist->no_of_elements(); i++) {
+		sport_ptr = (Sport*) sportlist->remove_no(i);
+		sport_ptr->remove_player(player_no);
+		sportlist->add(sport_ptr);
+	}
+}
+
 void Sports::read_file() {
 	char* tmp_str; Sport* tmp_sport;
 	tmp_str = io.read_valid("Filnavn", NONE);

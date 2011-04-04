@@ -32,6 +32,7 @@ public:
 	void write_top_ten();
 	void write_team();
 	void edit_team();
+	void remove_player(int player_no);
 };
 
 #endif

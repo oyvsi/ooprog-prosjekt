@@ -49,17 +49,16 @@ void Team::add_player(int player_no) {
 		}
 }
 
-void Team::rem_player(int player_no) {
+bool Team::remove_player(int player_no) {
 	int hit = get_player(player_no);
     if(hit != -1) {         
         player_nos[hit] = 0;
         for(int i = hit; i < no_players; i++)   //Reaarrange array
             player_nos[i] = player_nos[i+1];
         no_players--;
-		cout << "Fjernet "; players.display(player_no);
+		return true;
     } else {
-        cout << "Ingen spiller med nummer " << player_no << " ble funner pÃ¥ "
-			 << name << '\n';
+		return false;
     }
 }
 
@@ -69,6 +68,7 @@ void Team::write_team() {
 }
 
 void Team::edit_team() {
+	bool result;
 	char choice;
 	int player_no;
 	do {
@@ -80,8 +80,13 @@ void Team::edit_team() {
 		cout << "Spillernummer: "; cin >> player_no;
 	} while (!players.in_list(player_no));
 	
-	if (choice == 'f')
-		rem_player(player_no);
+	if (choice == 'f') {
+		result = remove_player(player_no);
+		if (result)
+			cout << "Fjernet spiller " << player_no << " fra " << name << '\n';
+		else
+			cout << "Spiller " << player_no << " er ikke med pŒ " << name << '\n';		
+	}
 	else if (choice == 'l')
 		add_player(player_no);
 }
