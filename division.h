@@ -14,12 +14,14 @@ private:
     int no_teams;
     Result*** results;
     Team* teams[MAXTEAMS];
+	Team* get_team();
+	int get_team(char* name);
+
 public:
     Division();
     Division(istream* infile, char* divname);
     ~Division();
     
-    int get_team(char* name);
     void display();
 	bool read_results(istream* in, bool update);
     void term_list(ostream* out);
@@ -29,6 +31,7 @@ public:
 	void write_results(ostream* out);
 	void write_top_ten();
 	void write_team();
+	void edit_team();
 };
 
 #endif

@@ -67,17 +67,6 @@ void Division::display() {	// Menu-option i
 		teams[i]->display();
 }
 
-/*for (int i = 0; i < no_teams; i++) {	//Menu option T
- for (int j = 0; j < no_teams; j++) {
- if(i != j) { // Team will not play against itself
- cout << teams[i]->get_team() << " - " 
- << teams[j]->get_team() << " - ";
- results[i][j]->display();
- }
- }
- 
- }*/ 
-
 void Division::term_list(ostream* out) {    //Menu option L
     char date[DATELEN];
 	
@@ -187,14 +176,29 @@ void Division::write(ostream* out) {
 	}
 }
 
-void Division::write_team() {
+Team* Division::get_team() {
+	Team* team_ptr = NULL;
 	char* team_name = io.read_valid("Lag", NAME);
 	int team_no = get_team(team_name);
 	if(team_no != -1) 
-		teams[team_no]->write_team();
+		team_ptr = teams[team_no];
 	else
 		cout << "Laget " << team_name << " finnes ikke!\n";
 	delete [] team_name;
+	
+	return team_ptr;
+}
+
+void Division::write_team() {		
+	Team* team_ptr = get_team();
+	if(team_ptr)
+		team_ptr->write_team();
+}
+
+void Division::edit_team() {
+	Team* team_ptr = get_team();
+	if(team_ptr)
+		team_ptr->edit_team();
 }
 
 void Division::write_results(ostream* out) {
@@ -287,12 +291,7 @@ void Division::write_top_ten() {
 	}
 	
 	if (teamname){																		// DERSOM LAGNAVN:
-		int teamidx = -1;
-		
-		for (int i = 0; i < no_teams; i++){							// Finn lagindeks:
-			if (!strcmp(teams[i]->get_team(), teamname))
-				teamidx = i;
-		}
+		int teamidx = get_team(teamname); // get team index
 		
 		if (teamidx != -1){
 			for (int i = 0; i < goalscorers.size(); i++){  	// Ta vekk folk som ikke er på laget

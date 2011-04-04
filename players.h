@@ -21,6 +21,7 @@ class Players {
 		void write_file();
 		int read_player(istream* input);
 		bool in_list(char* name);
+		bool in_list(int player_no);
 		int get_id(char* name);
 };
 

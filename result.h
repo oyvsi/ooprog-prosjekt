@@ -43,7 +43,6 @@ class Result {
 		void write(ostream* out);
         int get_hgls();
         int get_agls();
-        void display();
 		void table_add(tableobject* home, tableobject* away, int type);
 
 };

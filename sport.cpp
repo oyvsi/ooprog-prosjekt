@@ -175,23 +175,34 @@ void Sport::result_list(ostream* out, char typ) {
 	if(typ == 'K') delete [] date;
 }
 
+Division* Sport::get_division() {
+	Division* div_ptr = NULL;
+	char* div_name = io.read_valid("Divisjon", NAME);
+	
+	div_ptr = (Division*) divisionlist->remove(div_name);
+	if (div_ptr)
+		divisionlist->add(div_ptr);
+	else
+		cout << "Divisjonen " << div_name << " finnes ikke!\n";
+	delete [] div_name;
+	return div_ptr;
+}
+
 void Sport::write_top_ten(){
-	Division* current_division;
-	char* divisionname = io.read_valid("Divisjon", NONE);
-	current_division = (Division*) divisionlist->remove(divisionname);
-	current_division->write_top_ten();
-	divisionlist->add(current_division);
+	Division* div_ptr = get_division();
+	if (div_ptr)
+		div_ptr->write_top_ten();
 }
 
 void Sport::write_team() {
-	char* div_name = io.read_valid("Divisjon", NAME);
-	Division* div_ptr = (Division*) divisionlist->remove(div_name);
-	if(div_ptr) {
+	Division* div_ptr = get_division();
+	if (div_ptr)
 		div_ptr->write_team();
-		divisionlist->add(div_ptr);
-	} else {
-		cout << "Divisjonen " << div_name << " finnes ikke!\n";
-	}
-	delete [] div_name; 
+}
+
+void Sport::edit_team() {
+	Division* div_ptr = get_division();
+	if (div_ptr)
+		div_ptr->edit_team();
 }
 

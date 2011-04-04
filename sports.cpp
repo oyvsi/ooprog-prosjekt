@@ -185,23 +185,33 @@ void Sports::lists(char valg) {
 		delete out;
 }
 
-void Sports::write_top_ten(){
-	char* sportname = io.read_valid("Idrett", NONE); // ANTAR RIKTIG IDRETT, ENDRE ENUM!!
-	Sport* current_sport;
+Sport* Sports::get_sport() {
+	Sport* sport_ptr = NULL;
+	char* sportname = io.read_valid("Idrett", NAME);
+	
+	sport_ptr = (Sport*) sportlist->remove(sportname);
+	if (sport_ptr)
+		sportlist->add(sport_ptr);
+	else
+		cout << "Idretten " << sportname << " finnes ikke!\n";
+	delete [] sportname;
+	return sport_ptr;
+}
 
-	current_sport = (Sport*) sportlist->remove(sportname);
-	current_sport->write_top_ten();
-	sportlist->add(current_sport);
+void Sports::write_top_ten(){
+	Sport* sport_ptr = get_sport();
+	if (sport_ptr)
+		sport_ptr->write_top_ten();
 }
 
 void Sports::write_team() {
-	char* sportname = io.read_valid("Idrett", NAME);
-	Sport* sport_ptr = (Sport*) sportlist->remove(sportname);
-	if (sport_ptr) {
+	Sport* sport_ptr = get_sport();
+	if (sport_ptr)
 		sport_ptr->write_team();
-		sportlist->add(sport_ptr);
-	} else {
-		cout << "Idretten " << sportname << " finnes ikke!\n";
-	}
-	delete [] sportname;
+}
+
+void Sports::edit_team() {
+	Sport* sport_ptr = get_sport();
+	if (sport_ptr)
+		sport_ptr->edit_team();
 }

@@ -5,6 +5,7 @@
 #include "global.h"
 #include "listtool2.h"
 
+class Division;	// forward declaration
 using namespace std;
 
 class Sport : public Text_element {
@@ -12,6 +13,8 @@ class Sport : public Text_element {
 //		char* text;
 		List* divisionlist;
 		int tabletype;
+		Division* get_division();
+	
 	public:
 		Sport();
 		Sport(char* name);
@@ -29,6 +32,7 @@ class Sport : public Text_element {
 		void result_list(ostream* out, char typ);
 		void write_top_ten();
 		void write_team();
+		void edit_team();
 };
 
 #endif
