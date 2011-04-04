@@ -21,7 +21,7 @@ public:
     bool in_team(int player);
 	void write(ostream* out);
     void add_player(int player_no);
-    void rem_player(int player_no);
+    bool remove_player(int player_no);
 	void display();
 	void write_team();
 	void edit_team();

@@ -7,6 +7,7 @@
 
 #include "players.h"
 #include "player.h"
+#include "sports.h"
 #include "global.h"
 #include "listtool2.h"
 #include "iofunc.h"
@@ -14,6 +15,7 @@
 using namespace std;
 
 extern IOfunc io;
+extern Sports sports;
 
 Players::Players() {	//Initializes the class
 	last_used = 0;
@@ -28,7 +30,8 @@ void Players::new_player() {	//Adds a new player.
 	playerlist->add(tmp);			//  add it to the playerlist.
 }
 bool Players::remove_player() {
-	int i_read;		
+	int i_read;
+	cout << "Spillernummer: ";
 	char* c_read = io.read_string(&cin);	//Read, and store input.
 	Player* tmp;
 
@@ -38,6 +41,7 @@ bool Players::remove_player() {
 		if(tmp = (Player*) playerlist->remove(i_read)) {
 			delete tmp;			//Delete it,
 			delete [] c_read;	//delete the string
+			sports.remove_player(i_read);  // delete from all teams
 			return true;		//and return true
 		}
 	} else	//If it is not a number, we want to delete the player by name.
@@ -47,6 +51,7 @@ bool Players::remove_player() {
 			if(tmp->name_is(c_read)) {		//If the name is right
 				delete tmp;			//Delete the player,
 				delete [] c_read;	//  delete the string
+				sports.remove_player(i_read); // remove from all teams
 				return true;		//	and return true
 			} else	//If the name was not right
 				playerlist->add(tmp);	//Put it back in the list.

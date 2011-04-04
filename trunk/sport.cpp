@@ -137,6 +137,15 @@ void Sport::remove_division() {
 	delete [] divisionname;
 }
 
+void Sport::remove_player(int player_no) {
+	Division* div_ptr;
+	for (int i = 1; i <= divisionlist->no_of_elements(); i++) {
+		div_ptr = (Division*) divisionlist->remove_no(i);
+		div_ptr->remove_player(player_no);
+		divisionlist->add(div_ptr);
+	}
+}
+
 void Sport::term_list(ostream* out) {
 	char* division;
 	Division* tmp_division;

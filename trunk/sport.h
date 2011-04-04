@@ -28,6 +28,7 @@ class Sport : public Text_element {
 		bool name_is(char* nvn);
 		void add_division();
 		void remove_division();
+		void remove_player(int player_no);
 		void term_list(ostream* out);
 		void result_list(ostream* out, char typ);
 		void write_top_ten();

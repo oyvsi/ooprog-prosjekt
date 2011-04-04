@@ -201,6 +201,11 @@ void Division::edit_team() {
 		team_ptr->edit_team();
 }
 
+void Division::remove_player(int player_no) {
+	for (int i = 0; i < no_teams; i++) 
+		teams[i]->remove_player(player_no);
+}
+
 void Division::write_results(ostream* out) {
 	char date[DATELEN];
 	*out << "  " << text << '\n';
