@@ -15,6 +15,7 @@ class Players {
 		~Players();
 		
 		virtual void display();
+		void display(int no);
 		void new_player();
 		bool remove_player();
 		void write_file();

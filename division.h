@@ -28,6 +28,7 @@ public:
     void write(ostream* out);
 	void write_results(ostream* out);
 	void write_top_ten();
+	void write_team();
 };
 
 #endif

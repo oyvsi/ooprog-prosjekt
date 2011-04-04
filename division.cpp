@@ -62,7 +62,7 @@ int Division::get_team(char* name) {        // Finds team_no from name
 
 void Division::display() {	// Menu-option i 
 	cout << "Navn: " << text << '\n';
-	cout << "Ant. lag: " << no_teams;
+	cout << "Ant. lag: " << no_teams << '\n';
 	for (int i = 0; i < no_teams; i++)
 		teams[i]->display();
 }
@@ -185,6 +185,16 @@ void Division::write(ostream* out) {
 		}	
 		
 	}
+}
+
+void Division::write_team() {
+	char* team_name = io.read_valid("Lag", NAME);
+	int team_no = get_team(team_name);
+	if(team_no != -1) 
+		teams[team_no]->write_team();
+	else
+		cout << "Laget " << team_name << " finnes ikke!\n";
+	delete [] team_name;
 }
 
 void Division::write_results(ostream* out) {

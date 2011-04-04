@@ -28,6 +28,7 @@ class Sport : public Text_element {
 		void term_list(ostream* out);
 		void result_list(ostream* out, char typ);
 		void write_top_ten();
+		void write_team();
 };
 
 #endif

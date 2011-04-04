@@ -193,3 +193,15 @@ void Sports::write_top_ten(){
 	current_sport->write_top_ten();
 	sportlist->add(current_sport);
 }
+
+void Sports::write_team() {
+	char* sportname = io.read_valid("Idrett", NAME);
+	Sport* sport_ptr = (Sport*) sportlist->remove(sportname);
+	if (sport_ptr) {
+		sport_ptr->write_team();
+		sportlist->add(sport_ptr);
+	} else {
+		cout << "Idretten " << sportname << " finnes ikke!\n";
+	}
+	delete [] sportname;
+}
