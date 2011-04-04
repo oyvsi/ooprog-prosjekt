@@ -64,16 +64,6 @@ bool Result::read_result(istream* infile, char in_date[], bool update) {
 	}
 }
 
-
-void Result::display() {    
-    if(h_goals != -1) { // We have results from the game
-        cout << "Vi har resultatene fra kampen\n";
-
-    } else {
-        cout << "Dato: " << date << '\n'; 
-    }
-}
-
 void Result::table_add(tableobject* home, tableobject* away, int tabletype) {
 	int win_points = (tabletype == 1 || (tabletype == 3 && extra_time)) ? 2 : 3;
 	int draw_points = 1;

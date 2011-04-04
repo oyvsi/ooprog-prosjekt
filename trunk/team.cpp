@@ -28,33 +28,62 @@ char* Team::get_team() {
     return name;
 }
 
-void Team::add_player(int player_no) {
-    if (no_players < MAXPLAYERS) 
-        player_nos[++no_players] = player_no;
-    else
-        cout << name << " has " << MAXPLAYERS 
-        << " players, there is no room for more.";
-}
-
-void Team::rem_player(int player_no) {
-    int hit = -1;
-    for(int i = 0; i < no_players; i++) {
+int Team::get_player(int player_no) {
+	int hit = -1;
+	for(int i = 0; i < no_players; i++) {
         if(player_nos[i] == player_no)
             hit = i;
     }
+	return hit;
+}
+
+void Team::add_player(int player_no) {
+    if (no_players < MAXPLAYERS) {
+		if (get_player(player_no != -1))
+			player_nos[no_players++] = player_no;	// add after since array
+		else										// begins at 0
+			cout << player_no << " er allerede på " << name << '\n';
+		} else {
+			cout << name << " har " << MAXPLAYERS 
+			<< " spillere, det er ikke plass til flere.\n";
+		}
+}
+
+void Team::rem_player(int player_no) {
+	int hit = get_player(player_no);
     if(hit != -1) {         
         player_nos[hit] = 0;
         for(int i = hit; i < no_players; i++)   //Reaarrange array
             player_nos[i] = player_nos[i+1];
         no_players--;
+		cout << "Fjernet "; players.display(player_no);
     } else {
-        cout << "Player number " << player_no << " was not found";
+        cout << "Ingen spiller med nummer " << player_no << " ble funner på "
+			 << name << '\n';
     }
 }
 
 void Team::write_team() {
 	for (int i = 0; i < no_players; i++) 
 		players.display(player_nos[i]);	
+}
+
+void Team::edit_team() {
+	char choice;
+	int player_no;
+	do {
+		cout << "Ønsker du å (f)jerne eller (l)egge til spiller? ";
+		cin >> choice;
+	} while (choice != 'f' && choice != 'l');
+	
+	do {
+		cout << "Spillernummer: "; cin >> player_no;
+	} while (!players.in_list(player_no));
+	
+	if (choice == 'f')
+		rem_player(player_no);
+	else if (choice == 'l')
+		add_player(player_no);
 }
 
 void Team::display() {

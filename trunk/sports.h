@@ -3,12 +3,14 @@
 
 #include <fstream>
 #include "listtool2.h"
+class Sport;	// Forward declaration
 
 using namespace std;
 
 class Sports {
 	private:
 		List* sportlist;
+		Sport* get_sport();
 	public:
 		Sports();
 		~Sports();
@@ -24,6 +26,7 @@ class Sports {
 		void remove_division();
 		void write_top_ten();
 		void write_team();
+		void edit_team();
 };
 
 #endif

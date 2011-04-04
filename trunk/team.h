@@ -11,6 +11,7 @@ private:
     char* address;
     int player_nos[MAXPLAYERS];
     int no_players;
+	int get_player(int player_no);
 public:
     Team();
     Team(istream* infile);
@@ -23,6 +24,7 @@ public:
     void rem_player(int player_no);
 	void display();
 	void write_team();
+	void edit_team();
     
 };
 

@@ -145,6 +145,17 @@ bool Players::in_list(char* name) {
 	}
 	return false;
 }
+
+bool Players::in_list(int player_no) {
+	bool found = false;
+	Player* player_ptr = (Player*) playerlist->remove(player_no);
+	if (player_ptr)
+		found = true;
+	playerlist->add(player_ptr);
+	
+	return found;
+}
+
 int Players::get_id(char* name) {
 	Player* tmp_player;
 	for(int i = 1; i <= playerlist->no_of_elements(); i++) {
