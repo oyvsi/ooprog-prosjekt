@@ -1,3 +1,4001 @@
-1
+2000
 1 Maria Lunder
 4841 ARENDAL
+2 Bogdan Hatlevik
+2312 OTTESTAD
+3 Navnestatistikk, Bakka
+0487 OSLO
+4 Mons Aaseth
+5903 ISDALSTØ
+5 Dagmar Flatland
+5417 STORD
+6 Bartosz Lyngmo
+0774 OSLO
+7 Hermine Lode
+0116 OSLO
+8 Zahra Slåtten
+6391 TRESFJORD
+9 Wenke Bjørseth
+8093 KJERRINGØY
+10 Gjermund Revheim
+5815 BERGEN
+11 Sami Joakimsen
+8742 SELVÆR
+12 Villy Østensen
+4626 KRISTIANSAND S
+13 Nicolas Riise
+2065 GARDERMOEN
+14 Lars Taule
+1761 HALDEN
+15 Jarle Alfredsen
+5534 HAUGESUND
+16 Johann Heggen
+2005 RÆLINGEN
+17 Kaia Kolsrud
+0569 OSLO
+18 Liv Sleire
+5956 VÅGSEIDET
+19 Mildrid Rikstad
+4580 LYNGDAL
+20 Maximilian Olstad
+9269 TROMSØ
+21 Audhild Hynne
+0781 OSLO
+22 Joacim Bru
+1832 ASKIM
+23 Sølvi Hetland
+3994 LANGESUND
+24 Vincent Seldal
+4827 FROLANDS VERK
+25 Jon Walstad
+4663 KRISTIANSAND S
+26 Leila Nysæther
+0253 OSLO
+27 Sølve Ludvigsen
+0616 OSLO
+28 Svend Haukland
+3520 JEVNAKER
+29 Steve Homme
+3041 DRAMMEN
+30 Vebjørn Grytten
+9287 TROMSØ
+31 Eivor Magnussen
+2317 HAMAR
+32 Cathrine Norland
+5412 STORD
+33 Iman Zhang
+1309 RUD
+34 Arnfinn Løvaas
+3749 SILJAN
+35 Carl Lauvrak
+8647 BLEIKVASSLIA
+36 Anders Skogmo
+6918 SØR-SKORPA
+37 Syver Bryhn
+5122 MORVIK
+38 Lea Omdahl
+8618 MO I RANA
+39 Atle Kverneland
+7447 TRONDHEIM
+40 Anny Mannes
+6996 VADHEIM
+41 Maciej Hageland
+3620 FLESBERG
+42 Merethe Anthonsen
+1684 VESTERØY
+43 Rasmus Kausar
+7212 KORSVEGEN
+44 Waldemar Gulliksen
+3917 PORSGRUNN
+45 Krzysztof Solstad
+9910 BJØRNEVATN
+46 Oddrun Krogsrud
+3743 SKIEN
+47 Joacim Høie
+4790 LILLESAND
+48 Miriam Bekken
+8613 MO I RANA
+49 Norvald Adam
+4022 STAVANGER
+50 Oddrun Alsvik
+6657 RINDAL
+51 Olaf Hillestad
+9471 GRATANGEN
+52 Lina Kvalheim
+8663 MOSJØEN
+53 Hogne Winge
+4420 ÅNA-SIRA
+54 Vemund Justad
+6008 ÅLESUND
+55 Alise Botten
+6133 LAUVSTAD
+56 Eyvind Heltne
+1380 HEGGEDAL
+57 Oddbjørn Walderhaug
+7562 HUNDHAMAREN
+58 Elsa Engh
+6196 NORANGSFJORDEN
+59 Vanessa Frogner
+6101 VOLDA
+60 Edward Idsø
+8009 BODØ
+61 Severin Morken
+6727 BREMANGER
+62 Dawid Waage
+3092 SUNDBYFOSS
+63 Sigurd Johansen
+0516 OSLO
+64 Trine-lise Hexeberg
+6770 NORDFJORDEID
+65 Mario Vaksdal
+1850 MYSEN
+66 Øyvin Håpnes
+7083 LEINSTRAND
+67 Egil Bjørn
+5412 STORD
+68 Ingvild Reitan
+2612 SJUSJØEN
+69 Aron Wilhelmsen
+9136 VANNAREID
+70 Nanna Lode
+2929 BAGN
+71 Eirin Djupvik
+5523 HAUGESUND
+72 Mikkel Brenden
+8297 TRANØY
+73 Jonathan Sellevold
+0984 OSLO
+74 Borgar Blindheim
+0128 OSLO
+75 Emmy Nordhus
+0570 OSLO
+76 Merethe Hveding
+4182 SKARTVEIT
+77 Britt Fretheim
+0041 OSLO
+78 Vigdis Rustand
+5514 HAUGESUND
+79 Preben Astrup
+0041 OSLO
+80 Reza Magerøy
+1690 HERFØL
+81 Oddvar Heide
+2653 VESTRE GAUSDAL
+82 Dina Venås
+6453 KLEIVE
+83 Cathrine Linde
+4006 STAVANGER
+84 Baard Leirvåg
+8168 ENGAVÅGEN
+85 Victor Heldal
+7533 KOPPERÅ
+86 Imre Bakketun
+0211 OSLO
+87 Ingvild Fotland
+7495 TRONDHEIM
+88 Thordis Tyldum
+0254 OSLO
+89 Marielle Øglænd
+1597 MOSS
+90 Thordis Svanevik
+3967 BAMBLE SOMMERRUTE
+91 Jostein Ferstad
+9742 KUNES
+92 Rune Mohamed
+6633 GJEMNES
+93 Herman Folland
+0273 OSLO
+94 Andrzej Kroken
+3014 DRAMMEN
+95 Paula Solevåg
+0764 OSLO
+96 Tron Rossebø
+1950 RØMSKOG
+97 Gudny Sandvær
+8507 NARVIK
+98 Abdullahi Magnusson
+4580 LYNGDAL
+99 Bodil Aspen
+0970 OSLO
+100 Gunnbjørg Rognstad
+6470 ERESFJORD
+101 Bastian Staven
+3124 TØNSBERG
+102 Matilde Løvlie
+5987 HOSTELAND
+103 Belinda Brattli
+2318 HAMAR
+104 Yngve Skavhaug
+5889 BERGEN
+105 Harry Ødegård
+6504 KRISTIANSUND N
+106 Karianne Hope
+0134 OSLO
+107 Ingunn Rist
+7256 HEMNSKJELA
+108 Kjersti Lunder
+3189 HORTEN
+109 Holger Pettersson
+7486 TRONDHEIM
+110 Kathrine Eike
+3739 SKIEN
+111 Margun Refseth
+2100 SKARNES
+112 Waldemar Skjelbred
+7409 TRONDHEIM
+113 Roger Ferkingstad
+5828 BERGEN
+114 Dag Hånes
+7971 KOLVEREID
+115 Filippa Lundberg
+5707 EVANGER
+116 Kristi Holst
+5593 SKÅNEVIK
+117 Imre Kvammen
+2030 NANNESTAD
+118 Solbjørg Nesland
+2716 HARESTUA
+119 Ingunn Wiklund
+1764 HALDEN
+120 Amy Sværen
+6494 VEVANG
+121 Brith Østmo
+6494 VEVANG
+122 Christer Hatlestad
+4432 HIDRASUND
+123 Eilert Vestly
+2550 OS I ØSTERDALEN
+124 Frida Nord
+5967 EIVINDVIK
+125 Eldbjørg Svenkerud
+8220 RØSVIK
+126 Merete Kjelstad
+7213 GÅSBAKKEN
+127 Fanny Viken
+6320 ISFJORDEN
+128 Aagot Seljeseth
+3914 PORSGRUNN
+129 Erland Lossius
+1530 MOSS
+130 Kjellaug Palm
+9583 LANGFJORDHAMN
+131 Åshild Totland
+9037 TROMSØ
+132 Sina Aakre
+2665 LESJA
+133 Oddleif Alvheim
+4326 SANDNES
+134 Jahn Soleng
+4303 SANDNES
+135 Alex Hove
+6019 ÅLESUND
+136 Olga Norum
+7350 BUVIKA
+137 Nicolas Aarskog
+6396 VIKEBUKT
+138 Filippa Gustavson
+1061 OSLO
+139 Susan Nord
+3629 NORE
+140 Anne-britt Skotnes
+8041 BODØ
+141 Odin Rognli
+2166 OPPAKER
+142 Sven Fuglerud
+9980 BERLEVÅG
+143 Andrine Rognmo
+5387 MØKSTER
+144 Elsa Haugsvær
+5033 BERGEN
+145 Lotta Astrup
+3175 RAMNES
+146 Ulrikke Kolstad
+4173 NORD-HIDLE
+147 Rigmor Haavik
+8489 NORDMELA
+148 Frederik Romsdal
+8664 MOSJØEN
+149 Gunda Sørum
+3139 SKALLESTAD
+150 Oddbjørn Finnøy
+6887 LÆRDAL
+151 Eirik Grønn
+3967 BAMBLE SOMMERRUTE
+152 Olai Nesje
+0155 OSLO
+153 Eric Taraldsen
+2646 GÅLÅ
+154 Lisbeth Husum
+3820 NORDAGUTU
+155 Kristin Støle
+3618 SKOLLENBORG
+156 Viktoria Skøien
+1642 SALTNES
+157 Amund Molteberg
+2330 VALLSET
+158 Thorleif Sundnes
+0776 OSLO
+159 Thea Sætre
+2607 VINGROM
+160 Mattis Wold
+7450 TRONDHEIM
+161 Filip Wong
+7462 TRONDHEIM
+162 Lasse Elnes
+3491 KLOKKARSTUA
+163 Tara Berg
+0950 OSLO
+164 Margareth Rosenberg
+1311 HØVIKODDEN
+165 Rikard Aaby
+6529 FREI
+166 Søren Grønstad
+9100 KVALØYSLETTA
+167 Dan Engevold
+8393 SØRVÅGEN
+168 Ingvild Bergan
+1255 OSLO
+169 Isabel Dahlberg
+3848 MORGEDAL
+170 Torkil Skrede
+2205 KONGSVINGER
+171 Marius Bergseng
+0853 OSLO
+172 Andrea Tran
+0781 OSLO
+173 Maja Hepsø
+4794 LILLESAND
+174 Tomas Bilstad
+8656 MOSJØEN
+175 Haakon Urstad
+5219 SKORPO FERIEHEIM
+176 Heidi Fossheim
+5183 OLSVIK
+177 Narve Ranheim
+0957 OSLO
+178 Emil Nesvik
+7742 YTTERVÅG
+179 Odin Rindal
+0976 OSLO
+180 Rakel Kanestrøm
+0509 OSLO
+181 Tor-erik Langemyr
+9017 TROMSØ
+182 Lilli Finne
+3012 DRAMMEN
+183 Karoline Molvær
+0366 OSLO
+184 Aagot Helset
+0356 OSLO
+185 Judit Østvold
+7201 KYRKSÆTERØRA
+186 Ludvik Aase
+4201 SAUDA
+187 Rafael Lindgaard
+6776 KJØLSDALEN
+188 Hassan Aanstad
+4828 MJÅVATN
+189 Torvald Hågensen
+5700 VOSS
+190 Torbjørn Samdal
+1619 FREDRIKSTAD
+191 Målfrid Saue
+2609 LILLEHAMMER
+192 Lorentz Storvik
+0575 OSLO
+193 Torje Krane
+3716 SKIEN
+194 Adam Due
+0306 OSLO
+195 Jonny Brænden
+4818 FÆRVIK
+196 Ingri Røisland
+8860 TJØTTA
+197 Petra Eklund
+5862 BERGEN
+198 Regina Holgersen
+4325 SANDNES
+199 Nathalie Vindenes
+0851 OSLO
+200 Mohammed Anderssen
+8921 SØMNA
+201 Torje Bach
+1581 RYGGE
+202 Sigrid Dvergsdal
+1316 EIKSMARKA
+203 Rene Ljosland
+6144 SYLTE
+204 Guri Mogen
+2005 RÆLINGEN
+205 Mattis Grønningsæter
+1743 KLAVESTADHAUGEN
+206 Alise Backe
+1207 OSLO
+207 Leiv Røhne
+4985 VEGÅRSHEI
+208 Ismail Krog
+1712 GRÅLUM
+209 Stephanie Trones
+4208 SAUDASJØEN
+210 Roar Solum
+1516 MOSS
+211 Allan Myrseth
+6779 HOLMØYANE
+212 Kay Egge
+0564 OSLO
+213 Aashild Rånes
+3259 LARVIK
+214 Tatiana Nærø
+1746 SKJEBERG
+215 Carsten Hofstad
+6431 BUD
+216 Jeanette Wiker
+9925 SVANVIK
+217 Arkadiusz Thommesen
+7739 BEITSTAD
+218 Maren Fardal
+9508 ALTA
+219 Bjørnar Børseth
+3232 SANDEFJORD
+220 Miroslaw Kløvstad
+4280 SKUDENESHAVN
+221 Glenn Tjelta
+5443 BØMLO
+222 Dagmar Obrestad
+1152 OSLO
+223 Emine Wright
+1709 SARPSBORG
+224 Frida Øvstebø
+1809 ASKIM
+225 Ronja Kjærstad
+4076 VASSØY
+226 Linda Thune
+0757 OSLO
+227 Andrew Sola
+2203 KONGSVINGER
+228 Christopher Kringstad
+0179 OSLO
+229 Osvald Lindanger
+0677 OSLO
+230 Joar Paulsen
+1604 FREDRIKSTAD
+231 Silvia Havnen
+3523 NES I ÅDAL
+232 Susanne Innvær
+3747 SKIEN
+233 Merete Bakkejord
+8961 HOMMELSTØ
+234 Irene Holthe
+5787 LOFTHUS
+235 Line Thorbjørnsen
+2831 RAUFOSS
+236 Truls Begum
+8171 SVARTISEN GÅRD
+237 Magda Vu
+1176 OSLO
+238 Inge Hilleren
+3702 SKIEN
+239 Aurora Løvås
+2210 GRANLI
+240 Adam Sveum
+9384 SKALAND
+241 Aud Rossebø
+8011 BODØ
+242 Pia Kirkhus
+4990 SØNDELED
+243 Christian Aslam
+9152 SØRKJOSEN
+244 Jennifer Hanssen
+8382 NAPP
+245 Ragnvald Jordan
+2308 HAMAR
+246 Nina Otnes
+1683 VESTERØY
+247 Bergliot Bjørnevik
+0590 OSLO
+248 Audhild Engdal
+3045 DRAMMEN
+249 Vetle Røgeberg
+8690 HATTFJELLDAL
+250 Sara Bjønnes
+2870 DOKKA
+251 Annika Hasan
+7387 SINGSÅS
+252 Anthony Trydal
+5443 BØMLO
+253 Sveinung Frøshaug
+2476 ATNA
+254 Marek Sørdal
+8193 RØDØY
+255 Lovise Aaberg
+8260 INNHAVET
+256 Kerstin Molvær
+3014 DRAMMEN
+257 Philip Smith
+2019 SKEDSMOKORSET
+258 Marte Nesset
+6912 KINN
+259 Sander Baltzersen
+3199 BORRE
+260 Alv Innvær
+5578 NEDRE VATS
+261 Gaute Asheim
+3721 SKIEN
+262 Paal Adan
+5570 AKSDAL
+263 Sean Helgestad
+1512 MOSS
+264 Tristan Frantzen
+2742 GRUA
+265 Aina Bergsvik
+6139 FISKÅBYGD
+266 Inge Truong
+5407 STORD
+267 Maja Raa
+0196 OSLO
+268 Gøran Norheim
+5514 HAUGESUND
+269 Øystein Rosland
+4887 GRIMSTAD
+270 Przemyslaw Langhelle
+4343 ORRE
+271 Marta Dalene
+3047 DRAMMEN
+272 Hilda Tidemann
+5221 NESTTUN
+273 Hjalmar Bach
+3622 SVENE
+274 Pawel Guldberg
+1596 MOSS
+275 Ane Ekelund
+3672 NOTODDEN
+276 Imre Nordeide
+8233 VALNESFJORD
+277 Michael Drange
+3902 PORSGRUNN
+278 Catherine Dalene
+4838 ARENDAL
+279 Elsa Frøystad
+1639 GAMLE FREDRIKSTAD
+280 Yvonne Hegstad
+6918 SØR-SKORPA
+281 Radoslaw Remøy
+2402 ELVERUM
+282 Tilde Truong
+5864 BERGEN
+283 Tonje Aarnes
+3743 SKIEN
+284 Anette Blakstad
+1920 SØRUMSAND
+285 Ronald Kjelsberg
+0774 OSLO
+286 Turid Bergan
+5033 BERGEN
+287 Hannah Langås
+9273 TROMSØ
+288 Solvår Turøy
+8264 ENGAN
+289 Scott Moan
+8732 ALDRA
+290 Lars Berisha
+0172 OSLO
+291 Ari Synnes
+2345 ÅDALSBRUK
+292 Richard Haugseth
+5531 HAUGESUND
+293 Torstein Voll
+1337 SANDVIKA
+294 Inga Angelsen
+6174 BARSTADVIK
+295 Sverre Ulset
+7633 FROSTA
+296 Siv Klev
+3152 TOLVSRØD
+297 Mons Reinertsen
+0451 OSLO
+298 Nina Mohammadi
+6019 ÅLESUND
+299 Charles Leknes
+2280 GJESÅSEN
+300 Arnljot Kirknes
+4579 LYNGDAL
+301 Erik Amundsen
+9692 MÅSØY
+302 Sigbjørn Svanevik
+9764 NORDKAPP
+303 Muhammad Kvilhaug
+5318 STRUSSHAMN
+304 Kaja Heia
+1408 KRÅKSTAD
+305 Mali Simensen
+2803 GJØVIK
+306 Olav Holmefjord
+1779 HALDEN
+307 Signe Vaage
+3042 DRAMMEN
+308 Tamara Hella
+2802 GJØVIK
+309 Lill Karlsson
+2027 KJELLER
+310 Sarah Fykse
+9276 TROMSØ
+311 Ågot Herigstad
+7418 TRONDHEIM
+312 Norma Bjørnå
+1326 LYSAKER
+313 Mai Borgen
+1387 ASKER
+314 Josephine Evje
+1478 LØRENSKOG
+315 Aslaug Kryger
+8058 TVERLANDET
+316 Reidun Østbø
+3516 HØNEFOSS
+317 Gabriela Omar
+6687 VALSØYFJORD
+318 Andrea Røyrvik
+8274 MUSKEN
+319 Juan Langseth
+1604 FREDRIKSTAD
+320 Gunnlaug Synnes
+2540 TOLGA
+321 Nicolas Egge
+5459 FJELBERG
+322 Christoffer Furset
+0201 OSLO
+323 Josef Wilhelmsen
+0423 OSLO
+324 Viktor Hagenes
+4898 GRIMSTAD
+325 Juan Tafjord
+2602 LILLEHAMMER
+326 Harry Persen
+7761 SNÅSA
+327 Hanne Løken
+8096 BLIKSVÆR
+328 Imre Sørbø
+4902 TVEDESTRAND
+329 Hanna Begum
+6488 MYKLEBOST
+330 Nelly Ringen
+5809 BERGEN
+331 Peder Bøen
+0766 OSLO
+332 Ole-martin Kjeldsberg
+4742 GRENDI
+333 Sten Vegsund
+3148 HVASSER
+334 Målfrid Telle
+7023 TRONDHEIM
+335 Margrete Opdal
+9750 HONNINGSVÅG
+336 Vetle Landro
+7227 GIMSE
+337 Jostein Graff
+4491 KVINESDAL
+338 Maya Barka
+5887 BERGEN
+339 Liss Aarrestad
+6490 EIDE
+340 Asta Kjeldsen
+0772 OSLO
+341 Baard Angell
+2975 VANG I VALDRES
+342 Mie Todal
+5600 NORHEIMSUND
+343 Anne-marie Nystrøm
+1005 OSLO
+344 Torger Eide
+7101 RISSA
+345 Johann Ekelund
+4839 ARENDAL
+346 Inger-lise Medhus
+2478 HANESTAD
+347 Haavard Leine
+5780 KINSARVIK
+348 Sivert Eggan
+8520 ANKENESSTRAND
+349 Sofia Pihl
+2901 FAGERNES
+350 Birte Holmsen
+0283 OSLO
+351 Carlos Roos
+6718 DEKNEPOLLEN
+352 Terese Goa
+4844 ARENDAL
+353 Susanna Østgård
+9480 HARSTAD
+354 Astrid Fjellanger
+9600 HAMMERFEST
+355 Ulrik Boye
+3949 PORSGRUNN
+356 Patryk Friis
+7052 TRONDHEIM
+357 Gerhard Lægreid
+0664 OSLO
+358 Sjur Goa
+9014 TROMSØ
+359 Arnold Rodal
+7729 STEINKJER
+360 Gustav Hernæs
+0779 OSLO
+361 Eldar Vestre
+1007 OSLO
+362 Arkadiusz Wangberg
+1281 OSLO
+363 Evy Mørkved
+3514 HØNEFOSS
+364 Mateusz Thoresen
+2060 GARDERMOEN
+365 Halvard Moe
+0310 OSLO
+366 Charlotte Tessem
+2165 HVAM
+367 Trym Skagestad
+4053 RÆGE
+368 Bjarte Flatebø
+9135 VANNVÅG
+369 Gisle Lium
+5851 BERGEN
+370 Hermann Bakkejord
+5822 BERGEN
+371 Inger Stabell
+8470 BØ I VESTERÅLEN
+372 Sabine Dramstad
+0452 OSLO
+373 Amir Monsen
+5726 VAKSDAL
+374 Vilma Østhus
+0963 OSLO
+375 Frank Aadland
+1604 FREDRIKSTAD
+376 Trond Grøtting
+7391 RENNEBU
+377 Gjermund Fagereng
+2110 SLÅSTAD
+378 Edwin Botten
+8480 ANDENES
+379 Jack Rein
+6898 BALESTRAND
+380 Werner Kolstad
+2013 SKJETTEN
+381 Kerstin Huynh
+2306 HAMAR
+382 Birte Hånes
+5401 STORD
+383 Ole-christian Ugland
+4097 SOLA
+384 Anbjørg Tysnes
+4852 FÆRVIK
+385 Torkel Hole
+7584 SELBUSTRAND
+386 Hermod Krog
+7053 RANHEIM
+387 Max Heien
+5019 BERGEN
+388 Erle Opedal
+2412 SØRSKOGBYGDA
+389 Yvonne Egeberg
+1813 ASKIM
+390 Sigurd Mjøs
+4032 STAVANGER
+391 Lydia Morland
+3715 SKIEN
+392 Jennifer Sharma
+5532 HAUGESUND
+393 Hamid Buan
+4368 VARHAUG
+394 Osman Rasmussen
+7358 BØRSA
+395 Agnar Øie
+1807 ASKIM
+396 Margrete Daae
+8922 SØMNA
+397 Osman Lee
+4308 SANDNES
+398 Jahn Skjold
+2072 DAL
+399 Remi Steinsvik
+0554 OSLO
+400 Helene Høgli
+1471 LØRENSKOG
+401 Krister Josdal
+3242 SANDEFJORD
+402 Anne Sekse
+0368 OSLO
+403 Ranveig Schultz
+0242 OSLO
+404 Simone Bonsaksen
+3173 VEAR
+405 Kjerstin Lilleland
+3737 SKIEN
+406 Torunn Blom
+5859 BERGEN
+407 Kurt Bjørkhaug
+2636 ØYER
+408 Idunn Fylling
+8690 HATTFJELLDAL
+409 Hallvard Westerlund
+0381 OSLO
+410 Filip Dragland
+3055 KROKSTADELVA
+411 Peter Marøy
+6396 VIKEBUKT
+412 Mikal Risa
+4091 HAFRSFJORD
+413 Sturle Drage
+2624 LILLEHAMMER
+414 Aleksander Sjøgren
+6958 SØRBØVÅG
+415 Leander Bredal
+4832 MYKLAND
+416 Tor-arne Osman
+5470 ROSENDAL
+417 Tara Grov
+5983 HAUGSVÆR
+418 Birger Hoven
+3912 PORSGRUNN
+419 Hassan Langnes
+3360 GEITHUS
+420 Sissel Viddal
+7125 VANVIKAN
+421 Brynhild Bang
+5862 BERGEN
+422 Said Gullaksen
+1166 OSLO
+423 Jan Vestvik
+3753 TØRDAL
+424 Leah Rømo
+5780 KINSARVIK
+425 Stein Stormoen
+8485 DVERBERG
+426 Sylwia Tjelta
+2582 GRIMSBU
+427 Mariell Høydal
+5819 BERGEN
+428 Lotta Skog
+7413 TRONDHEIM
+429 Astri Ditlefsen
+6433 HUSTAD
+430 Kine Thrane
+1633 GAMLE FREDRIKSTAD
+431 Leon Tangerud
+0122 OSLO
+432 Guri Nordbø
+4041 HAFRSFJORD
+433 Ole-jørgen Rakvåg
+1639 GAMLE FREDRIKSTAD
+434 Elin Mundal
+9950 VARDØ
+435 Tønnes Bjørlo
+6914 SVANØYBUKT
+436 Svanhild Oliversen
+2205 KONGSVINGER
+437 Brith Vestbø
+3481 TOFTE
+438 Catherine Stormo
+6461 EIDSVÅG I ROMSDAL
+439 Eva Lillebø
+6781 STRYN
+440 Artur Langhelle
+8309 KABELVÅG
+441 Vegard Aarskog
+4529 BYREMO
+442 Malene Kaspersen
+5777 GRIMO
+443 Johan Bjørnevik
+6315 INNFJORDEN
+444 Artur Solsvik
+5502 HAUGESUND
+445 Herdis Eikås
+5327 HAUGLANDSHELLA
+446 Torger Reppe
+9690 HAVØYSUND
+447 Gry Berstad
+2232 TOBØL
+448 Elbjørg Bjørge
+1714 SARPSBORG
+449 Ingrid Hauglid
+8900 BRØNNØYSUND
+450 Richard Dahle
+9304 VANGSVIK
+451 Torgrim Aaby
+3701 SKIEN
+452 Sigvart Le
+7790 MALM
+453 Silje Mjøs
+6877 FORTUN
+454 Bård Ihle
+3037 DRAMMEN
+455 Luna Karlsson
+6003 ÅLESUND
+456 Trude Mæhre
+1163 OSLO
+457 Guro Haarr
+3746 SKIEN
+458 Stefan Rafoss
+2211 KONGSVINGER
+459 Julius Frantzen
+9392 STONGLANDSEIDET
+460 Anniken Øien
+3996 PORSGRUNN
+461 Eira Lohne
+9489 HARSTAD
+462 Vilde Visnes
+7333 STORÅS
+463 Bogdan Svanberg
+5009 BERGEN
+464 Hamza Haugland
+7454 TRONDHEIM
+465 Alexandra Hestad
+3891 HØYDALSMO
+466 Kjerstin Hausken
+3707 SKIEN
+467 Levi Thuen
+2952 BEITO
+468 Even Valberg
+4834 RISDAL
+469 Fride Steffensen
+5302 STRUSSHAMN
+470 Margrete Tronstad
+3004 DRAMMEN
+471 Hildegunn Kjørsvik
+9189 SKJERVØY
+472 Thorbjørn Gaustad
+6301 ÅNDALSNES
+473 Tine Langåker
+8074 BODØ
+474 Elida Digre
+8187 JEKTVIK
+475 Dan Oppegaard
+4691 KRISTIANSAND S
+476 Emanuel Valen
+2266 ARNEBERG
+477 Solfrid Fjærestad
+5032 BERGEN
+478 Radoslaw Fosshaug
+3270 LARVIK
+479 Lina Ramsøy
+7801 NAMSOS
+480 Agnar Eidissen
+9424 KJØTTA
+481 Erle Huse
+6855 FRØNNINGEN
+482 Ludvik Øverli
+3037 DRAMMEN
+483 Tristan Mong
+5144 FYLLINGSDALEN
+484 Bertha Øvretveit
+4609 KARDEMOMME BY
+485 Kacper Lende
+1377 BILLINGSTAD
+486 Kjellaug Gjelsten
+8270 DRAG
+487 Marko Aasebø
+1590 RYGGE FLYSTASJON
+488 Sam Sjøvoll
+1053 OSLO
+489 Daniel Jessen
+7563 MALVIK
+490 Katinka Raa
+0661 OSLO
+491 Vibecke Goa
+4005 STAVANGER
+492 Inger Værnes
+3932 PORSGRUNN
+493 Else-marie Grøtte
+8622 MO I RANA
+494 Håvar Rovik
+3646 HVITTINGFOSS
+495 Hallvard Bakkan
+0712 OSLO
+496 Janet Rosenvinge
+4857 ARENDAL
+497 Alma Rekkedal
+1776 HALDEN
+498 Ann Ryeng
+1903 GAN
+499 Victor Vaa
+4619 MOSBY
+500 Roar Kyvik
+6455 KORTGARDEN
+501 Harriet Korneliussen
+2218 LUNDERSÆTER
+502 Oddlaug Eikås
+0862 OSLO
+503 Mark Lerøy
+3603 KONGSBERG
+504 Synnøve Staff
+5545 VORMEDAL
+505 Edvard Skurdal
+4611 KRISTIANSAND S
+506 Maia Muren
+0607 OSLO
+507 Thanh Rygg
+4820 FROLAND
+508 Laura Roen
+6986 VÆRLANDET
+509 Julia Grinde
+0410 OSLO
+510 Anni Braut
+4150 RENNESØY
+511 Oddvar Hebnes
+6942 SVORTEVIK
+512 Marie Otterstad
+8273 NEVERVIK
+513 Hjalmar Riiser
+1870 ØRJE
+514 Max Ulseth
+3166 TOLVSRØD
+515 Norunn Dyrøy
+4894 GRIMSTAD
+516 Wojciech Henriksen
+7624 EKNE
+517 Britt Huynh
+8297 TRANØY
+518 Nikolay Brandt
+9406 HARSTAD
+519 Lina Rud
+0557 OSLO
+520 Eilert Saastad
+0514 OSLO
+521 Alexandra Østebø
+7235 LER
+522 Børge Kavli
+4621 KRISTIANSAND S
+523 Balder Reite
+5444 ESPEVÆR
+524 Beata Vu
+0001 OSLO
+525 Sami Halsen
+5184 OLSVIK
+526 Ninni Bjørkmo
+6927 YTRØYGREND
+527 Maximilian Nordseth
+0573 OSLO
+528 Julianne Stenvik
+1417 SOFIEMYR
+529 Kathrine Holberg
+4005 STAVANGER
+530 Magnus Mælen
+2581 FOLLDAL
+531 Liam Kydland
+8210 FAUSKE
+532 Fadumo Gullaksen
+0274 OSLO
+533 Torkil Moss
+1063 OSLO
+534 Kerstin Halleraker
+9171 LONGYEARBYEN
+535 Tristan Turøy
+6462 RAUDSAND
+536 Jorun Falck
+9980 BERLEVÅG
+537 Jose Justad
+3482 TOFTE
+538 Bjørnar Grønvik
+2803 GJØVIK
+539 Svein Asphaug
+7213 GÅSBAKKEN
+540 Annar Bjønnes
+1081 OSLO
+541 Klaus Engevold
+1431 ÅS
+542 Birgitte Blix
+1458 FJELLSTRAND
+543 Christine Sønstebø
+4208 SAUDASJØEN
+544 Mariell Nordengen
+8890 LEIRFJORD
+545 Johanne Hallan
+2081 EIDSVOLL
+546 Jorunn Drivenes
+9402 HARSTAD
+547 Valborg Kolås
+4861 ARENDAL
+548 Miriam Fossmo
+2686 LOM
+549 Katharina Bøen
+1941 BJØRKELANGEN
+550 Wiggo Viddal
+2665 LESJA
+551 Håvar Erga
+3262 LARVIK
+552 Sylwia Haglund
+3937 PORSGRUNN
+553 Gerda Nessa
+6184 STORESTANDAL
+554 Sunniva Johanson
+8003 BODØ
+555 Arna Holmefjord
+7447 TRONDHEIM
+556 Frederik Nessa
+9521 KAUTOKEINO
+557 Eirin Haugland
+1341 SLEPENDEN
+558 Petra Hansen
+0263 OSLO
+559 Ole-petter Nerland
+9593 BREIVIKBOTN
+560 Mathis Ausland
+3895 EDLAND
+561 Ingeborg Kind
+0037 OSLO
+562 Sunniva Sjølie
+4551 FARSUND
+563 Borghild Grønning
+3114 TØNSBERG
+564 Jimmy Sævik
+5200 OS
+565 Una Linge
+2321 HAMAR
+566 Anita Bjønnes
+3183 HORTEN
+567 Marion Kolberg
+5542 KARMSUND
+568 Edwin Hidle
+5387 MØKSTER
+569 Geir Haugli
+4815 SALTRØD
+570 Gert Wilhelmsen
+4272 SANDVE
+571 Lennart Aarstad
+6453 KLEIVE
+572 Ninni Sømme
+1815 ASKIM
+573 Herman Hult
+3970 LANGESUND
+574 Gitte Bøhn
+9593 BREIVIKBOTN
+575 Bjørnar Strømnes
+5954 MONGSTAD
+576 Gunvald Haukland
+5499 ÅKRA
+577 Petter Haarstad
+5416 STORD
+578 Imran Sæternes
+0458 OSLO
+579 Navnestatistikk, Sandvold
+4082 STAVANGER
+580 Hege Dyrøy
+2411 ELVERUM
+581 Mustafa Andersson
+0018 OSLO
+582 Emma Skøien
+0475 OSLO
+583 Tage Hannestad
+3207 SANDEFJORD
+584 Aslak Helgeland
+0369 OSLO
+585 Håvar Folland
+9600 HAMMERFEST
+586 Thi Granlund
+6120 FOLKESTAD
+587 Amin Tjøstheim
+7600 LEVANGER
+588 Joachim Ribe
+0758 OSLO
+589 Anne-grethe Nilssen
+3785 SKIEN
+590 Frithjof Grøstad
+8602 MO I RANA
+591 Toril Straume
+5341 STRAUME
+592 Haldor Hegre
+2073 BØN
+593 Paul Løyning
+5593 SKÅNEVIK
+594 Halfdan Plassen
+6190 BJØRKE
+595 Sina Ramsdal
+5858 BERGEN
+596 Ulla Øye
+9020 TROMSDALEN
+597 Reza Dyrhaug
+0382 OSLO
+598 Nathalie Nornes
+2819 GJØVIK
+599 Jorge Årdal
+8360 BØSTAD
+600 David Yildirim
+2005 RÆLINGEN
+601 Agnete Moa
+5816 BERGEN
+602 Annar Skauge
+5517 HAUGESUND
+603 Bjørn-erik Yildirim
+4387 BJERKREIM
+604 Andreas Sundli
+4614 KRISTIANSAND S
+605 Øistein Vistnes
+6895 FEIOS
+606 Bjørge Sagen
+6538 AVERØY
+607 Tron Ødegården
+8261 INNHAVET
+608 Torodd Øyan
+3766 SANNIDAL
+609 Lukasz Engelstad
+8233 VALNESFJORD
+610 Emir Sander
+3115 TØNSBERG
+611 Karl Mortensen
+6516 KRISTIANSUND N
+612 Mindaugas Egeberg
+8283 LEINESFJORD
+613 Edit Sandvær
+1684 VESTERØY
+614 Grzegorz Grinde
+9297 TROMSØ
+615 Ted Chen
+3906 PORSGRUNN
+616 Ine Thorbjørnsen
+7530 MERÅKER
+617 Ida Reime
+7750 NAMDALSEID
+618 Stefan Rise
+3412 LIERSTRANDA
+619 Steven Risan
+0694 OSLO
+620 Ingvill Lillegård
+6421 MOLDE
+621 Kari Sandvold
+2879 ODNES
+622 Guro Berthelsen
+4123 SØR-HIDLE
+623 Helga Bruaset
+4637 KRISTIANSAND S
+624 Rainer Kvalø
+7037 TRONDHEIM
+625 Ann-kristin Fossheim
+6433 HUSTAD
+626 Kacper Rabben
+5502 HAUGESUND
+627 Joel Hasund
+9007 TROMSØ
+628 Hjalmar Westgaard
+4857 ARENDAL
+629 Laura Nicolaisen
+0701 OSLO
+630 Van Tjøstheim
+0214 OSLO
+631 Laura Bolme
+3721 SKIEN
+632 Jacob Ånensen
+0201 OSLO
+633 Tom-erik Aske
+2667 LESJAVERK
+634 Grethe Buvarp
+5137 MJØLKERÅEN
+635 Mari Elvenes
+7730 BEITSTAD
+636 Otto Gloppen
+1667 ROLVSØY
+637 Magni Danielsen
+1420 SVARTSKOG
+638 Thore Ravndal
+8270 DRAG
+639 Jørund Khalid
+0017 OSLO
+640 Henryk Andorsen
+0712 OSLO
+641 Marthe Bjørgum
+4536 BJELLAND
+642 Aaron Sandø
+6488 MYKLEBOST
+643 Rune Vagle
+2435 BRASKEREIDFOSS
+644 Åsne Hartveit
+8181 MYKEN
+645 Jarand Due
+1827 HOBØL
+646 Robin Bakkan
+0772 OSLO
+647 Willy Finseth
+9277 TROMSØ
+648 Torjus Øksendal
+0187 OSLO
+649 Johan Lomeland
+2074 EIDSVOLL VERK
+650 Raymond Langeland
+3140 NØTTERØY
+651 Tatjana Botten
+7166 TARVA
+652 Siri Skinstad
+7438 TRONDHEIM
+653 Ari Nymo
+1515 MOSS
+654 Tatjana Ramsdal
+4110 FORSAND
+655 Ørnulf Frøshaug
+5970 BYRKNESØY
+656 Aron Thorsrud
+3928 PORSGRUNN
+657 Inga Welle
+7098 SAUPSTAD
+658 Ryszard Øglænd
+0763 OSLO
+659 Mohammed Aanensen
+9193 NIKKEBY
+660 Robin Nyrud
+4817 HIS
+661 Gaute Gausdal
+5519 HAUGESUND
+662 Liv Moi
+4485 FEDA
+663 Emmy Ose
+1389 HEGGEDAL
+664 Anita Forland
+3223 SANDEFJORD
+665 Toralf Storås
+8820 DØNNA
+666 Katharina Haddeland
+2216 ROVERUD
+667 Bjørg Berstad
+2007 KJELLER
+668 Margrethe Bø
+2631 RINGEBU
+669 Toralf Huynh
+2409 ELVERUM
+670 Sten Haaland
+2421 TRYSIL
+671 Milan Johnsrud
+9186 ANDSNES
+672 Edvin Gustad
+6782 STRYN
+673 Chris Øverbø
+6817 NAUSTDAL
+674 Geir Busch
+8084 BODØ
+675 Embla Nerhus
+7016 TRONDHEIM
+676 Einar Dyb
+6064 HADDAL
+677 Bjarne Kvernberg
+7442 TRONDHEIM
+678 Mariel Misje
+0568 OSLO
+679 Else Byrkjeland
+4127 LYSEBOTN
+680 Ryszard Vestvik
+0605 OSLO
+681 Ronny Fossnes
+0574 OSLO
+682 Solvor Hatlestad
+0034 OSLO
+683 Sten Gashi
+3026 DRAMMEN
+684 Iris Johansen
+2662 DOVRE
+685 Mustafa Austad
+7282 BOGØYVÆR
+686 Sigfred Steffensen
+8642 FINNEIDFJORD
+687 Aksel Enger
+9277 TROMSØ
+688 Arnt Melheim
+7863 OVERHALLA
+689 Mathilde Lyngstad
+8195 GJERØY
+690 Åge Bøyum
+9014 TROMSØ
+691 Marita Styve
+2071 RÅHOLT
+692 Renee Åsheim
+7551 HOMMELVIK
+693 Rosa Kjærvik
+7940 OTTERSØY
+694 Ann-christin Sandø
+0182 OSLO
+695 Iben Lilleeng
+1891 RAKKESTAD
+696 Renee Blix
+6151 ØRSTA
+697 Agnethe Røren
+8733 STUVLAND
+698 Kirsti Wahlstrøm
+4662 KRISTIANSAND S
+699 Fadumo Sandmo
+4028 STAVANGER
+700 Christina Stokkan
+3209 SANDEFJORD
+701 Trym Hadland
+8130 SANDHORNØY
+702 Linea Grøtting
+2306 HAMAR
+703 Elzbieta Falck
+5863 BERGEN
+704 Grzegorz Tang
+4368 VARHAUG
+705 Hjørdis By
+7422 TRONDHEIM
+706 Gustav Neteland
+4389 VIKESÅ
+707 Evald Heskestad
+3235 SANDEFJORD
+708 Renate Merkesdal
+5511 HAUGESUND
+709 Regina Fossen
+0284 OSLO
+710 Isabella Rønnestad
+9503 ALTA
+711 Rebecca Saastad
+5941 AUSTRHEIM
+712 Una Vevle
+5748 STYVI
+713 Ulrik Tandstad
+0152 OSLO
+714 Bastian Sandvik
+6139 FISKÅBYGD
+715 Jo Mathiesen
+1407 VINTERBRO
+716 Edin Nyland
+5555 FØRDE I HORDALAND
+717 Hallvard Sunde
+0705 OSLO
+718 Alma Amdal
+3744 SKIEN
+719 Judit Torset
+3231 SANDEFJORD
+720 Mikkel Brudevoll
+7451 TRONDHEIM
+721 Margaret Utne
+0987 OSLO
+722 Anneli Hella
+5700 VOSS
+723 Hassan Albrigtsen
+6630 TINGVOLL
+724 Jean Reigstad
+8316 LAUPSTAD
+725 Oda Tverberg
+5819 BERGEN
+726 Agnar Vestvik
+3893 VINJESVINGEN
+727 Sanne Røgeberg
+6727 BREMANGER
+728 Andres Skorpen
+6921 HARDBAKKE
+729 Carsten Skaug
+3041 DRAMMEN
+730 Sarah Bhatti
+1403 LANGHUS
+731 Bjørnar Vågenes
+0177 OSLO
+732 Helen Sæternes
+7619 SKOGN
+733 Egil Nesse
+2405 ELVERUM
+734 Dorota Abdi
+4844 ARENDAL
+735 Peter Vabø
+1326 LYSAKER
+736 Terese Fleischer
+6927 YTRØYGREND
+737 Elise Bue
+4755 HOVDEN I SETESDAL
+738 Maria Welde
+2967 LOMEN
+739 Eyvind Gulli
+9388 FJORDGARD
+740 Ina Omar
+4952 RISØR
+741 Edvard Arntzen
+2306 HAMAR
+742 Christin Liverød
+1970 HEMNES
+743 Hermann Tallaksen
+1758 HALDEN
+744 Judit Magnus
+4951 RISØR
+745 Rune Søvik
+6414 MOLDE
+746 Hauk Flatland
+5703 VOSS
+747 Sofia Sundal
+9442 RAMSUND
+748 Bengt Holmstrøm
+0561 OSLO
+749 Ole-kristian Løchen
+4265 HÅVIK
+750 Kolbjørn Thomassen
+8370 LEKNES
+751 Edna Myhr
+0572 OSLO
+752 Ane Alm
+3296 NEVLUNGHAMN
+753 Ahmad Abdullahi
+3331 SKOTSELV
+754 Rebekka Stien
+0462 OSLO
+755 Sofie Ødegården
+0310 OSLO
+756 Lilly Lønning
+1089 OSLO
+757 Anton Sletvold
+0490 OSLO
+758 Mustafa Valø
+9182 SEGLVIK
+759 Rita Krohn
+0170 OSLO
+760 Rebecca Sømme
+4915 VESTRE SANDØYA
+761 Ylva Spilde
+1704 SARPSBORG
+762 Svenn Skadberg
+0664 OSLO
+763 Alex Fadnes
+1364 FORNEBU
+764 Charlotte Røsnes
+7467 TRONDHEIM
+765 Edna Aden
+9403 HARSTAD
+766 Jonn Kirkerud
+3950 BREVIK
+767 Birk Hvidsten
+5559 SVEIO
+768 Margaret Evenrud
+1719 GREÅKER
+769 Edle Vilhelmsen
+7893 SKOROVATN
+770 Fritz Krasniqi
+0016 OSLO
+771 Siril Kvalvik
+7713 STEINKJER
+772 Grzegorz Hauger
+0284 OSLO
+773 Felix Bryn
+2645 SØR-FRON
+774 Hallgeir Kirknes
+9513 ALTA
+775 Mikkel Paus
+8615 SKONSENG
+776 Mariel Borsheim
+8414 HENNES
+777 Thormod Skoglund
+4853 HIS
+778 Børge Skansen
+1081 OSLO
+779 Aina Levang
+1514 MOSS
+780 Ann-kristin Søbstad
+5403 STORD
+781 Ahmad Dokken
+6921 HARDBAKKE
+782 Mohamad Holte
+8515 NARVIK
+783 Maciej Molund
+1724 SARPSBORG
+784 Dagfinn Løvlie
+7873 HARRAN
+785 Knut Saeed
+4392 SANDNES
+786 Torodd Haugvaldstad
+7455 TRONDHEIM
+787 Tatjana Bech
+3133 DUKEN
+788 Rasmus Dalheim
+4120 TAU
+789 Norma Grande
+5580 ØLEN
+790 Torstein Jørgensen
+2614 LILLEHAMMER
+791 Minh Holmøy
+4044 HAFRSFJORD
+792 Arild Oliversen
+2165 HVAM
+793 Jørn Strande
+3160 STOKKE
+794 Martine Skaug
+8256 RØKLAND
+795 Elisa Corneliussen
+4853 HIS
+796 Ine Langaas
+0262 OSLO
+797 Ailin Løvlien
+8210 FAUSKE
+798 Mariam Wie
+5836 BERGEN
+799 Bror Randen
+3230 SANDEFJORD
+800 Gert Grongstad
+7562 HUNDHAMAREN
+801 Vilde Revheim
+3699 GAUSTATOPPEN TURISTHYTTE
+802 Camilla Myre
+2428 SØRE OSEN
+803 Michael Tufte
+0517 OSLO
+804 Jofrid Serigstad
+6386 MÅNDALEN
+805 Tor Otterstad
+2630 RINGEBU
+806 Khalid Kihle
+5059 BERGEN
+807 Leo Lillevik
+5695 UGGDAL
+808 Irmelin Mathiesen
+8830 VANDVE
+809 Lene Sørlie
+6222 IKORNNES
+810 Balder Liberg
+4630 KRISTIANSAND S
+811 Carsten Hustad
+7327 SVORKMO
+812 Ronald Viddal
+7029 TRONDHEIM
+813 Matilde Thomas
+9445 TOVIK
+814 Kurt Ottersen
+3785 SKIEN
+815 Jørn Borch
+0690 OSLO
+816 Kjellrun Amdal
+5863 BERGEN
+817 Torun Strømsnes
+8850 HERØY
+818 Mindaugas Langfeldt
+4069 STAVANGER
+819 Erlend Jøssang
+3796 SKIEN
+820 Roar Wie
+5472 SEIMSFOSS
+821 Tadeusz Moholt
+9471 GRATANGEN
+822 Kari-anne Brattås
+6777 STÅRHEIM
+823 Elin Aanensen
+3280 TJODALYNG
+824 Zahra Løkkeberg
+3232 SANDEFJORD
+825 Mohamad Sandve
+3138 SKALLESTAD
+826 Leander Østli
+4067 STAVANGER
+827 Gjermund Søderholm
+4328 SANDNES
+828 Ole-martin Engstrøm
+0854 OSLO
+829 Gry Nyberg
+2000 LILLESTRØM
+830 Paula Melum
+3661 RJUKAN
+831 Jerzy Woll
+5560 NEDSTRAND
+832 Ellen Joa
+4735 EVJE
+833 Lone Klemetsen
+5703 VOSS
+834 Ingvill Heier
+4884 GRIMSTAD
+835 Oddrun Nybakk
+1207 OSLO
+836 Konrad Lillejord
+3214 SANDEFJORD
+837 Agnete Harstad
+6139 FISKÅBYGD
+838 Birk Rødseth
+9846 TANA
+839 Milan Kjelstad
+3812 AKKERHAUGEN
+840 Jannike Eik
+2714 JAREN
+841 Mari-ann Egeland
+2209 KONGSVINGER
+842 Ketil Eidet
+9170 LONGYEARBYEN
+843 Annar Tufte
+4868 SELÅSVATN
+844 Betty Sharma
+1354 BÆRUMS VERK
+845 Bjarne Melby
+4052 RØYNEBERG
+846 Stig Fagervold
+8006 BODØ
+847 Mildrid Fiskvik
+1616 FREDRIKSTAD
+848 Torbjørn Sæterbø
+4230 SAND
+849 Jonathan EtternamnbruktavellerflereNrNavnAntall
+1322 HØVIK
+850 Johnny Myreng
+5545 VORMEDAL
+851 Amalie Mjånes
+6166 SÆBØ
+852 Camilla Jansson
+0775 OSLO
+853 Agathe Øvrebø
+2936 BEGNADALEN
+854 Tove Storøy
+7610 LEVANGER
+855 Glenn Storhaug
+3539 FLÅ
+856 Solgunn Tjore
+3970 LANGESUND
+857 Oddbjørn Skog
+7338 MELDAL
+858 Elling Lidal
+3512 HØNEFOSS
+859 Axel Aurstad
+7563 MALVIK
+860 Ingebrigt Hjelseth
+3127 TØNSBERG
+861 Aleksandra Reitan
+5629 JONDAL
+862 Fredrikke Yusuf
+2642 KVAM
+863 Anne-karin Strømsvåg
+9497 HARSTAD
+864 Eivor Harnes
+7120 LEKSVIK
+865 Emir Viken
+9254 TROMSØ
+866 Dariusz Øygarden
+4503 MANDAL
+867 Frederik Hollund
+3197 HORTEN
+868 Frida Follestad
+9730 KARASJOK
+869 Signy Hatlevik
+1378 NESBRU
+870 Gretha Dagestad
+6409 MOLDE
+871 Ronja Hoel
+3528 HEDALEN
+872 Eirik Ring
+5643 STRANDVIK
+873 Mia Oshaug
+1709 SARPSBORG
+874 Norma Løvstad
+5498 MATRE
+875 Gudbrand Bjerkvik
+3725 SKIEN
+876 Dominik Røyset
+6069 HAREID
+877 Christine Moe
+0267 OSLO
+878 Tea Heen
+0551 OSLO
+879 Glen Slåen
+9486 HARSTAD
+880 Gabriela Odland
+2808 GJØVIK
+881 Gøran Ross
+3269 LARVIK
+882 Toralf Aarflot
+7005 TRONDHEIM
+883 Louis Green
+0001 OSLO
+884 Ebba Holmberg
+0486 OSLO
+885 Eldrid Skinstad
+0457 OSLO
+886 Mathilde Matre
+7971 KOLVEREID
+887 Alan Klausen
+0640 OSLO
+888 Sven Meier
+3173 VEAR
+889 Jesper Simensen
+0373 OSLO
+890 Mathis Lier
+3258 LARVIK
+891 Serine Furre
+0861 OSLO
+892 Torhild Frafjord
+5257 KOKSTAD
+893 Bjørn Dahlberg
+9288 TROMSØ
+894 Brede Tunheim
+4836 ARENDAL
+895 Sylvi Svardal
+7492 TRONDHEIM
+896 Karol Dalseth
+0101 OSLO
+897 Frederik Røgeberg
+5011 BERGEN
+898 Rebekka Ree
+5559 SVEIO
+899 Synøve Rogne
+2967 LOMEN
+900 Helene Frydenberg
+0374 OSLO
+901 Eirin Brastad
+9442 RAMSUND
+902 Oddvar Yusuf
+4150 RENNESØY
+903 Gunnar Sola
+6674 KVISVIK
+904 Marion Bull
+9131 KÅRVIK
+905 Fabian Hjelseth
+3014 DRAMMEN
+906 Daniel Løvlie
+5763 SKARE
+907 Damian Skinstad
+3794 HELLE
+908 Kjell Sletvold
+3017 DRAMMEN
+909 Walter Busch
+7203 VINJEØRA
+910 Kjellrun Sandhåland
+4868 SELÅSVATN
+911 Sahra Hilleren
+8536 EVENES
+912 Iman Skauge
+1771 HALDEN
+913 Tor Tveter
+7280 SULA
+914 Hamid Tyldum
+5243 FANA
+915 Anne-marie Jahren
+0479 OSLO
+916 Hannah Almås
+3144 VEIERLAND
+917 Tina Varhaug
+1006 OSLO
+918 Ådne Sperre
+2862 FLUBERG
+919 Turi Hynne
+3185 SKOPPUM
+920 Birger Betten
+1379 NESBRU
+921 Patricia Gustavson
+2091 HURDAL
+922 Reidar Refsnes
+0030 OSLO
+923 Erik Selvåg
+3281 TJODALYNG
+924 Gunvald Kjærvik
+5147 FYLLINGSDALEN
+925 Mariusz Wold
+5183 OLSVIK
+926 Gabriel Bergersen
+6166 SÆBØ
+927 Ken Mjånes
+8297 TRANØY
+928 Tor Herland
+0129 OSLO
+929 Gert Eik
+3550 GOL
+930 Jofrid Dalene
+3795 DRANGEDAL
+931 Rafal Langnes
+5058 BERGEN
+932 Jørg Skomedal
+7289 SOKNEDAL
+933 Torolf Kjeldsberg
+5650 TYSSE
+934 Berta Træet
+5869 BERGEN
+935 Birgit Lundeby
+5293 LONEVÅG
+936 Ansgar Hodneland
+3261 LARVIK
+937 Jenny Gaarder
+2055 NORDKISA
+938 Margun Jevnaker
+1535 MOSS
+939 Mateusz Flaten
+7178 STOKKØY
+940 Anbjørg Aarsland
+5341 STRAUME
+941 Alfred Karlson
+1272 OSLO
+942 Møyfrid Hannestad
+9190 AKKARVIK
+943 Sigrun Johnson
+7404 TRONDHEIM
+944 Jørgen Nordtømme
+5221 NESTTUN
+945 Ane Rovik
+3238 SANDEFJORD
+946 Lise Nicolaysen
+3262 LARVIK
+947 Julius Sandum
+9283 TROMSØ
+948 Rebecca Husum
+4892 GRIMSTAD
+949 Anny Sleire
+5565 TYSVÆRVÅG
+950 Ronald Dagsland
+2940 HEGGENES
+951 Rebekka Zachariassen
+7484 TRONDHEIM
+952 Nikolas Arneberg
+1518 MOSS
+953 Marlene Aarsland
+4120 TAU
+954 Trym Risvik
+9526 SUOLOVUOPMI
+955 Miriam Fauskanger
+3191 HORTEN
+956 Hussein Mikalsen
+6024 ÅLESUND
+957 Jelena Jama
+9426 BJARKØY
+958 Tuva Øverbø
+7428 TRONDHEIM
+959 Noah Fagerheim
+8202 FAUSKE
+960 Marek Brekke
+7357 SKAUN
+961 Frøydis Lønning
+3632 UVDAL
+962 Ingvald Ness
+3946 PORSGRUNN
+963 Merete Noreng
+8250 ROGNAN
+964 Tony Bjørnevik
+1401 SKI
+965 Sophia Skjæveland
+7482 TRONDHEIM
+966 Åge Sikveland
+1603 FREDRIKSTAD
+967 Ole-petter Grønli
+4628 KRISTIANSAND S
+968 Susann Silden
+3484 HOLMSBU
+969 Elida Hoddevik
+3180 NYKIRKE
+970 Turi Selmer
+2890 ETNEDAL
+971 Andre Hammerstad
+4381 HAUGE I DALANE
+972 Tordis Forberg
+6460 EIDSVÅG I ROMSDAL
+973 Gry Hveem
+8723 HUSBY
+974 Patrik Kjesbu
+6901 FLORØ
+975 Helle Velde
+3660 RJUKAN
+976 Rudolf Bjerk
+0129 OSLO
+977 Bjørg Hessen
+7630 ÅSEN
+978 Fredrick Sandvær
+6680 HALSANAUSTAN
+979 Torvald Eike
+4403 FLEKKEFJORD
+980 Målfrid Halse
+0675 OSLO
+981 May-britt Korneliussen
+9424 KJØTTA
+982 Muhammad Kjesbu
+3886 DALEN
+983 Marcin Seierstad
+4770 HØVÅG
+984 Johannes Dvergsdal
+8022 BODØ
+985 Grete Granerud
+5887 BERGEN
+986 Mildrid Hanstad
+7459 TRONDHEIM
+987 Juan Horn
+2810 GJØVIK
+988 Sylvi Valberg
+0555 OSLO
+989 Mildrid Sandbæk
+1443 OSCARSBORG
+990 Hilmar Hårstad
+3941 PORSGRUNN
+991 Reidunn Sørbø
+5003 BERGEN
+992 Sindre Askeland
+3997 PORSGRUNN
+993 Thomas Gaup
+2675 OTTA
+994 Maya Fjermestad
+0182 OSLO
+995 Unni Langen
+9263 TROMSØ
+996 Liam Ulriksen
+8312 HENNINGSVÆR
+997 Jeanett Sjøberg
+8260 INNHAVET
+998 Georg Abbas
+1704 SARPSBORG
+999 Andrea Bashir
+7447 TRONDHEIM
+1000 Eilif Loe
+4328 SANDNES
+1001 Signy Rørvik
+0211 OSLO
+1002 Annette Algrøy
+0477 OSLO
+1003 Bror Juliussen
+1484 HAKADAL
+1004 Trude Wisth
+6080 GURSKØY
+1005 Oscar Aarrestad
+2016 FROGNER
+1006 Jannike Mørkved
+5561 BOKN
+1007 Wieslaw Leikvoll
+4861 ARENDAL
+1008 Linus Schjelderup
+2673 HØVRINGEN
+1009 Tord Kjærvik
+8328 STOREMOLLA
+1010 Nicoline Grønning
+9712 LAKSELV
+1011 Silvia Moss
+8515 NARVIK
+1012 Manuel Kvilhaug
+8723 HUSBY
+1013 Ole Blomberg
+0363 OSLO
+1014 Ann-helen Ellingsen
+6018 ÅLESUND
+1015 Kato Henningsen
+4090 HAFRSFJORD
+1016 Aasta Sannes
+9015 TROMSØ
+1017 Michelle Rykkje
+3241 SANDEFJORD
+1018 Dani Svela
+0567 OSLO
+1019 Ulla Asphaug
+0840 OSLO
+1020 Unni Hovd
+5366 MISJE
+1021 Vilja Landa
+5238 RÅDAL
+1022 Isak Buseth
+6218 HELLESYLT
+1023 Doris Myrdal
+8283 LEINESFJORD
+1024 Thor Bærheim
+3580 GEILO
+1025 Steven Djuve
+5392 STOREBØ
+1026 Snefrid Oshaug
+6211 VALLDAL
+1027 Jardar Aasheim
+7384 ÅLEN
+1028 Matthew Kleven
+3141 KJØPMANNSKJÆR
+1029 Mirjam Tverberg
+1532 MOSS
+1030 Carsten Heggen
+4887 GRIMSTAD
+1031 Amir Haile
+1451 NESODDTANGEN
+1032 Herman Wright
+5310 HAUGLANDSHELLA
+1033 Darius Axelsen
+3153 TOLVSRØD
+1034 Torleiv Raja
+5037 BERGEN
+1035 Abdullah Kvello
+9580 BERGSFJORD
+1036 Tore Holst
+2130 KNAPPER
+1037 Guri Rugland
+5243 FANA
+1038 Einar Elverum
+7492 TRONDHEIM
+1039 Vera Vaa
+1202 OSLO
+1040 Anja Rahimi
+3742 SKIEN
+1041 Alva Mæland
+9263 TROMSØ
+1042 Karin Lillemo
+5516 HAUGESUND
+1043 Glenn Rødseth
+1751 HALDEN
+1044 Aleksandra Bjørvik
+7470 TRONDHEIM
+1045 Sjur Ekrem
+0777 OSLO
+1046 Åslaug Zahl
+4516 MANDAL
+1047 Pia Elvenes
+5862 BERGEN
+1048 Kristiane Einan
+3264 LARVIK
+1049 Audun Brunborg
+3253 LARVIK
+1050 Ståle Lystad
+3113 TØNSBERG
+1051 Jone Hystad
+1357 BEKKESTUA
+1052 Thore Bunes
+7716 STEINKJER
+1053 Gina Hamre
+5803 BERGEN
+1054 Hulda Mjøen
+7777 NORD-STATLAND
+1055 Andreas Rydningen
+8606 MO I RANA
+1056 Nikolas Håheim
+2235 MATRAND
+1057 Johannes Mikkelsen
+7510 SKATVAL
+1058 Kaja Grønvik
+6143 FISKÅBYGD
+1059 Elvira Hidle
+1823 KNAPSTAD
+1060 Preben Ingebretsen
+5568 VIKEBYGD
+1061 Haavard Grønhaug
+5987 HOSTELAND
+1062 Kirsten Sevaldsen
+3796 SKIEN
+1063 Fredrikke Høglund
+1430 ÅS
+1064 Torunn Haugum
+6984 STONGFJORDEN
+1065 Elina Lindblad
+3173 VEAR
+1066 Ronny Warholm
+5951 LINDÅS
+1067 Trygve Morland
+6393 TOMREFJORD
+1068 Irina Sleire
+7301 ORKANGER
+1069 Khalid Rekstad
+6788 OLDEN
+1070 Anita Tallaksen
+0702 OSLO
+1071 Oskar Sagstad
+3032 DRAMMEN
+1072 Martha Brattli
+5747 GUDVANGEN
+1073 Birger Krohn
+3540 NESBYEN
+1074 Renata Lundquist
+9350 SJØVEGAN
+1075 Yasin Tømmerås
+9046 OTEREN
+1076 Rainer Nordheim
+2626 LILLEHAMMER
+1077 Igor Tobiassen
+6004 ÅLESUND
+1078 Maren Bremseth
+7790 MALM
+1079 Anette Blomberg
+3914 PORSGRUNN
+1080 Håvard Hemmingsen
+3169 STOKKE
+1081 Edith Austrheim
+0127 OSLO
+1082 Przemyslaw Nærland
+9068 NORD-LENANGEN
+1083 Ingebjørg Flem
+5563 FØRRESFJORDEN
+1084 Terese Haraldstad
+0502 OSLO
+1085 Ingerid Reyes
+4044 HAFRSFJORD
+1086 Scott Bauer
+9981 BERLEVÅG
+1087 Marius Johnson
+5576 ØVRE VATS
+1088 Torill Broch
+9533 KONGSHUS
+1089 Sarah Fimland
+0962 OSLO
+1090 Tina Torkelsen
+3735 SKIEN
+1091 Renathe Vikane
+5416 STORD
+1092 Magnhild Tysnes
+5550 SVEIO
+1093 Mia Aaserud
+4604 KRISTIANSAND S
+1094 Lin Løland
+4240 SULDALSOSEN
+1095 Jorge Hatlevik
+5119 ULSET
+1096 Bergljot Strandheim
+1391 VOLLEN
+1097 Asle Tufte
+8640 HEMNESBERGET
+1098 Ingjerd Melgård
+3614 KONGSBERG
+1099 Finn Bruheim
+5235 RÅDAL
+1100 Bo Kvinge
+3917 PORSGRUNN
+1101 Marte Kvande
+8039 BODØ
+1102 Henryk Bergersen
+5098 BERGEN
+1103 Dani Lysgård
+2032 MAURA
+1104 Ørjan Revheim
+3142 VESTSKOGEN
+1105 Edvard Svingen
+3280 TJODALYNG
+1106 Bianca Langedal
+2208 KONGSVINGER
+1107 Embla Røyrvik
+1372 ASKER
+1108 Sandra Nordeng
+4553 FARSUND
+1109 Erna Liknes
+4678 KRISTIANSAND S
+1110 Eyvind Koppang
+1322 HØVIK
+1111 Sigrid Oppegård
+9511 ALTA
+1112 Susanne Skogen
+1705 SARPSBORG
+1113 Svanhild Berg
+4379 EGERSUND
+1114 Are Malik
+3218 SANDEFJORD
+1115 Oline Heskestad
+0556 OSLO
+1116 Viljar Bergli
+1771 HALDEN
+1117 Arnljot Todnem
+3849 VRÅLIOSEN
+1118 Jone Skage
+5306 ERDAL
+1119 Kari Nygren
+2848 SKREIA
+1120 Olaf Fagereng
+4376 HELLELAND
+1121 John Vinje
+6220 STRAUMGJERDE
+1122 Henriette Hoffmann
+2603 LILLEHAMMER
+1123 Eyvind Selnes
+6629 TORJULVÅGEN
+1124 Eira Havnen
+8013 BODØ
+1125 Michelle Østerud
+2072 DAL
+1126 Thora Aarhus
+8380 RAMBERG
+1127 Matthias Skretting
+1662 ROLVSØY
+1128 Marie Fjellstad
+4076 VASSØY
+1129 Magnus Skram
+6487 HARØY
+1130 Marius Herigstad
+7098 SAUPSTAD
+1131 Torleif Birkenes
+6142 EIDSÅ
+1132 Bergliot Rasmussen
+0955 OSLO
+1133 Paal Sæland
+5260 INDRE ARNA
+1134 Rakel Kleiveland
+8503 NARVIK
+1135 Jozef Saue
+0485 OSLO
+1136 Kristine Mæhlum
+2676 HEIDAL
+1137 Sigfred Sjåvik
+9722 SKOGANVARRE
+1138 Thomas Hegna
+8820 DØNNA
+1139 Kristina Sverdrup
+6190 BJØRKE
+1140 Anne Christophersen
+3623 LAMPELAND
+1141 Conrad Skårdal
+9049 NORDKJOSBOTN
+1142 Kurt Robberstad
+3524 NES I ÅDAL
+1143 Anniken Aurstad
+7153 GARTEN
+1144 Peder Leirdal
+5178 LODDEFJORD
+1145 Frøya Ødegården
+9163 JØKELFJORD
+1146 Ingebrigt Birkedal
+0988 OSLO
+1147 Nils Jonassen
+7098 SAUPSTAD
+1148 Olga Kjørsvik
+0770 OSLO
+1149 Sigvald Silseth
+0860 OSLO
+1150 Irene Sande
+3229 SANDEFJORD
+1151 Johannes Oppegaard
+1525 MOSS
+1152 Bastian Bjorøy
+1364 FORNEBU
+1153 Henriette Austrheim
+3011 DRAMMEN
+1154 Asmund Kongshaug
+4009 STAVANGER
+1155 Ronny Engelund
+2013 SKJETTEN
+1156 Nicoline Seldal
+5636 VARALDSØY
+1157 Imre Melhus
+7483 TRONDHEIM
+1158 Mats Mahamud
+2428 SØRE OSEN
+1159 May Nordrum
+0379 OSLO
+1160 Oddbjørg Øverbø
+1361 ØSTERÅS
+1161 Mehdi Solstrand
+1667 ROLVSØY
+1162 Arnljot Refseth
+5183 OLSVIK
+1163 Kristin Nevland
+4525 KONSMO
+1164 Mikael Robberstad
+3154 TOLVSRØD
+1165 Tage Risan
+5119 ULSET
+1166 Arian Klungland
+2637 ØYER
+1167 Sigve Bertelsen
+1367 SNARØYA
+1168 Christopher Svenning
+3055 KROKSTADELVA
+1169 Aud Fadnes
+9409 HARSTAD
+1170 Angelica Holmen
+1735 VARTEIG
+1171 Josef Abdullahi
+6740 SELJE
+1172 Atle Hoem
+5470 ROSENDAL
+1173 Mons Cappelen
+4085 HUNDVÅG
+1174 Anne-grete Holberg
+7735 STEINKJER
+1175 Gustav Bekkevold
+2340 LØTEN
+1176 Johann Haakonsen
+2580 FOLLDAL
+1177 Annette Aase
+3284 KVELDE
+1178 Hanna Solheim
+5033 BERGEN
+1179 Mary Seeberg
+4683 SØGNE
+1180 Jenny Frafjord
+0787 OSLO
+1181 Mehdi Løkås
+5437 FINNÅS
+1182 Thorbjørn Haave
+6728 KALVÅG
+1183 Bettina Gilje
+6216 GEIRANGER
+1184 Bo Øvergaard
+3737 SKIEN
+1185 Rebekka Eng
+8542 KJELDEBOTN
+1186 Audhild Bjørgan
+1666 ROLVSØY
+1187 Tyra Vestvik
+1420 SVARTSKOG
+1188 Inger-johanne Finsrud
+8230 SULITJELMA
+1189 Ann-christin Hoffmann
+3257 LARVIK
+1190 Arnt Bjørge
+6782 STRYN
+1191 Judith Dyrøy
+0360 OSLO
+1192 Benjamin Øksendal
+3268 LARVIK
+1193 Birgit Egeland
+7434 TRONDHEIM
+1194 Sigmund Skrede
+6282 BRATTVÅG
+1195 Svanhild Sætren
+1348 RYKKINN
+1196 Gunnlaug Hognestad
+3903 PORSGRUNN
+1197 Halvard Dyrøy
+0850 OSLO
+1198 Øistein Rød
+1593 SVINNDAL
+1199 Merete Sælen
+9497 HARSTAD
+1200 Ingeborg Leknes
+5264 GARNES
+1201 Ørjan Yri
+1300 SANDVIKA
+1202 Pål Smørdal
+3103 TØNSBERG
+1203 Waldemar Mæle
+2836 BIRI
+1204 Robin Sveen
+3729 SKIEN
+1205 Inge Karlson
+0167 OSLO
+1206 Preben Willassen
+2864 FALL
+1207 Paulina Harstad
+9709 PORSANGMOEN
+1208 Marry Stensby
+3132 HUSØYSUND
+1209 Per-arne Birkeland
+4951 RISØR
+1210 Edin Granum
+9030 SJURSNES
+1211 Magni Taule
+7483 TRONDHEIM
+1212 Ryszard Walstad
+3209 SANDEFJORD
+1213 Elisabeth Borgen
+1471 LØRENSKOG
+1214 Berit Carlsson
+4742 GRENDI
+1215 Øyvind Trønnes
+1805 TOMTER
+1216 Silja Grøtte
+0201 OSLO
+1217 Ann Sjøen
+0413 OSLO
+1218 Toralf Adolfsen
+7037 TRONDHEIM
+1219 Patricia Vedøy
+2015 LEIRSUND
+1220 Kristi Skorstad
+3131 HUSØYSUND
+1221 Jeanette Hægeland
+5163 LAKSEVÅG
+1222 Karen Nesse
+8543 KJELDEBOTN
+1223 Jorge Haga
+3903 PORSGRUNN
+1224 Mira Lauritzen
+0985 OSLO
+1225 Sigvart Forbord
+6915 ROGNALDSVÅG
+1226 Oddgeir Tvedt
+0251 OSLO
+1227 Emma Hylland
+3733 SKIEN
+1228 Kristine Sætermo
+4085 HUNDVÅG
+1229 Rainer Støle
+7232 LUNDAMO
+1230 Pål Brevig
+6856 SOGNDAL
+1231 Betty Molund
+9271 TROMSØ
+1232 Matias Melberg
+2930 BAGN
+1233 Cecilia Kjørstad
+9405 HARSTAD
+1234 Margaret Becker
+4557 VANSE
+1235 Mattis Lysgård
+7890 NAMSSKOGAN
+1236 Heidi Mirza
+9405 HARSTAD
+1237 Birgit Schjølberg
+8732 ALDRA
+1238 Ahmed Vikanes
+1081 OSLO
+1239 Yusuf Steffensen
+5605 ÅLVIK
+1240 Mali Nymo
+9372 GIBOSTAD
+1241 Jørgen Smedstad
+0309 OSLO
+1242 Karine Gjerdrum
+6453 KLEIVE
+1243 Per-arne Bendixen
+5653 ÅRLAND
+1244 Irmelin Røstad
+8186 TJONGSFJORDEN
+1245 Sylwia Halsen
+6144 SYLTE
+1246 Anne-berit Granås
+0259 OSLO
+1247 Katarzyna Øen
+4017 STAVANGER
+1248 Tim Rønnestad
+8030 BODØ
+1249 Juan Aukland
+2303 HAMAR
+1250 Sølve Rian
+3147 VERDENS ENDE
+1251 Mirjam Jønsson
+7345 DRIVA
+1252 Søren Hjorth
+4357 KLEPP STASJON
+1253 Bjørg Lindhjem
+2717 GRUA
+1254 Steven Algrøy
+6099 FOSNAVÅG
+1255 Maximilian Fuglerud
+3676 NOTODDEN
+1256 Reidun Kjos
+8407 GODFJORD
+1257 Jimmy Kjesbu
+0258 OSLO
+1258 Maryam Engeland
+3196 HORTEN
+1259 Jostein Nystad
+4909 SONGE
+1260 Samir Bui
+0907 OSLO
+1261 Iren Viddal
+3753 TØRDAL
+1262 Anlaug Tharaldsen
+4124 TAU
+1263 Edin Reinertsen
+7492 TRONDHEIM
+1264 Rudolf Røisland
+1520 MOSS
+1265 Veronika Finnerud
+8450 STOKMARKNES
+1266 Gyda Rye
+7760 SNÅSA
+1267 Annlaug Løvlie
+3912 PORSGRUNN
+1268 Rainer Erlandsen
+0122 OSLO
+1269 Alvilde Nordheim
+5601 NORHEIMSUND
+1270 Iver Eid
+0045 OSLO
+1271 Arnhild Negård
+9441 FJELLDAL
+1272 Fride Sørbø
+6805 FØRDE
+1273 Herborg Aasheim
+3617 KONGSBERG
+1274 Anett Natvig
+0461 OSLO
+1275 Viktor Husevåg
+5956 VÅGSEIDET
+1276 Imran Vollen
+0674 OSLO
+1277 Anny Fjell
+0569 OSLO
+1278 Matilde Skomedal
+0109 OSLO
+1279 Nicolas Sangolt
+8539 BOGEN I OFOTEN
+1280 George Narvestad
+1536 MOSS
+1281 Gry Helgestad
+7383 HALTDALEN
+1282 Abdullahi Karlstad
+0973 OSLO
+1283 Jeanette Heltne
+6529 FREI
+1284 Ottar Sundnes
+4295 VEDAVÅGEN
+1285 Linus Nesheim
+7190 BESSAKER
+1286 Bengt Havik
+5382 SKOGSVÅG
+1287 Magda Myrseth
+1281 OSLO
+1288 Fritz Fredheim
+0611 OSLO
+1289 Kurt Nyquist
+5136 MJØLKERÅEN
+1290 Yasmin Størseth
+4023 STAVANGER
+1291 Audun Leine
+4619 MOSBY
+1292 Svend Nymark
+7256 HEMNSKJELA
+1293 Barbara Løvdal
+2120 SAGSTUA
+1294 Hilda Skjæveland
+3540 NESBYEN
+1295 Ann-christin Bratli
+1783 HALDEN
+1296 Bård Anfinsen
+7631 ÅSEN
+1297 Eyvind Storsveen
+1541 VESTBY
+1298 Isabelle Staven
+5537 HAUGESUND
+1299 Elsa Nordtveit
+7088 HEIMDAL
+1300 Sara Hannisdal
+1109 OSLO
+1301 Nadia Nguyen
+1328 HØVIK
+1302 Mattis Espe
+3071 SANDE I VESTFOLD
+1303 Hege Fredheim
+7944 INDRE NÆRØY
+1304 Olaug Romundstad
+2051 JESSHEIM
+1305 Kacper Oterhals
+9011 TROMSØ
+1306 Eldbjørg Kvalnes
+3732 SKIEN
+1307 Malin Aaslund
+9910 BJØRNEVATN
+1308 Asbjørg Rognerud
+3726 SKIEN
+1309 Sabrina Bruheim
+6822 SANDANE
+1310 Wenche Johnsen
+6710 RAUDEBERG
+1311 Endre Grønn
+4130 HJELMELAND
+1312 Torleiv Stormark
+2012 LILLESTRØM
+1313 Frøydis Liabø
+7770 FLATANGER
+1314 Vladimir Lande
+1272 OSLO
+1315 Muhammed Groven
+3714 SKIEN
+1316 Ronny Sandhåland
+0609 OSLO
+1317 Eileen Forbord
+6510 KRISTIANSUND N
+1318 Lorentz Alvær
+6517 KRISTIANSUND N
+1319 Jane Grødem
+1719 GREÅKER
+1320 Bjørge Kvaale
+6183 TRANDAL
+1321 Knut Storeide
+1361 ØSTERÅS
+1322 Finn Søfteland
+0281 OSLO
+1323 Katrine Mundal
+7257 SNILLFJORD
+1324 Margun Nerli
+7468 TRONDHEIM
+1325 Alvin Helgheim
+7871 GRONG
+1326 Stian Tveten
+7476 TRONDHEIM
+1327 Hilmar Hellevik
+9251 TROMSØ
+1328 Isac Skorpen
+3160 STOKKE
+1329 Atle Riiser
+7629 YTTERØY
+1330 Eirik Moksnes
+7745 OPPLAND
+1331 Bianca Sanne
+1341 SLEPENDEN
+1332 Finn Linge
+4563 BORHAUG
+1333 Ingolf Stokka
+6829 HYEN
+1334 Kaare Evje
+5805 BERGEN
+1335 Anne-marit Høiby
+1787 BERG I ØSTFOLD
+1336 Anne-mette Khan
+3915 PORSGRUNN
+1337 Sturle Breistein
+7081 SJETNEMARKA
+1338 Sigrun Hevrøy
+7412 TRONDHEIM
+1339 Amalie Vestad
+4724 IVELAND
+1340 Edit Omdal
+7119 STADSBYGD
+1341 Alfred Sandven
+4629 KRISTIANSAND S
+1342 Kristoffer Veland
+7484 TRONDHEIM
+1343 Roy Hult
+9148 OLDERDALEN
+1344 Arnljot Haakonsen
+6855 FRØNNINGEN
+1345 Edel Holmvik
+3742 SKIEN
+1346 Elen Sølvberg
+5858 BERGEN
+1347 Stig Brataas
+0213 OSLO
+1348 Kazimierz Eidsvåg
+9670 TUFJORD
+1349 Rannveig Holmberg
+9430 SANDTORG
+1350 Gunnar Storlien
+3196 HORTEN
+1351 Bernhard Fremstad
+0311 OSLO
+1352 Gunvor Flønes
+5502 HAUGESUND
+1353 Elisabeth Sæterbø
+3528 HEDALEN
+1354 Rino Fjærli
+8680 TROFORS
+1355 Eldar Skogen
+3854 NISSEDAL
+1356 Tormod Jørstad
+8310 KABELVÅG
+1357 Øistein Nysted
+0445 OSLO
+1358 Ingrid Eriksrud
+8483 ANDENES
+1359 Jacek Toresen
+9046 OTEREN
+1360 Benny Urstad
+7456 TRONDHEIM
+1361 Fillip Soma
+7032 TRONDHEIM
+1362 Harriet Grønn
+5687 FLATRÅKER
+1363 Vera Digernes
+4560 VANSE
+1364 Mahmoud Michaelsen
+0566 OSLO
+1365 Yasmin Aaberg
+0037 OSLO
+1366 Tor-arne Skorstad
+1794 SPONVIKA
+1367 Sanne Andersen
+1327 LYSAKER
+1368 Edward Tandstad
+3721 SKIEN
+1369 Svetlana Borch
+9616 HAMMERFEST
+1370 Åge Øverland
+4972 GJERSTAD
+1371 Renate Løge
+5284 TYSSEBOTNEN
+1372 Roland Huseby
+0651 OSLO
+1373 Aage Torp
+3947 LANGANGEN
+1374 Beata Bjorøy
+3677 NOTODDEN
+1375 Thomas Bjønnes
+2582 GRIMSBU
+1376 Omar Risan
+3929 PORSGRUNN
+1377 Magdalena Krasniqi
+2651 ØSTRE GAUSDAL
+1378 Albert Juell
+5282 LONEVÅG
+1379 Åsmund Sandve
+1782 HALDEN
+1380 Vemund Tangerud
+3735 SKIEN
+1381 Eivind Svindland
+8161 GLOMFJORD
+1382 Hassan Risa
+4434 ANDABELØY
+1383 Petra Ødegaard
+1266 OSLO
+1384 Jean Holden
+1163 OSLO
+1385 Rafael Nerli
+5628 HERAND
+1386 Gorm Bakka
+5742 FLÅM
+1387 Lydia Honningsvåg
+2080 EIDSVOLL
+1388 Isac Heide
+7153 GARTEN
+1389 Stina Christiansen
+2425 LJØRDALEN
+1390 Ågot Waaler
+7549 TANEM
+1391 Hedvig Hausken
+1607 FREDRIKSTAD
+1392 Thor Søndenå
+7032 TRONDHEIM
+1393 Halldis Haugli
+8074 BODØ
+1394 Brian Utgård
+9481 HARSTAD
+1395 Madeleine Svanberg
+1413 TÅRNÅSEN
+1396 Amund Høydahl
+4376 HELLELAND
+1397 Solvor Fossen
+9915 KIRKENES
+1398 Alice Fadnes
+5450 SUNDE I SUNNHORDLAND
+1399 Dan Yttervik
+7007 TRONDHEIM
+1400 Dominik Roland
+5819 BERGEN
+1401 Eira Josdal
+3535 KRØDEREN
+1402 Olivia Kvande
+7268 TITRAN
+1403 Samuel Aaseth
+2076 DAL
+1404 Dorthe Holberg
+6040 VIGRA
+1405 Ivan Stendal
+7725 STEINKJER
+1406 Erling Sandstad
+2150 ÅRNES
+1407 Ulla Ahmed
+3950 BREVIK
+1408 Guri Nesbø
+2603 LILLEHAMMER
+1409 Sebastian Haraldseid
+2009 NORDBY
+1410 Anine Rohde
+0048 OSLO
+1411 Tonny Berntzen
+2065 GARDERMOEN
+1412 Ann-helen Smestad
+4201 SAUDA
+1413 Herborg Isdahl
+0279 OSLO
+1414 Damian Leirvåg
+4354 VOLL
+1415 Abdullah Heggedal
+2817 GJØVIK
+1416 Leiv Nyland
+6481 AUKRA
+1417 Thormod Hellem
+1396 BILLINGSTAD
+1418 Thomas Lindtveit
+9253 TROMSØ
+1419 Tonje Igland
+4516 MANDAL
+1420 Fanny Bjørgen
+7014 TRONDHEIM
+1421 Tom-erik Hjulstad
+9912 HESSENG
+1422 Åslaug Øksnes
+5416 STORD
+1423 Otto Østhus
+6443 TORNES I ROMSDAL
+1424 Kristine Børresen
+6772 NORDFJORDEID
+1425 Birk Ophaug
+5411 STORD
+1426 Andrea Stokkeland
+0247 OSLO
+1427 Marta Øyen
+3232 SANDEFJORD
+1428 Eyvind Kringstad
+1607 FREDRIKSTAD
+1429 Solvår Becker
+0152 OSLO
+1430 Tanja Worren
+9379 GRYLLEFJORD
+1431 Borgar Rodal
+2260 KIRKENÆR
+1432 Malin Myrvoll
+4801 ARENDAL
+1433 Christiane Svensen
+6629 TORJULVÅGEN
+1434 Thoralf Sande
+5614 ÅLVIK
+1435 Håkon Norman
+0679 OSLO
+1436 Paal Bredesen
+8114 TOLLÅ
+1437 Veronica Høyer
+5779 UTNE
+1438 Runa Kielland
+3247 SANDEFJORD
+1439 Louise Storli
+6431 BUD
+1440 Christine Melvold
+6020 ÅLESUND
+1441 Brede Kjørstad
+7042 TRONDHEIM
+1442 Alida Johnson
+8186 TJONGSFJORDEN
+1443 Jane Koch
+9306 FINNSNES
+1444 Alvilde Andresen
+8298 HAMARØY
+1445 Pawel Misje
+4745 BYGLAND
+1446 Darius Løberg
+1753 HALDEN
+1447 Linn Engebråten
+2663 DOVRESKOGEN
+1448 Arnfinn Stensrud
+9424 KJØTTA
+1449 Georg Hafstad
+1663 ROLVSØY
+1450 Ingolf Feragen
+4304 SANDNES
+1451 Erling Viddal
+9950 VARDØ
+1452 KvinnenavnbruktavellerflereNrNamnAntall Kyllingstad
+7985 FOLDEREID
+1453 Veronica Sandberg
+1472 FJELLHAMAR
+1454 Frank Røssland
+4673 KRISTIANSAND S
+1455 Christin Borgersen
+6396 VIKEBUKT
+1456 Hilmar Havnen
+6100 VOLDA
+1457 Anton Rinden
+5284 TYSSEBOTNEN
+1458 Gry Hoem
+5845 BERGEN
+1459 Agathe Einarsen
+5207 SØFTELAND
+1460 Frederik Torgersen
+1625 MANSTAD
+1461 Niklas Skaar
+5784 ØVRE EIDFJORD
+1462 Reidar Grannes
+8447 LONKAN
+1463 Astri Kalstad
+0193 OSLO
+1464 Muhammed Ramsøy
+9405 HARSTAD
+1465 Nathaniel Sommerseth
+4010 STAVANGER
+1466 Bjørg Axelsen
+2061 GARDERMOEN
+1467 Sturle Øien
+1670 KRÅKERØY
+1468 Magnhild Runde
+3291 STAVERN
+1469 Øivind Hegna
+8407 GODFJORD
+1470 Bjørn-erik Halsen
+2634 FÅVANG
+1471 Dariusz Lura
+0758 OSLO
+1472 Rolf Stokkan
+9710 INDRE BILLEFJORD
+1473 Joar Herdlevær
+2326 HAMAR
+1474 Turid Rindal
+2618 LILLEHAMMER
+1475 Sandra Glad
+8023 BODØ
+1476 Fredrik Skjønberg
+0572 OSLO
+1477 Torleiv Torbjørnsen
+5707 EVANGER
+1478 Jim Høgberg
+9147 BIRTAVARRE
+1479 Herman Phan
+9481 HARSTAD
+1480 Lasse Zhang
+8261 INNHAVET
+1481 Benedicte Kolltveit
+5217 HAGAVIK
+1482 Hildegunn Os
+6789 LOEN
+1483 Aashild Tvedt
+2750 GRAN
+1484 Øyvind Petterson
+7563 MALVIK
+1485 Mariann Haugland
+1591 SPERREBOTN
+1486 Lukas Alm
+3183 HORTEN
+1487 Ahmed Espe
+4579 LYNGDAL
+1488 Mark Øvergård
+5895 BERGEN
+1489 Jofrid Aandal
+9288 TROMSØ
+1490 Sigrid Stordahl
+8004 BODØ
+1491 Villy Stiansen
+1722 SARPSBORG
+1492 Mildrid Ekker
+3608 HEISTADMOEN
+1493 Jill Hovden
+7629 YTTERØY
+1494 Ask Wiken
+3737 SKIEN
+1495 Nicole Grotle
+3912 PORSGRUNN
+1496 Tamara Gjestvang
+9288 TROMSØ
+1497 Dan Olsnes
+9716 BØRSELV
+1498 Hermine Sørbø
+5824 BERGEN
+1499 Otto Heggedal
+4356 KVERNALAND
+1500 Johanne Jahr
+
+1501 Mindaugas Dahl
+0504 OSLO
+1502 Anthony Hornnes
+1278 OSLO
+1503 Ståle Kofoed
+1088 OSLO
+1504 Martine Stokland
+9275 TROMSØ
+1505 Amund Rasch
+8608 MO I RANA
+1506 Ylva Rødland
+0557 OSLO
+1507 Gun Stormoen
+9616 HAMMERFEST
+1508 Fanny Wold
+1825 TOMTER
+1509 Eldrid Haukeland
+9049 NORDKJOSBOTN
+1510 Jardar Yildirim
+4158 BRU
+1511 Maya Fagerli
+3125 TØNSBERG
+1512 Tamara Aaseth
+4754 BYKLE
+1513 Magnus Malvik
+1665 ROLVSØY
+1514 Oddbjørn Kaldestad
+3401 LIER
+1515 Imre Tjelta
+3730 SKIEN
+1516 Åsa Foss
+1769 HALDEN
+1517 Ellen Fredriksen
+4575 LYNGDAL
+1518 Siw Ryeng
+3502 HØNEFOSS
+1519 Anne-britt Fremstad
+3208 SANDEFJORD
+1520 Adam Gustad
+7977 HØYLANDET
+1521 Stine Trulsen
+9292 TROMSØ
+1522 Liss Valle
+5105 EIDSVÅG I ÅSANE
+1523 Sigmund Gillebo
+0368 OSLO
+1524 Eileen Hollund
+2920 LEIRA I VALDRES
+1525 Alina Mellum
+0410 OSLO
+1526 Ask Ekelund
+9981 BERLEVÅG
+1527 Reidar Røsten
+9624 REVSNESHAMN
+1528 Birte Bergquist
+6411 MOLDE
+1529 Alvin Hokstad
+5977 ÅNNELAND
+1530 Bjørg Kåsa
+9009 TROMSØ
+1531 Aage Villanger
+1851 MYSEN
+1532 Ahmed Vie
+0584 OSLO
+1533 Oddvin Leirdal
+8489 NORDMELA
+1534 Anne-marie Leirvåg
+4047 HAFRSFJORD
+1535 Åsta Soltveit
+0772 OSLO
+1536 Roald Rosseland
+4150 RENNESØY
+1537 Brynjulf Grønbech
+7596 FLAKNAN
+1538 Tale Tokle
+2432 SLETTÅS
+1539 Herborg Dokken
+8733 STUVLAND
+1540 Roland Richardsen
+2214 KONGSVINGER
+1541 Anita Mauseth
+5184 OLSVIK
+1542 Arnulf Espedal
+0129 OSLO
+1543 Vilhelm Nordgaard
+2910 AURDAL
+1544 Jenny Kryger
+2663 DOVRESKOGEN
+1545 Haldor Sundstrøm
+5531 HAUGESUND
+1546 Kjellfrid Dragland
+7742 YTTERVÅG
+1547 Mira Jansson
+0133 OSLO
+1548 Mohammad Jordan
+2004 LILLESTRØM
+1549 Gunnvor Sjøberg
+2315 HAMAR
+1550 Amin Grini
+3853 VRÅDAL
+1551 Nils Fauske
+8072 BODØ
+1552 Aud Fiskum
+9446 GROVFJORD
+1553 Torbjørn Hokstad
+4869 DØLEMO
+1554 Sander Mahmood
+5804 BERGEN
+1555 Ask Øvstedal
+4629 KRISTIANSAND S
+1556 Louis Løken
+1784 HALDEN
+1557 Matheo Aabø
+9384 SKALAND
+1558 Oddgeir Vindenes
+6841 SKEI I JØLSTER
+1559 Torbjørn Røe
+3132 HUSØYSUND
+1560 Arild Fjeldberg
+5583 VIKEDAL
+1561 Alida Granerud
+3560 HEMSEDAL
+1562 Matthias Velle
+9802 VESTRE JAKOBSELV
+1563 Knut Haugland
+3174 REVETAL
+1564 Ørnulf Rishaug
+5305 FLORVÅG
+1565 Lisa Grønningsæter
+5981 MASFJORDNES
+1566 Stella Gjestad
+0772 OSLO
+1567 Tuva Våge
+4633 KRISTIANSAND S
+1568 Hermod Brynjulfsen
+5329 FLORVÅG
+1569 Said Trengereid
+8290 SKUTVIK
+1570 Gisle Hjelvik
+5591 ETNE
+1571 Dan Netland
+9489 HARSTAD
+1572 Nanna Lekve
+7882 NORDLI
+1573 Mohamed Hol
+7873 HARRAN
+1574 Sigfred Salomonsen
+2809 GJØVIK
+1575 Haldis Grande
+1830 ASKIM
+1576 Hugo Engstrøm
+5889 BERGEN
+1577 Ingebrigt Tjøtta
+4160 FINNØY
+1578 Madeleine Løvold
+5563 FØRRESFJORDEN
+1579 Yusuf Robstad
+3854 NISSEDAL
+1580 Ella Krasniqi
+6645 TODALEN
+1581 Rachel Stokstad
+6021 ÅLESUND
+1582 Tarjei Tufte
+5464 DIMMELSVIK
+1583 Ingvald Rystad
+4134 JØSENFJORDEN
+1584 Gabriel Arnestad
+4737 HORNNES
+1585 Isabella Vogt
+5397 BEKKJARVIK
+1586 Åslaug Seppola
+0276 OSLO
+1587 Frøydis Hånes
+5779 UTNE
+1588 Tordis Bjørn
+0487 OSLO
+1589 Oddveig Severinsen
+5637 ØLVE
+1590 Odd Vindenes
+9934 BUGØYFJORD
+1591 Jenny Ytreland
+1275 OSLO
+1592 Odd Stadheim
+3914 PORSGRUNN
+1593 Kåre Laugen
+1363 HØVIK
+1594 Veronica Veiby
+0040 OSLO
+1595 Erlend Haugo
+4335 DIRDAL
+1596 Amir Vestad
+3022 DRAMMEN
+1597 Jill Skinnes
+7003 TRONDHEIM
+1598 Ella Bruvoll
+4705 ØVREBØ
+1599 Arnljot Lade
+0112 OSLO
+1600 Brith Borsheim
+6828 HESTENESØYRA
+1601 Vanessa Rikardsen
+7361 RØROS
+1602 Rigmor Wickstrøm
+9448 RAMSUND
+1603 Tor-erik Skjervold
+9120 VENGSØY
+1604 Gunn Raza
+2033 ÅSGREINA
+1605 Caroline Sagmo
+3916 PORSGRUNN
+1606 Nathalie Kausar
+4846 ARENDAL
+1607 Malene Egenes
+1830 ASKIM
+1608 Terese Engenes
+3238 SANDEFJORD
+1609 David Ngo
+9306 FINNSNES
+1610 Sylvia Holvik
+2960 RØN
+1611 Mahmoud Valø
+4022 STAVANGER
+1612 Celina Furre
+3580 GEILO
+1613 Suzanne Dahlstrøm
+4233 ERFJORD
+1614 Astrid Sandvik
+5642 HOLMEFJORD
+1615 Eskild Frantzen
+7716 STEINKJER
+1616 Mohamed Aglen
+5741 AURLAND
+1617 Arvid Ahmed
+6213 TAFJORD
+1618 Wiggo Thorgersen
+4326 SANDNES
+1619 Kari Eliassen
+0403 OSLO
+1620 Minh Hatlen
+5847 BERGEN
+1621 Valborg Skomedal
+2612 SJUSJØEN
+1622 Tom Josefsen
+6523 FREI
+1623 Claus Fidje
+1481 HAGAN
+1624 Freddy Jones
+9171 LONGYEARBYEN
+1625 Pål Engevold
+7334 STORÅS
+1626 Håvar Eek
+7010 TRONDHEIM
+1627 Gretha Hilde
+7551 HOMMELVIK
+1628 Linda Hope
+7099 FLATÅSEN
+1629 Heidi Malmedal
+0025 OSLO
+1630 Rudolf Garberg
+7231 LUNDAMO
+1631 Inga Evenstad
+2110 SLÅSTAD
+1632 Annika Øygard
+3931 PORSGRUNN
+1633 Alexandra Gustad
+2208 KONGSVINGER
+1634 Ragnhild Klette
+2403 ELVERUM
+1635 Elen Heiberg
+1711 SARPSBORG
+1636 Trond Hauglid
+5104 EIDSVÅG I ÅSANE
+1637 Bror Sjåstad
+3540 NESBYEN
+1638 Sten Jonsson
+3501 HØNEFOSS
+1639 Elvira Tønnessen
+5778 UTNE
+1640 Flemming Valde
+4953 RISØR
+1641 Ailin Strømstad
+3291 STAVERN
+1642 Kjellaug Emanuelsen
+1709 SARPSBORG
+1643 Anniken Gustafsson
+4827 FROLANDS VERK
+1644 Guri Marvik
+5519 HAUGESUND
+1645 Rakel Hatland
+5574 SKJOLD
+1646 Teodor Natås
+6009 ÅLESUND
+1647 Olai Walderhaug
+6453 KLEIVE
+1648 Ted Oksnes
+4095 STAVANGER
+1649 Ann-karin Hegg
+3521 JEVNAKER
+1650 Edgar Salamonsen
+7425 TRONDHEIM
+1651 Ryszard Warsame
+9272 TROMSØ
+1652 Signe Bjune
+1752 HALDEN
+1653 Kirsten Ranum
+6927 YTRØYGREND
+1654 Renate Brandvik
+2687 BØVERDALEN
+1655 Erle Lindstad
+3483 KANA
+1656 Baard Holand
+2966 SLIDRE
+1657 Inger-lise Sollien
+6806 NAUSTDAL
+1658 Edle Våge
+1481 HAGAN
+1659 Astri Sæland
+0103 OSLO
+1660 Lars-erik Betten
+1870 ØRJE
+1661 Bengt Egeland
+6410 MOLDE
+1662 Christoffer Nyquist
+0595 OSLO
+1663 Adam Sørum
+0580 OSLO
+1664 Elbjørg Bakkan
+4270 ÅKREHAMN
+1665 Hussein Repstad
+6601 SUNNDALSØRA
+1666 Pawel Log
+1112 OSLO
+1667 Nicole Aase
+7540 KLÆBU
+1668 Torbjørg Fagerhaug
+4275 SÆVELANDSVIK
+1669 Eline Lund
+1628 ENGELSVIKEN
+1670 Ali Baltzersen
+9501 ALTA
+1671 Erika Bastiansen
+9291 TROMSØ
+1672 Malene Kristensen
+2242 MOROKULIEN
+1673 Håvar Winje
+5729 MODALEN
+1674 Bartosz Vangen
+6828 HESTENESØYRA
+1675 Ådne Grønning
+6408 AUREOSEN
+1676 Vilde Alm
+3525 HALLINGBY
+1677 Tobias Dyrkorn
+4092 STAVANGER
+1678 Martine Skjelvik
+3161 STOKKE
+1679 Dagmar Skaugen
+9194 LAUKSLETTA
+1680 Anfinn Idland
+2816 GJØVIK
+1681 Marvin Polden
+0577 OSLO
+1682 Adnan Lone
+7286 SØRBURØY
+1683 Alf Lundal
+2019 SKEDSMOKORSET
+1684 Anne-grete Stenberg
+9713 RUSSENES
+1685 Allan Nyseth
+0186 OSLO
+1686 Tonny Kleiven
+5835 BERGEN
+1687 Hildur Ihlen
+6878 VEITASTROND
+1688 Katarina Klaussen
+8011 BODØ
+1689 Jill Langøy
+5721 DALEKVAM
+1690 Justyna Johannessen
+2072 DAL
+1691 Anine Sandbakken
+3490 KLOKKARSTUA
+1692 Erna Sandaker
+5983 HAUGSVÆR
+1693 Helen Formo
+1476 RASTA
+1694 Elen Brenna
+3673 NOTODDEN
+1695 Gjermund Blom
+2604 LILLEHAMMER
+1696 Torild Igland
+7321 FANNREM
+1697 Andrius Wiggen
+3028 DRAMMEN
+1698 Baard Hætta
+4153 BRIMSE
+1699 Christer Håvik
+3727 SKIEN
+1700 Oskar Eriksen
+5641 FUSA
+1701 Torolf Jespersen
+4012 STAVANGER
+1702 Catharina Bjerkeli
+8520 ANKENESSTRAND
+1703 Ingebrigt Stene
+6703 MÅLØY
+1704 Rudi Slinning
+9672 INGØY
+1705 Åge Flatås
+6330 VERMA
+1706 Hamza Nyhuus
+3222 SANDEFJORD
+1707 Sigvald Bentsen
+5518 HAUGESUND
+1708 Rebecka Lid
+5412 STORD
+1709 Maria Alfredsen
+6293 LONGVA
+1710 Kathe Tellefsen
+6069 HAREID
+1711 Maud Løvli
+4605 KRISTIANSAND S
+1712 Balder Toft
+6985 ATLØY
+1713 Trude Kvame
+9950 VARDØ
+1714 Syver Jevnaker
+1532 MOSS
+1715 Sanna Tessem
+2009 NORDBY
+1716 Dennis Sivertsen
+7690 MOSVIK
+1717 Susanna Tandberg
+5417 STORD
+1718 Oddmund Bremseth
+9285 TROMSØ
+1719 Julie Hasund
+3166 TOLVSRØD
+1720 Eldbjørg Storeide
+0172 OSLO
+1721 Arna Erland
+5907 ALVERSUND
+1722 Haldis Gaup
+6729 KALVÅG
+1723 Nicklas Sund
+8657 MOSJØEN
+1724 Trygve Olavesen
+5457 HØYLANDSBYGD
+1725 Torunn Husebø
+4307 SANDNES
+1726 Ole-christian Hauger
+9509 ALTA
+1727 Amir Eek
+9040 NORDKJOSBOTN
+1728 Walter Ensrud
+6538 AVERØY
+1729 Michal Tveito
+2730 LUNNER
+1730 Christiane Grannes
+9175 SVEAGRUVA
+1731 Øystein Haukås
+1354 BÆRUMS VERK
+1732 Rikke Fonnes
+1009 OSLO
+1733 Victor Myrhaug
+2646 GÅLÅ
+1734 Klara Hårstad
+1536 MOSS
+1735 Preben Bjørgum
+3905 PORSGRUNN
+1736 Idar Njærheim
+4158 BRU
+1737 Vemund Østmo
+1920 SØRUMSAND
+1738 Andres Fagerbakke
+2649 ØSTRE GAUSDAL
+1739 Mette Fossheim
+4403 FLEKKEFJORD
+1740 Mali Sundberg
+6408 AUREOSEN
+1741 Bengt Baardsen
+3701 SKIEN
+1742 Malgorzata Haarr
+3006 DRAMMEN
+1743 Patrik Solvang
+3045 DRAMMEN
+1744 Thi Mathiassen
+7127 OPPHAUG
+1745 Kjellrun Ryen
+0562 OSLO
+1746 Edin Olaussen
+5993 OSTEREIDET
+1747 Jean Frøiland
+9590 HASVIK
+1748 Mie Høye
+2266 ARNEBERG
+1749 Margit Gramstad
+1641 RÅDE
+1750 Annika Woll
+1431 ÅS
+1751 Oddbjørg Mjelde
+2860 HOV
+1752 Holger Nicolaisen
+6655 VINDØLA
+1753 Solvår Hogstad
+8805 SANDNESSJØEN
+1754 Eira Hval
+4696 KRISTIANSAND S
+1755 Mats Bolme
+1357 BEKKESTUA
+1756 Margrete Saur
+4154 AUSTRE ÅMØY
+1757 Ingunn Thorud
+7011 TRONDHEIM
+1758 Hans-petter Løtveit
+6611 FURUGRENDA
+1759 David Lia
+0129 OSLO
+1760 Mohammed Tomren
+5574 SKJOLD
+1761 Jørg Bjørge
+5398 STOLMEN
+1762 Malgorzata Thorud
+1487 HAKADAL
+1763 Mona Opland
+7439 TRONDHEIM
+1764 Amy Tveter
+9600 HAMMERFEST
+1765 Balder Vike
+1734 HAFSLUNDSØY
+1766 Mai Mostad
+4045 HAFRSFJORD
+1767 Martina Schjelderup
+9321 MOEN
+1768 Arve Rostad
+3611 KONGSBERG
+1769 Elen Krane
+7401 TRONDHEIM
+1770 Zahra Kapstad
+8283 LEINESFJORD
+1771 Jan Lura
+1284 OSLO
+1772 Rannveig Tjøsvoll
+9714 SNEFJORD
+1773 Mads Ulvestad
+8602 MO I RANA
+1774 Jessica Ryan
+1633 GAMLE FREDRIKSTAD
+1775 Halvor Olufsen
+5058 BERGEN
+1776 Kitty Aarset
+2256 GRUE FINNSKOG
+1777 Jan-erik Eik
+3201 SANDEFJORD
+1778 Vera Sandbakk
+9277 TROMSØ
+1779 Mats Viken
+0266 OSLO
+1780 Daniel Gerhardsen
+6285 STOREKALVØY
+1781 Åge Svenkerud
+7884 SØRLI
+1782 Juni Løkkeberg
+4146 SKIFTUN
+1783 Emine Tømmerås
+8031 BODØ
+1784 Barbro Falk
+7744 HEPSØY
+1785 Aslak Osen
+3864 RAULAND
+1786 Bjørge Wibe
+3224 SANDEFJORD
+1787 Ingelin Fløtre
+1373 ASKER
+1788 Vilhelm Konradsen
+3901 PORSGRUNN
+1789 Henryk Høivik
+4820 FROLAND
+1790 Nathaniel Lam
+6853 SOGNDAL
+1791 Arnold Haveland
+6973 SANDE I SUNNFJORD
+1792 KvinnenavnbruktavellerflereNrNamnAntall Nes
+0881 OSLO
+1793 Imran Smedstad
+0167 OSLO
+1794 Eskil Skaugen
+9263 TROMSØ
+1795 Peter Ødegaard
+8618 MO I RANA
+1796 Mikkel Undheim
+6454 HJELSET
+1797 Stina Molden
+7500 STJØRDAL
+1798 Noah Skogli
+5229 KALANDSEIDET
+1799 Brith Grinden
+0172 OSLO
+1800 Emanuel Hveding
+0080 OSLO
+1801 Ingvar Egeli
+7658 VERDAL
+1802 Janne Uthaug
+4306 SANDNES
+1803 Øistein Lone
+0048 OSLO
+1804 Caroline Smedstad
+3095 EIDSFOSS
+1805 Frøya Myller
+9315 SØRREISA
+1806 Edward Kalland
+8266 MØRSVIKBOTN
+1807 Anita Svanes
+3201 SANDEFJORD
+1808 Aaron Thrane
+5402 STORD
+1809 Dorota Oliversen
+4473 KVINLOG
+1810 Olai Munthe
+5861 BERGEN
+1811 Magda Nordhaug
+6450 HJELSET
+1812 Tatiana Viken
+0188 OSLO
+1813 Gina Høiland
+0266 OSLO
+1814 Frida Sortland
+5504 HAUGESUND
+1815 Jaroslaw Abelsen
+4154 AUSTRE ÅMØY
+1816 Tadeusz Lysne
+4674 KRISTIANSAND S
+1817 Else-marie Bjerke
+0690 OSLO
+1818 Lovise Haugseth
+0317 OSLO
+1819 Vivian Fossmo
+6200 STRANDA
+1820 Celina Saur
+1802 ASKIM
+1821 Jessica Tørstad
+6260 SKODJE
+1822 Regina Mohamud
+7310 GJØLME
+1823 Angela Åsen
+3087 BOTNE
+1824 Mohammed Tveitan
+1508 MOSS
+1825 Evald Omland
+1814 ASKIM
+1826 Kim-andre Sandø
+7150 STORFOSNA
+1827 Lisa Høydahl
+2602 LILLEHAMMER
+1828 Renee Nøkleby
+8014 BODØ
+1829 Amir Myklebust
+3210 SANDEFJORD
+1830 Tale Idsøe
+0587 OSLO
+1831 Aleksandra Dalheim
+5231 PARADIS
+1832 Dag Bertelsen
+4319 SANDNES
+1833 Madeleine Gill
+5013 BERGEN
+1834 Kirsten Kalvik
+2309 HAMAR
+1835 Jose Wie
+0185 OSLO
+1836 Navnestatistikk, Tønsberg
+4715 ØVREBØ
+1837 Marina Engstrøm
+5537 HAUGESUND
+1838 Synne Grønnevik
+2320 FURNES
+1839 Alex Devold
+1250 OSLO
+1840 Gunn Værnes
+1606 FREDRIKSTAD
+1841 KvinnenavnbruktavellerflereNrNamnAntall Nyhus
+0150 OSLO
+1842 Wieslaw Bach
+3341 ÅMOT
+1843 Mahmoud Fagerland
+5405 STORD
+1844 Justyna Hesjedal
+9846 TANA
+1845 Alina Øygard
+5416 STORD
+1846 Arnulf Skjerven
+7486 TRONDHEIM
+1847 Ågot Korslund
+4403 FLEKKEFJORD
+1848 Brita Utheim
+1910 ENEBAKKNESET
+1849 Peggy Thorshaug
+4088 STAVANGER
+1850 Lucas Thuen
+2714 JAREN
+1851 Jan-erik Solum
+9512 ALTA
+1852 Tron Nyhagen
+3502 HØNEFOSS
+1853 Steffan Aaberg
+5015 BERGEN
+1854 Renata Hussein
+1109 OSLO
+1855 Mariam Aasebø
+1512 MOSS
+1856 Else-marie Nesje
+8086 BODØ
+1857 Idunn Lindholm
+7540 KLÆBU
+1858 Cathrine Fischer
+3211 SANDEFJORD
+1859 Eivind Bilstad
+5427 URANGSVÅG
+1860 Tormod Throndsen
+3430 SPIKKESTAD
+1861 Jeanett Rosenberg
+2000 LILLESTRØM
+1862 Torodd Børresen
+8415 HENNES
+1863 Lin Hassan
+4703 VENNESLA
+1864 Abdirahman Wiig
+4119 FORSAND
+1865 Hjørdis Gunnarsen
+0353 OSLO
+1866 Philip Dyrøy
+4335 DIRDAL
+1867 Gro Bentsen
+8641 HEMNESBERGET
+1868 Jorid Hojem
+7820 SPILLUM
+1869 Matias Korsmo
+3277 STEINSHOLT
+1870 Møyfrid Stensrud
+7540 KLÆBU
+1871 Elin Joa
+1823 KNAPSTAD
+1872 Alvin Nyhus
+7487 TRONDHEIM
+1873 Waldemar Hellevik
+3684 NOTODDEN
+1874 Karsten Røvik
+6404 MOLDE
+1875 Amalie Fosen
+1407 VINTERBRO
+1876 Levi Møller
+0135 OSLO
+1877 Siri Seland
+4980 GJERSTAD
+1878 Nicolas Holm
+6655 VINDØLA
+1879 Marek Beck
+4307 SANDNES
+1880 Hanne Eriksson
+6293 LONGVA
+1881 Dagrun Krogsæter
+0875 OSLO
+1882 Ruben Akram
+7485 TRONDHEIM
+1883 June Ferstad
+0190 OSLO
+1884 Kathe Torkildsen
+1815 ASKIM
+1885 Oliver Havn
+5637 ØLVE
+1886 Martinus Borchgrevink
+4146 SKIFTUN
+1887 Kim Stubberud
+6405 MOLDE
+1888 Audun Ims
+3294 STAVERN
+1889 Siv Fiksdal
+9650 AKKARFJORD
+1890 Mathea Anda
+1407 VINTERBRO
+1891 Anne-mari Berntzen
+0208 OSLO
+1892 Nancy Molden
+0687 OSLO
+1893 Svend Botnen
+1812 ASKIM
+1894 Helena Bjørlo
+4049 HAFRSFJORD
+1895 Dominik Stensby
+0196 OSLO
+1896 Brynhild Tøllefsen
+5173 LODDEFJORD
+1897 Jon Kværner
+2817 GJØVIK
+1898 Børge Vanvik
+2005 RÆLINGEN
+1899 Guro Dahlen
+7447 TRONDHEIM
+1900 Edel Venås
+3760 NESLANDSVATN
+1901 Henry Hvattum
+8311 HENNINGSVÆR
+1902 Sveinung Haugland
+3269 LARVIK
+1903 Aina Wiik
+0650 OSLO
+1904 Marion Rossebø
+2312 OTTESTAD
+1905 Narve Skogmo
+9595 SØRVÆR
+1906 Viktor Bergseng
+1870 ØRJE
+1907 John Aam
+3521 JEVNAKER
+1908 Josef Svarstad
+3533 TYRISTRAND
+1909 Normann Langset
+3524 NES I ÅDAL
+1910 Sindre Lindholm
+3914 PORSGRUNN
+1911 Emil Sharma
+1166 OSLO
+1912 Heine Benjaminsen
+4973 VEGÅRSHEI
+1913 Jozef Kvalheim
+3646 HVITTINGFOSS
+1914 Theodor Blakstad
+2021 SKEDSMOKORSET
+1915 Bartosz Ballestad
+2648 SØR-FRON
+1916 Njål Berntzen
+5978 MJØMNA
+1917 Anneli Stene
+8488 NØSS
+1918 Ellen Asbjørnsen
+7454 TRONDHEIM
+1919 Grethe Natvik
+3481 TOFTE
+1920 Anett Høgås
+3690 HJARTDAL
+1921 Torhild Heggernes
+0218 OSLO
+1922 Hassan Guldberg
+7533 KOPPERÅ
+1923 Samir Askim
+2316 HAMAR
+1924 Sissel Hille
+5379 STEINSLAND
+1925 Edvard Gunnestad
+4460 MOI
+1926 Alf Nicolaysen
+5868 BERGEN
+1927 Maya Fossland
+2718 BRANDBU
+1928 Arvid Isdahl
+7701 STEINKJER
+1929 Edwin Smedstad
+9195 ÅRVIKSAND
+1930 Matilde Sætran
+6881 ÅRDALSTANGEN
+1931 Cathrin Solsvik
+4023 STAVANGER
+1932 Gudveig Mjånes
+1503 MOSS
+1933 Axel Aga
+1714 SARPSBORG
+1934 Eilif Ausland
+3786 SKIEN
+1935 Max Holstad
+3026 DRAMMEN
+1936 Marina Olsnes
+7273 NORDDYRØY
+1937 Gøril Handeland
+7099 FLATÅSEN
+1938 Piotr Aasberg
+3916 PORSGRUNN
+1939 Natalia Bergland
+7950 ABELVÆR
+1940 Chris Hestad
+8439 MYRE
+1941 Erika Hjelm
+0255 OSLO
+1942 Nicole Lauvås
+6230 SYKKYLVEN
+1943 Simone Østlund
+1285 OSLO
+1944 Tobias Raknes
+0042 OSLO
+1945 Anne-lise Friberg
+4137 ÅRDAL I RYFYLKE
+1946 Scott Engvik
+2004 LILLESTRØM
+1947 Ingar Bjerknes
+7370 BREKKEBYGD
+1948 Hege Westrum
+3280 TJODALYNG
+1949 Aase Balstad
+5136 MJØLKERÅEN
+1950 Torbjørg Claussen
+7391 RENNEBU
+1951 Sjur Dalby
+8648 KORGEN
+1952 Jannicke Zachariassen
+5563 FØRRESFJORDEN
+1953 Susanna Hauger
+8854 AUSTBØ
+1954 Rene Hoel
+7241 ANSNES
+1955 Tamara Nydal
+6822 SANDANE
+1956 Felix Nordanger
+0370 OSLO
+1957 Gøril Solbakken
+4327 SANDNES
+1958 Ingjerd Torbjørnsen
+6993 HØYANGER
+1959 Njål Myller
+5093 BERGEN
+1960 Pernille Rosvold
+3490 KLOKKARSTUA
+1961 Amir Færøy
+7088 HEIMDAL
+1962 Henriette Skavhaug
+1327 LYSAKER
+1963 Anette Korsmo
+2901 FAGERNES
+1964 Vilma Lieng
+4891 GRIMSTAD
+1965 Morgan Vollen
+9027 RAMFJORDBOTN
+1966 Idar Gulliksen
+6973 SANDE I SUNNFJORD
+1967 Klara Leidland
+6290 HARAMSØY
+1968 Brynhild Mørch
+6429 MOLDE
+1969 Magny Flaten
+7809 NAMSOS
+1970 Beate Bjørnestad
+7714 STEINKJER
+1971 Villy Sandvær
+5916 ISDALSTØ
+1972 Matias Trøan
+1294 OSLO
+1973 Mia Fagervik
+4059 RØYNEBERG
+1974 Amy Nicolaysen
+4024 STAVANGER
+1975 Erle Røkenes
+2665 LESJA
+1976 Mohammed Sagen
+3533 TYRISTRAND
+1977 Narve Husdal
+3431 SPIKKESTAD
+1978 Ann-kristin Haave
+3140 NØTTERØY
+1979 Thora Samdal
+2860 HOV
+1980 Øistein Mohammad
+8007 BODØ
+1981 Ingri Amlie
+3151 TOLVSRØD
+1982 Frøydis Selstad
+4506 MANDAL
+1983 Balder Østvold
+0510 OSLO
+1984 Sarah Blix
+9008 TROMSØ
+1985 Sindre Solli
+4656 HAMRESANDEN
+1986 Maren Heggset
+4523 SØR-AUDNEDAL
+1987 Adnan Dyrnes
+3162 ANDEBU
+1988 Rune Sjaastad
+4616 KRISTIANSAND S
+1989 Håvar Engevik
+0213 OSLO
+1990 Brynjar Halden
+5342 STRAUME
+1991 Ine Ottersen
+1721 SARPSBORG
+1992 Rasmus Schultz
+6390 VESTNES
+1993 Anne-berit Bjørn
+1317 BÆRUMS VERK
+1994 Arna Barmen
+4679 FLEKKERØY
+1995 Ana Reigstad
+3114 TØNSBERG
+1996 Bjørg Frøseth
+8275 STORJORD I TYSFJORD
+1997 Fanny Lyng
+7288 SOKNEDAL
+1998 Maja Honningsvåg
+5474 LØFALLSTRAND
+1999 Aaron Munkvold
+7869 SKAGE I NAMDALEN
+2000 Kjersti Vatn
+5824 BERGEN
