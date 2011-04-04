@@ -160,19 +160,21 @@ bool Division::read_results(istream* in, bool update) { // Menu option R + readi
 
 void Division::write(ostream* out) {
 	char date[DATELEN];
-	*out << text << '\n';
-	*out << no_teams << '\n';
-	for (int i = 0; i < no_teams; i++) {
+	*out << DIVLVL << text << '\n';
+	*out << DIVLVL << no_teams << '\n';
+	
+	for (int i = 0; i < no_teams; i++)
 		teams[i]->write(out);
+	
+	for (int i = 0; i < no_teams; i++) {
 		for (int j = 0; j < no_teams; j++) {
 			if(i != j) {
 				results[i][j]->get_date(date);
-				*out << teams[i]->get_team() << '\n';
-				*out << teams[j]->get_team() << '\n';
-				*out << date << '\n';
+				*out << TEAMLVL << teams[i]->get_team() << '\n';
+				*out << TEAMLVL << teams[j]->get_team() << '\n';
+				*out << TEAMLVL << date << '\n';
 			}
 		}	
-		
 	}
 }
 

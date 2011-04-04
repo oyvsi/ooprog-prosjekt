@@ -15,8 +15,10 @@ Team::Team(istream* infile) {  //Read such things as name, address, no_players
     name = io.read_string(infile);
     address = io.read_string(infile);
     *infile >> no_players; infile->ignore();
-    for(int i = 0; i < no_players; i++)
-        player_nos[i] = players.read_player(infile);
+    for(int i = 0; i < no_players; i++){
+        *infile >> player_nos[i]; //= players.read_player(infile);
+        infile->ignore();
+		}
 }
 
 Team::~Team() {
@@ -98,10 +100,11 @@ void Team::display() {
 }
 
 void Team::write(ostream* out) {
-	*out << name << '\n';
-	*out << address << '\n';
+	*out << TEAMLVL << name << '\n';
+	*out << TEAMLVL << address << '\n';
+	*out << TEAMLVL << no_players << '\n';
 	for (int i = 0; i < no_players; i++) 
-		*out << player_nos[i] << '\n';
+		*out << TEAMLVL << player_nos[i] << '\n';
 }
 
 bool Team::in_team(int player){					// True dersom spilleren fins på laget

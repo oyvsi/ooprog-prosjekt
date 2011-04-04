@@ -64,7 +64,7 @@ bool generer(int antall)
 		
 		rnd_fnvn = (rand()%2) ? rnd_knvn : rnd_mnvn; 
 		
-		utfil << i << " " << rnd_fnvn << " " << rnd_envn << endl
+		utfil << /*i << " " <<*/ rnd_fnvn << " " << rnd_envn << endl
 					<< rnd_adr << endl;
 	}
 	
