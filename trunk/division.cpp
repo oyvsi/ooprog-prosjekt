@@ -286,6 +286,24 @@ void Division::write_top_ten() {
 		}
 	}
 	
+	if (teamname){																		// DERSOM LAGNAVN:
+		int teamidx = -1;
+		
+		for (int i = 0; i < no_teams; i++){							// Finn lagindeks:
+			if (!strcmp(teams[i]->get_team(), teamname))
+				teamidx = i;
+		}
+		
+		if (teamidx != -1){
+			for (int i = 0; i < goalscorers.size(); i++){  	// Ta vekk folk som ikke er på laget
+				if (!teams[teamidx]->in_team(goalscorers[i]))
+					goalscorers.erase(goalscorers.begin() + i);
+			}
+		} else {
+			cout << "Feil lagnavn!\n";
+		}
+	}
+	
 	sort(goalscorers.begin(), goalscorers.end());
   
 	for (int i = 0; i < goalscorers.size();){

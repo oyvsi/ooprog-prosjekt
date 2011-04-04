@@ -69,3 +69,11 @@ void Team::write(ostream* out) {
 	for (int i = 0; i < no_players; i++) 
 		*out << player_nos[i] << '\n';
 }
+
+bool Team::in_team(int player){					// True dersom spilleren fins på laget
+	for (int i = 0; i < no_players; i++){
+		if (player_nos[i] == player)
+			return true;
+	}
+	return false;
+}
