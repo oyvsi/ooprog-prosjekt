@@ -35,11 +35,14 @@ void Sports::remove_sport() {
 	if (sportlist->in_list(tmp_string)){
 		char* sure = io.read_valid("Er du sikker?? J/n", NAME);
 		if (io.to_upper(sure[0]) == 'J'){
-			if (sportlist->destroy(tmp_string))
+			if (sprt = (Sport*) sportlist->remove(tmp_string)) {
+				delete sprt;
 				cout << "Idretten " << tmp_string << " ble slettet.";
+			}
 		}
 	} else
 		cout << "Fant ikke idretten!\n";
+	delete [] tmp_string;
 }
 
 void Sports::remove_player(int player_no) {

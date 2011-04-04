@@ -129,8 +129,10 @@ void Sport::remove_division() {
 	if(divisionlist->in_list(divisionname)){
 		char* sure = io.read_valid("Er du sikker?? J/n", NAME);
 		if (io.to_upper(sure[0]) == 'J'){
-			if (divisionlist->destroy(divisionname))
+			if (tmp_division = (Division*) divisionlist->remove(divisionname)) {
+				delete tmp_division;
 				cout << "Divisjonen " << divisionname << " ble slettet.";
+			}
 		}
 	} else
 		cout << "Fant ikke divisjonen!\n";
