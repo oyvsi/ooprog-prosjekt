@@ -31,7 +31,8 @@ void Players::new_player() {	//Adds a new player.
 }
 bool Players::remove_player() {
 	int i_read;
-	cout << "Spillernummer: ";
+	cout << "Spillernummer/navn: ";
+	
 	char* c_read = io.read_string(&cin);	//Read, and store input.
 	Player* tmp;
 
