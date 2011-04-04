@@ -98,8 +98,6 @@ Brit
 Vilde
 Maren
 Vigdis
-Navnestatistikk,
-KvinnenavnbruktavellerflereNrNamnAntall
 Lena
 Therese
 Elise
