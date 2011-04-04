@@ -3,6 +3,14 @@
 
 enum val_type {NONE, NAME, ADDRESS};
 
+const char SPORTSFILE[]  = "echosports.txt";
+const char SPORTSFILE2[]  = "echosports_ut.txt"; // utfil, testing
+const char PLAYERSFILE[] = "players.txt";
+
+const char DIVLVL[] = "  ";
+const char TEAMLVL[] = "    ";
+
+
 const int NAMELEN		=  50;	//Default length on names
 const int STRLEN		= 100;	//Default length on strings
 const int MAXTEAMS		=  30;	//Maximum teams in a division

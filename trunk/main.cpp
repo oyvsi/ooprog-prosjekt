@@ -13,13 +13,15 @@ IOfunc io;
 Players players;
 Sports sports;
 
+void read_all_file();
+void write_all_file();
 void display_menu();
 void new_psd();					// New player/sport/division
 void remove_psd();
 void read_results();
 
 int main() {
-	// Les inn data
+	read_all_file();
 	
 	char choice;
 	display_menu();
@@ -44,7 +46,28 @@ int main() {
 			default  : display_menu(); break;
 		}
 	}
+	write_all_file();
 	return 0;
+}
+
+void read_all_file(){
+																		// READ PLAYERS
+	int no_pls;
+	
+	ifstream i_players(PLAYERSFILE);
+	i_players >> no_pls;
+	i_players.ignore();
+	
+	for (int i = 0; i < no_pls; i++){
+		players.read_player(&i_players);
+	}
+	
+	sports.read_file();
+}
+
+void write_all_file(){
+	sports.write_file();
+	players.write_file();
 }
 
 void display_menu(){

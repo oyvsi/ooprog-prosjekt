@@ -35,10 +35,10 @@ Sport::Sport(char* name, istream* input) : Text_element(name) {
 	*input >> tabletype >> no_divisions;
 	input->ignore();
 	for(int i = 1; i <= no_divisions; i++) {
-		//divname = io.read_string(input);
-		//tmp_div = new Division(divname, input);
-		//divisionlist->add(tmp_div);
-		//delete [] divname;
+		divname = io.read_string(input);
+		tmp_div = new Division(input, divname);
+		divisionlist->add(tmp_div);
+		delete [] divname;
 	}
 }
 Sport::~Sport() {
@@ -62,7 +62,7 @@ void Sport::write(ostream* out) {
 	*out << text << '\n' << tabletype << '\n'
 		 << divisionlist->no_of_elements() << '\n';
 	while(tmp = (Division*) divisionlist->remove_no(i)) {
-		//tmp->write(out);
+		tmp->write(out);
 		divisionlist->add(tmp);
 		i++;
 	}
@@ -74,7 +74,7 @@ bool Sport::read_results(istream* infile, bool update){
 	char* divisionname;
 	Division* tmp_div;
 	int i = 0;
-	no_div = io.lines_in_level(infile, 1);
+	*infile >> no_div; //no_div = io.lines_in_level(infile, 1);
 	cout << "Las ant. div: " << no_div << endl;
 	while (read_ok && i < no_div) {                                                 // Les alle divisjoner:
 		divisionname = io.read_string(infile, '\n');

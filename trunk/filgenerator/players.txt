@@ -1,4001 +1,4001 @@
-2000
-1 Maria Lunder
+500
+Maria Lunder
 4841 ARENDAL
-2 Bogdan Hatlevik
+Bogdan Hatlevik
 2312 OTTESTAD
-3 Lena Bakka
+Lena Bakka
 0487 OSLO
-4 Mons Aaseth
+Mons Aaseth
 5903 ISDALSTØ
-5 Mildrid Flatland
+Mildrid Flatland
 5417 STORD
-6 Bartosz Lyngmo
+Bartosz Lyngmo
 0774 OSLO
-7 Renata Lode
+Renata Lode
 0116 OSLO
-8 Maryam Slåtten
+Maryam Slåtten
 6391 TRESFJORD
-9 Yasmin Bjørseth
+Yasmin Bjørseth
 8093 KJERRINGØY
-10 Gjermund Revheim
+Gjermund Revheim
 5815 BERGEN
-11 Sami Joakimsen
+Sami Joakimsen
 8742 SELVÆR
-12 Villy Østensen
+Villy Østensen
 4626 KRISTIANSAND S
-13 Nicolas Riise
+Nicolas Riise
 2065 GARDERMOEN
-14 Lars Taule
+Lars Taule
 1761 HALDEN
-15 Jarle Alfredsen
+Jarle Alfredsen
 5534 HAUGESUND
-16 Johann Heggen
+Johann Heggen
 2005 RÆLINGEN
-17 Nadia Kolsrud
+Nadia Kolsrud
 0569 OSLO
-18 Liv Sleire
+Liv Sleire
 5956 VÅGSEIDET
-19 Åsta Rikstad
+Åsta Rikstad
 4580 LYNGDAL
-20 Maximilian Olstad
+Maximilian Olstad
 9269 TROMSØ
-21 Mille Hynne
+Mille Hynne
 0781 OSLO
-22 Joacim Bru
+Joacim Bru
 1832 ASKIM
-23 Olaug Hetland
+Olaug Hetland
 3994 LANGESUND
-24 Vincent Seldal
+Vincent Seldal
 4827 FROLANDS VERK
-25 Jon Walstad
+Jon Walstad
 4663 KRISTIANSAND S
-26 Trine-lise Nysæther
+Trine-lise Nysæther
 0253 OSLO
-27 Sølve Ludvigsen
+Sølve Ludvigsen
 0616 OSLO
-28 Svend Haukland
+Svend Haukland
 3520 JEVNAKER
-29 Steve Homme
+Steve Homme
 3041 DRAMMEN
-30 Vebjørn Grytten
+Vebjørn Grytten
 9287 TROMSØ
-31 Leila Magnussen
+Leila Magnussen
 2317 HAMAR
-32 Cathrine Norland
+Cathrine Norland
 5412 STORD
-33 Hulda Zhang
+Hulda Zhang
 1309 RUD
-34 Arnfinn Løvaas
+Arnfinn Løvaas
 3749 SILJAN
-35 Carl Lauvrak
+Carl Lauvrak
 8647 BLEIKVASSLIA
-36 Anders Skogmo
+Anders Skogmo
 6918 SØR-SKORPA
-37 Syver Bryhn
+Syver Bryhn
 5122 MORVIK
-38 Alice Omdahl
+Alice Omdahl
 8618 MO I RANA
-39 Atle Kverneland
+Atle Kverneland
 7447 TRONDHEIM
-40 Amanda Mannes
+Amanda Mannes
 6996 VADHEIM
-41 Maciej Hageland
+Maciej Hageland
 3620 FLESBERG
-42 Helle Anthonsen
+Helle Anthonsen
 1684 VESTERØY
-43 Rasmus Kausar
+Rasmus Kausar
 7212 KORSVEGEN
-44 Waldemar Gulliksen
+Waldemar Gulliksen
 3917 PORSGRUNN
-45 Krzysztof Solstad
+Krzysztof Solstad
 9910 BJØRNEVATN
-46 Haldis Krogsrud
+Haldis Krogsrud
 3743 SKIEN
-47 Joacim Høie
+Joacim Høie
 4790 LILLESAND
-48 Evy Bekken
+Evy Bekken
 8613 MO I RANA
-49 Norvald Adam
+Norvald Adam
 4022 STAVANGER
-50 Haldis Alsvik
+Haldis Alsvik
 6657 RINDAL
-51 Olaf Hillestad
+Olaf Hillestad
 9471 GRATANGEN
-52 Tine Kvalheim
+Tine Kvalheim
 8663 MOSJØEN
-53 Hogne Winge
+Hogne Winge
 4420 ÅNA-SIRA
-54 Vemund Justad
+Vemund Justad
 6008 ÅLESUND
-55 Ann-christin Botten
+Ann-christin Botten
 6133 LAUVSTAD
-56 Eyvind Heltne
+Eyvind Heltne
 1380 HEGGEDAL
-57 Oddbjørn Walderhaug
+Oddbjørn Walderhaug
 7562 HUNDHAMAREN
-58 Birgit Engh
+Birgit Engh
 6196 NORANGSFJORDEN
-59 Ågot Frogner
+Ågot Frogner
 6101 VOLDA
-60 Edward Idsø
+Edward Idsø
 8009 BODØ
-61 Severin Morken
+Severin Morken
 6727 BREMANGER
-62 Dawid Waage
+Dawid Waage
 3092 SUNDBYFOSS
-63 Sigurd Johansen
+Sigurd Johansen
 0516 OSLO
-64 Møyfrid Hexeberg
+Møyfrid Hexeberg
 6770 NORDFJORDEID
-65 Mario Vaksdal
+Mario Vaksdal
 1850 MYSEN
-66 Øyvin Håpnes
+Øyvin Håpnes
 7083 LEINSTRAND
-67 Egil Bjørn
+Egil Bjørn
 5412 STORD
-68 Signe Reitan
+Signe Reitan
 2612 SJUSJØEN
-69 Aron Wilhelmsen
+Aron Wilhelmsen
 9136 VANNAREID
-70 Gretha Lode
+Gretha Lode
 2929 BAGN
-71 Svanhild Djupvik
+Svanhild Djupvik
 5523 HAUGESUND
-72 Mikkel Brenden
+Mikkel Brenden
 8297 TRANØY
-73 Jonathan Sellevold
+Jonathan Sellevold
 0984 OSLO
-74 Borgar Blindheim
+Borgar Blindheim
 0128 OSLO
-75 Nikoline Nordhus
+Nikoline Nordhus
 0570 OSLO
-76 Helle Hveding
+Helle Hveding
 4182 SKARTVEIT
-77 Britt Fretheim
+Britt Fretheim
 0041 OSLO
-78 Vigdis Rustand
+Vigdis Rustand
 5514 HAUGESUND
-79 Preben Astrup
+Preben Astrup
 0041 OSLO
-80 Reza Magerøy
+Reza Magerøy
 1690 HERFØL
-81 Oddvar Heide
+Oddvar Heide
 2653 VESTRE GAUSDAL
-82 Michelle Venås
+Michelle Venås
 6453 KLEIVE
-83 Cathrine Linde
+Cathrine Linde
 4006 STAVANGER
-84 Baard Leirvåg
+Baard Leirvåg
 8168 ENGAVÅGEN
-85 Victor Heldal
+Victor Heldal
 7533 KOPPERÅ
-86 Imre Bakketun
+Imre Bakketun
 0211 OSLO
-87 Signe Fotland
+Signe Fotland
 7495 TRONDHEIM
-88 Clara Tyldum
+Clara Tyldum
 0254 OSLO
-89 Harriet Øglænd
+Harriet Øglænd
 1597 MOSS
-90 Clara Svanevik
+Clara Svanevik
 3967 BAMBLE SOMMERRUTE
-91 Jostein Ferstad
+Jostein Ferstad
 9742 KUNES
-92 Rune Mohamed
+Rune Mohamed
 6633 GJEMNES
-93 Herman Folland
+Herman Folland
 0273 OSLO
-94 Andrzej Kroken
+Andrzej Kroken
 3014 DRAMMEN
-95 Oddlaug Solevåg
+Oddlaug Solevåg
 0764 OSLO
-96 Tron Rossebø
+Tron Rossebø
 1950 RØMSKOG
-97 Lilli Sandvær
+Lilli Sandvær
 8507 NARVIK
-98 Abdullahi Magnusson
+Abdullahi Magnusson
 4580 LYNGDAL
-99 Ingunn Aspen
+Ingunn Aspen
 0970 OSLO
-100 Vilma Rognstad
+Vilma Rognstad
 6470 ERESFJORD
-101 Bastian Staven
+Bastian Staven
 3124 TØNSBERG
-102 Elna Løvlie
+Elna Løvlie
 5987 HOSTELAND
-103 Ninni Brattli
+Ninni Brattli
 2318 HAMAR
-104 Yngve Skavhaug
+Yngve Skavhaug
 5889 BERGEN
-105 Harry Ødegård
+Harry Ødegård
 6504 KRISTIANSUND N
-106 June Hope
+June Hope
 0134 OSLO
-107 Hanna Rist
+Hanna Rist
 7256 HEMNSKJELA
-108 Kjersti Lunder
+Kjersti Lunder
 3189 HORTEN
-109 Holger Pettersson
+Holger Pettersson
 7486 TRONDHEIM
-110 Mina Eike
+Mina Eike
 3739 SKIEN
-111 Anne-sofie Refseth
+Anne-sofie Refseth
 2100 SKARNES
-112 Waldemar Skjelbred
+Waldemar Skjelbred
 7409 TRONDHEIM
-113 Roger Ferkingstad
+Roger Ferkingstad
 5828 BERGEN
-114 Dag Hånes
+Dag Hånes
 7971 KOLVEREID
-115 Ayse Lundberg
+Ayse Lundberg
 5707 EVANGER
-116 Irina Holst
+Irina Holst
 5593 SKÅNEVIK
-117 Imre Kvammen
+Imre Kvammen
 2030 NANNESTAD
-118 Ranveig Nesland
+Ranveig Nesland
 2716 HARESTUA
-119 Hanna Wiklund
+Hanna Wiklund
 1764 HALDEN
-120 Ailin Sværen
+Ailin Sværen
 6494 VEVANG
-121 Maia Østmo
+Maia Østmo
 6494 VEVANG
-122 Christer Hatlestad
+Christer Hatlestad
 4432 HIDRASUND
-123 Eilert Vestly
+Eilert Vestly
 2550 OS I ØSTERDALEN
-124 Amalie Nord
+Amalie Nord
 5967 EIVINDVIK
-125 Torild Svenkerud
+Torild Svenkerud
 8220 RØSVIK
-126 Trude Kjelstad
+Trude Kjelstad
 7213 GÅSBAKKEN
-127 Gitte Viken
+Gitte Viken
 6320 ISFJORDEN
-128 Anbjørg Seljeseth
+Anbjørg Seljeseth
 3914 PORSGRUNN
-129 Erland Lossius
+Erland Lossius
 1530 MOSS
-130 Johanna Palm
+Johanna Palm
 9583 LANGFJORDHAMN
-131 Lill Totland
+Lill Totland
 9037 TROMSØ
-132 Tatiana Aakre
+Tatiana Aakre
 2665 LESJA
-133 Oddleif Alvheim
+Oddleif Alvheim
 4326 SANDNES
-134 Jahn Soleng
+Jahn Soleng
 4303 SANDNES
-135 Alex Hove
+Alex Hove
 6019 ÅLESUND
-136 Pia Norum
+Pia Norum
 7350 BUVIKA
-137 Nicolas Aarskog
+Nicolas Aarskog
 6396 VIKEBUKT
-138 Ayse Gustavson
+Ayse Gustavson
 1061 OSLO
-139 Jannike Nord
+Jannike Nord
 3629 NORE
-140 Tale Skotnes
+Tale Skotnes
 8041 BODØ
-141 Odin Rognli
+Odin Rognli
 2166 OPPAKER
-142 Sven Fuglerud
+Sven Fuglerud
 9980 BERLEVÅG
-143 Madelen Rognmo
+Madelen Rognmo
 5387 MØKSTER
-144 Birgit Haugsvær
+Birgit Haugsvær
 5033 BERGEN
-145 Sonia Astrup
+Sonia Astrup
 3175 RAMNES
-146 Doris Kolstad
+Doris Kolstad
 4173 NORD-HIDLE
-147 Gunhild Haavik
+Gunhild Haavik
 8489 NORDMELA
-148 Frederik Romsdal
+Frederik Romsdal
 8664 MOSJØEN
-149 Adriana Sørum
+Adriana Sørum
 3139 SKALLESTAD
-150 Oddbjørn Finnøy
+Oddbjørn Finnøy
 6887 LÆRDAL
-151 Eirik Grønn
+Eirik Grønn
 3967 BAMBLE SOMMERRUTE
-152 Olai Nesje
+Olai Nesje
 0155 OSLO
-153 Eric Taraldsen
+Eric Taraldsen
 2646 GÅLÅ
-154 Frida Husum
+Frida Husum
 3820 NORDAGUTU
-155 Kristin Støle
+Kristin Støle
 3618 SKOLLENBORG
-156 Isabell Skøien
+Isabell Skøien
 1642 SALTNES
-157 Amund Molteberg
+Amund Molteberg
 2330 VALLSET
-158 Thorleif Sundnes
+Thorleif Sundnes
 0776 OSLO
-159 Thea Sætre
+Thea Sætre
 2607 VINGROM
-160 Mattis Wold
+Mattis Wold
 7450 TRONDHEIM
-161 Filip Wong
+Filip Wong
 7462 TRONDHEIM
-162 Lasse Elnes
+Lasse Elnes
 3491 KLOKKARSTUA
-163 Kathe Berg
+Kathe Berg
 0950 OSLO
-164 Marina Rosenberg
+Marina Rosenberg
 1311 HØVIKODDEN
-165 Rikard Aaby
+Rikard Aaby
 6529 FREI
-166 Søren Grønstad
+Søren Grønstad
 9100 KVALØYSLETTA
-167 Dan Engevold
+Dan Engevold
 8393 SØRVÅGEN
-168 Signe Bergan
+Signe Bergan
 1255 OSLO
-169 Gjertrud Dahlberg
+Gjertrud Dahlberg
 3848 MORGEDAL
-170 Torkil Skrede
+Torkil Skrede
 2205 KONGSVINGER
-171 Marius Bergseng
+Marius Bergseng
 0853 OSLO
-172 Andrea Tran
+Andrea Tran
 0781 OSLO
-173 Magnhild Hepsø
+Magnhild Hepsø
 4794 LILLESAND
-174 Tomas Bilstad
+Tomas Bilstad
 8656 MOSJØEN
-175 Haakon Urstad
+Haakon Urstad
 5219 SKORPO FERIEHEIM
-176 Heidi Fossheim
+Heidi Fossheim
 5183 OLSVIK
-177 Narve Ranheim
+Narve Ranheim
 0957 OSLO
-178 Emil Nesvik
+Emil Nesvik
 7742 YTTERVÅG
-179 Odin Rindal
+Odin Rindal
 0976 OSLO
-180 Andrine Kanestrøm
+Andrine Kanestrøm
 0509 OSLO
-181 Tor-erik Langemyr
+Tor-erik Langemyr
 9017 TROMSØ
-182 Rose Finne
+Rose Finne
 3012 DRAMMEN
-183 Karoline Molvær
+Karoline Molvær
 0366 OSLO
-184 Anbjørg Helset
+Anbjørg Helset
 0356 OSLO
-185 Lotta Østvold
+Lotta Østvold
 7201 KYRKSÆTERØRA
-186 Ludvik Aase
+Ludvik Aase
 4201 SAUDA
-187 Rafael Lindgaard
+Rafael Lindgaard
 6776 KJØLSDALEN
-188 Hassan Aanstad
+Hassan Aanstad
 4828 MJÅVATN
-189 Torvald Hågensen
+Torvald Hågensen
 5700 VOSS
-190 Torbjørn Samdal
+Torbjørn Samdal
 1619 FREDRIKSTAD
-191 Tiril Saue
+Tiril Saue
 2609 LILLEHAMMER
-192 Lorentz Storvik
+Lorentz Storvik
 0575 OSLO
-193 Torje Krane
+Torje Krane
 3716 SKIEN
-194 Adam Due
+Adam Due
 0306 OSLO
-195 Jonny Brænden
+Jonny Brænden
 4818 FÆRVIK
-196 Maud Røisland
+Maud Røisland
 8860 TJØTTA
-197 Mai Eklund
+Mai Eklund
 5862 BERGEN
-198 Cathrin Holgersen
+Cathrin Holgersen
 4325 SANDNES
-199 Ronja Vindenes
+Ronja Vindenes
 0851 OSLO
-200 Mohammed Anderssen
+Mohammed Anderssen
 8921 SØMNA
-201 Torje Bach
+Torje Bach
 1581 RYGGE
-202 Sigrid Dvergsdal
+Sigrid Dvergsdal
 1316 EIKSMARKA
-203 Rene Ljosland
+Rene Ljosland
 6144 SYLTE
-204 Jane Mogen
+Jane Mogen
 2005 RÆLINGEN
-205 Mattis Grønningsæter
+Mattis Grønningsæter
 1743 KLAVESTADHAUGEN
-206 Ann-christin Backe
+Ann-christin Backe
 1207 OSLO
-207 Leiv Røhne
+Leiv Røhne
 4985 VEGÅRSHEI
-208 Ismail Krog
+Ismail Krog
 1712 GRÅLUM
-209 Fatma Trones
+Fatma Trones
 4208 SAUDASJØEN
-210 Roar Solum
+Roar Solum
 1516 MOSS
-211 Allan Myrseth
+Allan Myrseth
 6779 HOLMØYANE
-212 Kay Egge
+Kay Egge
 0564 OSLO
-213 Gunnbjørg Rånes
+Gunnbjørg Rånes
 3259 LARVIK
-214 Anne-britt Nærø
+Anne-britt Nærø
 1746 SKJEBERG
-215 Carsten Hofstad
+Carsten Hofstad
 6431 BUD
-216 Solfrid Wiker
+Solfrid Wiker
 9925 SVANVIK
-217 Arkadiusz Thommesen
+Arkadiusz Thommesen
 7739 BEITSTAD
-218 Maren Fardal
+Maren Fardal
 9508 ALTA
-219 Bjørnar Børseth
+Bjørnar Børseth
 3232 SANDEFJORD
-220 Miroslaw Kløvstad
+Miroslaw Kløvstad
 4280 SKUDENESHAVN
-221 Glenn Tjelta
+Glenn Tjelta
 5443 BØMLO
-222 Mildrid Obrestad
+Mildrid Obrestad
 1152 OSLO
-223 Else-marie Wright
+Else-marie Wright
 1709 SARPSBORG
-224 Amalie Øvstebø
+Amalie Øvstebø
 1809 ASKIM
-225 Arnhild Kjærstad
+Arnhild Kjærstad
 4076 VASSØY
-226 Linda Thune
+Linda Thune
 0757 OSLO
-227 Andrew Sola
+Andrew Sola
 2203 KONGSVINGER
-228 Christopher Kringstad
+Christopher Kringstad
 0179 OSLO
-229 Osvald Lindanger
+Osvald Lindanger
 0677 OSLO
-230 Joar Paulsen
+Joar Paulsen
 1604 FREDRIKSTAD
-231 Vibecke Havnen
+Vibecke Havnen
 3523 NES I ÅDAL
-232 Gry Innvær
+Gry Innvær
 3747 SKIEN
-233 Trude Bakkejord
+Trude Bakkejord
 8961 HOMMELSTØ
-234 Irene Holthe
+Irene Holthe
 5787 LOFTHUS
-235 Line Thorbjørnsen
+Line Thorbjørnsen
 2831 RAUFOSS
-236 Truls Begum
+Truls Begum
 8171 SVARTISEN GÅRD
-237 Agnete Vu
+Agnete Vu
 1176 OSLO
-238 Inge Hilleren
+Inge Hilleren
 3702 SKIEN
-239 Karina Løvås
+Karina Løvås
 2210 GRANLI
-240 Adam Sveum
+Adam Sveum
 9384 SKALAND
-241 Aud Rossebø
+Aud Rossebø
 8011 BODØ
-242 Erna Kirkhus
+Erna Kirkhus
 4990 SØNDELED
-243 Christian Aslam
+Christian Aslam
 9152 SØRKJOSEN
-244 Mira Hanssen
+Mira Hanssen
 8382 NAPP
-245 Ragnvald Jordan
+Ragnvald Jordan
 2308 HAMAR
-246 Nina Otnes
+Nina Otnes
 1683 VESTERØY
-247 Martina Bjørnevik
+Martina Bjørnevik
 0590 OSLO
-248 Mille Engdal
+Mille Engdal
 3045 DRAMMEN
-249 Vetle Røgeberg
+Vetle Røgeberg
 8690 HATTFJELLDAL
-250 Sara Bjønnes
+Sara Bjønnes
 2870 DOKKA
-251 Gøril Hasan
+Gøril Hasan
 7387 SINGSÅS
-252 Anthony Trydal
+Anthony Trydal
 5443 BØMLO
-253 Sveinung Frøshaug
+Sveinung Frøshaug
 2476 ATNA
-254 Marek Sørdal
+Marek Sørdal
 8193 RØDØY
-255 Maya Aaberg
+Maya Aaberg
 8260 INNHAVET
-256 Mirjam Molvær
+Mirjam Molvær
 3014 DRAMMEN
-257 Philip Smith
+Philip Smith
 2019 SKEDSMOKORSET
-258 Marte Nesset
+Marte Nesset
 6912 KINN
-259 Sander Baltzersen
+Sander Baltzersen
 3199 BORRE
-260 Alv Innvær
+Alv Innvær
 5578 NEDRE VATS
-261 Gaute Asheim
+Gaute Asheim
 3721 SKIEN
-262 Paal Adan
+Paal Adan
 5570 AKSDAL
-263 Sean Helgestad
+Sean Helgestad
 1512 MOSS
-264 Tristan Frantzen
+Tristan Frantzen
 2742 GRUA
-265 Kristina Bergsvik
+Kristina Bergsvik
 6139 FISKÅBYGD
-266 Inge Truong
+Inge Truong
 5407 STORD
-267 Magnhild Raa
+Magnhild Raa
 0196 OSLO
-268 Gøran Norheim
+Gøran Norheim
 5514 HAUGESUND
-269 Øystein Rosland
+Øystein Rosland
 4887 GRIMSTAD
-270 Przemyslaw Langhelle
+Przemyslaw Langhelle
 4343 ORRE
-271 Hjørdis Dalene
+Hjørdis Dalene
 3047 DRAMMEN
-272 Sanna Tidemann
+Sanna Tidemann
 5221 NESTTUN
-273 Hjalmar Bach
+Hjalmar Bach
 3622 SVENE
-274 Pawel Guldberg
+Pawel Guldberg
 1596 MOSS
-275 Tuva Ekelund
+Tuva Ekelund
 3672 NOTODDEN
-276 Imre Nordeide
+Imre Nordeide
 8233 VALNESFJORD
-277 Michael Drange
+Michael Drange
 3902 PORSGRUNN
-278 Annelise Dalene
+Annelise Dalene
 4838 ARENDAL
-279 Birgit Frøystad
+Birgit Frøystad
 1639 GAMLE FREDRIKSTAD
-280 Madeleine Hegstad
+Madeleine Hegstad
 6918 SØR-SKORPA
-281 Radoslaw Remøy
+Radoslaw Remøy
 2402 ELVERUM
-282 Karolina Truong
+Karolina Truong
 5864 BERGEN
-283 Tonje Aarnes
+Tonje Aarnes
 3743 SKIEN
-284 Anette Blakstad
+Anette Blakstad
 1920 SØRUMSAND
-285 Ronald Kjelsberg
+Ronald Kjelsberg
 0774 OSLO
-286 Turid Bergan
+Turid Bergan
 5033 BERGEN
-287 Klara Langås
+Klara Langås
 9273 TROMSØ
-288 Herborg Turøy
+Herborg Turøy
 8264 ENGAN
-289 Scott Moan
+Scott Moan
 8732 ALDRA
-290 Lars Berisha
+Lars Berisha
 0172 OSLO
-291 Ari Synnes
+Ari Synnes
 2345 ÅDALSBRUK
-292 Richard Haugseth
+Richard Haugseth
 5531 HAUGESUND
-293 Torstein Voll
+Torstein Voll
 1337 SANDVIKA
-294 Linnea Angelsen
+Linnea Angelsen
 6174 BARSTADVIK
-295 Sverre Ulset
+Sverre Ulset
 7633 FROSTA
-296 Siv Klev
+Siv Klev
 3152 TOLVSRØD
-297 Mons Reinertsen
+Mons Reinertsen
 0451 OSLO
-298 Nina Mohammadi
+Nina Mohammadi
 6019 ÅLESUND
-299 Charles Leknes
+Charles Leknes
 2280 GJESÅSEN
-300 Arnljot Kirknes
+Arnljot Kirknes
 4579 LYNGDAL
-301 Erik Amundsen
+Erik Amundsen
 9692 MÅSØY
-302 Sigbjørn Svanevik
+Sigbjørn Svanevik
 9764 NORDKAPP
-303 Muhammad Kvilhaug
+Muhammad Kvilhaug
 5318 STRUSSHAMN
-304 Jorun Heia
+Jorun Heia
 1408 KRÅKSTAD
-305 Ewa Simensen
+Ewa Simensen
 2803 GJØVIK
-306 Olav Holmefjord
+Olav Holmefjord
 1779 HALDEN
-307 Sofie Vaage
+Sofie Vaage
 3042 DRAMMEN
-308 Justyna Hella
+Justyna Hella
 2802 GJØVIK
-309 Olga Karlsson
+Olga Karlsson
 2027 KJELLER
-310 Aurora Fykse
+Aurora Fykse
 9276 TROMSØ
-311 Brith Herigstad
+Brith Herigstad
 7418 TRONDHEIM
-312 Filippa Bjørnå
+Filippa Bjørnå
 1326 LYSAKER
-313 Unn Borgen
+Unn Borgen
 1387 ASKER
-314 Lykke Evje
+Lykke Evje
 1478 LØRENSKOG
-315 Katrine Kryger
+Katrine Kryger
 8058 TVERLANDET
-316 Reidun Østbø
+Reidun Østbø
 3516 HØNEFOSS
-317 Jelena Omar
+Jelena Omar
 6687 VALSØYFJORD
-318 Andrea Røyrvik
+Andrea Røyrvik
 8274 MUSKEN
-319 Juan Langseth
+Juan Langseth
 1604 FREDRIKSTAD
-320 Edna Synnes
+Edna Synnes
 2540 TOLGA
-321 Nicolas Egge
+Nicolas Egge
 5459 FJELBERG
-322 Christoffer Furset
+Christoffer Furset
 0201 OSLO
-323 Josef Wilhelmsen
+Josef Wilhelmsen
 0423 OSLO
-324 Viktor Hagenes
+Viktor Hagenes
 4898 GRIMSTAD
-325 Juan Tafjord
+Juan Tafjord
 2602 LILLEHAMMER
-326 Harry Persen
+Harry Persen
 7761 SNÅSA
-327 Hanne Løken
+Hanne Løken
 8096 BLIKSVÆR
-328 Imre Sørbø
+Imre Sørbø
 4902 TVEDESTRAND
-329 Lisbeth Begum
+Lisbeth Begum
 6488 MYKLEBOST
-330 Gunnhild Ringen
+Gunnhild Ringen
 5809 BERGEN
-331 Peder Bøen
+Peder Bøen
 0766 OSLO
-332 Ole-martin Kjeldsberg
+Ole-martin Kjeldsberg
 4742 GRENDI
-333 Sten Vegsund
+Sten Vegsund
 3148 HVASSER
-334 Tiril Telle
+Tiril Telle
 7023 TRONDHEIM
-335 Esther Opdal
+Esther Opdal
 9750 HONNINGSVÅG
-336 Vetle Landro
+Vetle Landro
 7227 GIMSE
-337 Jostein Graff
+Jostein Graff
 4491 KVINESDAL
-338 Amina Barka
+Amina Barka
 5887 BERGEN
-339 Iben Aarrestad
+Iben Aarrestad
 6490 EIDE
-340 Bergljot Kjeldsen
+Bergljot Kjeldsen
 0772 OSLO
-341 Baard Angell
+Baard Angell
 2975 VANG I VALDRES
-342 Isabelle Todal
+Isabelle Todal
 5600 NORHEIMSUND
-343 Petra Nystrøm
+Petra Nystrøm
 1005 OSLO
-344 Torger Eide
+Torger Eide
 7101 RISSA
-345 Johann Ekelund
+Johann Ekelund
 4839 ARENDAL
-346 Ingjerd Medhus
+Ingjerd Medhus
 2478 HANESTAD
-347 Haavard Leine
+Haavard Leine
 5780 KINSARVIK
-348 Sivert Eggan
+Sivert Eggan
 8520 ANKENESSTRAND
-349 Lotte Pihl
+Lotte Pihl
 2901 FAGERNES
-350 Cornelia Holmsen
+Cornelia Holmsen
 0283 OSLO
-351 Carlos Roos
+Carlos Roos
 6718 DEKNEPOLLEN
-352 Barbara Goa
+Barbara Goa
 4844 ARENDAL
-353 Edit Østgård
+Edit Østgård
 9480 HARSTAD
-354 Astrid Fjellanger
+Astrid Fjellanger
 9600 HAMMERFEST
-355 Ulrik Boye
+Ulrik Boye
 3949 PORSGRUNN
-356 Patryk Friis
+Patryk Friis
 7052 TRONDHEIM
-357 Gerhard Lægreid
+Gerhard Lægreid
 0664 OSLO
-358 Sjur Goa
+Sjur Goa
 9014 TROMSØ
-359 Arnold Rodal
+Arnold Rodal
 7729 STEINKJER
-360 Gustav Hernæs
+Gustav Hernæs
 0779 OSLO
-361 Eldar Vestre
+Eldar Vestre
 1007 OSLO
-362 Arkadiusz Wangberg
+Arkadiusz Wangberg
 1281 OSLO
-363 Hannah Mørkved
+Hannah Mørkved
 3514 HØNEFOSS
-364 Mateusz Thoresen
+Mateusz Thoresen
 2060 GARDERMOEN
-365 Halvard Moe
+Halvard Moe
 0310 OSLO
-366 Christine Tessem
+Christine Tessem
 2165 HVAM
-367 Trym Skagestad
+Trym Skagestad
 4053 RÆGE
-368 Bjarte Flatebø
+Bjarte Flatebø
 9135 VANNVÅG
-369 Gisle Lium
+Gisle Lium
 5851 BERGEN
-370 Hermann Bakkejord
+Hermann Bakkejord
 5822 BERGEN
-371 Inger Stabell
+Inger Stabell
 8470 BØ I VESTERÅLEN
-372 Gabriela Dramstad
+Gabriela Dramstad
 0452 OSLO
-373 Amir Monsen
+Amir Monsen
 5726 VAKSDAL
-374 Elzbieta Østhus
+Elzbieta Østhus
 0963 OSLO
-375 Frank Aadland
+Frank Aadland
 1604 FREDRIKSTAD
-376 Trond Grøtting
+Trond Grøtting
 7391 RENNEBU
-377 Gjermund Fagereng
+Gjermund Fagereng
 2110 SLÅSTAD
-378 Edwin Botten
+Edwin Botten
 8480 ANDENES
-379 Jack Rein
+Jack Rein
 6898 BALESTRAND
-380 Werner Kolstad
+Werner Kolstad
 2013 SKJETTEN
-381 Mirjam Huynh
+Mirjam Huynh
 2306 HAMAR
-382 Cornelia Hånes
+Cornelia Hånes
 5401 STORD
-383 Ole-christian Ugland
+Ole-christian Ugland
 4097 SOLA
-384 Marry Tysnes
+Marry Tysnes
 4852 FÆRVIK
-385 Torkel Hole
+Torkel Hole
 7584 SELBUSTRAND
-386 Hermod Krog
+Hermod Krog
 7053 RANHEIM
-387 Max Heien
+Max Heien
 5019 BERGEN
-388 Lisbet Opedal
+Lisbet Opedal
 2412 SØRSKOGBYGDA
-389 Madeleine Egeberg
+Madeleine Egeberg
 1813 ASKIM
-390 Sigurd Mjøs
+Sigurd Mjøs
 4032 STAVANGER
-391 Tilde Morland
+Tilde Morland
 3715 SKIEN
-392 Mira Sharma
+Mira Sharma
 5532 HAUGESUND
-393 Hamid Buan
+Hamid Buan
 4368 VARHAUG
-394 Osman Rasmussen
+Osman Rasmussen
 7358 BØRSA
-395 Agnar Øie
+Agnar Øie
 1807 ASKIM
-396 Esther Daae
+Esther Daae
 8922 SØMNA
-397 Osman Lee
+Osman Lee
 4308 SANDNES
-398 Jahn Skjold
+Jahn Skjold
 2072 DAL
-399 Remi Steinsvik
+Remi Steinsvik
 0554 OSLO
-400 Helene Høgli
+Helene Høgli
 1471 LØRENSKOG
-401 Krister Josdal
+Krister Josdal
 3242 SANDEFJORD
-402 Anne Sekse
+Anne Sekse
 0368 OSLO
-403 Asbjørg Schultz
+Asbjørg Schultz
 0242 OSLO
-404 Wenke Bonsaksen
+Wenke Bonsaksen
 3173 VEAR
-405 Emilia Lilleland
+Emilia Lilleland
 3737 SKIEN
-406 Kirsti Blom
+Kirsti Blom
 5859 BERGEN
-407 Kurt Bjørkhaug
+Kurt Bjørkhaug
 2636 ØYER
-408 Elinor Fylling
+Elinor Fylling
 8690 HATTFJELLDAL
-409 Hallvard Westerlund
+Hallvard Westerlund
 0381 OSLO
-410 Filip Dragland
+Filip Dragland
 3055 KROKSTADELVA
-411 Peter Marøy
+Peter Marøy
 6396 VIKEBUKT
-412 Mikal Risa
+Mikal Risa
 4091 HAFRSFJORD
-413 Sturle Drage
+Sturle Drage
 2624 LILLEHAMMER
-414 Aleksander Sjøgren
+Aleksander Sjøgren
 6958 SØRBØVÅG
-415 Leander Bredal
+Leander Bredal
 4832 MYKLAND
-416 Tor-arne Osman
+Tor-arne Osman
 5470 ROSENDAL
-417 Kathe Grov
+Kathe Grov
 5983 HAUGSVÆR
-418 Birger Hoven
+Birger Hoven
 3912 PORSGRUNN
-419 Hassan Langnes
+Hassan Langnes
 3360 GEITHUS
-420 Sissel Viddal
+Sissel Viddal
 7125 VANVIKAN
-421 Dagrun Bang
+Dagrun Bang
 5862 BERGEN
-422 Said Gullaksen
+Said Gullaksen
 1166 OSLO
-423 Jan Vestvik
+Jan Vestvik
 3753 TØRDAL
-424 Ragna Rømo
+Ragna Rømo
 5780 KINSARVIK
-425 Stein Stormoen
+Stein Stormoen
 8485 DVERBERG
-426 Berta Tjelta
+Berta Tjelta
 2582 GRIMSBU
-427 Marlene Høydal
+Marlene Høydal
 5819 BERGEN
-428 Sonia Skog
+Sonia Skog
 7413 TRONDHEIM
-429 Kamilla Ditlefsen
+Kamilla Ditlefsen
 6433 HUSTAD
-430 Ingebjørg Thrane
+Ingebjørg Thrane
 1633 GAMLE FREDRIKSTAD
-431 Leon Tangerud
+Leon Tangerud
 0122 OSLO
-432 Jane Nordbø
+Jane Nordbø
 4041 HAFRSFJORD
-433 Ole-jørgen Rakvåg
+Ole-jørgen Rakvåg
 1639 GAMLE FREDRIKSTAD
-434 Elin Mundal
+Elin Mundal
 9950 VARDØ
-435 Tønnes Bjørlo
+Tønnes Bjørlo
 6914 SVANØYBUKT
-436 Anny Oliversen
+Anny Oliversen
 2205 KONGSVINGER
-437 Maia Vestbø
+Maia Vestbø
 3481 TOFTE
-438 Annelise Stormo
+Annelise Stormo
 6461 EIDSVÅG I ROMSDAL
-439 Eva Lillebø
+Eva Lillebø
 6781 STRYN
-440 Artur Langhelle
+Artur Langhelle
 8309 KABELVÅG
-441 Vegard Aarskog
+Vegard Aarskog
 4529 BYREMO
-442 Annette Kaspersen
+Annette Kaspersen
 5777 GRIMO
-443 Johan Bjørnevik
+Johan Bjørnevik
 6315 INNFJORDEN
-444 Artur Solsvik
+Artur Solsvik
 5502 HAUGESUND
-445 Dagmar Eikås
+Dagmar Eikås
 5327 HAUGLANDSHELLA
-446 Torger Reppe
+Torger Reppe
 9690 HAVØYSUND
-447 Kine Berstad
+Kine Berstad
 2232 TOBØL
-448 Venche Bjørge
+Venche Bjørge
 1714 SARPSBORG
-449 Ingrid Hauglid
+Ingrid Hauglid
 8900 BRØNNØYSUND
-450 Richard Dahle
+Richard Dahle
 9304 VANGSVIK
-451 Torgrim Aaby
+Torgrim Aaby
 3701 SKIEN
-452 Sigvart Le
+Sigvart Le
 7790 MALM
-453 Silje Mjøs
+Silje Mjøs
 6877 FORTUN
-454 Bård Ihle
+Bård Ihle
 3037 DRAMMEN
-455 Fredrikke Karlsson
+Fredrikke Karlsson
 6003 ÅLESUND
-456 Victoria Mæhre
+Victoria Mæhre
 1163 OSLO
-457 Rigmor Haarr
+Rigmor Haarr
 3746 SKIEN
-458 Stefan Rafoss
+Stefan Rafoss
 2211 KONGSVINGER
-459 Julius Frantzen
+Julius Frantzen
 9392 STONGLANDSEIDET
-460 Karianne Øien
+Karianne Øien
 3996 PORSGRUNN
-461 Zahra Lohne
+Zahra Lohne
 9489 HARSTAD
-462 Vilde Visnes
+Vilde Visnes
 7333 STORÅS
-463 Bogdan Svanberg
+Bogdan Svanberg
 5009 BERGEN
-464 Hamza Haugland
+Hamza Haugland
 7454 TRONDHEIM
-465 Borgny Hestad
+Borgny Hestad
 3891 HØYDALSMO
-466 Emilia Hausken
+Emilia Hausken
 3707 SKIEN
-467 Levi Thuen
+Levi Thuen
 2952 BEITO
-468 Even Valberg
+Even Valberg
 4834 RISDAL
-469 Ebba Steffensen
+Ebba Steffensen
 5302 STRUSSHAMN
-470 Esther Tronstad
+Esther Tronstad
 3004 DRAMMEN
-471 Tora Kjørsvik
+Tora Kjørsvik
 9189 SKJERVØY
-472 Thorbjørn Gaustad
+Thorbjørn Gaustad
 6301 ÅNDALSNES
-473 Astri Langåker
+Astri Langåker
 8074 BODØ
-474 Adele Digre
+Adele Digre
 8187 JEKTVIK
-475 Dan Oppegaard
+Dan Oppegaard
 4691 KRISTIANSAND S
-476 Emanuel Valen
+Emanuel Valen
 2266 ARNEBERG
-477 Ane Fjærestad
+Ane Fjærestad
 5032 BERGEN
-478 Radoslaw Fosshaug
+Radoslaw Fosshaug
 3270 LARVIK
-479 Tine Ramsøy
+Tine Ramsøy
 7801 NAMSOS
-480 Agnar Eidissen
+Agnar Eidissen
 9424 KJØTTA
-481 Lisbet Huse
+Lisbet Huse
 6855 FRØNNINGEN
-482 Ludvik Øverli
+Ludvik Øverli
 3037 DRAMMEN
-483 Tristan Mong
+Tristan Mong
 5144 FYLLINGSDALEN
-484 Juliane Øvretveit
+Juliane Øvretveit
 4609 KARDEMOMME BY
-485 Kacper Lende
+Kacper Lende
 1377 BILLINGSTAD
-486 Johanna Gjelsten
+Johanna Gjelsten
 8270 DRAG
-487 Marko Aasebø
+Marko Aasebø
 1590 RYGGE FLYSTASJON
-488 Sam Sjøvoll
+Sam Sjøvoll
 1053 OSLO
-489 Daniel Jessen
+Daniel Jessen
 7563 MALVIK
-490 Solrun Raa
+Solrun Raa
 0661 OSLO
-491 Simone Goa
+Simone Goa
 4005 STAVANGER
-492 Inger Værnes
+Inger Værnes
 3932 PORSGRUNN
-493 Josephine Grøtte
+Josephine Grøtte
 8622 MO I RANA
-494 Håvar Rovik
+Håvar Rovik
 3646 HVITTINGFOSS
-495 Hallvard Bakkan
+Hallvard Bakkan
 0712 OSLO
-496 Ramona Rosenvinge
+Ramona Rosenvinge
 4857 ARENDAL
-497 Tanja Rekkedal
+Tanja Rekkedal
 1776 HALDEN
-498 Ann Ryeng
+Ann Ryeng
 1903 GAN
-499 Victor Vaa
+Victor Vaa
 4619 MOSBY
-500 Roar Kyvik
+Roar Kyvik
 6455 KORTGARDEN
-501 Kristi Korneliussen
+Kristi Korneliussen
 2218 LUNDERSÆTER
-502 Norunn Eikås
+Norunn Eikås
 0862 OSLO
-503 Mark Lerøy
+Mark Lerøy
 3603 KONGSBERG
-504 Synnøve Staff
+Synnøve Staff
 5545 VORMEDAL
-505 Edvard Skurdal
+Edvard Skurdal
 4611 KRISTIANSAND S
-506 Idun Muren
+Idun Muren
 0607 OSLO
-507 Thanh Rygg
+Thanh Rygg
 4820 FROLAND
-508 Josefine Roen
+Josefine Roen
 6986 VÆRLANDET
-509 Eirin Grinde
+Eirin Grinde
 0410 OSLO
-510 Elen Braut
+Elen Braut
 4150 RENNESØY
-511 Oddvar Hebnes
+Oddvar Hebnes
 6942 SVORTEVIK
-512 Marie Otterstad
+Marie Otterstad
 8273 NEVERVIK
-513 Hjalmar Riiser
+Hjalmar Riiser
 1870 ØRJE
-514 Max Ulseth
+Max Ulseth
 3166 TOLVSRØD
-515 Karine Dyrøy
+Karine Dyrøy
 4894 GRIMSTAD
-516 Wojciech Henriksen
+Wojciech Henriksen
 7624 EKNE
-517 Britt Huynh
+Britt Huynh
 8297 TRANØY
-518 Nikolay Brandt
+Nikolay Brandt
 9406 HARSTAD
-519 Tine Rud
+Tine Rud
 0557 OSLO
-520 Eilert Saastad
+Eilert Saastad
 0514 OSLO
-521 Borgny Østebø
+Borgny Østebø
 7235 LER
-522 Børge Kavli
+Børge Kavli
 4621 KRISTIANSAND S
-523 Balder Reite
+Balder Reite
 5444 ESPEVÆR
-524 Betty Vu
+Betty Vu
 0001 OSLO
-525 Sami Halsen
+Sami Halsen
 5184 OLSVIK
-526 Mari-ann Bjørkmo
+Mari-ann Bjørkmo
 6927 YTRØYGREND
-527 Maximilian Nordseth
+Maximilian Nordseth
 0573 OSLO
-528 Melissa Stenvik
+Melissa Stenvik
 1417 SOFIEMYR
-529 Mina Holberg
+Mina Holberg
 4005 STAVANGER
-530 Magnus Mælen
+Magnus Mælen
 2581 FOLLDAL
-531 Liam Kydland
+Liam Kydland
 8210 FAUSKE
-532 Regina Gullaksen
+Regina Gullaksen
 0274 OSLO
-533 Torkil Moss
+Torkil Moss
 1063 OSLO
-534 Mirjam Halleraker
+Mirjam Halleraker
 9171 LONGYEARBYEN
-535 Tristan Turøy
+Tristan Turøy
 6462 RAUDSAND
-536 Mariann Falck
+Mariann Falck
 9980 BERLEVÅG
-537 Jose Justad
+Jose Justad
 3482 TOFTE
-538 Bjørnar Grønvik
+Bjørnar Grønvik
 2803 GJØVIK
-539 Svein Asphaug
+Svein Asphaug
 7213 GÅSBAKKEN
-540 Annar Bjønnes
+Annar Bjønnes
 1081 OSLO
-541 Klaus Engevold
+Klaus Engevold
 1431 ÅS
-542 Benedicte Blix
+Benedicte Blix
 1458 FJELLSTRAND
-543 Sandra Sønstebø
+Sandra Sønstebø
 4208 SAUDASJØEN
-544 Marlene Nordengen
+Marlene Nordengen
 8890 LEIRFJORD
-545 Oda Hallan
+Oda Hallan
 2081 EIDSVOLL
-546 Jorunn Drivenes
+Jorunn Drivenes
 9402 HARSTAD
-547 Venke Kolås
+Venke Kolås
 4861 ARENDAL
-548 Evy Fossmo
+Evy Fossmo
 2686 LOM
-549 Susan Bøen
+Susan Bøen
 1941 BJØRKELANGEN
-550 Wiggo Viddal
+Wiggo Viddal
 2665 LESJA
-551 Håvar Erga
+Håvar Erga
 3262 LARVIK
-552 Berta Haglund
+Berta Haglund
 3937 PORSGRUNN
-553 Elisabet Nessa
+Elisabet Nessa
 6184 STORESTANDAL
-554 Mathilde Johanson
+Mathilde Johanson
 8003 BODØ
-555 Ulla Holmefjord
+Ulla Holmefjord
 7447 TRONDHEIM
-556 Frederik Nessa
+Frederik Nessa
 9521 KAUTOKEINO
-557 Svanhild Haugland
+Svanhild Haugland
 1341 SLEPENDEN
-558 Mai Hansen
+Mai Hansen
 0263 OSLO
-559 Ole-petter Nerland
+Ole-petter Nerland
 9593 BREIVIKBOTN
-560 Mathis Ausland
+Mathis Ausland
 3895 EDLAND
-561 Ingeborg Kind
+Ingeborg Kind
 0037 OSLO
-562 Mathilde Sjølie
+Mathilde Sjølie
 4551 FARSUND
-563 Edith Grønning
+Edith Grønning
 3114 TØNSBERG
-564 Jimmy Sævik
+Jimmy Sævik
 5200 OS
-565 Stella Linge
+Stella Linge
 2321 HAMAR
-566 Anita Bjønnes
+Anita Bjønnes
 3183 HORTEN
-567 Greta Kolberg
+Greta Kolberg
 5542 KARMSUND
-568 Edwin Hidle
+Edwin Hidle
 5387 MØKSTER
-569 Geir Haugli
+Geir Haugli
 4815 SALTRØD
-570 Gert Wilhelmsen
+Gert Wilhelmsen
 4272 SANDVE
-571 Lennart Aarstad
+Lennart Aarstad
 6453 KLEIVE
-572 Mari-ann Sømme
+Mari-ann Sømme
 1815 ASKIM
-573 Herman Hult
+Herman Hult
 3970 LANGESUND
-574 Reidunn Bøhn
+Reidunn Bøhn
 9593 BREIVIKBOTN
-575 Bjørnar Strømnes
+Bjørnar Strømnes
 5954 MONGSTAD
-576 Gunvald Haukland
+Gunvald Haukland
 5499 ÅKRA
-577 Petter Haarstad
+Petter Haarstad
 5416 STORD
-578 Imran Sæternes
+Imran Sæternes
 0458 OSLO
-579 Lena Sandvold
+Lena Sandvold
 4082 STAVANGER
-580 Hege Dyrøy
+Hege Dyrøy
 2411 ELVERUM
-581 Mustafa Andersson
+Mustafa Andersson
 0018 OSLO
-582 Emma Skøien
+Emma Skøien
 0475 OSLO
-583 Tage Hannestad
+Tage Hannestad
 3207 SANDEFJORD
-584 Aslak Helgeland
+Aslak Helgeland
 0369 OSLO
-585 Håvar Folland
+Håvar Folland
 9600 HAMMERFEST
-586 Mie Granlund
+Mie Granlund
 6120 FOLKESTAD
-587 Amin Tjøstheim
+Amin Tjøstheim
 7600 LEVANGER
-588 Joachim Ribe
+Joachim Ribe
 0758 OSLO
-589 Marielle Nilssen
+Marielle Nilssen
 3785 SKIEN
-590 Frithjof Grøstad
+Frithjof Grøstad
 8602 MO I RANA
-591 Renate Straume
+Renate Straume
 5341 STRAUME
-592 Haldor Hegre
+Haldor Hegre
 2073 BØN
-593 Paul Løyning
+Paul Løyning
 5593 SKÅNEVIK
-594 Halfdan Plassen
+Halfdan Plassen
 6190 BJØRKE
-595 Tatiana Ramsdal
+Tatiana Ramsdal
 5858 BERGEN
-596 Thi Øye
+Thi Øye
 9020 TROMSDALEN
-597 Reza Dyrhaug
+Reza Dyrhaug
 0382 OSLO
-598 Ronja Nornes
+Ronja Nornes
 2819 GJØVIK
-599 Jorge Årdal
+Jorge Årdal
 8360 BØSTAD
-600 David Yildirim
+David Yildirim
 2005 RÆLINGEN
-601 Mariam Moa
+Mariam Moa
 5816 BERGEN
-602 Annar Skauge
+Annar Skauge
 5517 HAUGESUND
-603 Bjørn-erik Yildirim
+Bjørn-erik Yildirim
 4387 BJERKREIM
-604 Andreas Sundli
+Andreas Sundli
 4614 KRISTIANSAND S
-605 Øistein Vistnes
+Øistein Vistnes
 6895 FEIOS
-606 Bjørge Sagen
+Bjørge Sagen
 6538 AVERØY
-607 Tron Ødegården
+Tron Ødegården
 8261 INNHAVET
-608 Torodd Øyan
+Torodd Øyan
 3766 SANNIDAL
-609 Lukasz Engelstad
+Lukasz Engelstad
 8233 VALNESFJORD
-610 Emir Sander
+Emir Sander
 3115 TØNSBERG
-611 Karl Mortensen
+Karl Mortensen
 6516 KRISTIANSUND N
-612 Mindaugas Egeberg
+Mindaugas Egeberg
 8283 LEINESFJORD
-613 Judit Sandvær
+Judit Sandvær
 1684 VESTERØY
-614 Grzegorz Grinde
+Grzegorz Grinde
 9297 TROMSØ
-615 Ted Chen
+Ted Chen
 3906 PORSGRUNN
-616 Judith Thorbjørnsen
+Judith Thorbjørnsen
 7530 MERÅKER
-617 Ida Reime
+Ida Reime
 7750 NAMDALSEID
-618 Stefan Rise
+Stefan Rise
 3412 LIERSTRANDA
-619 Steven Risan
+Steven Risan
 0694 OSLO
-620 Matilde Lillegård
+Matilde Lillegård
 6421 MOLDE
-621 Kari Sandvold
+Kari Sandvold
 2879 ODNES
-622 Rigmor Berthelsen
+Rigmor Berthelsen
 4123 SØR-HIDLE
-623 Margit Bruaset
+Margit Bruaset
 4637 KRISTIANSAND S
-624 Rainer Kvalø
+Rainer Kvalø
 7037 TRONDHEIM
-625 Hildegunn Fossheim
+Hildegunn Fossheim
 6433 HUSTAD
-626 Kacper Rabben
+Kacper Rabben
 5502 HAUGESUND
-627 Joel Hasund
+Joel Hasund
 9007 TROMSØ
-628 Hjalmar Westgaard
+Hjalmar Westgaard
 4857 ARENDAL
-629 Josefine Nicolaisen
+Josefine Nicolaisen
 0701 OSLO
-630 Van Tjøstheim
+Van Tjøstheim
 0214 OSLO
-631 Josefine Bolme
+Josefine Bolme
 3721 SKIEN
-632 Jacob Ånensen
+Jacob Ånensen
 0201 OSLO
-633 Tom-erik Aske
+Tom-erik Aske
 2667 LESJAVERK
-634 Grethe Buvarp
+Grethe Buvarp
 5137 MJØLKERÅEN
-635 Mari Elvenes
+Mari Elvenes
 7730 BEITSTAD
-636 Otto Gloppen
+Otto Gloppen
 1667 ROLVSØY
-637 Luna Danielsen
+Luna Danielsen
 1420 SVARTSKOG
-638 Thore Ravndal
+Thore Ravndal
 8270 DRAG
-639 Jørund Khalid
+Jørund Khalid
 0017 OSLO
-640 Henryk Andorsen
+Henryk Andorsen
 0712 OSLO
-641 Gunvor Bjørgum
+Gunvor Bjørgum
 4536 BJELLAND
-642 Aaron Sandø
+Aaron Sandø
 6488 MYKLEBOST
-643 Rune Vagle
+Rune Vagle
 2435 BRASKEREIDFOSS
-644 Anne-karin Hartveit
+Anne-karin Hartveit
 8181 MYKEN
-645 Jarand Due
+Jarand Due
 1827 HOBØL
-646 Robin Bakkan
+Robin Bakkan
 0772 OSLO
-647 Willy Finseth
+Willy Finseth
 9277 TROMSØ
-648 Torjus Øksendal
+Torjus Øksendal
 0187 OSLO
-649 Johan Lomeland
+Johan Lomeland
 2074 EIDSVOLL VERK
-650 Raymond Langeland
+Raymond Langeland
 3140 NØTTERØY
-651 Susanna Botten
+Susanna Botten
 7166 TARVA
-652 Siri Skinstad
+Siri Skinstad
 7438 TRONDHEIM
-653 Ari Nymo
+Ari Nymo
 1515 MOSS
-654 Susanna Ramsdal
+Susanna Ramsdal
 4110 FORSAND
-655 Ørnulf Frøshaug
+Ørnulf Frøshaug
 5970 BYRKNESØY
-656 Aron Thorsrud
+Aron Thorsrud
 3928 PORSGRUNN
-657 Linnea Welle
+Linnea Welle
 7098 SAUPSTAD
-658 Ryszard Øglænd
+Ryszard Øglænd
 0763 OSLO
-659 Mohammed Aanensen
+Mohammed Aanensen
 9193 NIKKEBY
-660 Robin Nyrud
+Robin Nyrud
 4817 HIS
-661 Gaute Gausdal
+Gaute Gausdal
 5519 HAUGESUND
-662 Liv Moi
+Liv Moi
 4485 FEDA
-663 Nikoline Ose
+Nikoline Ose
 1389 HEGGEDAL
-664 Anita Forland
+Anita Forland
 3223 SANDEFJORD
-665 Toralf Storås
+Toralf Storås
 8820 DØNNA
-666 Susan Haddeland
+Susan Haddeland
 2216 ROVERUD
-667 Bjørg Berstad
+Bjørg Berstad
 2007 KJELLER
-668 Inga Bø
+Inga Bø
 2631 RINGEBU
-669 Toralf Huynh
+Toralf Huynh
 2409 ELVERUM
-670 Sten Haaland
+Sten Haaland
 2421 TRYSIL
-671 Milan Johnsrud
+Milan Johnsrud
 9186 ANDSNES
-672 Edvin Gustad
+Edvin Gustad
 6782 STRYN
-673 Chris Øverbø
+Chris Øverbø
 6817 NAUSTDAL
-674 Geir Busch
+Geir Busch
 8084 BODØ
-675 Kaisa Nerhus
+Kaisa Nerhus
 7016 TRONDHEIM
-676 Einar Dyb
+Einar Dyb
 6064 HADDAL
-677 Bjarne Kvernberg
+Bjarne Kvernberg
 7442 TRONDHEIM
-678 Anne-marit Misje
+Anne-marit Misje
 0568 OSLO
-679 Else Byrkjeland
+Else Byrkjeland
 4127 LYSEBOTN
-680 Ryszard Vestvik
+Ryszard Vestvik
 0605 OSLO
-681 Ronny Fossnes
+Ronny Fossnes
 0574 OSLO
-682 Alina Hatlestad
+Alina Hatlestad
 0034 OSLO
-683 Sten Gashi
+Sten Gashi
 3026 DRAMMEN
-684 Kate Johansen
+Kate Johansen
 2662 DOVRE
-685 Mustafa Austad
+Mustafa Austad
 7282 BOGØYVÆR
-686 Sigfred Steffensen
+Sigfred Steffensen
 8642 FINNEIDFJORD
-687 Aksel Enger
+Aksel Enger
 9277 TROMSØ
-688 Arnt Melheim
+Arnt Melheim
 7863 OVERHALLA
-689 Maja Lyngstad
+Maja Lyngstad
 8195 GJERØY
-690 Åge Bøyum
+Åge Bøyum
 9014 TROMSØ
-691 Christina Styve
+Christina Styve
 2071 RÅHOLT
-692 Henrikke Åsheim
+Henrikke Åsheim
 7551 HOMMELVIK
-693 Tea Kjærvik
+Tea Kjærvik
 7940 OTTERSØY
-694 Jofrid Sandø
+Jofrid Sandø
 0182 OSLO
-695 Beathe Lilleeng
+Beathe Lilleeng
 1891 RAKKESTAD
-696 Henrikke Blix
+Henrikke Blix
 6151 ØRSTA
-697 Claudia Røren
+Claudia Røren
 8733 STUVLAND
-698 Sonja Wahlstrøm
+Sonja Wahlstrøm
 4662 KRISTIANSAND S
-699 Regina Sandmo
+Regina Sandmo
 4028 STAVANGER
-700 Susanne Stokkan
+Susanne Stokkan
 3209 SANDEFJORD
-701 Trym Hadland
+Trym Hadland
 8130 SANDHORNØY
-702 Maj Grøtting
+Maj Grøtting
 2306 HAMAR
-703 Gunda Falck
+Gunda Falck
 5863 BERGEN
-704 Grzegorz Tang
+Grzegorz Tang
 4368 VARHAUG
-705 Tordis By
+Tordis By
 7422 TRONDHEIM
-706 Gustav Neteland
+Gustav Neteland
 4389 VIKESÅ
-707 Evald Heskestad
+Evald Heskestad
 3235 SANDEFJORD
-708 Guro Merkesdal
+Guro Merkesdal
 5511 HAUGESUND
-709 Cathrin Fossen
+Cathrin Fossen
 0284 OSLO
-710 Hilda Rønnestad
+Hilda Rønnestad
 9503 ALTA
-711 Siw Saastad
+Siw Saastad
 5941 AUSTRHEIM
-712 Stella Vevle
+Stella Vevle
 5748 STYVI
-713 Ulrik Tandstad
+Ulrik Tandstad
 0152 OSLO
-714 Bastian Sandvik
+Bastian Sandvik
 6139 FISKÅBYGD
-715 Jo Mathiesen
+Jo Mathiesen
 1407 VINTERBRO
-716 Edin Nyland
+Edin Nyland
 5555 FØRDE I HORDALAND
-717 Hallvard Sunde
+Hallvard Sunde
 0705 OSLO
-718 Tanja Amdal
+Tanja Amdal
 3744 SKIEN
-719 Lotta Torset
+Lotta Torset
 3231 SANDEFJORD
-720 Mikkel Brudevoll
+Mikkel Brudevoll
 7451 TRONDHEIM
-721 Christin Utne
+Christin Utne
 0987 OSLO
-722 Annlaug Hella
+Annlaug Hella
 5700 VOSS
-723 Hassan Albrigtsen
+Hassan Albrigtsen
 6630 TINGVOLL
-724 Jean Reigstad
+Jean Reigstad
 8316 LAUPSTAD
-725 Aslaug Tverberg
+Aslaug Tverberg
 5819 BERGEN
-726 Agnar Vestvik
+Agnar Vestvik
 3893 VINJESVINGEN
-727 Kjerstin Røgeberg
+Kjerstin Røgeberg
 6727 BREMANGER
-728 Andres Skorpen
+Andres Skorpen
 6921 HARDBAKKE
-729 Carsten Skaug
+Carsten Skaug
 3041 DRAMMEN
-730 Aurora Bhatti
+Aurora Bhatti
 1403 LANGHUS
-731 Bjørnar Vågenes
+Bjørnar Vågenes
 0177 OSLO
-732 Birgitte Sæternes
+Birgitte Sæternes
 7619 SKOGN
-733 Egil Nesse
+Egil Nesse
 2405 ELVERUM
-734 Anne-mari Abdi
+Anne-mari Abdi
 4844 ARENDAL
-735 Peter Vabø
+Peter Vabø
 1326 LYSAKER
-736 Barbara Fleischer
+Barbara Fleischer
 6927 YTRØYGREND
-737 Ingvild Bue
+Ingvild Bue
 4755 HOVDEN I SETESDAL
-738 Maria Welde
+Maria Welde
 2967 LOMEN
-739 Eyvind Gulli
+Eyvind Gulli
 9388 FJORDGARD
-740 Borghild Omar
+Borghild Omar
 4952 RISØR
-741 Edvard Arntzen
+Edvard Arntzen
 2306 HAMAR
-742 Audhild Liverød
+Audhild Liverød
 1970 HEMNES
-743 Hermann Tallaksen
+Hermann Tallaksen
 1758 HALDEN
-744 Lotta Magnus
+Lotta Magnus
 4951 RISØR
-745 Rune Søvik
+Rune Søvik
 6414 MOLDE
-746 Hauk Flatland
+Hauk Flatland
 5703 VOSS
-747 Lotte Sundal
+Lotte Sundal
 9442 RAMSUND
-748 Bengt Holmstrøm
+Bengt Holmstrøm
 0561 OSLO
-749 Ole-kristian Løchen
+Ole-kristian Løchen
 4265 HÅVIK
-750 Kolbjørn Thomassen
+Kolbjørn Thomassen
 8370 LEKNES
-751 Silja Myhr
+Silja Myhr
 0572 OSLO
-752 Tuva Alm
+Tuva Alm
 3296 NEVLUNGHAMN
-753 Ahmad Abdullahi
+Ahmad Abdullahi
 3331 SKOTSELV
-754 Live Stien
+Live Stien
 0462 OSLO
-755 Charlotte Ødegården
+Charlotte Ødegården
 0310 OSLO
-756 Anniken Lønning
+Anniken Lønning
 1089 OSLO
-757 Anton Sletvold
+Anton Sletvold
 0490 OSLO
-758 Mustafa Valø
+Mustafa Valø
 9182 SEGLVIK
-759 Rita Krohn
+Rita Krohn
 0170 OSLO
-760 Siw Sømme
+Siw Sømme
 4915 VESTRE SANDØYA
-761 Hedvig Spilde
+Hedvig Spilde
 1704 SARPSBORG
-762 Svenn Skadberg
+Svenn Skadberg
 0664 OSLO
-763 Alex Fadnes
+Alex Fadnes
 1364 FORNEBU
-764 Christine Røsnes
+Christine Røsnes
 7467 TRONDHEIM
-765 Silja Aden
+Silja Aden
 9403 HARSTAD
-766 Jonn Kirkerud
+Jonn Kirkerud
 3950 BREVIK
-767 Birk Hvidsten
+Birk Hvidsten
 5559 SVEIO
-768 Christin Evenrud
+Christin Evenrud
 1719 GREÅKER
-769 Solvår Vilhelmsen
+Solvår Vilhelmsen
 7893 SKOROVATN
-770 Fritz Krasniqi
+Fritz Krasniqi
 0016 OSLO
-771 Sylwia Kvalvik
+Sylwia Kvalvik
 7713 STEINKJER
-772 Grzegorz Hauger
+Grzegorz Hauger
 0284 OSLO
-773 Felix Bryn
+Felix Bryn
 2645 SØR-FRON
-774 Hallgeir Kirknes
+Hallgeir Kirknes
 9513 ALTA
-775 Mikkel Paus
+Mikkel Paus
 8615 SKONSENG
-776 Anne-marit Borsheim
+Anne-marit Borsheim
 8414 HENNES
-777 Thormod Skoglund
+Thormod Skoglund
 4853 HIS
-778 Børge Skansen
+Børge Skansen
 1081 OSLO
-779 Kristina Levang
+Kristina Levang
 1514 MOSS
-780 Hildegunn Søbstad
+Hildegunn Søbstad
 5403 STORD
-781 Ahmad Dokken
+Ahmad Dokken
 6921 HARDBAKKE
-782 Mohamad Holte
+Mohamad Holte
 8515 NARVIK
-783 Maciej Molund
+Maciej Molund
 1724 SARPSBORG
-784 Dagfinn Løvlie
+Dagfinn Løvlie
 7873 HARRAN
-785 Knut Saeed
+Knut Saeed
 4392 SANDNES
-786 Torodd Haugvaldstad
+Torodd Haugvaldstad
 7455 TRONDHEIM
-787 Susanna Bech
+Susanna Bech
 3133 DUKEN
-788 Rasmus Dalheim
+Rasmus Dalheim
 4120 TAU
-789 Filippa Grande
+Filippa Grande
 5580 ØLEN
-790 Torstein Jørgensen
+Torstein Jørgensen
 2614 LILLEHAMMER
-791 Minh Holmøy
+Minh Holmøy
 4044 HAFRSFJORD
-792 Arild Oliversen
+Arild Oliversen
 2165 HVAM
-793 Jørn Strande
+Jørn Strande
 3160 STOKKE
-794 Martine Skaug
+Martine Skaug
 8256 RØKLAND
-795 Fanny Corneliussen
+Fanny Corneliussen
 4853 HIS
-796 Judith Langaas
+Judith Langaas
 0262 OSLO
-797 Bergliot Løvlien
+Bergliot Løvlien
 8210 FAUSKE
-798 Kim Wie
+Kim Wie
 5836 BERGEN
-799 Bror Randen
+Bror Randen
 3230 SANDEFJORD
-800 Gert Grongstad
+Gert Grongstad
 7562 HUNDHAMAREN
-801 Vilde Revheim
+Vilde Revheim
 3699 GAUSTATOPPEN TURISTHYTTE
-802 Camilla Myre
+Camilla Myre
 2428 SØRE OSEN
-803 Michael Tufte
+Michael Tufte
 0517 OSLO
-804 Katja Serigstad
+Katja Serigstad
 6386 MÅNDALEN
-805 Tor Otterstad
+Tor Otterstad
 2630 RINGEBU
-806 Khalid Kihle
+Khalid Kihle
 5059 BERGEN
-807 Leo Lillevik
+Leo Lillevik
 5695 UGGDAL
-808 Aasta Mathiesen
+Aasta Mathiesen
 8830 VANDVE
-809 Lene Sørlie
+Lene Sørlie
 6222 IKORNNES
-810 Balder Liberg
+Balder Liberg
 4630 KRISTIANSAND S
-811 Carsten Hustad
+Carsten Hustad
 7327 SVORKMO
-812 Ronald Viddal
+Ronald Viddal
 7029 TRONDHEIM
-813 Elna Thomas
+Elna Thomas
 9445 TOVIK
-814 Kurt Ottersen
+Kurt Ottersen
 3785 SKIEN
-815 Jørn Borch
+Jørn Borch
 0690 OSLO
-816 Solvor Amdal
+Solvor Amdal
 5863 BERGEN
-817 Gunnvor Strømsnes
+Gunnvor Strømsnes
 8850 HERØY
-818 Mindaugas Langfeldt
+Mindaugas Langfeldt
 4069 STAVANGER
-819 Erlend Jøssang
+Erlend Jøssang
 3796 SKIEN
-820 Roar Wie
+Roar Wie
 5472 SEIMSFOSS
-821 Tadeusz Moholt
+Tadeusz Moholt
 9471 GRATANGEN
-822 Linea Brattås
+Linea Brattås
 6777 STÅRHEIM
-823 Elin Aanensen
+Elin Aanensen
 3280 TJODALYNG
-824 Maryam Løkkeberg
+Maryam Løkkeberg
 3232 SANDEFJORD
-825 Mohamad Sandve
+Mohamad Sandve
 3138 SKALLESTAD
-826 Leander Østli
+Leander Østli
 4067 STAVANGER
-827 Gjermund Søderholm
+Gjermund Søderholm
 4328 SANDNES
-828 Ole-martin Engstrøm
+Ole-martin Engstrøm
 0854 OSLO
-829 Kine Nyberg
+Kine Nyberg
 2000 LILLESTRØM
-830 Oddlaug Melum
+Oddlaug Melum
 3661 RJUKAN
-831 Jerzy Woll
+Jerzy Woll
 5560 NEDSTRAND
-832 Ellen Joa
+Ellen Joa
 4735 EVJE
-833 Isabel Klemetsen
+Isabel Klemetsen
 5703 VOSS
-834 Matilde Heier
+Matilde Heier
 4884 GRIMSTAD
-835 Haldis Nybakk
+Haldis Nybakk
 1207 OSLO
-836 Konrad Lillejord
+Konrad Lillejord
 3214 SANDEFJORD
-837 Mariam Harstad
+Mariam Harstad
 6139 FISKÅBYGD
-838 Birk Rødseth
+Birk Rødseth
 9846 TANA
-839 Milan Kjelstad
+Milan Kjelstad
 3812 AKKERHAUGEN
-840 Elida Eik
+Elida Eik
 2714 JAREN
-841 Suzanne Egeland
+Suzanne Egeland
 2209 KONGSVINGER
-842 Ketil Eidet
+Ketil Eidet
 9170 LONGYEARBYEN
-843 Annar Tufte
+Annar Tufte
 4868 SELÅSVATN
-844 Marlen Sharma
+Marlen Sharma
 1354 BÆRUMS VERK
-845 Bjarne Melby
+Bjarne Melby
 4052 RØYNEBERG
-846 Stig Fagervold
+Stig Fagervold
 8006 BODØ
-847 Åsta Fiskvik
+Åsta Fiskvik
 1616 FREDRIKSTAD
-848 Torbjørn Sæterbø
+Torbjørn Sæterbø
 4230 SAND
-849 Jonathan EtternamnbruktavellerflereNrNavnAntall
+Jonathan EtternamnbruktavellerflereNrNavnAntall
 1322 HØVIK
-850 Johnny Myreng
+Johnny Myreng
 5545 VORMEDAL
-851 Marthe Mjånes
+Marthe Mjånes
 6166 SÆBØ
-852 Camilla Jansson
+Camilla Jansson
 0775 OSLO
-853 Sabrina Øvrebø
+Sabrina Øvrebø
 2936 BEGNADALEN
-854 Tove Storøy
+Tove Storøy
 7610 LEVANGER
-855 Glenn Storhaug
+Glenn Storhaug
 3539 FLÅ
-856 Mariel Tjore
+Mariel Tjore
 3970 LANGESUND
-857 Oddbjørn Skog
+Oddbjørn Skog
 7338 MELDAL
-858 Elling Lidal
+Elling Lidal
 3512 HØNEFOSS
-859 Axel Aurstad
+Axel Aurstad
 7563 MALVIK
-860 Ingebrigt Hjelseth
+Ingebrigt Hjelseth
 3127 TØNSBERG
-861 Rønnaug Reitan
+Rønnaug Reitan
 5629 JONDAL
-862 Belinda Yusuf
+Belinda Yusuf
 2642 KVAM
-863 Inger-johanne Strømsvåg
+Inger-johanne Strømsvåg
 9497 HARSTAD
-864 Leila Harnes
+Leila Harnes
 7120 LEKSVIK
-865 Emir Viken
+Emir Viken
 9254 TROMSØ
-866 Dariusz Øygarden
+Dariusz Øygarden
 4503 MANDAL
-867 Frederik Hollund
+Frederik Hollund
 3197 HORTEN
-868 Amalie Follestad
+Amalie Follestad
 9730 KARASJOK
-869 Valborg Hatlevik
+Valborg Hatlevik
 1378 NESBRU
-870 Elisa Dagestad
+Elisa Dagestad
 6409 MOLDE
-871 Arnhild Hoel
+Arnhild Hoel
 3528 HEDALEN
-872 Eirik Ring
+Eirik Ring
 5643 STRANDVIK
-873 Lisa Oshaug
+Lisa Oshaug
 1709 SARPSBORG
-874 Filippa Løvstad
+Filippa Løvstad
 5498 MATRE
-875 Gudbrand Bjerkvik
+Gudbrand Bjerkvik
 3725 SKIEN
-876 Dominik Røyset
+Dominik Røyset
 6069 HAREID
-877 Sandra Moe
+Sandra Moe
 0267 OSLO
-878 Emmy Heen
+Emmy Heen
 0551 OSLO
-879 Glen Slåen
+Glen Slåen
 9486 HARSTAD
-880 Jelena Odland
+Jelena Odland
 2808 GJØVIK
-881 Gøran Ross
+Gøran Ross
 3269 LARVIK
-882 Toralf Aarflot
+Toralf Aarflot
 7005 TRONDHEIM
-883 Louis Green
+Louis Green
 0001 OSLO
-884 Erica Holmberg
+Erica Holmberg
 0486 OSLO
-885 Fride Skinstad
+Fride Skinstad
 0457 OSLO
-886 Maja Matre
+Maja Matre
 7971 KOLVEREID
-887 Alan Klausen
+Alan Klausen
 0640 OSLO
-888 Sven Meier
+Sven Meier
 3173 VEAR
-889 Jesper Simensen
+Jesper Simensen
 0373 OSLO
-890 Mathis Lier
+Mathis Lier
 3258 LARVIK
-891 Beatrice Furre
+Beatrice Furre
 0861 OSLO
-892 Selma Frafjord
+Selma Frafjord
 5257 KOKSTAD
-893 Bjørn Dahlberg
+Bjørn Dahlberg
 9288 TROMSØ
-894 Brede Tunheim
+Brede Tunheim
 4836 ARENDAL
-895 Nelly Svardal
+Nelly Svardal
 7492 TRONDHEIM
-896 Karol Dalseth
+Karol Dalseth
 0101 OSLO
-897 Frederik Røgeberg
+Frederik Røgeberg
 5011 BERGEN
-898 Live Ree
+Live Ree
 5559 SVEIO
-899 Jennifer Rogne
+Jennifer Rogne
 2967 LOMEN
-900 Helene Frydenberg
+Helene Frydenberg
 0374 OSLO
-901 Svanhild Brastad
+Svanhild Brastad
 9442 RAMSUND
-902 Oddvar Yusuf
+Oddvar Yusuf
 4150 RENNESØY
-903 Gunnar Sola
+Gunnar Sola
 6674 KVISVIK
-904 Greta Bull
+Greta Bull
 9131 KÅRVIK
-905 Fabian Hjelseth
+Fabian Hjelseth
 3014 DRAMMEN
-906 Daniel Løvlie
+Daniel Løvlie
 5763 SKARE
-907 Damian Skinstad
+Damian Skinstad
 3794 HELLE
-908 Kjell Sletvold
+Kjell Sletvold
 3017 DRAMMEN
-909 Walter Busch
+Walter Busch
 7203 VINJEØRA
-910 Solvor Sandhåland
+Solvor Sandhåland
 4868 SELÅSVATN
-911 Solgunn Hilleren
+Solgunn Hilleren
 8536 EVENES
-912 Hulda Skauge
+Hulda Skauge
 1771 HALDEN
-913 Tor Tveter
+Tor Tveter
 7280 SULA
-914 Hamid Tyldum
+Hamid Tyldum
 5243 FANA
-915 Petra Jahren
+Petra Jahren
 0479 OSLO
-916 Klara Almås
+Klara Almås
 3144 VEIERLAND
-917 Vibeke Varhaug
+Vibeke Varhaug
 1006 OSLO
-918 Ådne Sperre
+Ådne Sperre
 2862 FLUBERG
-919 Silvia Hynne
+Silvia Hynne
 3185 SKOPPUM
-920 Birger Betten
+Birger Betten
 1379 NESBRU
-921 Katrin Gustavson
+Katrin Gustavson
 2091 HURDAL
-922 Reidar Refsnes
+Reidar Refsnes
 0030 OSLO
-923 Erik Selvåg
+Erik Selvåg
 3281 TJODALYNG
-924 Gunvald Kjærvik
+Gunvald Kjærvik
 5147 FYLLINGSDALEN
-925 Mariusz Wold
+Mariusz Wold
 5183 OLSVIK
-926 Gabriel Bergersen
+Gabriel Bergersen
 6166 SÆBØ
-927 Ken Mjånes
+Ken Mjånes
 8297 TRANØY
-928 Tor Herland
+Tor Herland
 0129 OSLO
-929 Gert Eik
+Gert Eik
 3550 GOL
-930 Katja Dalene
+Katja Dalene
 3795 DRANGEDAL
-931 Rafal Langnes
+Rafal Langnes
 5058 BERGEN
-932 Jørg Skomedal
+Jørg Skomedal
 7289 SOKNEDAL
-933 Torolf Kjeldsberg
+Torolf Kjeldsberg
 5650 TYSSE
-934 Tatjana Træet
+Tatjana Træet
 5869 BERGEN
-935 Sølvi Lundeby
+Sølvi Lundeby
 5293 LONEVÅG
-936 Ansgar Hodneland
+Ansgar Hodneland
 3261 LARVIK
-937 Jenny Gaarder
+Jenny Gaarder
 2055 NORDKISA
-938 Anne-sofie Jevnaker
+Anne-sofie Jevnaker
 1535 MOSS
-939 Mateusz Flaten
+Mateusz Flaten
 7178 STOKKØY
-940 Marry Aarsland
+Marry Aarsland
 5341 STRAUME
-941 Alfred Karlson
+Alfred Karlson
 1272 OSLO
-942 Jasmin Hannestad
+Jasmin Hannestad
 9190 AKKARVIK
-943 Iselin Johnson
+Iselin Johnson
 7404 TRONDHEIM
-944 Jørgen Nordtømme
+Jørgen Nordtømme
 5221 NESTTUN
-945 Tuva Rovik
+Tuva Rovik
 3238 SANDEFJORD
-946 Lise Nicolaysen
+Lise Nicolaysen
 3262 LARVIK
-947 Julius Sandum
+Julius Sandum
 9283 TROMSØ
-948 Siw Husum
+Siw Husum
 4892 GRIMSTAD
-949 Amanda Sleire
+Amanda Sleire
 5565 TYSVÆRVÅG
-950 Ronald Dagsland
+Ronald Dagsland
 2940 HEGGENES
-951 Live Zachariassen
+Live Zachariassen
 7484 TRONDHEIM
-952 Nikolas Arneberg
+Nikolas Arneberg
 1518 MOSS
-953 Ylva Aarsland
+Ylva Aarsland
 4120 TAU
-954 Trym Risvik
+Trym Risvik
 9526 SUOLOVUOPMI
-955 Evy Fauskanger
+Evy Fauskanger
 3191 HORTEN
-956 Hussein Mikalsen
+Hussein Mikalsen
 6024 ÅLESUND
-957 Serine Jama
+Serine Jama
 9426 BJARKØY
-958 Sunniva Øverbø
+Sunniva Øverbø
 7428 TRONDHEIM
-959 Noah Fagerheim
+Noah Fagerheim
 8202 FAUSKE
-960 Marek Brekke
+Marek Brekke
 7357 SKAUN
-961 Natalie Lønning
+Natalie Lønning
 3632 UVDAL
-962 Ingvald Ness
+Ingvald Ness
 3946 PORSGRUNN
-963 Trude Noreng
+Trude Noreng
 8250 ROGNAN
-964 Tony Bjørnevik
+Tony Bjørnevik
 1401 SKI
-965 Eivor Skjæveland
+Eivor Skjæveland
 7482 TRONDHEIM
-966 Åge Sikveland
+Åge Sikveland
 1603 FREDRIKSTAD
-967 Ole-petter Grønli
+Ole-petter Grønli
 4628 KRISTIANSAND S
-968 Kitty Silden
+Kitty Silden
 3484 HOLMSBU
-969 Adele Hoddevik
+Adele Hoddevik
 3180 NYKIRKE
-970 Silvia Selmer
+Silvia Selmer
 2890 ETNEDAL
-971 Andre Hammerstad
+Andre Hammerstad
 4381 HAUGE I DALANE
-972 Malene Forberg
+Malene Forberg
 6460 EIDSVÅG I ROMSDAL
-973 Kine Hveem
+Kine Hveem
 8723 HUSBY
-974 Patrik Kjesbu
+Patrik Kjesbu
 6901 FLORØ
-975 Guri Velde
+Guri Velde
 3660 RJUKAN
-976 Rudolf Bjerk
+Rudolf Bjerk
 0129 OSLO
-977 Bjørg Hessen
+Bjørg Hessen
 7630 ÅSEN
-978 Fredrick Sandvær
+Fredrick Sandvær
 6680 HALSANAUSTAN
-979 Torvald Eike
+Torvald Eike
 4403 FLEKKEFJORD
-980 Tiril Halse
+Tiril Halse
 0675 OSLO
-981 Iren Korneliussen
+Iren Korneliussen
 9424 KJØTTA
-982 Muhammad Kjesbu
+Muhammad Kjesbu
 3886 DALEN
-983 Marcin Seierstad
+Marcin Seierstad
 4770 HØVÅG
-984 Johannes Dvergsdal
+Johannes Dvergsdal
 8022 BODØ
-985 Grete Granerud
+Grete Granerud
 5887 BERGEN
-986 Åsta Hanstad
+Åsta Hanstad
 7459 TRONDHEIM
-987 Juan Horn
+Juan Horn
 2810 GJØVIK
-988 Nelly Valberg
+Nelly Valberg
 0555 OSLO
-989 Åsta Sandbæk
+Åsta Sandbæk
 1443 OSCARSBORG
-990 Hilmar Hårstad
+Hilmar Hårstad
 3941 PORSGRUNN
-991 Ulrikke Sørbø
+Ulrikke Sørbø
 5003 BERGEN
-992 Sindre Askeland
+Sindre Askeland
 3997 PORSGRUNN
-993 Thomas Gaup
+Thomas Gaup
 2675 OTTA
-994 Amina Fjermestad
+Amina Fjermestad
 0182 OSLO
-995 Unni Langen
+Unni Langen
 9263 TROMSØ
-996 Liam Ulriksen
+Liam Ulriksen
 8312 HENNINGSVÆR
-997 Herdis Sjøberg
+Herdis Sjøberg
 8260 INNHAVET
-998 Georg Abbas
+Georg Abbas
 1704 SARPSBORG
-999 Andrea Bashir
+Andrea Bashir
 7447 TRONDHEIM
-1000 Eilif Loe
+Eilif Loe
 4328 SANDNES
-1001 Valborg Rørvik
+Valborg Rørvik
 0211 OSLO
-1002 Sidsel Algrøy
+Sidsel Algrøy
 0477 OSLO
-1003 Bror Juliussen
+Bror Juliussen
 1484 HAKADAL
-1004 Victoria Wisth
+Victoria Wisth
 6080 GURSKØY
-1005 Oscar Aarrestad
+Oscar Aarrestad
 2016 FROGNER
-1006 Elida Mørkved
+Elida Mørkved
 5561 BOKN
-1007 Wieslaw Leikvoll
+Wieslaw Leikvoll
 4861 ARENDAL
-1008 Linus Schjelderup
+Linus Schjelderup
 2673 HØVRINGEN
-1009 Tord Kjærvik
+Tord Kjærvik
 8328 STOREMOLLA
-1010 Aashild Grønning
+Aashild Grønning
 9712 LAKSELV
-1011 Vibecke Moss
+Vibecke Moss
 8515 NARVIK
-1012 Manuel Kvilhaug
+Manuel Kvilhaug
 8723 HUSBY
-1013 Ole Blomberg
+Ole Blomberg
 0363 OSLO
-1014 Ingerid Ellingsen
+Ingerid Ellingsen
 6018 ÅLESUND
-1015 Kato Henningsen
+Kato Henningsen
 4090 HAFRSFJORD
-1016 Bertha Sannes
+Bertha Sannes
 9015 TROMSØ
-1017 Ine Rykkje
+Ine Rykkje
 3241 SANDEFJORD
-1018 Dani Svela
+Dani Svela
 0567 OSLO
-1019 Thi Asphaug
+Thi Asphaug
 0840 OSLO
-1020 Unni Hovd
+Unni Hovd
 5366 MISJE
-1021 Fadumo Landa
+Fadumo Landa
 5238 RÅDAL
-1022 Isak Buseth
+Isak Buseth
 6218 HELLESYLT
-1023 Ann-karin Myrdal
+Ann-karin Myrdal
 8283 LEINESFJORD
-1024 Thor Bærheim
+Thor Bærheim
 3580 GEILO
-1025 Steven Djuve
+Steven Djuve
 5392 STOREBØ
-1026 Anlaug Oshaug
+Anlaug Oshaug
 6211 VALLDAL
-1027 Jardar Aasheim
+Jardar Aasheim
 7384 ÅLEN
-1028 Matthew Kleven
+Matthew Kleven
 3141 KJØPMANNSKJÆR
-1029 Patricia Tverberg
+Patricia Tverberg
 1532 MOSS
-1030 Carsten Heggen
+Carsten Heggen
 4887 GRIMSTAD
-1031 Amir Haile
+Amir Haile
 1451 NESODDTANGEN
-1032 Herman Wright
+Herman Wright
 5310 HAUGLANDSHELLA
-1033 Darius Axelsen
+Darius Axelsen
 3153 TOLVSRØD
-1034 Torleiv Raja
+Torleiv Raja
 5037 BERGEN
-1035 Abdullah Kvello
+Abdullah Kvello
 9580 BERGSFJORD
-1036 Tore Holst
+Tore Holst
 2130 KNAPPER
-1037 Jane Rugland
+Jane Rugland
 5243 FANA
-1038 Einar Elverum
+Einar Elverum
 7492 TRONDHEIM
-1039 Eldbjørg Vaa
+Eldbjørg Vaa
 1202 OSLO
-1040 Kaja Rahimi
+Kaja Rahimi
 3742 SKIEN
-1041 Julianne Mæland
+Julianne Mæland
 9263 TROMSØ
-1042 Karin Lillemo
+Karin Lillemo
 5516 HAUGESUND
-1043 Glenn Rødseth
+Glenn Rødseth
 1751 HALDEN
-1044 Rønnaug Bjørvik
+Rønnaug Bjørvik
 7470 TRONDHEIM
-1045 Sjur Ekrem
+Sjur Ekrem
 0777 OSLO
-1046 Rut Zahl
+Rut Zahl
 4516 MANDAL
-1047 Erna Elvenes
+Erna Elvenes
 5862 BERGEN
-1048 Eldrid Einan
+Eldrid Einan
 3264 LARVIK
-1049 Audun Brunborg
+Audun Brunborg
 3253 LARVIK
-1050 Ståle Lystad
+Ståle Lystad
 3113 TØNSBERG
-1051 Jone Hystad
+Jone Hystad
 1357 BEKKESTUA
-1052 Thore Bunes
+Thore Bunes
 7716 STEINKJER
-1053 Hildur Hamre
+Hildur Hamre
 5803 BERGEN
-1054 Siril Mjøen
+Siril Mjøen
 7777 NORD-STATLAND
-1055 Andreas Rydningen
+Andreas Rydningen
 8606 MO I RANA
-1056 Nikolas Håheim
+Nikolas Håheim
 2235 MATRAND
-1057 Johannes Mikkelsen
+Johannes Mikkelsen
 7510 SKATVAL
-1058 Jorun Grønvik
+Jorun Grønvik
 6143 FISKÅBYGD
-1059 Gudny Hidle
+Gudny Hidle
 1823 KNAPSTAD
-1060 Preben Ingebretsen
+Preben Ingebretsen
 5568 VIKEBYGD
-1061 Haavard Grønhaug
+Haavard Grønhaug
 5987 HOSTELAND
-1062 Kirsten Sevaldsen
+Kirsten Sevaldsen
 3796 SKIEN
-1063 Belinda Høglund
+Belinda Høglund
 1430 ÅS
-1064 Kirsti Haugum
+Kirsti Haugum
 6984 STONGFJORDEN
-1065 Anneli Lindblad
+Anneli Lindblad
 3173 VEAR
-1066 Ronny Warholm
+Ronny Warholm
 5951 LINDÅS
-1067 Trygve Morland
+Trygve Morland
 6393 TOMREFJORD
-1068 Brynhild Sleire
+Brynhild Sleire
 7301 ORKANGER
-1069 Khalid Rekstad
+Khalid Rekstad
 6788 OLDEN
-1070 Anita Tallaksen
+Anita Tallaksen
 0702 OSLO
-1071 Oskar Sagstad
+Oskar Sagstad
 3032 DRAMMEN
-1072 Helen Brattli
+Helen Brattli
 5747 GUDVANGEN
-1073 Birger Krohn
+Birger Krohn
 3540 NESBYEN
-1074 Cassandra Lundquist
+Cassandra Lundquist
 9350 SJØVEGAN
-1075 Yasin Tømmerås
+Yasin Tømmerås
 9046 OTEREN
-1076 Rainer Nordheim
+Rainer Nordheim
 2626 LILLEHAMMER
-1077 Igor Tobiassen
+Igor Tobiassen
 6004 ÅLESUND
-1078 Maren Bremseth
+Maren Bremseth
 7790 MALM
-1079 Anette Blomberg
+Anette Blomberg
 3914 PORSGRUNN
-1080 Håvard Hemmingsen
+Håvard Hemmingsen
 3169 STOKKE
-1081 Sarah Austrheim
+Sarah Austrheim
 0127 OSLO
-1082 Przemyslaw Nærland
+Przemyslaw Nærland
 9068 NORD-LENANGEN
-1083 Aina Flem
+Aina Flem
 5563 FØRRESFJORDEN
-1084 Barbara Haraldstad
+Barbara Haraldstad
 0502 OSLO
-1085 Svetlana Reyes
+Svetlana Reyes
 4044 HAFRSFJORD
-1086 Scott Bauer
+Scott Bauer
 9981 BERLEVÅG
-1087 Marius Johnson
+Marius Johnson
 5576 ØVRE VATS
-1088 Torill Broch
+Torill Broch
 9533 KONGSHUS
-1089 Aurora Fimland
+Aurora Fimland
 0962 OSLO
-1090 Vibeke Torkelsen
+Vibeke Torkelsen
 3735 SKIEN
-1091 Hild Vikane
+Hild Vikane
 5416 STORD
-1092 Anja Tysnes
+Anja Tysnes
 5550 SVEIO
-1093 Lisa Aaserud
+Lisa Aaserud
 4604 KRISTIANSAND S
-1094 Sol Løland
+Sol Løland
 4240 SULDALSOSEN
-1095 Jorge Hatlevik
+Jorge Hatlevik
 5119 ULSET
-1096 Agnieszka Strandheim
+Agnieszka Strandheim
 1391 VOLLEN
-1097 Asle Tufte
+Asle Tufte
 8640 HEMNESBERGET
-1098 Veronika Melgård
+Veronika Melgård
 3614 KONGSBERG
-1099 Finn Bruheim
+Finn Bruheim
 5235 RÅDAL
-1100 Bo Kvinge
+Bo Kvinge
 3917 PORSGRUNN
-1101 Marte Kvande
+Marte Kvande
 8039 BODØ
-1102 Henryk Bergersen
+Henryk Bergersen
 5098 BERGEN
-1103 Dani Lysgård
+Dani Lysgård
 2032 MAURA
-1104 Ørjan Revheim
+Ørjan Revheim
 3142 VESTSKOGEN
-1105 Edvard Svingen
+Edvard Svingen
 3280 TJODALYNG
-1106 Elsie Langedal
+Elsie Langedal
 2208 KONGSVINGER
-1107 Kaisa Røyrvik
+Kaisa Røyrvik
 1372 ASKER
-1108 Caroline Nordeng
+Caroline Nordeng
 4553 FARSUND
-1109 Margrethe Liknes
+Margrethe Liknes
 4678 KRISTIANSAND S
-1110 Eyvind Koppang
+Eyvind Koppang
 1322 HØVIK
-1111 Sigrid Oppegård
+Sigrid Oppegård
 9511 ALTA
-1112 Gry Skogen
+Gry Skogen
 1705 SARPSBORG
-1113 Anny Berg
+Anny Berg
 4379 EGERSUND
-1114 Are Malik
+Are Malik
 3218 SANDEFJORD
-1115 Erika Heskestad
+Erika Heskestad
 0556 OSLO
-1116 Viljar Bergli
+Viljar Bergli
 1771 HALDEN
-1117 Arnljot Todnem
+Arnljot Todnem
 3849 VRÅLIOSEN
-1118 Jone Skage
+Jone Skage
 5306 ERDAL
-1119 Kari Nygren
+Kari Nygren
 2848 SKREIA
-1120 Olaf Fagereng
+Olaf Fagereng
 4376 HELLELAND
-1121 John Vinje
+John Vinje
 6220 STRAUMGJERDE
-1122 Mia Hoffmann
+Mia Hoffmann
 2603 LILLEHAMMER
-1123 Eyvind Selnes
+Eyvind Selnes
 6629 TORJULVÅGEN
-1124 Zahra Havnen
+Zahra Havnen
 8013 BODØ
-1125 Ine Østerud
+Ine Østerud
 2072 DAL
-1126 Kerstin Aarhus
+Kerstin Aarhus
 8380 RAMBERG
-1127 Matthias Skretting
+Matthias Skretting
 1662 ROLVSØY
-1128 Marie Fjellstad
+Marie Fjellstad
 4076 VASSØY
-1129 Magnus Skram
+Magnus Skram
 6487 HARØY
-1130 Marius Herigstad
+Marius Herigstad
 7098 SAUPSTAD
-1131 Torleif Birkenes
+Torleif Birkenes
 6142 EIDSÅ
-1132 Martina Rasmussen
+Martina Rasmussen
 0955 OSLO
-1133 Paal Sæland
+Paal Sæland
 5260 INDRE ARNA
-1134 Andrine Kleiveland
+Andrine Kleiveland
 8503 NARVIK
-1135 Jozef Saue
+Jozef Saue
 0485 OSLO
-1136 Kristine Mæhlum
+Kristine Mæhlum
 2676 HEIDAL
-1137 Sigfred Sjåvik
+Sigfred Sjåvik
 9722 SKOGANVARRE
-1138 Thomas Hegna
+Thomas Hegna
 8820 DØNNA
-1139 Hedda Sverdrup
+Hedda Sverdrup
 6190 BJØRKE
-1140 Anne Christophersen
+Anne Christophersen
 3623 LAMPELAND
-1141 Conrad Skårdal
+Conrad Skårdal
 9049 NORDKJOSBOTN
-1142 Kurt Robberstad
+Kurt Robberstad
 3524 NES I ÅDAL
-1143 Karianne Aurstad
+Karianne Aurstad
 7153 GARTEN
-1144 Peder Leirdal
+Peder Leirdal
 5178 LODDEFJORD
-1145 Kajsa Ødegården
+Kajsa Ødegården
 9163 JØKELFJORD
-1146 Ingebrigt Birkedal
+Ingebrigt Birkedal
 0988 OSLO
-1147 Nils Jonassen
+Nils Jonassen
 7098 SAUPSTAD
-1148 Pia Kjørsvik
+Pia Kjørsvik
 0770 OSLO
-1149 Sigvald Silseth
+Sigvald Silseth
 0860 OSLO
-1150 Irene Sande
+Irene Sande
 3229 SANDEFJORD
-1151 Johannes Oppegaard
+Johannes Oppegaard
 1525 MOSS
-1152 Bastian Bjorøy
+Bastian Bjorøy
 1364 FORNEBU
-1153 Mia Austrheim
+Mia Austrheim
 3011 DRAMMEN
-1154 Asmund Kongshaug
+Asmund Kongshaug
 4009 STAVANGER
-1155 Ronny Engelund
+Ronny Engelund
 2013 SKJETTEN
-1156 Aashild Seldal
+Aashild Seldal
 5636 VARALDSØY
-1157 Imre Melhus
+Imre Melhus
 7483 TRONDHEIM
-1158 Mats Mahamud
+Mats Mahamud
 2428 SØRE OSEN
-1159 May Nordrum
+May Nordrum
 0379 OSLO
-1160 Oddrun Øverbø
+Oddrun Øverbø
 1361 ØSTERÅS
-1161 Mehdi Solstrand
+Mehdi Solstrand
 1667 ROLVSØY
-1162 Arnljot Refseth
+Arnljot Refseth
 5183 OLSVIK
-1163 Kristin Nevland
+Kristin Nevland
 4525 KONSMO
-1164 Mikael Robberstad
+Mikael Robberstad
 3154 TOLVSRØD
-1165 Tage Risan
+Tage Risan
 5119 ULSET
-1166 Arian Klungland
+Arian Klungland
 2637 ØYER
-1167 Sigve Bertelsen
+Sigve Bertelsen
 1367 SNARØYA
-1168 Christopher Svenning
+Christopher Svenning
 3055 KROKSTADELVA
-1169 Aud Fadnes
+Aud Fadnes
 9409 HARSTAD
-1170 Susann Holmen
+Susann Holmen
 1735 VARTEIG
-1171 Josef Abdullahi
+Josef Abdullahi
 6740 SELJE
-1172 Atle Hoem
+Atle Hoem
 5470 ROSENDAL
-1173 Mons Cappelen
+Mons Cappelen
 4085 HUNDVÅG
-1174 Catherine Holberg
+Catherine Holberg
 7735 STEINKJER
-1175 Gustav Bekkevold
+Gustav Bekkevold
 2340 LØTEN
-1176 Johann Haakonsen
+Johann Haakonsen
 2580 FOLLDAL
-1177 Sidsel Aase
+Sidsel Aase
 3284 KVELDE
-1178 Lisbeth Solheim
+Lisbeth Solheim
 5033 BERGEN
-1179 Henriette Seeberg
+Henriette Seeberg
 4683 SØGNE
-1180 Jenny Frafjord
+Jenny Frafjord
 0787 OSLO
-1181 Mehdi Løkås
+Mehdi Løkås
 5437 FINNÅS
-1182 Thorbjørn Haave
+Thorbjørn Haave
 6728 KALVÅG
-1183 Torun Gilje
+Torun Gilje
 6216 GEIRANGER
-1184 Bo Øvergaard
+Bo Øvergaard
 3737 SKIEN
-1185 Live Eng
+Live Eng
 8542 KJELDEBOTN
-1186 Mille Bjørgan
+Mille Bjørgan
 1666 ROLVSØY
-1187 Amy Vestvik
+Amy Vestvik
 1420 SVARTSKOG
-1188 Mali Finsrud
+Mali Finsrud
 8230 SULITJELMA
-1189 Jofrid Hoffmann
+Jofrid Hoffmann
 3257 LARVIK
-1190 Arnt Bjørge
+Arnt Bjørge
 6782 STRYN
-1191 Rebekka Dyrøy
+Rebekka Dyrøy
 0360 OSLO
-1192 Benjamin Øksendal
+Benjamin Øksendal
 3268 LARVIK
-1193 Sølvi Egeland
+Sølvi Egeland
 7434 TRONDHEIM
-1194 Sigmund Skrede
+Sigmund Skrede
 6282 BRATTVÅG
-1195 Anny Sætren
+Anny Sætren
 1348 RYKKINN
-1196 Edna Hognestad
+Edna Hognestad
 3903 PORSGRUNN
-1197 Halvard Dyrøy
+Halvard Dyrøy
 0850 OSLO
-1198 Øistein Rød
+Øistein Rød
 1593 SVINNDAL
-1199 Trude Sælen
+Trude Sælen
 9497 HARSTAD
-1200 Ingeborg Leknes
+Ingeborg Leknes
 5264 GARNES
-1201 Ørjan Yri
+Ørjan Yri
 1300 SANDVIKA
-1202 Pål Smørdal
+Pål Smørdal
 3103 TØNSBERG
-1203 Waldemar Mæle
+Waldemar Mæle
 2836 BIRI
-1204 Robin Sveen
+Robin Sveen
 3729 SKIEN
-1205 Inge Karlson
+Inge Karlson
 0167 OSLO
-1206 Preben Willassen
+Preben Willassen
 2864 FALL
-1207 Iwona Harstad
+Iwona Harstad
 9709 PORSANGMOEN
-1208 Irma Stensby
+Irma Stensby
 3132 HUSØYSUND
-1209 Per-arne Birkeland
+Per-arne Birkeland
 4951 RISØR
-1210 Edin Granum
+Edin Granum
 9030 SJURSNES
-1211 Luna Taule
+Luna Taule
 7483 TRONDHEIM
-1212 Ryszard Walstad
+Ryszard Walstad
 3209 SANDEFJORD
-1213 Elisabeth Borgen
+Elisabeth Borgen
 1471 LØRENSKOG
-1214 Berit Carlsson
+Berit Carlsson
 4742 GRENDI
-1215 Øyvind Trønnes
+Øyvind Trønnes
 1805 TOMTER
-1216 Gyda Grøtte
+Gyda Grøtte
 0201 OSLO
-1217 Ann Sjøen
+Ann Sjøen
 0413 OSLO
-1218 Toralf Adolfsen
+Toralf Adolfsen
 7037 TRONDHEIM
-1219 Katrin Vedøy
+Katrin Vedøy
 2015 LEIRSUND
-1220 Irina Skorstad
+Irina Skorstad
 3131 HUSØYSUND
-1221 Solfrid Hægeland
+Solfrid Hægeland
 5163 LAKSEVÅG
-1222 Karen Nesse
+Karen Nesse
 8543 KJELDEBOTN
-1223 Jorge Haga
+Jorge Haga
 3903 PORSGRUNN
-1224 Elina Lauritzen
+Elina Lauritzen
 0985 OSLO
-1225 Sigvart Forbord
+Sigvart Forbord
 6915 ROGNALDSVÅG
-1226 Oddgeir Tvedt
+Oddgeir Tvedt
 0251 OSLO
-1227 Emma Hylland
+Emma Hylland
 3733 SKIEN
-1228 Kristine Sætermo
+Kristine Sætermo
 4085 HUNDVÅG
-1229 Rainer Støle
+Rainer Støle
 7232 LUNDAMO
-1230 Pål Brevig
+Pål Brevig
 6856 SOGNDAL
-1231 Marlen Molund
+Marlen Molund
 9271 TROMSØ
-1232 Matias Melberg
+Matias Melberg
 2930 BAGN
-1233 Ingun Kjørstad
+Ingun Kjørstad
 9405 HARSTAD
-1234 Christin Becker
+Christin Becker
 4557 VANSE
-1235 Mattis Lysgård
+Mattis Lysgård
 7890 NAMSSKOGAN
-1236 Heidi Mirza
+Heidi Mirza
 9405 HARSTAD
-1237 Sølvi Schjølberg
+Sølvi Schjølberg
 8732 ALDRA
-1238 Ahmed Vikanes
+Ahmed Vikanes
 1081 OSLO
-1239 Yusuf Steffensen
+Yusuf Steffensen
 5605 ÅLVIK
-1240 Ewa Nymo
+Ewa Nymo
 9372 GIBOSTAD
-1241 Jørgen Smedstad
+Jørgen Smedstad
 0309 OSLO
-1242 Katarzyna Gjerdrum
+Katarzyna Gjerdrum
 6453 KLEIVE
-1243 Per-arne Bendixen
+Per-arne Bendixen
 5653 ÅRLAND
-1244 Aasta Røstad
+Aasta Røstad
 8186 TJONGSFJORDEN
-1245 Berta Halsen
+Berta Halsen
 6144 SYLTE
-1246 Jolanta Granås
+Jolanta Granås
 0259 OSLO
-1247 Isabella Øen
+Isabella Øen
 4017 STAVANGER
-1248 Tim Rønnestad
+Tim Rønnestad
 8030 BODØ
-1249 Juan Aukland
+Juan Aukland
 2303 HAMAR
-1250 Sølve Rian
+Sølve Rian
 3147 VERDENS ENDE
-1251 Patricia Jønsson
+Patricia Jønsson
 7345 DRIVA
-1252 Søren Hjorth
+Søren Hjorth
 4357 KLEPP STASJON
-1253 Bjørg Lindhjem
+Bjørg Lindhjem
 2717 GRUA
-1254 Steven Algrøy
+Steven Algrøy
 6099 FOSNAVÅG
-1255 Maximilian Fuglerud
+Maximilian Fuglerud
 3676 NOTODDEN
-1256 Reidun Kjos
+Reidun Kjos
 8407 GODFJORD
-1257 Jimmy Kjesbu
+Jimmy Kjesbu
 0258 OSLO
-1258 Sigfrid Engeland
+Sigfrid Engeland
 3196 HORTEN
-1259 Jostein Nystad
+Jostein Nystad
 4909 SONGE
-1260 Samir Bui
+Samir Bui
 0907 OSLO
-1261 Margaret Viddal
+Margaret Viddal
 3753 TØRDAL
-1262 Elvira Tharaldsen
+Elvira Tharaldsen
 4124 TAU
-1263 Edin Reinertsen
+Edin Reinertsen
 7492 TRONDHEIM
-1264 Rudolf Røisland
+Rudolf Røisland
 1520 MOSS
-1265 Annie Finnerud
+Annie Finnerud
 8450 STOKMARKNES
-1266 Magna Rye
+Magna Rye
 7760 SNÅSA
-1267 Veslemøy Løvlie
+Veslemøy Løvlie
 3912 PORSGRUNN
-1268 Rainer Erlandsen
+Rainer Erlandsen
 0122 OSLO
-1269 Agathe Nordheim
+Agathe Nordheim
 5601 NORHEIMSUND
-1270 Iver Eid
+Iver Eid
 0045 OSLO
-1271 Rakel Negård
+Rakel Negård
 9441 FJELLDAL
-1272 Ebba Sørbø
+Ebba Sørbø
 6805 FØRDE
-1273 Daniela Aasheim
+Daniela Aasheim
 3617 KONGSBERG
-1274 Kristiane Natvig
+Kristiane Natvig
 0461 OSLO
-1275 Viktor Husevåg
+Viktor Husevåg
 5956 VÅGSEIDET
-1276 Imran Vollen
+Imran Vollen
 0674 OSLO
-1277 Amanda Fjell
+Amanda Fjell
 0569 OSLO
-1278 Elna Skomedal
+Elna Skomedal
 0109 OSLO
-1279 Nicolas Sangolt
+Nicolas Sangolt
 8539 BOGEN I OFOTEN
-1280 George Narvestad
+George Narvestad
 1536 MOSS
-1281 Kine Helgestad
+Kine Helgestad
 7383 HALTDALEN
-1282 Abdullahi Karlstad
+Abdullahi Karlstad
 0973 OSLO
-1283 Solfrid Heltne
+Solfrid Heltne
 6529 FREI
-1284 Ottar Sundnes
+Ottar Sundnes
 4295 VEDAVÅGEN
-1285 Linus Nesheim
+Linus Nesheim
 7190 BESSAKER
-1286 Bengt Havik
+Bengt Havik
 5382 SKOGSVÅG
-1287 Agnete Myrseth
+Agnete Myrseth
 1281 OSLO
-1288 Fritz Fredheim
+Fritz Fredheim
 0611 OSLO
-1289 Kurt Nyquist
+Kurt Nyquist
 5136 MJØLKERÅEN
-1290 Christiane Størseth
+Christiane Størseth
 4023 STAVANGER
-1291 Audun Leine
+Audun Leine
 4619 MOSBY
-1292 Svend Nymark
+Svend Nymark
 7256 HEMNSKJELA
-1293 Birthe Løvdal
+Birthe Løvdal
 2120 SAGSTUA
-1294 Sanna Skjæveland
+Sanna Skjæveland
 3540 NESBYEN
-1295 Jofrid Bratli
+Jofrid Bratli
 1783 HALDEN
-1296 Bård Anfinsen
+Bård Anfinsen
 7631 ÅSEN
-1297 Eyvind Storsveen
+Eyvind Storsveen
 1541 VESTBY
-1298 Terese Staven
+Terese Staven
 5537 HAUGESUND
-1299 Birgit Nordtveit
+Birgit Nordtveit
 7088 HEIMDAL
-1300 Sara Hannisdal
+Sara Hannisdal
 1109 OSLO
-1301 Nancy Nguyen
+Nancy Nguyen
 1328 HØVIK
-1302 Mattis Espe
+Mattis Espe
 3071 SANDE I VESTFOLD
-1303 Hege Fredheim
+Hege Fredheim
 7944 INDRE NÆRØY
-1304 Veronica Romundstad
+Veronica Romundstad
 2051 JESSHEIM
-1305 Kacper Oterhals
+Kacper Oterhals
 9011 TROMSØ
-1306 Torild Kvalnes
+Torild Kvalnes
 3732 SKIEN
-1307 Malin Aaslund
+Malin Aaslund
 9910 BJØRNEVATN
-1308 Mathea Rognerud
+Mathea Rognerud
 3726 SKIEN
-1309 Yngvild Bruheim
+Yngvild Bruheim
 6822 SANDANE
-1310 Wenche Johnsen
+Wenche Johnsen
 6710 RAUDEBERG
-1311 Endre Grønn
+Endre Grønn
 4130 HJELMELAND
-1312 Torleiv Stormark
+Torleiv Stormark
 2012 LILLESTRØM
-1313 Natalie Liabø
+Natalie Liabø
 7770 FLATANGER
-1314 Vladimir Lande
+Vladimir Lande
 1272 OSLO
-1315 Muhammed Groven
+Muhammed Groven
 3714 SKIEN
-1316 Ronny Sandhåland
+Ronny Sandhåland
 0609 OSLO
-1317 Janicke Forbord
+Janicke Forbord
 6510 KRISTIANSUND N
-1318 Lorentz Alvær
+Lorentz Alvær
 6517 KRISTIANSUND N
-1319 Målfrid Grødem
+Målfrid Grødem
 1719 GREÅKER
-1320 Bjørge Kvaale
+Bjørge Kvaale
 6183 TRANDAL
-1321 Knut Storeide
+Knut Storeide
 1361 ØSTERÅS
-1322 Finn Søfteland
+Finn Søfteland
 0281 OSLO
-1323 Aase Mundal
+Aase Mundal
 7257 SNILLFJORD
-1324 Anne-sofie Nerli
+Anne-sofie Nerli
 7468 TRONDHEIM
-1325 Alvin Helgheim
+Alvin Helgheim
 7871 GRONG
-1326 Stian Tveten
+Stian Tveten
 7476 TRONDHEIM
-1327 Hilmar Hellevik
+Hilmar Hellevik
 9251 TROMSØ
-1328 Isac Skorpen
+Isac Skorpen
 3160 STOKKE
-1329 Atle Riiser
+Atle Riiser
 7629 YTTERØY
-1330 Eirik Moksnes
+Eirik Moksnes
 7745 OPPLAND
-1331 Elsie Sanne
+Elsie Sanne
 1341 SLEPENDEN
-1332 Finn Linge
+Finn Linge
 4563 BORHAUG
-1333 Ingolf Stokka
+Ingolf Stokka
 6829 HYEN
-1334 Kaare Evje
+Kaare Evje
 5805 BERGEN
-1335 Bianca Høiby
+Bianca Høiby
 1787 BERG I ØSTFOLD
-1336 Stephanie Khan
+Stephanie Khan
 3915 PORSGRUNN
-1337 Sturle Breistein
+Sturle Breistein
 7081 SJETNEMARKA
-1338 Iselin Hevrøy
+Iselin Hevrøy
 7412 TRONDHEIM
-1339 Marthe Vestad
+Marthe Vestad
 4724 IVELAND
-1340 Judit Omdal
+Judit Omdal
 7119 STADSBYGD
-1341 Alfred Sandven
+Alfred Sandven
 4629 KRISTIANSAND S
-1342 Kristoffer Veland
+Kristoffer Veland
 7484 TRONDHEIM
-1343 Roy Hult
+Roy Hult
 9148 OLDERDALEN
-1344 Arnljot Haakonsen
+Arnljot Haakonsen
 6855 FRØNNINGEN
-1345 Marta Holmvik
+Marta Holmvik
 3742 SKIEN
-1346 Jill Sølvberg
+Jill Sølvberg
 5858 BERGEN
-1347 Stig Brataas
+Stig Brataas
 0213 OSLO
-1348 Kazimierz Eidsvåg
+Kazimierz Eidsvåg
 9670 TUFJORD
-1349 Margareth Holmberg
+Margareth Holmberg
 9430 SANDTORG
-1350 Gunnar Storlien
+Gunnar Storlien
 3196 HORTEN
-1351 Bernhard Fremstad
+Bernhard Fremstad
 0311 OSLO
-1352 Tina Flønes
+Tina Flønes
 5502 HAUGESUND
-1353 Elisabeth Sæterbø
+Elisabeth Sæterbø
 3528 HEDALEN
-1354 Rino Fjærli
+Rino Fjærli
 8680 TROFORS
-1355 Eldar Skogen
+Eldar Skogen
 3854 NISSEDAL
-1356 Tormod Jørstad
+Tormod Jørstad
 8310 KABELVÅG
-1357 Øistein Nysted
+Øistein Nysted
 0445 OSLO
-1358 Ingrid Eriksrud
+Ingrid Eriksrud
 8483 ANDENES
-1359 Jacek Toresen
+Jacek Toresen
 9046 OTEREN
-1360 Benny Urstad
+Benny Urstad
 7456 TRONDHEIM
-1361 Fillip Soma
+Fillip Soma
 7032 TRONDHEIM
-1362 Kristi Grønn
+Kristi Grønn
 5687 FLATRÅKER
-1363 Eldbjørg Digernes
+Eldbjørg Digernes
 4560 VANSE
-1364 Mahmoud Michaelsen
+Mahmoud Michaelsen
 0566 OSLO
-1365 Christiane Aaberg
+Christiane Aaberg
 0037 OSLO
-1366 Tor-arne Skorstad
+Tor-arne Skorstad
 1794 SPONVIKA
-1367 Kjerstin Andersen
+Kjerstin Andersen
 1327 LYSAKER
-1368 Edward Tandstad
+Edward Tandstad
 3721 SKIEN
-1369 Kari-anne Borch
+Kari-anne Borch
 9616 HAMMERFEST
-1370 Åge Øverland
+Åge Øverland
 4972 GJERSTAD
-1371 Guro Løge
+Guro Løge
 5284 TYSSEBOTNEN
-1372 Roland Huseby
+Roland Huseby
 0651 OSLO
-1373 Aage Torp
+Aage Torp
 3947 LANGANGEN
-1374 Betty Bjorøy
+Betty Bjorøy
 3677 NOTODDEN
-1375 Thomas Bjønnes
+Thomas Bjønnes
 2582 GRIMSBU
-1376 Omar Risan
+Omar Risan
 3929 PORSGRUNN
-1377 Anine Krasniqi
+Anine Krasniqi
 2651 ØSTRE GAUSDAL
-1378 Albert Juell
+Albert Juell
 5282 LONEVÅG
-1379 Åsmund Sandve
+Åsmund Sandve
 1782 HALDEN
-1380 Vemund Tangerud
+Vemund Tangerud
 3735 SKIEN
-1381 Eivind Svindland
+Eivind Svindland
 8161 GLOMFJORD
-1382 Hassan Risa
+Hassan Risa
 4434 ANDABELØY
-1383 Mai Ødegaard
+Mai Ødegaard
 1266 OSLO
-1384 Jean Holden
+Jean Holden
 1163 OSLO
-1385 Rafael Nerli
+Rafael Nerli
 5628 HERAND
-1386 Gorm Bakka
+Gorm Bakka
 5742 FLÅM
-1387 Tilde Honningsvåg
+Tilde Honningsvåg
 2080 EIDSVOLL
-1388 Isac Heide
+Isac Heide
 7153 GARTEN
-1389 Benedikte Christiansen
+Benedikte Christiansen
 2425 LJØRDALEN
-1390 Brith Waaler
+Brith Waaler
 7549 TANEM
-1391 Annika Hausken
+Annika Hausken
 1607 FREDRIKSTAD
-1392 Thor Søndenå
+Thor Søndenå
 7032 TRONDHEIM
-1393 Milla Haugli
+Milla Haugli
 8074 BODØ
-1394 Brian Utgård
+Brian Utgård
 9481 HARSTAD
-1395 Alexandra Svanberg
+Alexandra Svanberg
 1413 TÅRNÅSEN
-1396 Amund Høydahl
+Amund Høydahl
 4376 HELLELAND
-1397 Alina Fossen
+Alina Fossen
 9915 KIRKENES
-1398 Sylvi Fadnes
+Sylvi Fadnes
 5450 SUNDE I SUNNHORDLAND
-1399 Dan Yttervik
+Dan Yttervik
 7007 TRONDHEIM
-1400 Dominik Roland
+Dominik Roland
 5819 BERGEN
-1401 Zahra Josdal
+Zahra Josdal
 3535 KRØDEREN
-1402 Ingvill Kvande
+Ingvill Kvande
 7268 TITRAN
-1403 Samuel Aaseth
+Samuel Aaseth
 2076 DAL
-1404 Ingelin Holberg
+Ingelin Holberg
 6040 VIGRA
-1405 Ivan Stendal
+Ivan Stendal
 7725 STEINKJER
-1406 Erling Sandstad
+Erling Sandstad
 2150 ÅRNES
-1407 Thi Ahmed
+Thi Ahmed
 3950 BREVIK
-1408 Jane Nesbø
+Jane Nesbø
 2603 LILLEHAMMER
-1409 Sebastian Haraldseid
+Sebastian Haraldseid
 2009 NORDBY
-1410 Paula Rohde
+Paula Rohde
 0048 OSLO
-1411 Tonny Berntzen
+Tonny Berntzen
 2065 GARDERMOEN
-1412 Ingerid Smestad
+Ingerid Smestad
 4201 SAUDA
-1413 Daniela Isdahl
+Daniela Isdahl
 0279 OSLO
-1414 Damian Leirvåg
+Damian Leirvåg
 4354 VOLL
-1415 Abdullah Heggedal
+Abdullah Heggedal
 2817 GJØVIK
-1416 Leiv Nyland
+Leiv Nyland
 6481 AUKRA
-1417 Thormod Hellem
+Thormod Hellem
 1396 BILLINGSTAD
-1418 Thomas Lindtveit
+Thomas Lindtveit
 9253 TROMSØ
-1419 Tonje Igland
+Tonje Igland
 4516 MANDAL
-1420 Gitte Bjørgen
+Gitte Bjørgen
 7014 TRONDHEIM
-1421 Tom-erik Hjulstad
+Tom-erik Hjulstad
 9912 HESSENG
-1422 Rut Øksnes
+Rut Øksnes
 5416 STORD
-1423 Otto Østhus
+Otto Østhus
 6443 TORNES I ROMSDAL
-1424 Kristine Børresen
+Kristine Børresen
 6772 NORDFJORDEID
-1425 Birk Ophaug
+Birk Ophaug
 5411 STORD
-1426 Andrea Stokkeland
+Andrea Stokkeland
 0247 OSLO
-1427 Hjørdis Øyen
+Hjørdis Øyen
 3232 SANDEFJORD
-1428 Eyvind Kringstad
+Eyvind Kringstad
 1607 FREDRIKSTAD
-1429 Herborg Becker
+Herborg Becker
 0152 OSLO
-1430 Louise Worren
+Louise Worren
 9379 GRYLLEFJORD
-1431 Borgar Rodal
+Borgar Rodal
 2260 KIRKENÆR
-1432 Malin Myrvoll
+Malin Myrvoll
 4801 ARENDAL
-1433 Angela Svensen
+Angela Svensen
 6629 TORJULVÅGEN
-1434 Thoralf Sande
+Thoralf Sande
 5614 ÅLVIK
-1435 Håkon Norman
+Håkon Norman
 0679 OSLO
-1436 Paal Bredesen
+Paal Bredesen
 8114 TOLLÅ
-1437 Eline Høyer
+Eline Høyer
 5779 UTNE
-1438 Gerda Kielland
+Gerda Kielland
 3247 SANDEFJORD
-1439 Lea Storli
+Lea Storli
 6431 BUD
-1440 Sandra Melvold
+Sandra Melvold
 6020 ÅLESUND
-1441 Brede Kjørstad
+Brede Kjørstad
 7042 TRONDHEIM
-1442 Amelia Johnson
+Amelia Johnson
 8186 TJONGSFJORDEN
-1443 Målfrid Koch
+Målfrid Koch
 9306 FINNSNES
-1444 Agathe Andresen
+Agathe Andresen
 8298 HAMARØY
-1445 Pawel Misje
+Pawel Misje
 4745 BYGLAND
-1446 Darius Løberg
+Darius Løberg
 1753 HALDEN
-1447 Linn Engebråten
+Linn Engebråten
 2663 DOVRESKOGEN
-1448 Arnfinn Stensrud
+Arnfinn Stensrud
 9424 KJØTTA
-1449 Georg Hafstad
+Georg Hafstad
 1663 ROLVSØY
-1450 Ingolf Feragen
+Ingolf Feragen
 4304 SANDNES
-1451 Erling Viddal
+Erling Viddal
 9950 VARDØ
-1452 Therese Kyllingstad
+Therese Kyllingstad
 7985 FOLDEREID
-1453 Eline Sandberg
+Eline Sandberg
 1472 FJELLHAMAR
-1454 Frank Røssland
+Frank Røssland
 4673 KRISTIANSAND S
-1455 Audhild Borgersen
+Audhild Borgersen
 6396 VIKEBUKT
-1456 Hilmar Havnen
+Hilmar Havnen
 6100 VOLDA
-1457 Anton Rinden
+Anton Rinden
 5284 TYSSEBOTNEN
-1458 Kine Hoem
+Kine Hoem
 5845 BERGEN
-1459 Sabrina Einarsen
+Sabrina Einarsen
 5207 SØFTELAND
-1460 Frederik Torgersen
+Frederik Torgersen
 1625 MANSTAD
-1461 Niklas Skaar
+Niklas Skaar
 5784 ØVRE EIDFJORD
-1462 Reidar Grannes
+Reidar Grannes
 8447 LONKAN
-1463 Kamilla Kalstad
+Kamilla Kalstad
 0193 OSLO
-1464 Muhammed Ramsøy
+Muhammed Ramsøy
 9405 HARSTAD
-1465 Nathaniel Sommerseth
+Nathaniel Sommerseth
 4010 STAVANGER
-1466 Bjørg Axelsen
+Bjørg Axelsen
 2061 GARDERMOEN
-1467 Sturle Øien
+Sturle Øien
 1670 KRÅKERØY
-1468 Anja Runde
+Anja Runde
 3291 STAVERN
-1469 Øivind Hegna
+Øivind Hegna
 8407 GODFJORD
-1470 Bjørn-erik Halsen
+Bjørn-erik Halsen
 2634 FÅVANG
-1471 Dariusz Lura
+Dariusz Lura
 0758 OSLO
-1472 Rolf Stokkan
+Rolf Stokkan
 9710 INDRE BILLEFJORD
-1473 Joar Herdlevær
+Joar Herdlevær
 2326 HAMAR
-1474 Turid Rindal
+Turid Rindal
 2618 LILLEHAMMER
-1475 Caroline Glad
+Caroline Glad
 8023 BODØ
-1476 Fredrik Skjønberg
+Fredrik Skjønberg
 0572 OSLO
-1477 Torleiv Torbjørnsen
+Torleiv Torbjørnsen
 5707 EVANGER
-1478 Jim Høgberg
+Jim Høgberg
 9147 BIRTAVARRE
-1479 Herman Phan
+Herman Phan
 9481 HARSTAD
-1480 Lasse Zhang
+Lasse Zhang
 8261 INNHAVET
-1481 Julia Kolltveit
+Julia Kolltveit
 5217 HAGAVIK
-1482 Tora Os
+Tora Os
 6789 LOEN
-1483 Gunnbjørg Tvedt
+Gunnbjørg Tvedt
 2750 GRAN
-1484 Øyvind Petterson
+Øyvind Petterson
 7563 MALVIK
-1485 Pernille Haugland
+Pernille Haugland
 1591 SPERREBOTN
-1486 Lukas Alm
+Lukas Alm
 3183 HORTEN
-1487 Ahmed Espe
+Ahmed Espe
 4579 LYNGDAL
-1488 Mark Øvergård
+Mark Øvergård
 5895 BERGEN
-1489 Katja Aandal
+Katja Aandal
 9288 TROMSØ
-1490 Sigrid Stordahl
+Sigrid Stordahl
 8004 BODØ
-1491 Villy Stiansen
+Villy Stiansen
 1722 SARPSBORG
-1492 Åsta Ekker
+Åsta Ekker
 3608 HEISTADMOEN
-1493 Catharina Hovden
+Catharina Hovden
 7629 YTTERØY
-1494 Ask Wiken
+Ask Wiken
 3737 SKIEN
-1495 Elfrid Grotle
+Elfrid Grotle
 3912 PORSGRUNN
-1496 Justyna Gjestvang
+Justyna Gjestvang
 9288 TROMSØ
-1497 Dan Olsnes
+Dan Olsnes
 9716 BØRSELV
-1498 Renata Sørbø
+Renata Sørbø
 5824 BERGEN
-1499 Otto Heggedal
+Otto Heggedal
 4356 KVERNALAND
-1500 Oda Jahr
+Oda Jahr
 
-1501 Mindaugas Dahl
+Mindaugas Dahl
 0504 OSLO
-1502 Anthony Hornnes
+Anthony Hornnes
 1278 OSLO
-1503 Ståle Kofoed
+Ståle Kofoed
 1088 OSLO
-1504 Martine Stokland
+Martine Stokland
 9275 TROMSØ
-1505 Amund Rasch
+Amund Rasch
 8608 MO I RANA
-1506 Hedvig Rødland
+Hedvig Rødland
 0557 OSLO
-1507 Juni Stormoen
+Juni Stormoen
 9616 HAMMERFEST
-1508 Gitte Wold
+Gitte Wold
 1825 TOMTER
-1509 Fride Haukeland
+Fride Haukeland
 9049 NORDKJOSBOTN
-1510 Jardar Yildirim
+Jardar Yildirim
 4158 BRU
-1511 Amina Fagerli
+Amina Fagerli
 3125 TØNSBERG
-1512 Justyna Aaseth
+Justyna Aaseth
 4754 BYKLE
-1513 Magnus Malvik
+Magnus Malvik
 1665 ROLVSØY
-1514 Oddbjørn Kaldestad
+Oddbjørn Kaldestad
 3401 LIER
-1515 Imre Tjelta
+Imre Tjelta
 3730 SKIEN
-1516 Cecilia Foss
+Cecilia Foss
 1769 HALDEN
-1517 Ellen Fredriksen
+Ellen Fredriksen
 4575 LYNGDAL
-1518 Oddny Ryeng
+Oddny Ryeng
 3502 HØNEFOSS
-1519 Tale Fremstad
+Tale Fremstad
 3208 SANDEFJORD
-1520 Adam Gustad
+Adam Gustad
 7977 HØYLANDET
-1521 Stine Trulsen
+Stine Trulsen
 9292 TROMSØ
-1522 Iben Valle
+Iben Valle
 5105 EIDSVÅG I ÅSANE
-1523 Sigmund Gillebo
+Sigmund Gillebo
 0368 OSLO
-1524 Janicke Hollund
+Janicke Hollund
 2920 LEIRA I VALDRES
-1525 Kjellfrid Mellum
+Kjellfrid Mellum
 0410 OSLO
-1526 Ask Ekelund
+Ask Ekelund
 9981 BERLEVÅG
-1527 Reidar Røsten
+Reidar Røsten
 9624 REVSNESHAMN
-1528 Cornelia Bergquist
+Cornelia Bergquist
 6411 MOLDE
-1529 Alvin Hokstad
+Alvin Hokstad
 5977 ÅNNELAND
-1530 Bjørg Kåsa
+Bjørg Kåsa
 9009 TROMSØ
-1531 Aage Villanger
+Aage Villanger
 1851 MYSEN
-1532 Ahmed Vie
+Ahmed Vie
 0584 OSLO
-1533 Oddvin Leirdal
+Oddvin Leirdal
 8489 NORDMELA
-1534 Petra Leirvåg
+Petra Leirvåg
 4047 HAFRSFJORD
-1535 Angelica Soltveit
+Angelica Soltveit
 0772 OSLO
-1536 Roald Rosseland
+Roald Rosseland
 4150 RENNESØY
-1537 Brynjulf Grønbech
+Brynjulf Grønbech
 7596 FLAKNAN
-1538 Aida Tokle
+Aida Tokle
 2432 SLETTÅS
-1539 Daniela Dokken
+Daniela Dokken
 8733 STUVLAND
-1540 Roland Richardsen
+Roland Richardsen
 2214 KONGSVINGER
-1541 Anita Mauseth
+Anita Mauseth
 5184 OLSVIK
-1542 Arnulf Espedal
+Arnulf Espedal
 0129 OSLO
-1543 Vilhelm Nordgaard
+Vilhelm Nordgaard
 2910 AURDAL
-1544 Jenny Kryger
+Jenny Kryger
 2663 DOVRESKOGEN
-1545 Haldor Sundstrøm
+Haldor Sundstrøm
 5531 HAUGESUND
-1546 Anni Dragland
+Anni Dragland
 7742 YTTERVÅG
-1547 Elina Jansson
+Elina Jansson
 0133 OSLO
-1548 Mohammad Jordan
+Mohammad Jordan
 2004 LILLESTRØM
-1549 Sanne Sjøberg
+Sanne Sjøberg
 2315 HAMAR
-1550 Amin Grini
+Amin Grini
 3853 VRÅDAL
-1551 Nils Fauske
+Nils Fauske
 8072 BODØ
-1552 Aud Fiskum
+Aud Fiskum
 9446 GROVFJORD
-1553 Torbjørn Hokstad
+Torbjørn Hokstad
 4869 DØLEMO
-1554 Sander Mahmood
+Sander Mahmood
 5804 BERGEN
-1555 Ask Øvstedal
+Ask Øvstedal
 4629 KRISTIANSAND S
-1556 Louis Løken
+Louis Løken
 1784 HALDEN
-1557 Matheo Aabø
+Matheo Aabø
 9384 SKALAND
-1558 Oddgeir Vindenes
+Oddgeir Vindenes
 6841 SKEI I JØLSTER
-1559 Torbjørn Røe
+Torbjørn Røe
 3132 HUSØYSUND
-1560 Arild Fjeldberg
+Arild Fjeldberg
 5583 VIKEDAL
-1561 Amelia Granerud
+Amelia Granerud
 3560 HEMSEDAL
-1562 Matthias Velle
+Matthias Velle
 9802 VESTRE JAKOBSELV
-1563 Knut Haugland
+Knut Haugland
 3174 REVETAL
-1564 Ørnulf Rishaug
+Ørnulf Rishaug
 5305 FLORVÅG
-1565 Torunn Grønningsæter
+Torunn Grønningsæter
 5981 MASFJORDNES
-1566 Lydia Gjestad
+Lydia Gjestad
 0772 OSLO
-1567 Sunniva Våge
+Sunniva Våge
 4633 KRISTIANSAND S
-1568 Hermod Brynjulfsen
+Hermod Brynjulfsen
 5329 FLORVÅG
-1569 Said Trengereid
+Said Trengereid
 8290 SKUTVIK
-1570 Gisle Hjelvik
+Gisle Hjelvik
 5591 ETNE
-1571 Dan Netland
+Dan Netland
 9489 HARSTAD
-1572 Gretha Lekve
+Gretha Lekve
 7882 NORDLI
-1573 Mohamed Hol
+Mohamed Hol
 7873 HARRAN
-1574 Sigfred Salomonsen
+Sigfred Salomonsen
 2809 GJØVIK
-1575 Ada Grande
+Ada Grande
 1830 ASKIM
-1576 Hugo Engstrøm
+Hugo Engstrøm
 5889 BERGEN
-1577 Ingebrigt Tjøtta
+Ingebrigt Tjøtta
 4160 FINNØY
-1578 Alexandra Løvold
+Alexandra Løvold
 5563 FØRRESFJORDEN
-1579 Yusuf Robstad
+Yusuf Robstad
 3854 NISSEDAL
-1580 Anne-lise Krasniqi
+Anne-lise Krasniqi
 6645 TODALEN
-1581 Pauline Stokstad
+Pauline Stokstad
 6021 ÅLESUND
-1582 Tarjei Tufte
+Tarjei Tufte
 5464 DIMMELSVIK
-1583 Ingvald Rystad
+Ingvald Rystad
 4134 JØSENFJORDEN
-1584 Gabriel Arnestad
+Gabriel Arnestad
 4737 HORNNES
-1585 Hilda Vogt
+Hilda Vogt
 5397 BEKKJARVIK
-1586 Rut Seppola
+Rut Seppola
 0276 OSLO
-1587 Natalie Hånes
+Natalie Hånes
 5779 UTNE
-1588 Malene Bjørn
+Malene Bjørn
 0487 OSLO
-1589 Sofia Severinsen
+Sofia Severinsen
 5637 ØLVE
-1590 Odd Vindenes
+Odd Vindenes
 9934 BUGØYFJORD
-1591 Jenny Ytreland
+Jenny Ytreland
 1275 OSLO
-1592 Odd Stadheim
+Odd Stadheim
 3914 PORSGRUNN
-1593 Kåre Laugen
+Kåre Laugen
 1363 HØVIK
-1594 Eline Veiby
+Eline Veiby
 0040 OSLO
-1595 Erlend Haugo
+Erlend Haugo
 4335 DIRDAL
-1596 Amir Vestad
+Amir Vestad
 3022 DRAMMEN
-1597 Catharina Skinnes
+Catharina Skinnes
 7003 TRONDHEIM
-1598 Anne-lise Bruvoll
+Anne-lise Bruvoll
 4705 ØVREBØ
-1599 Arnljot Lade
+Arnljot Lade
 0112 OSLO
-1600 Maia Borsheim
+Maia Borsheim
 6828 HESTENESØYRA
-1601 Ågot Rikardsen
+Ågot Rikardsen
 7361 RØROS
-1602 Gunhild Wickstrøm
+Gunhild Wickstrøm
 9448 RAMSUND
-1603 Tor-erik Skjervold
+Tor-erik Skjervold
 9120 VENGSØY
-1604 Gunn Raza
+Gunn Raza
 2033 ÅSGREINA
-1605 Merete Sagmo
+Merete Sagmo
 3916 PORSGRUNN
-1606 Ronja Kausar
+Ronja Kausar
 4846 ARENDAL
-1607 Annette Egenes
+Annette Egenes
 1830 ASKIM
-1608 Barbara Engenes
+Barbara Engenes
 3238 SANDEFJORD
-1609 David Ngo
+David Ngo
 9306 FINNSNES
-1610 Rannveig Holvik
+Rannveig Holvik
 2960 RØN
-1611 Mahmoud Valø
+Mahmoud Valø
 4022 STAVANGER
-1612 Stina Furre
+Stina Furre
 3580 GEILO
-1613 Vilja Dahlstrøm
+Vilja Dahlstrøm
 4233 ERFJORD
-1614 Astrid Sandvik
+Astrid Sandvik
 5642 HOLMEFJORD
-1615 Eskild Frantzen
+Eskild Frantzen
 7716 STEINKJER
-1616 Mohamed Aglen
+Mohamed Aglen
 5741 AURLAND
-1617 Arvid Ahmed
+Arvid Ahmed
 6213 TAFJORD
-1618 Wiggo Thorgersen
+Wiggo Thorgersen
 4326 SANDNES
-1619 Kari Eliassen
+Kari Eliassen
 0403 OSLO
-1620 Minh Hatlen
+Minh Hatlen
 5847 BERGEN
-1621 Venke Skomedal
+Venke Skomedal
 2612 SJUSJØEN
-1622 Tom Josefsen
+Tom Josefsen
 6523 FREI
-1623 Claus Fidje
+Claus Fidje
 1481 HAGAN
-1624 Freddy Jones
+Freddy Jones
 9171 LONGYEARBYEN
-1625 Pål Engevold
+Pål Engevold
 7334 STORÅS
-1626 Håvar Eek
+Håvar Eek
 7010 TRONDHEIM
-1627 Elisa Hilde
+Elisa Hilde
 7551 HOMMELVIK
-1628 Linda Hope
+Linda Hope
 7099 FLATÅSEN
-1629 Heidi Malmedal
+Heidi Malmedal
 0025 OSLO
-1630 Rudolf Garberg
+Rudolf Garberg
 7231 LUNDAMO
-1631 Linnea Evenstad
+Linnea Evenstad
 2110 SLÅSTAD
-1632 Gøril Øygard
+Gøril Øygard
 3931 PORSGRUNN
-1633 Borgny Gustad
+Borgny Gustad
 2208 KONGSVINGER
-1634 Ragnhild Klette
+Ragnhild Klette
 2403 ELVERUM
-1635 Jill Heiberg
+Jill Heiberg
 1711 SARPSBORG
-1636 Trond Hauglid
+Trond Hauglid
 5104 EIDSVÅG I ÅSANE
-1637 Bror Sjåstad
+Bror Sjåstad
 3540 NESBYEN
-1638 Sten Jonsson
+Sten Jonsson
 3501 HØNEFOSS
-1639 Gudny Tønnessen
+Gudny Tønnessen
 5778 UTNE
-1640 Flemming Valde
+Flemming Valde
 4953 RISØR
-1641 Bergliot Strømstad
+Bergliot Strømstad
 3291 STAVERN
-1642 Johanna Emanuelsen
+Johanna Emanuelsen
 1709 SARPSBORG
-1643 Karianne Gustafsson
+Karianne Gustafsson
 4827 FROLANDS VERK
-1644 Jane Marvik
+Jane Marvik
 5519 HAUGESUND
-1645 Andrine Hatland
+Andrine Hatland
 5574 SKJOLD
-1646 Teodor Natås
+Teodor Natås
 6009 ÅLESUND
-1647 Olai Walderhaug
+Olai Walderhaug
 6453 KLEIVE
-1648 Ted Oksnes
+Ted Oksnes
 4095 STAVANGER
-1649 Magda Hegg
+Magda Hegg
 3521 JEVNAKER
-1650 Edgar Salamonsen
+Edgar Salamonsen
 7425 TRONDHEIM
-1651 Ryszard Warsame
+Ryszard Warsame
 9272 TROMSØ
-1652 Sofie Bjune
+Sofie Bjune
 1752 HALDEN
-1653 Kirsten Ranum
+Kirsten Ranum
 6927 YTRØYGREND
-1654 Guro Brandvik
+Guro Brandvik
 2687 BØVERDALEN
-1655 Lisbet Lindstad
+Lisbet Lindstad
 3483 KANA
-1656 Baard Holand
+Baard Holand
 2966 SLIDRE
-1657 Ingjerd Sollien
+Ingjerd Sollien
 6806 NAUSTDAL
-1658 Solvår Våge
+Solvår Våge
 1481 HAGAN
-1659 Kamilla Sæland
+Kamilla Sæland
 0103 OSLO
-1660 Lars-erik Betten
+Lars-erik Betten
 1870 ØRJE
-1661 Bengt Egeland
+Bengt Egeland
 6410 MOLDE
-1662 Christoffer Nyquist
+Christoffer Nyquist
 0595 OSLO
-1663 Adam Sørum
+Adam Sørum
 0580 OSLO
-1664 Venche Bakkan
+Venche Bakkan
 4270 ÅKREHAMN
-1665 Hussein Repstad
+Hussein Repstad
 6601 SUNNDALSØRA
-1666 Pawel Log
+Pawel Log
 1112 OSLO
-1667 Elfrid Aase
+Elfrid Aase
 7540 KLÆBU
-1668 Inger-lise Fagerhaug
+Inger-lise Fagerhaug
 4275 SÆVELANDSVIK
-1669 Agnes Lund
+Agnes Lund
 1628 ENGELSVIKEN
-1670 Ali Baltzersen
+Ali Baltzersen
 9501 ALTA
-1671 Siren Bastiansen
+Siren Bastiansen
 9291 TROMSØ
-1672 Annette Kristensen
+Annette Kristensen
 2242 MOROKULIEN
-1673 Håvar Winje
+Håvar Winje
 5729 MODALEN
-1674 Bartosz Vangen
+Bartosz Vangen
 6828 HESTENESØYRA
-1675 Ådne Grønning
+Ådne Grønning
 6408 AUREOSEN
-1676 Vilde Alm
+Vilde Alm
 3525 HALLINGBY
-1677 Tobias Dyrkorn
+Tobias Dyrkorn
 4092 STAVANGER
-1678 Martine Skjelvik
+Martine Skjelvik
 3161 STOKKE
-1679 Mildrid Skaugen
+Mildrid Skaugen
 9194 LAUKSLETTA
-1680 Anfinn Idland
+Anfinn Idland
 2816 GJØVIK
-1681 Marvin Polden
+Marvin Polden
 0577 OSLO
-1682 Adnan Lone
+Adnan Lone
 7286 SØRBURØY
-1683 Alf Lundal
+Alf Lundal
 2019 SKEDSMOKORSET
-1684 Catherine Stenberg
+Catherine Stenberg
 9713 RUSSENES
-1685 Allan Nyseth
+Allan Nyseth
 0186 OSLO
-1686 Tonny Kleiven
+Tonny Kleiven
 5835 BERGEN
-1687 Nathalie Ihlen
+Nathalie Ihlen
 6878 VEITASTROND
-1688 Asta Klaussen
+Asta Klaussen
 8011 BODØ
-1689 Catharina Langøy
+Catharina Langøy
 5721 DALEKVAM
-1690 Sabine Johannessen
+Sabine Johannessen
 2072 DAL
-1691 Paula Sandbakken
+Paula Sandbakken
 3490 KLOKKARSTUA
-1692 Margrethe Sandaker
+Margrethe Sandaker
 5983 HAUGSVÆR
-1693 Birgitte Formo
+Birgitte Formo
 1476 RASTA
-1694 Jill Brenna
+Jill Brenna
 3673 NOTODDEN
-1695 Gjermund Blom
+Gjermund Blom
 2604 LILLEHAMMER
-1696 Maiken Igland
+Maiken Igland
 7321 FANNREM
-1697 Andrius Wiggen
+Andrius Wiggen
 3028 DRAMMEN
-1698 Baard Hætta
+Baard Hætta
 4153 BRIMSE
-1699 Christer Håvik
+Christer Håvik
 3727 SKIEN
-1700 Oskar Eriksen
+Oskar Eriksen
 5641 FUSA
-1701 Torolf Jespersen
+Torolf Jespersen
 4012 STAVANGER
-1702 Eira Bjerkeli
+Eira Bjerkeli
 8520 ANKENESSTRAND
-1703 Ingebrigt Stene
+Ingebrigt Stene
 6703 MÅLØY
-1704 Rudi Slinning
+Rudi Slinning
 9672 INGØY
-1705 Åge Flatås
+Åge Flatås
 6330 VERMA
-1706 Hamza Nyhuus
+Hamza Nyhuus
 3222 SANDEFJORD
-1707 Sigvald Bentsen
+Sigvald Bentsen
 5518 HAUGESUND
-1708 Emine Lid
+Emine Lid
 5412 STORD
-1709 Maria Alfredsen
+Maria Alfredsen
 6293 LONGVA
-1710 Idunn Tellefsen
+Idunn Tellefsen
 6069 HAREID
-1711 Aagot Løvli
+Aagot Løvli
 4605 KRISTIANSAND S
-1712 Balder Toft
+Balder Toft
 6985 ATLØY
-1713 Victoria Kvame
+Victoria Kvame
 9950 VARDØ
-1714 Syver Jevnaker
+Syver Jevnaker
 1532 MOSS
-1715 Connie Tessem
+Connie Tessem
 2009 NORDBY
-1716 Dennis Sivertsen
+Dennis Sivertsen
 7690 MOSVIK
-1717 Edit Tandberg
+Edit Tandberg
 5417 STORD
-1718 Oddmund Bremseth
+Oddmund Bremseth
 9285 TROMSØ
-1719 Julie Hasund
+Julie Hasund
 3166 TOLVSRØD
-1720 Torild Storeide
+Torild Storeide
 0172 OSLO
-1721 Ulla Erland
+Ulla Erland
 5907 ALVERSUND
-1722 Ada Gaup
+Ada Gaup
 6729 KALVÅG
-1723 Nicklas Sund
+Nicklas Sund
 8657 MOSJØEN
-1724 Trygve Olavesen
+Trygve Olavesen
 5457 HØYLANDSBYGD
-1725 Kirsti Husebø
+Kirsti Husebø
 4307 SANDNES
-1726 Ole-christian Hauger
+Ole-christian Hauger
 9509 ALTA
-1727 Amir Eek
+Amir Eek
 9040 NORDKJOSBOTN
-1728 Walter Ensrud
+Walter Ensrud
 6538 AVERØY
-1729 Michal Tveito
+Michal Tveito
 2730 LUNNER
-1730 Angela Grannes
+Angela Grannes
 9175 SVEAGRUVA
-1731 Øystein Haukås
+Øystein Haukås
 1354 BÆRUMS VERK
-1732 Carina Fonnes
+Carina Fonnes
 1009 OSLO
-1733 Victor Myrhaug
+Victor Myrhaug
 2646 GÅLÅ
-1734 Lilly Hårstad
+Lilly Hårstad
 1536 MOSS
-1735 Preben Bjørgum
+Preben Bjørgum
 3905 PORSGRUNN
-1736 Idar Njærheim
+Idar Njærheim
 4158 BRU
-1737 Vemund Østmo
+Vemund Østmo
 1920 SØRUMSAND
-1738 Andres Fagerbakke
+Andres Fagerbakke
 2649 ØSTRE GAUSDAL
-1739 Mette Fossheim
+Mette Fossheim
 4403 FLEKKEFJORD
-1740 Ewa Sundberg
+Ewa Sundberg
 6408 AUREOSEN
-1741 Bengt Baardsen
+Bengt Baardsen
 3701 SKIEN
-1742 Birte Haarr
+Birte Haarr
 3006 DRAMMEN
-1743 Patrik Solvang
+Patrik Solvang
 3045 DRAMMEN
-1744 Mie Mathiassen
+Mie Mathiassen
 7127 OPPHAUG
-1745 Solvor Ryen
+Solvor Ryen
 0562 OSLO
-1746 Edin Olaussen
+Edin Olaussen
 5993 OSTEREIDET
-1747 Jean Frøiland
+Jean Frøiland
 9590 HASVIK
-1748 Isabelle Høye
+Isabelle Høye
 2266 ARNEBERG
-1749 Toril Gramstad
+Toril Gramstad
 1641 RÅDE
-1750 Gøril Woll
+Gøril Woll
 1431 ÅS
-1751 Oddrun Mjelde
+Oddrun Mjelde
 2860 HOV
-1752 Holger Nicolaisen
+Holger Nicolaisen
 6655 VINDØLA
-1753 Herborg Hogstad
+Herborg Hogstad
 8805 SANDNESSJØEN
-1754 Zahra Hval
+Zahra Hval
 4696 KRISTIANSAND S
-1755 Mats Bolme
+Mats Bolme
 1357 BEKKESTUA
-1756 Esther Saur
+Esther Saur
 4154 AUSTRE ÅMØY
-1757 Hanna Thorud
+Hanna Thorud
 7011 TRONDHEIM
-1758 Hans-petter Løtveit
+Hans-petter Løtveit
 6611 FURUGRENDA
-1759 David Lia
+David Lia
 0129 OSLO
-1760 Mohammed Tomren
+Mohammed Tomren
 5574 SKJOLD
-1761 Jørg Bjørge
+Jørg Bjørge
 5398 STOLMEN
-1762 Birte Thorud
+Birte Thorud
 1487 HAKADAL
-1763 Mona Opland
+Mona Opland
 7439 TRONDHEIM
-1764 Ailin Tveter
+Ailin Tveter
 9600 HAMMERFEST
-1765 Balder Vike
+Balder Vike
 1734 HAFSLUNDSØY
-1766 Unn Mostad
+Unn Mostad
 4045 HAFRSFJORD
-1767 Thordis Schjelderup
+Thordis Schjelderup
 9321 MOEN
-1768 Arve Rostad
+Arve Rostad
 3611 KONGSBERG
-1769 Jill Krane
+Jill Krane
 7401 TRONDHEIM
-1770 Maryam Kapstad
+Maryam Kapstad
 8283 LEINESFJORD
-1771 Jan Lura
+Jan Lura
 1284 OSLO
-1772 Margareth Tjøsvoll
+Margareth Tjøsvoll
 9714 SNEFJORD
-1773 Mads Ulvestad
+Mads Ulvestad
 8602 MO I RANA
-1774 Ann-mari Ryan
+Ann-mari Ryan
 1633 GAMLE FREDRIKSTAD
-1775 Halvor Olufsen
+Halvor Olufsen
 5058 BERGEN
-1776 Arna Aarset
+Arna Aarset
 2256 GRUE FINNSKOG
-1777 Jan-erik Eik
+Jan-erik Eik
 3201 SANDEFJORD
-1778 Eldbjørg Sandbakk
+Eldbjørg Sandbakk
 9277 TROMSØ
-1779 Mats Viken
+Mats Viken
 0266 OSLO
-1780 Daniel Gerhardsen
+Daniel Gerhardsen
 6285 STOREKALVØY
-1781 Åge Svenkerud
+Åge Svenkerud
 7884 SØRLI
-1782 Teresa Løkkeberg
+Teresa Løkkeberg
 4146 SKIFTUN
-1783 Else-marie Tømmerås
+Else-marie Tømmerås
 8031 BODØ
-1784 May-britt Falk
+May-britt Falk
 7744 HEPSØY
-1785 Aslak Osen
+Aslak Osen
 3864 RAULAND
-1786 Bjørge Wibe
+Bjørge Wibe
 3224 SANDEFJORD
-1787 Janet Fløtre
+Janet Fløtre
 1373 ASKER
-1788 Vilhelm Konradsen
+Vilhelm Konradsen
 3901 PORSGRUNN
-1789 Henryk Høivik
+Henryk Høivik
 4820 FROLAND
-1790 Nathaniel Lam
+Nathaniel Lam
 6853 SOGNDAL
-1791 Arnold Haveland
+Arnold Haveland
 6973 SANDE I SUNNFJORD
-1792 Therese Nes
+Therese Nes
 0881 OSLO
-1793 Imran Smedstad
+Imran Smedstad
 0167 OSLO
-1794 Eskil Skaugen
+Eskil Skaugen
 9263 TROMSØ
-1795 Peter Ødegaard
+Peter Ødegaard
 8618 MO I RANA
-1796 Mikkel Undheim
+Mikkel Undheim
 6454 HJELSET
-1797 Benedikte Molden
+Benedikte Molden
 7500 STJØRDAL
-1798 Noah Skogli
+Noah Skogli
 5229 KALANDSEIDET
-1799 Maia Grinden
+Maia Grinden
 0172 OSLO
-1800 Emanuel Hveding
+Emanuel Hveding
 0080 OSLO
-1801 Ingvar Egeli
+Ingvar Egeli
 7658 VERDAL
-1802 Janne Uthaug
+Janne Uthaug
 4306 SANDNES
-1803 Øistein Lone
+Øistein Lone
 0048 OSLO
-1804 Merete Smedstad
+Merete Smedstad
 3095 EIDSFOSS
-1805 Kajsa Myller
+Kajsa Myller
 9315 SØRREISA
-1806 Edward Kalland
+Edward Kalland
 8266 MØRSVIKBOTN
-1807 Anita Svanes
+Anita Svanes
 3201 SANDEFJORD
-1808 Aaron Thrane
+Aaron Thrane
 5402 STORD
-1809 Anne-mari Oliversen
+Anne-mari Oliversen
 4473 KVINLOG
-1810 Olai Munthe
+Olai Munthe
 5861 BERGEN
-1811 Agnete Nordhaug
+Agnete Nordhaug
 6450 HJELSET
-1812 Anne-britt Viken
+Anne-britt Viken
 0188 OSLO
-1813 Hildur Høiland
+Hildur Høiland
 0266 OSLO
-1814 Amalie Sortland
+Amalie Sortland
 5504 HAUGESUND
-1815 Jaroslaw Abelsen
+Jaroslaw Abelsen
 4154 AUSTRE ÅMØY
-1816 Tadeusz Lysne
+Tadeusz Lysne
 4674 KRISTIANSAND S
-1817 Josephine Bjerke
+Josephine Bjerke
 0690 OSLO
-1818 Maya Haugseth
+Maya Haugseth
 0317 OSLO
-1819 Gina Fossmo
+Gina Fossmo
 6200 STRANDA
-1820 Stina Saur
+Stina Saur
 1802 ASKIM
-1821 Ann-mari Tørstad
+Ann-mari Tørstad
 6260 SKODJE
-1822 Cathrin Mohamud
+Cathrin Mohamud
 7310 GJØLME
-1823 Samira Åsen
+Samira Åsen
 3087 BOTNE
-1824 Mohammed Tveitan
+Mohammed Tveitan
 1508 MOSS
-1825 Evald Omland
+Evald Omland
 1814 ASKIM
-1826 Kim-andre Sandø
+Kim-andre Sandø
 7150 STORFOSNA
-1827 Torunn Høydahl
+Torunn Høydahl
 2602 LILLEHAMMER
-1828 Henrikke Nøkleby
+Henrikke Nøkleby
 8014 BODØ
-1829 Amir Myklebust
+Amir Myklebust
 3210 SANDEFJORD
-1830 Aida Idsøe
+Aida Idsøe
 0587 OSLO
-1831 Rønnaug Dalheim
+Rønnaug Dalheim
 5231 PARADIS
-1832 Dag Bertelsen
+Dag Bertelsen
 4319 SANDNES
-1833 Alexandra Gill
+Alexandra Gill
 5013 BERGEN
-1834 Kirsten Kalvik
+Kirsten Kalvik
 2309 HAMAR
-1835 Jose Wie
+Jose Wie
 0185 OSLO
-1836 Lena Tønsberg
+Lena Tønsberg
 4715 ØVREBØ
-1837 Natalia Engstrøm
+Natalia Engstrøm
 5537 HAUGESUND
-1838 Ella Grønnevik
+Ella Grønnevik
 2320 FURNES
-1839 Alex Devold
+Alex Devold
 1250 OSLO
-1840 Gunn Værnes
+Gunn Værnes
 1606 FREDRIKSTAD
-1841 Therese Nyhus
+Therese Nyhus
 0150 OSLO
-1842 Wieslaw Bach
+Wieslaw Bach
 3341 ÅMOT
-1843 Mahmoud Fagerland
+Mahmoud Fagerland
 5405 STORD
-1844 Sabine Hesjedal
+Sabine Hesjedal
 9846 TANA
-1845 Kjellfrid Øygard
+Kjellfrid Øygard
 5416 STORD
-1846 Arnulf Skjerven
+Arnulf Skjerven
 7486 TRONDHEIM
-1847 Brith Korslund
+Brith Korslund
 4403 FLEKKEFJORD
-1848 Vera Utheim
+Vera Utheim
 1910 ENEBAKKNESET
-1849 Sophia Thorshaug
+Sophia Thorshaug
 4088 STAVANGER
-1850 Lucas Thuen
+Lucas Thuen
 2714 JAREN
-1851 Jan-erik Solum
+Jan-erik Solum
 9512 ALTA
-1852 Tron Nyhagen
+Tron Nyhagen
 3502 HØNEFOSS
-1853 Steffan Aaberg
+Steffan Aaberg
 5015 BERGEN
-1854 Cassandra Hussein
+Cassandra Hussein
 1109 OSLO
-1855 Kim Aasebø
+Kim Aasebø
 1512 MOSS
-1856 Josephine Nesje
+Josephine Nesje
 8086 BODØ
-1857 Elinor Lindholm
+Elinor Lindholm
 7540 KLÆBU
-1858 Cathrine Fischer
+Cathrine Fischer
 3211 SANDEFJORD
-1859 Eivind Bilstad
+Eivind Bilstad
 5427 URANGSVÅG
-1860 Tormod Throndsen
+Tormod Throndsen
 3430 SPIKKESTAD
-1861 Herdis Rosenberg
+Herdis Rosenberg
 2000 LILLESTRØM
-1862 Torodd Børresen
+Torodd Børresen
 8415 HENNES
-1863 Sol Hassan
+Sol Hassan
 4703 VENNESLA
-1864 Abdirahman Wiig
+Abdirahman Wiig
 4119 FORSAND
-1865 Tordis Gunnarsen
+Tordis Gunnarsen
 0353 OSLO
-1866 Philip Dyrøy
+Philip Dyrøy
 4335 DIRDAL
-1867 Gro Bentsen
+Gro Bentsen
 8641 HEMNESBERGET
-1868 Elizabeth Hojem
+Elizabeth Hojem
 7820 SPILLUM
-1869 Matias Korsmo
+Matias Korsmo
 3277 STEINSHOLT
-1870 Jasmin Stensrud
+Jasmin Stensrud
 7540 KLÆBU
-1871 Elin Joa
+Elin Joa
 1823 KNAPSTAD
-1872 Alvin Nyhus
+Alvin Nyhus
 7487 TRONDHEIM
-1873 Waldemar Hellevik
+Waldemar Hellevik
 3684 NOTODDEN
-1874 Karsten Røvik
+Karsten Røvik
 6404 MOLDE
-1875 Marthe Fosen
+Marthe Fosen
 1407 VINTERBRO
-1876 Levi Møller
+Levi Møller
 0135 OSLO
-1877 Siri Seland
+Siri Seland
 4980 GJERSTAD
-1878 Nicolas Holm
+Nicolas Holm
 6655 VINDØLA
-1879 Marek Beck
+Marek Beck
 4307 SANDNES
-1880 Hanne Eriksson
+Hanne Eriksson
 6293 LONGVA
-1881 Joanna Krogsæter
+Joanna Krogsæter
 0875 OSLO
-1882 Ruben Akram
+Ruben Akram
 7485 TRONDHEIM
-1883 Edel Ferstad
+Edel Ferstad
 0190 OSLO
-1884 Idunn Torkildsen
+Idunn Torkildsen
 1815 ASKIM
-1885 Oliver Havn
+Oliver Havn
 5637 ØLVE
-1886 Martinus Borchgrevink
+Martinus Borchgrevink
 4146 SKIFTUN
-1887 Rachel Stubberud
+Rachel Stubberud
 6405 MOLDE
-1888 Audun Ims
+Audun Ims
 3294 STAVERN
-1889 Siv Fiksdal
+Siv Fiksdal
 9650 AKKARFJORD
-1890 Margot Anda
+Margot Anda
 1407 VINTERBRO
-1891 Tara Berntzen
+Tara Berntzen
 0208 OSLO
-1892 Aleksandra Molden
+Aleksandra Molden
 0687 OSLO
-1893 Svend Botnen
+Svend Botnen
 1812 ASKIM
-1894 Frøydis Bjørlo
+Frøydis Bjørlo
 4049 HAFRSFJORD
-1895 Dominik Stensby
+Dominik Stensby
 0196 OSLO
-1896 Dagrun Tøllefsen
+Dagrun Tøllefsen
 5173 LODDEFJORD
-1897 Jon Kværner
+Jon Kværner
 2817 GJØVIK
-1898 Børge Vanvik
+Børge Vanvik
 2005 RÆLINGEN
-1899 Rigmor Dahlen
+Rigmor Dahlen
 7447 TRONDHEIM
-1900 Marta Venås
+Marta Venås
 3760 NESLANDSVATN
-1901 Henry Hvattum
+Henry Hvattum
 8311 HENNINGSVÆR
-1902 Sveinung Haugland
+Sveinung Haugland
 3269 LARVIK
-1903 Kristina Wiik
+Kristina Wiik
 0650 OSLO
-1904 Greta Rossebø
+Greta Rossebø
 2312 OTTESTAD
-1905 Narve Skogmo
+Narve Skogmo
 9595 SØRVÆR
-1906 Viktor Bergseng
+Viktor Bergseng
 1870 ØRJE
-1907 John Aam
+John Aam
 3521 JEVNAKER
-1908 Josef Svarstad
+Josef Svarstad
 3533 TYRISTRAND
-1909 Normann Langset
+Normann Langset
 3524 NES I ÅDAL
-1910 Sindre Lindholm
+Sindre Lindholm
 3914 PORSGRUNN
-1911 Emil Sharma
+Emil Sharma
 1166 OSLO
-1912 Heine Benjaminsen
+Heine Benjaminsen
 4973 VEGÅRSHEI
-1913 Jozef Kvalheim
+Jozef Kvalheim
 3646 HVITTINGFOSS
-1914 Theodor Blakstad
+Theodor Blakstad
 2021 SKEDSMOKORSET
-1915 Bartosz Ballestad
+Bartosz Ballestad
 2648 SØR-FRON
-1916 Njål Berntzen
+Njål Berntzen
 5978 MJØMNA
-1917 Annlaug Stene
+Annlaug Stene
 8488 NØSS
-1918 Ellen Asbjørnsen
+Ellen Asbjørnsen
 7454 TRONDHEIM
-1919 Grethe Natvik
+Grethe Natvik
 3481 TOFTE
-1920 Kristiane Høgås
+Kristiane Høgås
 3690 HJARTDAL
-1921 Selma Heggernes
+Selma Heggernes
 0218 OSLO
-1922 Hassan Guldberg
+Hassan Guldberg
 7533 KOPPERÅ
-1923 Samir Askim
+Samir Askim
 2316 HAMAR
-1924 Sissel Hille
+Sissel Hille
 5379 STEINSLAND
-1925 Edvard Gunnestad
+Edvard Gunnestad
 4460 MOI
-1926 Alf Nicolaysen
+Alf Nicolaysen
 5868 BERGEN
-1927 Amina Fossland
+Amina Fossland
 2718 BRANDBU
-1928 Arvid Isdahl
+Arvid Isdahl
 7701 STEINKJER
-1929 Edwin Smedstad
+Edwin Smedstad
 9195 ÅRVIKSAND
-1930 Elna Sætran
+Elna Sætran
 6881 ÅRDALSTANGEN
-1931 Bertine Solsvik
+Bertine Solsvik
 4023 STAVANGER
-1932 Hermine Mjånes
+Hermine Mjånes
 1503 MOSS
-1933 Axel Aga
+Axel Aga
 1714 SARPSBORG
-1934 Eilif Ausland
+Eilif Ausland
 3786 SKIEN
-1935 Max Holstad
+Max Holstad
 3026 DRAMMEN
-1936 Natalia Olsnes
+Natalia Olsnes
 7273 NORDDYRØY
-1937 Sigrunn Handeland
+Sigrunn Handeland
 7099 FLATÅSEN
-1938 Piotr Aasberg
+Piotr Aasberg
 3916 PORSGRUNN
-1939 Viktoria Bergland
+Viktoria Bergland
 7950 ABELVÆR
-1940 Chris Hestad
+Chris Hestad
 8439 MYRE
-1941 Siren Hjelm
+Siren Hjelm
 0255 OSLO
-1942 Elfrid Lauvås
+Elfrid Lauvås
 6230 SYKKYLVEN
-1943 Wenke Østlund
+Wenke Østlund
 1285 OSLO
-1944 Tobias Raknes
+Tobias Raknes
 0042 OSLO
-1945 Åshild Friberg
+Åshild Friberg
 4137 ÅRDAL I RYFYLKE
-1946 Scott Engvik
+Scott Engvik
 2004 LILLESTRØM
-1947 Ingar Bjerknes
+Ingar Bjerknes
 7370 BREKKEBYGD
-1948 Hege Westrum
+Hege Westrum
 3280 TJODALYNG
-1949 Beate Balstad
+Beate Balstad
 5136 MJØLKERÅEN
-1950 Inger-lise Claussen
+Inger-lise Claussen
 7391 RENNEBU
-1951 Sjur Dalby
+Sjur Dalby
 8648 KORGEN
-1952 Dina Zachariassen
+Dina Zachariassen
 5563 FØRRESFJORDEN
-1953 Edit Hauger
+Edit Hauger
 8854 AUSTBØ
-1954 Rene Hoel
+Rene Hoel
 7241 ANSNES
-1955 Justyna Nydal
+Justyna Nydal
 6822 SANDANE
-1956 Felix Nordanger
+Felix Nordanger
 0370 OSLO
-1957 Sigrunn Solbakken
+Sigrunn Solbakken
 4327 SANDNES
-1958 Veronika Torbjørnsen
+Veronika Torbjørnsen
 6993 HØYANGER
-1959 Njål Myller
+Njål Myller
 5093 BERGEN
-1960 Monika Rosvold
+Monika Rosvold
 3490 KLOKKARSTUA
-1961 Amir Færøy
+Amir Færøy
 7088 HEIMDAL
-1962 Mia Skavhaug
+Mia Skavhaug
 1327 LYSAKER
-1963 Anette Korsmo
+Anette Korsmo
 2901 FAGERNES
-1964 Elzbieta Lieng
+Elzbieta Lieng
 4891 GRIMSTAD
-1965 Morgan Vollen
+Morgan Vollen
 9027 RAMFJORDBOTN
-1966 Idar Gulliksen
+Idar Gulliksen
 6973 SANDE I SUNNFJORD
-1967 Lilly Leidland
+Lilly Leidland
 6290 HARAMSØY
-1968 Dagrun Mørch
+Dagrun Mørch
 6429 MOLDE
-1969 Catrine Flaten
+Catrine Flaten
 7809 NAMSOS
-1970 Marita Bjørnestad
+Marita Bjørnestad
 7714 STEINKJER
-1971 Villy Sandvær
+Villy Sandvær
 5916 ISDALSTØ
-1972 Matias Trøan
+Matias Trøan
 1294 OSLO
-1973 Lisa Fagervik
+Lisa Fagervik
 4059 RØYNEBERG
-1974 Ailin Nicolaysen
+Ailin Nicolaysen
 4024 STAVANGER
-1975 Lisbet Røkenes
+Lisbet Røkenes
 2665 LESJA
-1976 Mohammed Sagen
+Mohammed Sagen
 3533 TYRISTRAND
-1977 Narve Husdal
+Narve Husdal
 3431 SPIKKESTAD
-1978 Hildegunn Haave
+Hildegunn Haave
 3140 NØTTERØY
-1979 Kerstin Samdal
+Kerstin Samdal
 2860 HOV
-1980 Øistein Mohammad
+Øistein Mohammad
 8007 BODØ
-1981 Maud Amlie
+Maud Amlie
 3151 TOLVSRØD
-1982 Natalie Selstad
+Natalie Selstad
 4506 MANDAL
-1983 Balder Østvold
+Balder Østvold
 0510 OSLO
-1984 Aurora Blix
+Aurora Blix
 9008 TROMSØ
-1985 Sindre Solli
+Sindre Solli
 4656 HAMRESANDEN
-1986 Maren Heggset
+Maren Heggset
 4523 SØR-AUDNEDAL
-1987 Adnan Dyrnes
+Adnan Dyrnes
 3162 ANDEBU
-1988 Rune Sjaastad
+Rune Sjaastad
 4616 KRISTIANSAND S
-1989 Håvar Engevik
+Håvar Engevik
 0213 OSLO
-1990 Brynjar Halden
+Brynjar Halden
 5342 STRAUME
-1991 Judith Ottersen
+Judith Ottersen
 1721 SARPSBORG
-1992 Rasmus Schultz
+Rasmus Schultz
 6390 VESTNES
-1993 Jolanta Bjørn
+Jolanta Bjørn
 1317 BÆRUMS VERK
-1994 Ulla Barmen
+Ulla Barmen
 4679 FLEKKERØY
-1995 Jessica Reigstad
+Jessica Reigstad
 3114 TØNSBERG
-1996 Bjørg Frøseth
+Bjørg Frøseth
 8275 STORJORD I TYSFJORD
-1997 Gitte Lyng
+Gitte Lyng
 7288 SOKNEDAL
-1998 Magnhild Honningsvåg
+Magnhild Honningsvåg
 5474 LØFALLSTRAND
-1999 Aaron Munkvold
+Aaron Munkvold
 7869 SKAGE I NAMDALEN
-2000 Kjersti Vatn
+Kjersti Vatn
 5824 BERGEN

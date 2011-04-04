@@ -55,14 +55,12 @@ void Sports::remove_player(int player_no) {
 }
 
 void Sports::read_file() {
-	char* tmp_str; Sport* tmp_sport;
-	tmp_str = io.read_valid("Filnavn", NONE);
+	Sport* tmp_sport;
 
-	ifstream in;
-	in.open(tmp_str);
-	delete [] tmp_str;
+	ifstream in(SPORTSFILE);
+
 	if(in) {
-		tmp_str = io.read_string(&in);
+		char* tmp_str = io.read_string(&in);
 		while(!in.eof()) {
 			tmp_sport = new Sport(tmp_str, &in);
 			sportlist->add(tmp_sport);
@@ -71,7 +69,7 @@ void Sports::read_file() {
 		}
 		delete [] tmp_str;
 	} else
-		cout << "Finner ikke filen";
+		cout << "Finner ikke filen " << SPORTSFILE << "!\n";
 }
 
 bool Sports::read_results(istream* infile, bool update){
@@ -101,10 +99,8 @@ void Sports::write_file() {
 	Sport* tmp;
 	int i = 1;
 
-	filename = io.read_valid("Filnavn", NONE);		//Read filename from user
 	
-	ofstream out;									//Create ofstream object
-	out.open(filename);								//Open the file
+	ofstream out(SPORTSFILE2);								//Open the file
 	while(tmp = (Sport*) sportlist->remove_no(i)) {	//While more in list
 		tmp->write(&out);							//write sport to file
 		sportlist->add(tmp);						//Add it back to list
