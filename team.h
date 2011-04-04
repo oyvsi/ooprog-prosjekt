@@ -17,6 +17,7 @@ public:
     char* get_team();
     ~Team();
     
+    bool in_team(int player);
 	void write(ostream* out);
     void add_player(int player_no);
     void rem_player(int player_no);
