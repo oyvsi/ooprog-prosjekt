@@ -19,6 +19,7 @@ class Player : public Num_element {
 
 		virtual void display();
 		void display_all();
+		void display_name();
 		void write(ostream* out);
 		bool name_is(char* inname);
 		int get_number();

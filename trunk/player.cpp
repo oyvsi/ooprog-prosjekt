@@ -32,11 +32,14 @@ Player::~Player() {			//release the memory this class used.
 	delete [] address;
 }
 void Player::display() {	//Write out the number and name, to a list over
-	cout << name << " (" << number << ")";		//  several players.
+	cout << endl << name << " (" << number << ")";		//  several players.
 }
 void Player::display_all() {			//Writes out all the playerdata.
 	cout << number << ": " << name		//  Used where data from only one
 		 << '\n' << address << '\n';	//  player is displayed.
+}
+void Player::display_name() {			//Writes out all the playerdata.
+	cout << name;
 }
 void Player::write(ostream* out) {		//Write data to stream
 	*out << number << ' ' << name << '\n'
