@@ -120,18 +120,23 @@ void Players::display(int no) {
 void Players::display_name(int no) {
 	Player* player_ptr = (Player*) playerlist->remove(no);
 	if (player_ptr) {
-		player_ptr->display();
+		player_ptr->display_name();
 		playerlist->add(player_ptr);
 	}
 }
 
-int Players::read_player(istream* input) {
+int Players::read_player(istream* input, bool init) {
 	Player* tmp_player;
 	char* tmp_name, *tmp_address;
 	int tmp_number;
+
+    if (init){                              // Ved førstegangs innlesning
+        *input >> tmp_number;
+        input->ignore();
+    }
+
 	tmp_name = io.read_string(input);			//Read first string from file
 
-	playerlist->add(tmp_player);			//Add it to a list
 	if(io.is_number(tmp_name)) {				//If the string is a number
 		tmp_number = atoi(tmp_name);			//Convert it to an int
 		if(!playerlist->in_list(tmp_number))	//If a player with that number
@@ -140,11 +145,16 @@ int Players::read_player(istream* input) {
 		tmp_address = io.read_string(input);	//Read the second line
 		if(in_list(tmp_name)) {
 			tmp_number = get_id(tmp_name);
-		} else {
+		} else if (!init){
 			tmp_player = new Player(++last_used, tmp_name, tmp_address);
 			playerlist->add(tmp_player);			//Add it to a list
 			tmp_number = last_used;
-		}						//Delete the tmp lines
+        } else {
+            tmp_player = new Player(tmp_number, tmp_name, tmp_address);
+            playerlist->add(tmp_player);			//Add it to a list
+            last_used = tmp_number;
+        }
+								//Delete the tmp lines
 		delete [] tmp_address;
 	}
 	delete [] tmp_name;

@@ -300,7 +300,7 @@ void Division::write_top_ten() {
 		}
 	}
 
-	if (teamname){																		// DERSOM LAGNAVN:
+	if (strlen(teamname) > 1){																		// DERSOM LAGNAVN:
 		int teamidx = get_team(teamname); // get team index
 
 		if (teamidx != -1){

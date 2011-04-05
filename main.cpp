@@ -55,11 +55,15 @@ void read_all_file(){
 	int no_pls;
 
 	ifstream i_players(PLAYERSFILE);
+
+	if (!i_players)
+        return;
+
 	i_players >> no_pls;
 	i_players.ignore();
 
 	for (int i = 0; i < no_pls; i++){
-		players.read_player(&i_players);
+		players.read_player(&i_players, true);
 	}
 
 	sports.read_file();

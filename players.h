@@ -20,7 +20,7 @@ class Players {
 		void new_player();
 		bool remove_player();
 		void write_file();
-		int read_player(istream* input);
+		int read_player(istream* input, bool init = false);
 		bool in_list(char* name);
 		bool in_list(int player_no);
 		int get_id(char* name);
