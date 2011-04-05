@@ -7,8 +7,10 @@
 #include "listtool2.h"
 #include "division.h"
 #include "iofunc.h"
+#include "players.h"
 
 extern IOfunc io;
+extern Players players;
 
 Division::Division() {
 }
@@ -302,9 +304,11 @@ void Division::write_top_ten() {
 		int teamidx = get_team(teamname); // get team index
 
 		if (teamidx != -1){
-			for (int i = 0; i < goalscorers.size(); i++){  	// Ta vekk folk som ikke er på laget
+			for (int i = 0; i < goalscorers.size();){  	// Ta vekk folk som ikke er på laget
 				if (!teams[teamidx]->in_team(goalscorers[i]))
 					goalscorers.erase(goalscorers.begin() + i);
+                else
+                    ++i;
 			}
 		} else {
 			cout << "Feil lagnavn!\n";
@@ -345,6 +349,7 @@ void Division::write_top_ten() {
 		out = &cout;
 
 	for (int i = 0; i < 10; i++){
-		*out << i+1 << ": Player ID: " << top_ten[i] << ", Goals: " << no_goals[i] << "\n";
+		*out << i+1 << ": "; players.display_name(top_ten[i]);
+		*out << ", " << no_goals[i] << " mål." << "\n";
 	}
 }

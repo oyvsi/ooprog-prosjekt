@@ -117,6 +117,14 @@ void Players::display(int no) {
 	}
 }
 
+void Players::display_name(int no) {
+	Player* player_ptr = (Player*) playerlist->remove(no);
+	if (player_ptr) {
+		player_ptr->display();
+		playerlist->add(player_ptr);
+	}
+}
+
 int Players::read_player(istream* input) {
 	Player* tmp_player;
 	char* tmp_name, *tmp_address;
