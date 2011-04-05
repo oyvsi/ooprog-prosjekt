@@ -129,14 +129,9 @@ int Players::read_player(istream* input) {
 	Player* tmp_player;
 	char* tmp_name, *tmp_address;
 	int tmp_number;
-	*input >> tmp_number;
-	input->ignore();
 	tmp_name = io.read_string(input);			//Read first string from file
-	tmp_address = io.read_string(input);
-	tmp_player = new Player(tmp_number, tmp_name, tmp_address);
-	++last_used;
+
 	playerlist->add(tmp_player);			//Add it to a list
-/*
 	if(io.is_number(tmp_name)) {				//If the string is a number
 		tmp_number = atoi(tmp_name);			//Convert it to an int
 		if(!playerlist->in_list(tmp_number))	//If a player with that number
@@ -149,9 +144,9 @@ int Players::read_player(istream* input) {
 			tmp_player = new Player(++last_used, tmp_name, tmp_address);
 			playerlist->add(tmp_player);			//Add it to a list
 			tmp_number = last_used;
-		}*/						//Delete the tmp lines
+		}						//Delete the tmp lines
 		delete [] tmp_address;
-	//}
+	}
 	delete [] tmp_name;
 	return tmp_number;
 }
