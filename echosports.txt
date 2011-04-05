@@ -1,0 +1,54 @@
+Fotball
+2
+1
+  Tippeligaen
+  2
+    Aalesund
+    0303 AALESUND
+    5
+    10
+    11
+    12
+    13
+    14
+    Viking
+    0404 STAVANGER
+    5
+    20
+    21
+    22
+    23
+    24
+    Aalesund
+    Viking
+    20110201
+    Viking
+    Aalesund
+    20110101
+Handball
+2
+1
+  Tippeligaen
+  2
+    Aalesund
+    0303 AALESUND
+    5
+    10
+    11
+    12
+    13
+    14
+    Viking
+    0404 STAVANGER
+    5
+    20
+    21
+    22
+    23
+    24
+    Aalesund
+    Viking
+    20110201
+    Viking
+    Aalesund
+    20110101
