@@ -1,9 +1,11 @@
 //	PLAYERS.CPP
-//	
+//
 //	Sourcecode for the Players class.
 
 #include <iostream>
 #include <fstream>
+#include <string.h>
+#include <stdlib.h>
 
 #include "players.h"
 #include "player.h"
@@ -32,12 +34,12 @@ void Players::new_player() {	//Adds a new player.
 bool Players::remove_player() {
 	int i_read;
 	cout << "Spillernummer/navn: ";
-	
+
 	char* c_read = io.read_string(&cin);	//Read, and store input.
 	Player* tmp;
 
 	//If c_read is a number, wa want to delete the player by number.
-	if (io.is_number(c_read)) {	
+	if (io.is_number(c_read)) {
 		i_read = atoi(c_read);	//Convert the stirng to a number
 		if(tmp = (Player*) playerlist->remove(i_read)) {
 			delete tmp;			//Delete it,
@@ -57,7 +59,7 @@ bool Players::remove_player() {
 			} else	//If the name was not right
 				playerlist->add(tmp);	//Put it back in the list.
 		}
-	//If the player was not found, 
+	//If the player was not found,
 	delete [] c_read;	//delete the string
 	return false;		//and return false.
 }
@@ -66,12 +68,12 @@ void Players::write_file() {
 	ofstream out;				//Create ostream object
 	out.open(PLAYERSFILE);	//Open file
 	out << last_used << '\n';	//Write out the last used number
-	for(int i = 1; i <= playerlist->no_of_elements(); i++) {	//Go trough all 
+	for(int i = 1; i <= playerlist->no_of_elements(); i++) {	//Go trough all
 		tmp = (Player*) playerlist->remove_no(i);	//players, and write them
 		tmp->write(&out);							//to file, and add them
 		playerlist->add(tmp);						//back to the list
 	}
-	cout << playerlist->no_of_elements() 
+	cout << playerlist->no_of_elements()
 		 << " spillere ble skrevet til fil\n";	//reciete to user
 	out.close();
 }
@@ -94,7 +96,7 @@ void Players::display() {
 	} else {	//If the user writes something else (read: a text)
 		//Loop trough all players, and look for the one with the right name.
 		for(int i = 1; i <= playerlist->no_of_elements(); i++) {
-			tmp = (Player*) playerlist->remove_no(i);	//Pick player i out.   
+			tmp = (Player*) playerlist->remove_no(i);	//Pick player i out.
 			if(tmp->name_is(c_read)) {	//If it is the right name,
 				tmp->display_all();		//Display it, and
 				found = true;			//mark that we found something.
@@ -140,7 +142,7 @@ int Players::read_player(istream* input) {
 			playerlist->add(tmp_player);			//Add it to a list
 			tmp_number = last_used;
 		}*/						//Delete the tmp lines
-		delete [] tmp_address;					
+		delete [] tmp_address;
 	//}
 	delete [] tmp_name;
 	return tmp_number;
@@ -164,7 +166,7 @@ bool Players::in_list(int player_no) {
 	if (player_ptr)
 		found = true;
 	playerlist->add(player_ptr);
-	
+
 	return found;
 }
 

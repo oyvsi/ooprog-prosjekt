@@ -1,8 +1,10 @@
-/*	iofunc.cpp 
+/*	iofunc.cpp
 		IO-funksjoner og validering av input.
 */
 
 #include<iostream>
+#include <stdlib.h>
+#include <string.h>
 #include "iofunc.h"
 
 using namespace std;
@@ -19,7 +21,7 @@ bool IOfunc::validate(char* txt, val_type v = NONE){
 				return false;
 				break;
 			case ADDRESS :	if ( !(isalex(txt[i]) || isalpha(txt[i])
-												 || txt[i] == ' ') ) 
+												 || txt[i] == ' ') )
 				return false;
 				break;
 		}
@@ -50,25 +52,25 @@ char IOfunc::to_upper(char up){			//Returnerer uppercaset char
 char* IOfunc::strip(char* input) {
 	char temp_str[STRLEN], * return_str;
 	int startstr = 0;
-	
+
 	while (input[startstr] == ' ')	 // find first non-blank (trim left)
 		startstr++;
-	
+
 	while (input[strlen(input)-1] == ' ')	// trim right
 		input[strlen(input)-1] = '\0';
-	
-	for(int i = startstr, j = 0; i <= strlen(input); i++)  // copy over 
-		temp_str[j++] = input[i];               
-	
+
+	for(int i = startstr, j = 0; i <= strlen(input); i++)  // copy over
+		temp_str[j++] = input[i];
+
 	return_str = new char[strlen(temp_str)+1];
-	strcpy(return_str, temp_str); 
+	strcpy(return_str, temp_str);
 	return return_str;
 }
 
 char* IOfunc::read_string(std::istream* in, char delim){
 	char* ptr, temp[STRLEN];
 	in->getline(temp, STRLEN, delim); //Leser fra in til temp
-	ptr = strip(temp); 	// strip whitespace							
+	ptr = strip(temp); 	// strip whitespace
 	return ptr;			//Returnér peker til tekst
 }
 
@@ -106,36 +108,36 @@ int IOfunc::read_number(char* txt, int min, int max){
 		if (!is_number(c_read) || i_read > max || i_read < min)
 				cout << "\tUgyldig tallverdi!" << endl;
 		} while(!is_number(c_read) || i_read > max || i_read < min);
-	
+
 	return i_read;											//Returnerer gyldig tall
 }
 
 
-/* If level is 0 function returns number of level 0 items in file. 
- Otherwise it returns the number of items in specified level (from current 
+/* If level is 0 function returns number of level 0 items in file.
+ Otherwise it returns the number of items in specified level (from current
  position in file to the next outer level relative to specified level.) */
 
 int IOfunc::lines_in_level(istream* infile, int level) {
     streamoff cur_pos, new_pos;
-	streamoff temp_pos = 0;         
-	int outer_level = -1;           
+	streamoff temp_pos = 0;
+	int outer_level = -1;
     int no_in_level = 0;
 	char line[STRLEN];
     char dummy;
 	bool stop = false;
-	
+
 	cur_pos = infile->tellg();      // position we were at before func. call
-	
+
 	if (level > 0)  // level 0 has no outer level
 		outer_level = level-1;
-	else 
+	else
 		infile->seekg(0, ios::beg);             //move to start
 	temp_pos = cur_pos;
 	*infile >> dummy;                               // read first non-blank
-    while(!infile->eof() && !stop) {
+		while(!infile->eof() && !stop) {
 		new_pos = infile->tellg();      // position after first non-blank
 		//check if we're at desired level
-        if(new_pos == temp_pos+1+(level*LEVEL_BLANKS))  
+        if(new_pos == temp_pos+1+(level*LEVEL_BLANKS))
             no_in_level++;
 		// check if we're at the outer level
 		if(outer_level != -1 && new_pos == temp_pos+1+(outer_level*LEVEL_BLANKS)) {

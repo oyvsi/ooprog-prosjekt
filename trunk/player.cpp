@@ -1,9 +1,10 @@
 //	PLAYER.CPP
-//	
+//
 //	Sourcecode for the Player class.
 
 #include <iostream>
 #include <fstream>
+#include <string.h>
 
 #include "player.h"
 #include "listtool2.h"
@@ -13,7 +14,7 @@ using namespace std;
 
 extern IOfunc io;
 
-Player::Player() : Num_element(0) {		//This class shall 
+Player::Player() : Num_element(0) {		//This class shall
 	cout << "PLAYER.CPP - WARNING!! - "	//  never be constructed
 		 << "This constructor should "	//  without a parameter.
 		 << "never be called";

@@ -22,10 +22,10 @@ void read_results();
 
 int main() {
 	read_all_file();
-	
+
 	char choice;
 	display_menu();
-	
+
 	bool quit = false;
 	while (!quit){
 		cout << "\n\tKommando: "; cin >> choice;
@@ -53,15 +53,15 @@ int main() {
 void read_all_file(){
 																		// READ PLAYERS
 	int no_pls;
-	
+
 	ifstream i_players(PLAYERSFILE);
 	i_players >> no_pls;
 	i_players.ignore();
-	
+
 	for (int i = 0; i < no_pls; i++){
 		players.read_player(&i_players);
 	}
-	
+
 	sports.read_file();
 }
 
@@ -71,8 +71,8 @@ void write_all_file(){
 }
 
 void display_menu(){
-	cout << 
-	
+	cout <<
+
 	"Menyvalg:\n\n"
 	"S - skriv spiller / alle spillere\n"
 	"I - skriv idrett / alle idretter\n"
@@ -88,9 +88,9 @@ void display_menu(){
 }
 
 void new_psd(){
-	char choice;	
+	char choice;
 	cin >> choice; cin.ignore();
-	
+
 	switch (io.to_upper(choice)){
 		case 'S'	: players.new_player(); 	break;
 		case 'I'	: sports.new_sport();			break;
@@ -99,9 +99,9 @@ void new_psd(){
 }
 
 void remove_psd(){
-	char choice;	
+	char choice;
 	cin >> choice; cin.ignore();
-	
+
 	switch (io.to_upper(choice)){
 		case 'S'	: players.remove_player(); 	break;
 		case 'I'	: sports.remove_sport();	break;
@@ -111,13 +111,13 @@ void remove_psd(){
 
 void read_results(){
 	ifstream* infile = new ifstream("results.dta");
-	
+
 	if (*infile){
 		if (sports.read_results(infile, false)) {	// Leser uten å oppdatere resultater
 			infile->clear();
 			infile->seekg(0, ios::beg);
 			sports.read_results(infile, true);		// Ingen feil funnet, oppdater res.
-		} else { 
+		} else {
 			cout << "Fila inneheld feil, fool!\n";
 		}
 	}

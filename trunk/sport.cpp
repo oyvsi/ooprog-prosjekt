@@ -1,9 +1,10 @@
 //	SPORT.CPP
-//	
+//
 //	Sourcecode for the Sport class.
 
 #include <iostream>
 #include <fstream>
+#include <string.h>
 
 #include "sport.h"
 #include "division.h"
@@ -14,7 +15,7 @@ using namespace std;
 
 extern IOfunc io;
 
-Sport::Sport() : Text_element("")  {	//This class shall 
+Sport::Sport() : Text_element("")  {	//This class shall
 	cout << "SPORT.CPP - WARNING!! - "	//  never be constructed
 		 << "This constructor should "	//  without a parameter.
 		 << "never be called";
@@ -28,7 +29,7 @@ Sport::Sport(char* name) : Text_element(name) {
 		 << "\t\t3 - \"3-2-1-0\"\n";
 	tabletype = io.read_number("Tast inn et valg", 1, 3);	//Read tabletype
 }
-Sport::Sport(char* name, istream* input) : Text_element(name) {	
+Sport::Sport(char* name, istream* input) : Text_element(name) {
 	divisionlist = new List(Sorted);				//Create the list
 	int no_divisions; char* divname;
 	Division* tmp_div;
@@ -74,7 +75,7 @@ bool Sport::read_results(istream* infile, bool update){
 	char* divisionname;
 	Division* tmp_div;
 	int i = 0;
-	*infile >> no_div; //no_div = io.lines_in_level(infile, 1);
+	no_div = io.lines_in_level(infile, 1);
 	cout << "Las ant. div: " << no_div << endl;
 	while (read_ok && i < no_div) {                                                 // Les alle divisjoner:
 		divisionname = io.read_string(infile, '\n');
@@ -82,8 +83,8 @@ bool Sport::read_results(istream* infile, bool update){
 			tmp_div = (Division*) divisionlist->remove(divisionname);
 			read_ok = tmp_div->read_results(infile, update);                // flash?
 			divisionlist->add(tmp_div);
-		} else { 
-			read_ok = false; // feil på fil 
+		} else {
+			read_ok = false; // feil på fil
 			cout << "Divisjonen " << divisionname << " finnes ikke!\n";
 		}
 		i++;
@@ -95,9 +96,9 @@ bool Sport::read_results(istream* infile, bool update){
 
 
 bool Sport::name_is(char* nvn) {
-	if(strcmp(nvn, text) == 0) 
+	if(strcmp(nvn, text) == 0)
 		return true;
-	else 
+	else
 		return false;
 }
 void Sport::add_division() {
@@ -163,10 +164,10 @@ void Sport::term_list(ostream* out) {
 void Sport::result_list(ostream* out, char typ) {
 	char* division, * date;
 	Division* tmp_division;
-	
+
 	division = io.read_valid("Divisjon", NAME);
 	if(typ == 'K') date = io.read_valid("Dato", NONE);
-	
+
 	if(strlen(division) == 0) {
 		for(int i = 1; i <= divisionlist->no_of_elements(); i++) {
 			tmp_division = (Division*) divisionlist->remove_no(i);
@@ -189,7 +190,7 @@ void Sport::result_list(ostream* out, char typ) {
 Division* Sport::get_division() {
 	Division* div_ptr = NULL;
 	char* div_name = io.read_valid("Divisjon", NAME);
-	
+
 	div_ptr = (Division*) divisionlist->remove(div_name);
 	if (div_ptr)
 		divisionlist->add(div_ptr);

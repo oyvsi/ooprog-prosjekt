@@ -4,7 +4,6 @@
 enum val_type {NONE, NAME, ADDRESS};
 
 const char SPORTSFILE[]  = "echosports.txt";
-const char SPORTSFILE2[]  = "echosports_ut.txt"; // utfil, testing
 const char PLAYERSFILE[] = "players.txt";
 
 const char DIVLVL[] = "  ";
