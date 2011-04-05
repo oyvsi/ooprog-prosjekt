@@ -1,9 +1,10 @@
 //	SPORTS.CPP
-//	
+//
 //	Sourcecode for the Sports class.
 
 #include <iostream>
 #include <fstream>
+#include <string.h>
 
 #include "sports.h"
 #include "sport.h"
@@ -79,10 +80,10 @@ bool Sports::read_results(istream* infile, bool update){
 	int i = 0;
 	while (read_ok && i < no_sports) {
 		char* sportname = io.read_string(infile, '\n');         // Les idrettsnavn
-        
+
 		if (sportlist->in_list(sportname)){                                                             // Dersom idretten fins
 			cout << "Las \"" << sportname << "\" OK!\n";
-			tmp_sport = (Sport*) sportlist->remove(sportname);      
+			tmp_sport = (Sport*) sportlist->remove(sportname);
 			read_ok = tmp_sport->read_results(infile, update);      // Les resultat
 			sportlist->add(tmp_sport);
 		} else {
@@ -95,12 +96,12 @@ bool Sports::read_results(istream* infile, bool update){
 }
 
 void Sports::write_file() {
-	char* filename; 
+	char* filename;
 	Sport* tmp;
 	int i = 1;
 
-	
-	ofstream out(SPORTSFILE2);								//Open the file
+
+	ofstream out(SPORTSFILE);								//Open the file
 	while(tmp = (Sport*) sportlist->remove_no(i)) {	//While more in list
 		tmp->write(&out);							//write sport to file
 		sportlist->add(tmp);						//Add it back to list
@@ -124,7 +125,7 @@ void Sports::display() {
 	} else {	//If the user writes something else (read: a text)
 		//Loop trough all players, and look for the one with the right name.
 		for(int i = 1; i <= sportlist->no_of_elements(); i++) {
-			tmp = (Sport*) sportlist->remove_no(i);	//Pick player i out.   
+			tmp = (Sport*) sportlist->remove_no(i);	//Pick player i out.
 			if(tmp->name_is(c_read)) {	//If it is the right name,
 				tmp->display_all();		//Display it, and
 				found = true;			//mark that we found something.
@@ -196,7 +197,7 @@ void Sports::lists(char valg) {
 Sport* Sports::get_sport() {
 	Sport* sport_ptr = NULL;
 	char* sportname = io.read_valid("Idrett", NAME);
-	
+
 	sport_ptr = (Sport*) sportlist->remove(sportname);
 	if (sport_ptr)
 		sportlist->add(sport_ptr);
