@@ -14,10 +14,11 @@ Team::Team() {
 Team::Team(istream* infile) {  //Read such things as name, address, no_players
     name = io.read_string(infile);
     address = io.read_string(infile);
+    cout << "Las: " << name << " " << address << endl; //DEBUG
     *infile >> no_players; infile->ignore();
     for(int i = 0; i < no_players; i++){
         player_nos[i] = players.read_player(infile);
-        infile->ignore();
+        //infile->ignore(); --- Skaper hælvette ved innlesing av divisjon.
 		}
 }
 

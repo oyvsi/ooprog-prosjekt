@@ -21,7 +21,8 @@ bool IOfunc::validate(char* txt, val_type v = NONE){
 				return false;
 				break;
 			case ADDRESS :	if ( !(isalex(txt[i]) || isalpha(txt[i])
-												 || txt[i] == ' ') )
+												 || txt[i] == ' '
+												 || isalnum(txt[i])) )
 				return false;
 				break;
 		}
