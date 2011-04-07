@@ -108,7 +108,9 @@ void Division::result_list(ostream* out, char* in_date) {       //Menu option K
 					h_goals = results[i][j]->get_hgls();
 					if (h_goals != -1)
 						*out << " - " << h_goals << "-"
-						<< results[i][j]->get_agls() << '\n';
+						<< results[i][j]->get_agls() << endl;
+                    else
+                        *out << " Ikke spilt." << endl;
 				}
 
 			}
