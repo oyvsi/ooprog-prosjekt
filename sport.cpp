@@ -93,6 +93,7 @@ bool Sport::read_results(istream* infile, bool update){
 			cout << "Divisjonen " << divisionname << " finnes ikke!\n";
 		}
 		i++;
+		delete [] divisionname;
 	}
 	return read_ok;
 }
@@ -172,6 +173,7 @@ void Sport::term_list(ostream* out) {
 	} else {
 		cout << "Finner ikke divisjonen\n";
 	}
+	delete [] division;
 }
 void Sport::result_list(ostream* out, char typ) {
 	char* division, * date;

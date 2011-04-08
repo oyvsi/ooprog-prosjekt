@@ -41,6 +41,7 @@ void Sports::remove_sport() {
 				cout << "Idretten " << tmp_string << " ble slettet.";
 			}
 		}
+		delete [] sure;
 	} else
 		cout << "Fant ikke idretten!\n";
 	delete [] tmp_string;
@@ -91,6 +92,7 @@ bool Sports::read_results(istream* infile, bool update){
 			cout << "Idretten " << sportname << " finnes ikke!\n";
 		}
 		i++;
+		delete [] sportname;
 	}
 	return read_ok;
 }
@@ -205,6 +207,8 @@ void Sports::lists(char valg) {
 
 	if(out != &cout)
 		delete out;
+	delete [] filename;
+	delete [] sport;
 }
 
 Sport* Sports::get_sport() {

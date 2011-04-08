@@ -11,11 +11,11 @@ private:
     char* address;
     int player_nos[MAXPLAYERS];
     int no_players;
-	int get_player(int player_no);
 public:
     Team();
     Team(istream* infile);
     char* get_team();
+	int get_player(int player_no);
     ~Team();
     
     bool in_team(int player);
