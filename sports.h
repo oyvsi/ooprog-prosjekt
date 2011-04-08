@@ -19,6 +19,7 @@ class Sports {
 		void remove_sport();
 		void read_file();
 		bool read_results(istream* infile, bool update);
+		void write_results(ostream* outfile);
 		void write_file();
 		void display();
 		void add_division();

@@ -95,6 +95,19 @@ bool Sports::read_results(istream* infile, bool update){
 	return read_ok;
 }
 
+void Sports::write_results(ostream* outfile){
+                                                                                                                                                // Return-verdi
+	Sport* tmp_sport;
+
+    for (int i = 1; i <= sportlist->no_of_elements(); i++){
+			tmp_sport = (Sport*) sportlist->remove_no(i);
+			tmp_sport->display_name(outfile);
+			*outfile << endl;
+			tmp_sport->write_results(outfile);                // flash?
+			sportlist->add(tmp_sport);
+    }
+}
+
 void Sports::write_file() {
 	char* filename;
 	Sport* tmp;

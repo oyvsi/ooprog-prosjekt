@@ -19,6 +19,7 @@ void display_menu();
 void new_psd();					// New player/sport/division
 void remove_psd();
 void read_results();
+void write_results();
 
 int main() {
 	read_all_file();
@@ -67,11 +68,13 @@ void read_all_file(){
 	}
 
 	sports.read_file();
+	read_results();
 }
 
 void write_all_file(){
 	sports.write_file();
 	players.write_file();
+	write_results();
 }
 
 void display_menu(){
@@ -127,6 +130,16 @@ void read_results(){
 	}
 	else {
 		cout << "Kunne ikke Œpne fila 'results.dta'";
+	}
+}
+
+void write_results(){
+	ofstream* outfile = new ofstream("results_ut.dta");
+
+	if (*outfile){
+        sports.write_results(outfile);		// skriv res
+    } else {
+        cout << "Kunne ikke Œpne fila 'results.dta'";
 	}
 }
 
