@@ -14,12 +14,9 @@ Team::Team() {
 Team::Team(istream* infile) {  //Read such things as name, address, no_players
     name = io.read_string(infile);
     address = io.read_string(infile);
-    cout << "Las: " << name << " " << address << endl; //DEBUG
     *infile >> no_players; infile->ignore();
-    for(int i = 0; i < no_players; i++){
+    for(int i = 0; i < no_players; i++)
         player_nos[i] = players.read_player(infile);
-        //infile->ignore(); --- Skaper hælvette ved innlesing av divisjon.
-		}
 }
 
 Team::~Team() {
@@ -106,12 +103,4 @@ void Team::write(ostream* out) {
 	*out << TEAMLVL << no_players << '\n';
 	for (int i = 0; i < no_players; i++)
 		*out << TEAMLVL << player_nos[i] << '\n';
-}
-
-bool Team::in_team(int player){					// True dersom spilleren fins på laget
-	for (int i = 0; i < no_players; i++){
-		if (player_nos[i] == player)
-			return true;
-	}
-	return false;
 }

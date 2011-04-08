@@ -32,12 +32,16 @@ Division::Division(istream* infile, char* divname) : Text_element(divname) { //C
         }
 
         for(int i = 0; i < (no_teams*no_teams)-no_teams; i++) {    // Create schedule
-            h_team_no = get_team(io.read_string(infile));
+			h_team = io.read_string(infile);
+            a_team = io.read_string(infile);
+			h_team_no = get_team(io.read_string(infile));
             a_team_no = get_team(io.read_string(infile));
             if(h_team_no != -1 && a_team_no != -1)
                 results[h_team_no][a_team_no]->set_date(io.read_string(infile));
             else
                 cout << "Feil i iterasjon: " << i << " h_team: " << h_team << ' ' << "a_team: " << a_team << '\n';
+			delete [] h_team;
+			delete [] a_team;
         }
 
     }
@@ -307,7 +311,7 @@ void Division::write_top_ten() {
 
 		if (teamidx != -1){
 			for (int i = 0; i < goalscorers.size();){  	// Ta vekk folk som ikke er på laget
-				if (!teams[teamidx]->in_team(goalscorers[i]))
+				if (teams[teamidx]->get_player(goalscorers[i]) == -1)
 					goalscorers.erase(goalscorers.begin() + i);
                 else
                     ++i;
@@ -354,4 +358,7 @@ void Division::write_top_ten() {
 		*out << i+1 << ": "; players.display_name(top_ten[i]);
 		*out << ", " << no_goals[i] << " mål." << "\n";
 	}
+	
+	delete [] filename;
+	delete [] teamname;
 }
