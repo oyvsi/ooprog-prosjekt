@@ -54,6 +54,11 @@ void Sport::display() {
 		case 3: cout << "3-2-1-0\n"; break;
 	};
 }
+
+void Sport::display_name(ostream* out) {
+    *out << text;
+}
+
 void Sport::display_all() {
 	display();
 	divisionlist->display_list();
@@ -92,8 +97,15 @@ bool Sport::read_results(istream* infile, bool update){
 	return read_ok;
 }
 
+void Sport::write_results(ostream* outfile){
+	Division* tmp_div;
 
-
+    for (int i = 1; i <= divisionlist->no_of_elements(); i++){
+			tmp_div = (Division*) divisionlist->remove_no(i);
+			tmp_div->write_results(outfile);                // flash?
+			divisionlist->add(tmp_div);
+    }
+}
 
 bool Sport::name_is(char* nvn) {
 	if(strcmp(nvn, text) == 0)

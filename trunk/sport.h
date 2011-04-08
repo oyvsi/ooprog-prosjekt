@@ -14,7 +14,7 @@ class Sport : public Text_element {
 		List* divisionlist;
 		int tabletype;
 		Division* get_division();
-	
+
 	public:
 		Sport();
 		Sport(char* name);
@@ -23,7 +23,9 @@ class Sport : public Text_element {
 
 		virtual void display();
 		void display_all();
+		void display_name(ostream* out);
 		bool read_results(istream* infile, bool update);
+		void write_results(ostream* outfile);
 		void write(ostream* out);
 		bool name_is(char* nvn);
 		void add_division();
