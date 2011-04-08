@@ -34,8 +34,8 @@ Division::Division(istream* infile, char* divname) : Text_element(divname) { //C
         for(int i = 0; i < (no_teams*no_teams)-no_teams; i++) {    // Create schedule
 			h_team = io.read_string(infile);
             a_team = io.read_string(infile);
-			h_team_no = get_team(io.read_string(infile));
-            a_team_no = get_team(io.read_string(infile));
+			h_team_no = get_team(h_team);
+            a_team_no = get_team(a_team);
             if(h_team_no != -1 && a_team_no != -1)
                 results[h_team_no][a_team_no]->set_date(io.read_string(infile));
             else
@@ -358,7 +358,7 @@ void Division::write_top_ten() {
 		*out << i+1 << ": "; players.display_name(top_ten[i]);
 		*out << ", " << no_goals[i] << " mål." << "\n";
 	}
-	
+
 	delete [] filename;
 	delete [] teamname;
 }
