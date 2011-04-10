@@ -310,7 +310,7 @@ void Division::write_top_ten() {
 		int teamidx = get_team(teamname); // get team index
 
 		if (teamidx != -1){
-			for (int i = 0; i < goalscorers.size();){  	// Ta vekk folk som ikke er på laget
+			for (int i = 0; i < goalscorers.size();){  	// Ta vekk folk som ikke er pï¿½ laget
 				if (teams[teamidx]->get_player(goalscorers[i]) == -1)
 					goalscorers.erase(goalscorers.begin() + i);
                 else
@@ -356,7 +356,7 @@ void Division::write_top_ten() {
 
 	for (int i = 0; i < 10; i++){
 		*out << i+1 << ": "; players.display_name(top_ten[i]);
-		*out << ", " << no_goals[i] << " mål." << "\n";
+		*out << ", " << no_goals[i] << " maal." << "\n";
 	}
 
 	delete [] filename;
