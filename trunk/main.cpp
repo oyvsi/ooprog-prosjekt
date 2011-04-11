@@ -1,3 +1,5 @@
+//Prosjektoppgaven - Gruppe O
+
 #include <iostream>
 #include <fstream>
 
