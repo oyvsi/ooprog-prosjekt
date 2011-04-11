@@ -71,21 +71,23 @@ void Result::table_add(tableobject* home, tableobject* away, int tabletype) {
 	int draw_points = 1;
 	int loss_points = 0;
 
-	if(h_goals > a_goals) {
-		home->no_win++; away->no_loss++;
-		home->score += win_points;
-		away->score += loss_points;
-	} else if (h_goals < a_goals) {
-		home->no_loss++; away->no_win++;
-		home->score += loss_points;
-		away->score += win_points;
-	} else {
-		home->no_draw++; away->no_draw++;
-		home->score += draw_points;
-		away->score += draw_points;
+	if(h_goals != -1) {
+		if(h_goals > a_goals) {
+			home->no_win++; away->no_loss++;
+			home->score += win_points;
+			away->score += loss_points;
+		} else if (h_goals < a_goals) {
+			home->no_loss++; away->no_win++;
+			home->score += loss_points;
+			away->score += win_points;
+		} else {
+			home->no_draw++; away->no_draw++;
+			home->score += draw_points;
+			away->score += draw_points;
+		}
+		home->no_goals += h_goals;
+		away->no_goals += a_goals;
 	}
-	home->no_goals += h_goals;
-	away->no_goals += a_goals;
 }
 
 void Result::write(ostream* out) {

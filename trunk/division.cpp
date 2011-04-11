@@ -241,36 +241,33 @@ void Division::write_results(ostream* out) {
 void Division::table(ostream* out, int type) {
 	tableobject* table[MAXTEAMS];
 	tableobject* tmp_tobj;
-	int tmp;	bool change;
+	int i, j;
 
-	for(int i = 0; i < no_teams; i++)
+	//Creates a emty table
+	for(i = 0; i < no_teams; i++)
 		table[i] = new tableobject(teams[i]);
 
-	for(int i = 0; i < no_teams; i++)
-		for(int j = 0; j < no_teams; j++)
+	//Collects all the results
+	for(i = 0; i < no_teams; i++)
+		for(j = 0; j < no_teams; j++)
 			if(i != j)
 				results[i][j]->table_add(table[i], table[j], type);
 
-	for(int i = 0; i < no_teams-1; i++) {
+	//Sorts the table
+	for(i = 1; i < no_teams; i++) {
+		if(table[i]->score < table[i-1]->score) continue;
 		tmp_tobj = table[i];
-		change = false;
-		for(int j = i+1; j < no_teams - 1; j++) {
-			if(tmp_tobj->score > table[i]->score) {
-				tmp_tobj = table[j];
-				tmp = j;
-				change = true;
-			}
-		}
-		if(change) {
-			table[tmp] = table[i];
-			table[i] = tmp_tobj;
-		}
+		j = i - 1;
+		while(j >= 0 && table[j]->score < tmp_tobj->score)
+			table[j+1] = table[j--];
+		table[j+1] = tmp_tobj;
 	}
 
-	cout << " #   Lagnavn                      "
+	//Displays the table
+	*out << " #   Lagnavn                      "
 		 << " S  U  T  M  Poeng\n";
 	for(int i = 0; i < no_teams; i++) {
-		cout << right << setw(4) << i+1 << ": "
+		*out << right << setw(4) << i+1 << ": "
 			 << left << setw(30) << table[i]->team->get_team()
 			 << setw(3) << table[i]->no_win
 			 << setw(3) << table[i]->no_draw
