@@ -51,7 +51,7 @@ Volleyball
     10
     Randaberg
     0002 RANDABERG
-    10
+    11
     11
     12
     13
@@ -62,6 +62,7 @@ Volleyball
     18
     19
     20
+    340
     Førde
     0003 FØRDE
     10
@@ -164,13 +165,13 @@ Volleyball
     20110101
     Kristiansund
     Randaberg
-    20110101
+    ƒ
     Kristiansund
     Førde
-    20110101
+    º
     Kristiansund
     Oslo Volley
-    20110101
+    (
     Kristiansund
     BK Tromsø
     20110101
