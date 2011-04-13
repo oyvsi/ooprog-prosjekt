@@ -1,4 +1,4 @@
-/*	iofunc.cpp
+/*	IOFUNC.CPP
 		IO-funksjoner og validering av input.
 */
 

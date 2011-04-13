@@ -1,3 +1,7 @@
+/*  RESULT.H
+
+*/
+
 #ifndef __RESULT_H
 #define __RESULT_H
 
@@ -30,10 +34,10 @@ class Result {
 	private:
 		char date[DATELEN];
 		int h_goals;
-		int a_goals;			
+		int a_goals;
 		bool extra_time;
 		int h_scorers[MAXGOALS];
-		int a_scorers[MAXGOALS];	
+		int a_scorers[MAXGOALS];
 	public:
         Result();
         vector<int>* all_goals();								// Returnerer vector med alle mål

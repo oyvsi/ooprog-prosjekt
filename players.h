@@ -1,3 +1,7 @@
+/*  PLAYERS.H
+
+*/
+
 #ifndef __PLAYERS_H
 #define __PLAYERS_H
 
