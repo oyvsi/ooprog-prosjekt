@@ -17,34 +17,39 @@ extern IOfunc io;
 extern Players players;
 
 Division::Division() {
+	cout << "DIVISION.CPP - WARNING!! - "	// Should never be called
+	<< "This constructor should "	
+	<< "never be called";
 }
-
-Division::Division(istream* infile, char* divname) : Text_element(divname) { //Creating division from file
+	//Constructor reads division from file
+Division::Division(istream* infile, char* divname) : Text_element(divname) { 
     no_teams = 0;
     int h_team_no, a_team_no;
     char* h_team;
     char* a_team;
 
     *infile >> no_teams; infile->ignore();
-    if(no_teams <= MAXTEAMS) {
-        results = new Result**[no_teams];       // array for home-teams
-        for(int i = 0; i < no_teams; i++) {
+    if(no_teams <= MAXTEAMS) {					// Check that we have room for all
+        results = new Result**[no_teams];       // Create array for home-teams
+        for(int i = 0; i < no_teams; i++) {		// Loop through the teams
             teams[i] = new Team(infile);        // Create team-object. From there players are added
-            results[i] = new Result*[no_teams]; // array for away-teams
-            for (int j = 0; j < no_teams; j++)
-                results[i][j] = new Result;     // end result object
+            results[i] = new Result*[no_teams]; // Create array for away-teams
+            for (int j = 0; j < no_teams; j++)	// Inner loop for 2d
+                results[i][j] = new Result;     // End result object
         }
 
-        for(int i = 0; i < (no_teams*no_teams)-no_teams; i++) {    // Create schedule
-			h_team = io.read_string(infile);
+			// Create schedule
+        for(int i = 0; i < (no_teams*no_teams)-no_teams; i++) {    
+			h_team = io.read_string(infile);	// Reads from file
             a_team = io.read_string(infile);
-			h_team_no = get_team(h_team);
+			h_team_no = get_team(h_team);		// Number in array
             a_team_no = get_team(a_team);
-            if(h_team_no != -1 && a_team_no != -1)
+            if(h_team_no != -1 && a_team_no != -1)	// Check that team exists
                 results[h_team_no][a_team_no]->set_date(io.read_string(infile));
             else
-                cout << "Feil i iterasjon: " << i << " h_team: " << h_team << ' ' << "a_team: " << a_team << '\n';
-			delete [] h_team;
+                cout << "Feil: laget " << ((h_team_no == -1) ? h_team : a_team)
+					 << " eksisterer ikke!\n";
+			delete [] h_team;	// Deallocate memory
 			delete [] a_team;
         }
 
@@ -54,13 +59,14 @@ Division::Division(istream* infile, char* divname) : Text_element(divname) { //C
     }
 }
 
-Division::~Division() {                         // Deallocate memory
-    for(int i = 0; i < no_teams; i++) {
-        for(int j = 0; j < no_teams; j++)
-            delete results[i][j];
-        delete [] results[i];
+Division::~Division() {    // Deallocates memory
+    for(int i = 0; i < no_teams; i++) {	  // Loop teams
+		delete [] teams[i];				  // Team obj
+        for(int j = 0; j < no_teams; j++) // inner loop
+            delete results[i][j];		  // Delete on actual result obj
+        delete [] results[i];			  // Ptrs to array
     }
-    delete [] results;
+    delete [] results;					  // First ptr
 }
 
 int Division::get_team(char* name) {        // Finds team_no from name
@@ -68,31 +74,31 @@ int Division::get_team(char* name) {        // Finds team_no from name
         if(!strcmp(teams[i]->get_team(), name))
             return i;
     }
-    return -1;
+    return -1;	// No match
 }
 
-void Division::display() {	// Menu-option i
+void Division::display() {	// Menu-option i. Displays div. info and all teams
 	cout << "Navn: " << text << '\n';
 	cout << "Ant. lag: " << no_teams << '\n';
 	for (int i = 0; i < no_teams; i++)
 		teams[i]->display();
 }
-
-void Division::term_list(ostream* out) {    //Menu option L
+	//Menu option L. Displays matrix with scheduled matches' date or result
+void Division::term_list(ostream* out) {    
     char date[DATELEN];
 
-    for (int i = 0; i < no_teams; i++)
-        *out << "\t\t" << teams[i]->get_team();   //Columns
+    for (int i = 0; i < no_teams; i++)	// Loop teams for home team (columns)
+        *out << "\t\t" << teams[i]->get_team();   
     *out << '\n';
-    for (int i = 0; i < no_teams; i++) {        //Rows
-        *out << teams[i]->get_team();
-        for (int j = 0; j < no_teams; j++) {
+    for (int i = 0; i < no_teams; i++) {       // Loop teams for date/result 
+        *out << teams[i]->get_team();		   // Display away team name (rows)
+        for (int j = 0; j < no_teams; j++) {   // Inner loop of teams
             *out << "\t\t";
-            if (i != j) {
-				results[i][j]->get_date(date);
-				if (results[i][j]->get_hgls() == -1)
+            if (i != j) {					   // Team will not play itself
+				results[i][j]->get_date(date); 	
+				if (results[i][j]->get_hgls() == -1) // If no results, show date
 					*out << date[6] << date[7] << '/' << date[4] << date[5];
-				else
+				else	// Game result is registered. Display it
 					*out << results[i][j]->get_hgls() << '-'
 					<< results[i][j]->get_agls();
 			}
@@ -100,22 +106,22 @@ void Division::term_list(ostream* out) {    //Menu option L
         *out << '\n';
     }
 }
-
-void Division::result_list(ostream* out, char* in_date) {       //Menu option K
+	// Menu option K. Show games played on user-specified date. Called from sport
+void Division::result_list(ostream* out, char* in_date) {   
     char date[DATELEN];
     int h_goals;
 	char* h_team, * a_team;
-    for (int i = 0; i < no_teams; i++) {
-        for (int j = 0; j < no_teams; j++) {
-            if(i != j) {
-				results[i][j]->get_date(date);
-				if (!strcmp(date, in_date)) {
-					h_team = teams[i]->get_team();
+    for (int i = 0; i < no_teams; i++) {	// Home teams
+        for (int j = 0; j < no_teams; j++) {	// Away teams
+            if(i != j) {					// No team will play itself
+				results[i][j]->get_date(date); 
+				if (!strcmp(date, in_date)) {  // Check user date vs match date
+					h_team = teams[i]->get_team(); // Get and display team names
 					a_team = teams[j]->get_team();
 					*out << h_team << " - " << a_team;
-					h_goals = results[i][j]->get_hgls();
-					if (h_goals != -1)
-						*out << " - " << h_goals << "-"
+					h_goals = results[i][j]->get_hgls(); 
+					if (h_goals != -1)			// Check for registered result		
+						*out << " - " << h_goals << "-"	
 						<< results[i][j]->get_agls() << endl;
                     else
                         *out << " Ikke spilt." << endl;
@@ -125,28 +131,28 @@ void Division::result_list(ostream* out, char* in_date) {       //Menu option K
         }
     }
 }
-
-bool Division::read_results(istream* in, bool update) { // Menu option R + reading programdata
+	// Menu option R - read results from userfile + used for reading programdata
+bool Division::read_results(istream* in, bool update) { 
 	bool valid = true;
 	char* date;
 	char* h_team, * a_team;
 	int i, j, h_team_no, a_team_no, no_dates, no_games;
-	no_dates = 1; //io.lines_in_level(in, 2);
+	no_dates = io.lines_in_level(in, 2);  // Check file for dates
 	i = 0;
 	while (valid && i < no_dates) { // loop all dates
 		date = io.read_string(in, '\n');
-		no_games = io.lines_in_level(in, 3)/2;
+		no_games = io.lines_in_level(in, 3)/2; // Games á date. Two names; so / 2
 		j = 0;
-		while (valid && j < no_games) { // loop all games at date
+		while (valid && j < no_games) {		// loop all games at date
 			h_team = io.read_string(in);    // team names
 			a_team = io.read_string(in);
 			h_team_no = get_team(h_team);   // no in team-array
 			a_team_no = get_team(a_team);
-
-			if (h_team_no != -1 && a_team_no != -1) {       // One of the team names does not exist
-				// Check if dates match
+				// Ensure that both teams exists
+			if (h_team_no != -1 && a_team_no != -1) {  
+				// Check if dates match and skip result lines. Read upon updating
 				if(results[h_team_no][a_team_no]->read_result(in, date, update)) {
-					// Check if we have a result stored allready
+					// Check if we have a result stored already
 					if(!update && results[h_team_no][a_team_no]->get_hgls() != -1) {
 						valid = false;
 						cout << date << ": " << h_team << " - " << a_team
@@ -191,12 +197,12 @@ void Division::write(ostream* out) {
 	}
 }
 
-Team* Division::get_team() {
+Team* Division::get_team() { // Ask user for team name and return ptr to object
 	Team* team_ptr = NULL;
 	char* team_name = io.read_valid("Lag", NAME);
 	int team_no = get_team(team_name);
 	if(team_no != -1)
-		team_ptr = teams[team_no];
+		team_ptr = teams[team_no];	// We got a match (Yippee ki-yay)
 	else
 		cout << "Laget " << team_name << " finnes ikke!\n";
 	delete [] team_name;
@@ -210,32 +216,33 @@ void Division::write_team() {
 		team_ptr->write_team();
 }
 
-void Division::edit_team() {
-	Team* team_ptr = get_team();
-	if(team_ptr)
-		team_ptr->edit_team();
+void Division::edit_team() { // Menu option E.
+	Team* team_ptr = get_team(); // Ask for team name
+	if(team_ptr)				
+		team_ptr->edit_team();	 // The team will take it from here
 }
 
-void Division::remove_player(int player_no) {
-	for (int i = 0; i < no_teams; i++)
-		teams[i]->remove_player(player_no);
+void Division::remove_player(int player_no) {  // Remove a player for all teams
+	for (int i = 0; i < no_teams; i++)		  // Loop all teams
+		teams[i]->remove_player(player_no);   // The team will take care of it
 }
 
-void Division::write_results(ostream* out) {
+void Division::write_results(ostream* out) {	// Write all results
 	char date[DATELEN];
-	*out << "  " << text << '\n';
-    for (int i = 0; i < no_teams; i++) {
-		for (int j = 0; j < no_teams; j++) {
-			if(i != j) {
+	io.write_blank(out, LEVEL_BLANKS*1); // Indent to level 1
+	*out << text << '\n';	// Write division name
+    for (int i = 0; i < no_teams; i++) {	// Home team
+		for (int j = 0; j < no_teams; j++) {	// Away team
+			if(i != j) {	// No, you can't play against yourself. 
 				if (results[i][j]->get_hgls() != -1) {	// write games with resutls
 					results[i][j]->get_date(date);
-					io.write_blank(out, LEVEL_BLANKS*2);
-					*out << date << '\n';
+					io.write_blank(out, LEVEL_BLANKS*2); // Indent to level 2
+					*out << date << '\n';				 // here comes the date	
+					io.write_blank(out, LEVEL_BLANKS*3); // Indent to level 3
+					*out << teams[i]->get_team() << '\n'; // Team names
 					io.write_blank(out, LEVEL_BLANKS*3);
-					*out << teams[i]->get_team() << '\n';
-					io.write_blank(out, LEVEL_BLANKS*3);
-					*out << teams[j]->get_team() << '\n';
-					results[i][j]->write(out);
+					*out << teams[j]->get_team() << '\n'; 
+					results[i][j]->write(out);	// Result obj will write the rest
 				}
 			}
 		}
