@@ -109,7 +109,7 @@ void Players::display() {
 	delete [] c_read;	//Delete the string we read in.
 }
 
-void Players::display(int no) {
+void Players::display(int no) { // Skriver ut alt om spiller nummer 'no'
 	Player* player_ptr = (Player*) playerlist->remove(no);
 	if (player_ptr) {
 		player_ptr->display_all();
@@ -117,7 +117,7 @@ void Players::display(int no) {
 	}
 }
 
-void Players::display_name(int no) {
+void Players::display_name(int no) { // Skriver navnet til aktuell spiller
 	Player* player_ptr = (Player*) playerlist->remove(no);
 	if (player_ptr) {
 		player_ptr->display_name();
@@ -125,12 +125,12 @@ void Players::display_name(int no) {
 	}
 }
 
-int Players::read_player(istream* input, bool init) {
+int Players::read_player(istream* input, bool init) { // Leser inn en spiller
 	Player* tmp_player;
 	char* tmp_name, *tmp_address;
 	int tmp_number;
 
-    if (init){                              // Ved førstegangs innlesning
+    if (init){                              // Ved førstegangs innlesning må id leses:
         *input >> tmp_number;
         input->ignore();
     }
@@ -160,7 +160,7 @@ int Players::read_player(istream* input, bool init) {
 	delete [] tmp_name;
 	return tmp_number;
 }
-bool Players::in_list(char* name) {
+bool Players::in_list(char* name) { // returnerer om spilleren fins i lista
 	Player* tmp_player;
 	for(int i = 1; i <= playerlist->no_of_elements(); i++) {
 		tmp_player = (Player*) playerlist->remove_no(i);
@@ -173,7 +173,7 @@ bool Players::in_list(char* name) {
 	return false;
 }
 
-bool Players::in_list(int player_no) {
+bool Players::in_list(int player_no) { // returnerer om spilleren fins i lista
 	bool found = false;
 	Player* player_ptr = (Player*) playerlist->remove(player_no);
 	if (player_ptr)
@@ -183,7 +183,7 @@ bool Players::in_list(int player_no) {
 	return found;
 }
 
-int Players::get_id(char* name) {
+int Players::get_id(char* name) {   // returnerer id til en spiller med navn 'name'
 	Player* tmp_player;
 	for(int i = 1; i <= playerlist->no_of_elements(); i++) {
 		tmp_player = (Player*) playerlist->remove_no(i);

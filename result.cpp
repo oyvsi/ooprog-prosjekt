@@ -15,15 +15,15 @@ Result::Result() {  // called from division
     h_goals = -1;   // We have no results;
 }
 
-vector<int>* Result::all_goals(){
+vector<int>* Result::all_goals(){   // returnerer en vector med alle mål (etter spillerid)
 	vector<int>* gls = new vector<int>;
 
     if (h_goals > -1){  // Dersom kampen er spilt
         for (int i = 0; i < h_goals; i++)
-            gls->push_back(h_scorers[i]);
+            gls->push_back(h_scorers[i]);   //  Legg til alle hjemmemål
 
         for (int i = 0; i < a_goals; i++)
-            gls->push_back(a_scorers[i]);
+            gls->push_back(a_scorers[i]);   //  Legg til alle bortemål
     }
 	return gls;
 }

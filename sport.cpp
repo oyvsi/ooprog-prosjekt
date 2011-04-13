@@ -74,19 +74,18 @@ void Sport::write(ostream* out) {
 	}
 }
 
-bool Sport::read_results(istream* infile, bool update){
-	int no_div;                                                     // Antall divisjoner
+bool Sport::read_results(istream* infile, bool update){ // Leser resultater fra fil
+	int no_div;      // Antall divisjoner
 	bool read_ok = true;            // Return-verdi
 	char* divisionname;
 	Division* tmp_div;
 	int i = 0;
 	no_div = io.lines_in_level(infile, 1);
-	cout << "Las ant. div: " << no_div << endl;
 	while (read_ok && i < no_div) {                                                 // Les alle divisjoner:
 		divisionname = io.read_string(infile, '\n');
 		if (divisionlist->in_list(divisionname)){
 			tmp_div = (Division*) divisionlist->remove(divisionname);
-			read_ok = tmp_div->read_results(infile, update);                // flash?
+			read_ok = tmp_div->read_results(infile, update);
 			divisionlist->add(tmp_div);
 		} else {
 			read_ok = false; // feil pŒ fil
@@ -214,7 +213,7 @@ Division* Sport::get_division() {
 	return div_ptr;
 }
 
-void Sport::write_top_ten(){
+void Sport::write_top_ten(){    // Skriver toppscorerliste
 	Division* div_ptr = get_division();
 	if (div_ptr)
 		div_ptr->write_top_ten();
