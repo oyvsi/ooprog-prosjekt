@@ -127,30 +127,30 @@ int IOfunc::lines_in_level(istream* infile, int level) {
     char dummy;
 	bool stop = false;
 
-	cur_pos = infile->tellg();      // position we were at before func. call
+	cur_pos = infile->tellg();    // Position we were at before function call
 
-	if (level > 0)  // level 0 has no outer level
+	if (level > 0)  // All levels but 0 has an outer level.
 		outer_level = level-1;
 	else
-		infile->seekg(0, ios::beg);             //move to start
+		infile->seekg(0, ios::beg);   // Move to start (and collect $100)
 	temp_pos = cur_pos;
-	*infile >> dummy;                               // read first non-blank
+	*infile >> dummy;                 // Read first non-blank
 		while(!infile->eof() && !stop) {
-		new_pos = infile->tellg();      // position after first non-blank
-		//check if we're at desired level
+		new_pos = infile->tellg();      // Position after first non-blank
+		  // Check if we're at desired level
         if(new_pos == temp_pos+1+(level*LEVEL_BLANKS))
             no_in_level++;
-		// check if we're at the outer level
+		  // Check if we're at the outer level
 		if(outer_level != -1 && new_pos == temp_pos+1+(outer_level*LEVEL_BLANKS)) {
 			stop = true;    // We're at the next level, so we can stop the loop
 		}
         infile->getline(line, STRLEN);  // Read rest of line so we can continue at next
-		temp_pos = infile->tellg();             // Position for start at line
-        *infile >> dummy;                               // Read first non-blank
+		temp_pos = infile->tellg();     // Position for start at line
+        *infile >> dummy;               // Read first non-blank
     }
-	infile->clear();                                   // clear state flags
-    infile->seekg(cur_pos, ios::beg);  // move back to original position
-	return no_in_level;                                // Return no of items
+	infile->clear();                   // Cear state flags
+    infile->seekg(cur_pos, ios::beg);  // Move back to original position
+	return no_in_level;                // Return no of items
 }
 
 void IOfunc::write_blank(ostream* out, int no) {
