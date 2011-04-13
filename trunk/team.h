@@ -1,3 +1,7 @@
+/*  TEAM.H
+
+*/
+
 #ifndef __TEAM_H
 #define __TEAM_H
 #include <fstream>
@@ -17,7 +21,7 @@ public:
     char* get_team();
 	int get_player(int player_no);
     ~Team();
-    
+
     bool in_team(int player);
 	void write(ostream* out);
     void add_player(int player_no);
@@ -25,7 +29,7 @@ public:
 	void display();
 	void write_team();
 	void edit_team();
-    
+
 };
 
 #endif

@@ -1,3 +1,7 @@
+/*  IOFUNC.H
+
+*/
+
 #ifndef __IOFUNC_H
 #define __IOFUNC_H
 
