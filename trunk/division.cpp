@@ -288,37 +288,38 @@ void Division::table(ostream* out, int type) {
 	}
 }
 
-void Division::write_top_ten() {
+void Division::write_top_ten() {                // Skriver topp ti-liste over målscorere
 	cout << "Filnavn (blankt for skjerm): ";
 	char* filename = io.read_string(&cin);
 	cout << "Lag (blankt for alle): ";
 	char* teamname = io.read_string(&cin);
 
-	vector<int> goalscorers, * temp_vec;
-	vector<int>::iterator vec_it;
+	vector<int> goalscorers, * temp_vec;        // vector som inneholder ID til alle målscorerne
+	vector<int>::iterator vec_it;               //   (antall mål for ID == antall forekomster av ID)
 
-	int top_ten[10];			// The top-ten table
-	int no_goals[10];			// Number of goals in each of the above table positions
-	int player_goals = 0;
-	int current_player;
+	int top_ten[10];			// array for topp ti-lista
+	int no_goals[10];			// antall mål i hver posisjon for topp ti-lista
+	int player_goals = 0;       // antall mål til den spilleren vi teller for
+	int current_player;         // spilleren vi teller for
 
+                                            // Nullstiller arrayene:
 	memset(top_ten, 0, sizeof(top_ten));
 	memset(no_goals, 0, sizeof(no_goals));
 
-	for(int i = 0; i < no_teams; i++){
+	for(int i = 0; i < no_teams; i++){          // For alle kamper:
   		for(int j = 0; j < no_teams; j++){
-			temp_vec = results[i][j]->all_goals();
+			temp_vec = results[i][j]->all_goals();  // Hent mål fra kampen
 			vec_it = goalscorers.end();
-			goalscorers.insert(vec_it,temp_vec->begin(),temp_vec->end());
+			goalscorers.insert(vec_it,temp_vec->begin(),temp_vec->end());   // Legg til i vectoren
 			delete temp_vec;
 		}
 	}
 
-	if (strlen(teamname) > 1){																		// DERSOM LAGNAVN:
-		int teamidx = get_team(teamname); // get team index
+	if (strlen(teamname) > 1){			// DERSOM LAGNAVN:
+		int teamidx = get_team(teamname); // hent lagindex
 
 		if (teamidx != -1){
-			for (int i = 0; i < goalscorers.size();){  	// Ta vekk folk som ikke er p� laget
+			for (int i = 0; i < goalscorers.size();){  	// Ta vekk folk som ikke er på laget
 				if (teams[teamidx]->get_player(goalscorers[i]) == -1)
 					goalscorers.erase(goalscorers.begin() + i);
                 else
@@ -329,40 +330,40 @@ void Division::write_top_ten() {
 		}
 	}
 
-	sort(goalscorers.begin(), goalscorers.end());
-
-	for (int i = 0; i < goalscorers.size();){
-		current_player = goalscorers[i];
-		while (i < goalscorers.size() && current_player == goalscorers[i]){  // S� lenge lik ID
-			++player_goals;                   				 // Legg til m�l
+	sort(goalscorers.begin(), goalscorers.end());   // Sorter slik at lavest ID ligger først
+                                                    //   og LIK ID LIGGER ETTER HVERANDRE (viktig)
+	for (int i = 0; i < goalscorers.size();){   // For alle mål
+		current_player = goalscorers[i];        // Hent første ID
+		while (i < goalscorers.size() && current_player == goalscorers[i]){  // for antall forekomster av denne ID
+			++player_goals;                   				 // Legg til mål
 			++i;
 		}
-		int position = 0;
+		int position = 0;                           // Topp-ti posisjon, 0 er høyest
 		while(player_goals < no_goals[position]){
-			++position;
+			++position;                             // flytt et hakk ned dersom færre mål
 		}
-		if (position <= 9){
-			int y = 9 - position;
+		if (position <= 9){                         // Dersom vi er innenfor topp ti
+			int y = 9 - position;                   // Flytt andre spillere nedover i lista:
 			while (y > 0){
 				int a = position + y;
 				int b = position + (--y);
 				no_goals[a] = no_goals[b];
 				top_ten[a] = top_ten[b];
 			}
-			no_goals[position] = player_goals;
+			no_goals[position] = player_goals;      // Smett ID inn i topp ti-lista
 			top_ten[position] = current_player;
 		}
-		player_goals = 0;
+		player_goals = 0;                           // Klargjør for neste ID
 	}
 
-	ostream* out;
+	ostream* out;   // utfil
 
-	if (strlen(filename))
-		out = new ofstream(filename);
+	if (strlen(filename))                       // Dersom brukeren skrev filnavn
+		out = new ofstream(filename);   // skriv til fil
 	else
-		out = &cout;
+		out = &cout;    // skriv til skjerm
 
-	for (int i = 0; i < 10; i++){
+	for (int i = 0; i < 10; i++){                                 // skriv ut topp ti-liste:
 		*out << i+1 << ": "; players.display_name(top_ten[i]);
 		*out << ", " << no_goals[i] << " maal." << "\n";
 	}

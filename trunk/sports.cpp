@@ -224,7 +224,7 @@ Sport* Sports::get_sport() {
 	return sport_ptr;
 }
 
-void Sports::write_top_ten(){
+void Sports::write_top_ten(){   // Skriver toppscorerliste
 	Sport* sport_ptr = get_sport();
 	if (sport_ptr)
 		sport_ptr->write_top_ten();

@@ -9,18 +9,18 @@
 
 using namespace std;
 
-bool IOfunc::validate(char* txt, val_type v = NONE){
+bool IOfunc::validate(char* txt, val_type v = NONE){ // returnerer om txt er gyldig ihht regler for val_type
 	int ch;
-	for (int i = 0; i < strlen(txt); i++){
+	for (int i = 0; i < strlen(txt); i++){  // For hvert tegn i txt
 		ch = (int) txt[i];
 		switch (v){
 			case NAME:
-				if ( !(isalex(txt[i]) || isalpha(txt[i])
+				if ( !(isalex(txt[i]) || isalpha(txt[i])    // dersom ulik alle bokstaver samt mellomrom og bindestrek
 									 || txt[i] == ' '
 									 || txt[i] == '-') )
 				return false;
 				break;
-			case ADDRESS :	if ( !(isalex(txt[i]) || isalpha(txt[i])
+			case ADDRESS :	if ( !(isalex(txt[i]) || isalpha(txt[i]) // dersom ulik alle tall og bokstaver samt mellomrom
 												 || txt[i] == ' '
 												 || isalnum(txt[i])) )
 				return false;
@@ -38,9 +38,9 @@ bool IOfunc::isalex(char c){				//returnerer om c er æÆøØåÅ
 					ic == UNI_aa || ic == UNI_AA);
 }
 
-bool IOfunc::is_number(char* c){
-	for (int i = 0; i < strlen(c); i++) {
-		if (!isdigit(c[i]))
+bool IOfunc::is_number(char* c){            // returnerer om c er et tall
+	for (int i = 0; i < strlen(c); i++) {   // for alle tegn i c
+		if (!isdigit(c[i]))                 // dersom tegnet ikke er et tall
 			return false;
 	}
 	return true;
@@ -50,7 +50,7 @@ char IOfunc::to_upper(char up){			//Returnerer uppercaset char
 	return ((char) toupper(up));
 }
 
-char* IOfunc::strip(char* input) {
+char* IOfunc::strip(char* input) {  // trimmer vekk whitespace foran en tekst
 	char temp_str[STRLEN], * return_str;
 	int startstr = 0;
 
@@ -68,24 +68,24 @@ char* IOfunc::strip(char* input) {
 	return return_str;
 }
 
-char* IOfunc::read_string(std::istream* in, char delim){
+char* IOfunc::read_string(std::istream* in, char delim){ // leser streng fra in til delim blir funnet
 	char* ptr, temp[STRLEN];
 	in->getline(temp, STRLEN, delim); //Leser fra in til temp
 	ptr = strip(temp); 	// strip whitespace
 	return ptr;			//Returnér peker til tekst
 }
 
-char* IOfunc::read_valid(char* txt, val_type v = NONE){
+char* IOfunc::read_valid(char* txt, val_type v = NONE){ // returnerer lovlig tekst ihht regler for val_type
 	char* c_read = NULL;
 
 	while (!c_read){
 		cout << '\t' << txt << ": ";
 		c_read = read_string(&cin, '\n');
 		if (validate(c_read, v)) {
-			return c_read;
+			return c_read;          // returnerer lovlig
 		} else {
 			delete [] c_read;
-			c_read = NULL;
+			c_read = NULL;          // returnerer NULL dersom ulovlig
 		}
 	}
 }
@@ -97,7 +97,7 @@ char* IOfunc::store_string(char* txt){
 	return ptr;
 }
 
-int IOfunc::read_number(char* txt, int min, int max){
+int IOfunc::read_number(char* txt, int min, int max){   // Returnerer tall mellom min og max
 	char* c_read;
 	int i_read = -1;
 

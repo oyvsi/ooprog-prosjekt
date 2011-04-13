@@ -53,9 +53,9 @@ int main() {
 	return 0;
 }
 
-void read_all_file(){
-																		// READ PLAYERS
-	int no_pls;
+void read_all_file(){   // Leser inn hele datastrukturen fra fil
+
+	int no_pls;         // ant spillere
 
 	ifstream i_players(PLAYERSFILE);
 
@@ -65,15 +65,15 @@ void read_all_file(){
 	i_players >> no_pls;
 	i_players.ignore();
 
-	for (int i = 0; i < no_pls; i++){
+	for (int i = 0; i < no_pls; i++){   // Les alle spillere:
 		players.read_player(&i_players, true);
 	}
 
-	sports.read_file();
-	read_results();
+	sports.read_file(); // Les idretter
+	read_results(); // Les resultater
 }
 
-void write_all_file(){
+void write_all_file(){  // Skriver hele datasturukturen til fil
 	sports.write_file();
 	players.write_file();
 	write_results();
@@ -96,7 +96,7 @@ void display_menu(){
 	"C - skriv toppscorere\n";
 }
 
-void new_psd(){
+void new_psd(){ // Ny spiller/idrett/divisjon
 	char choice;
 	cin >> choice; cin.ignore();
 
@@ -107,7 +107,7 @@ void new_psd(){
 	}
 }
 
-void remove_psd(){
+void remove_psd(){ // Fjern spiller/idrett/divisjon
 	char choice;
 	cin >> choice; cin.ignore();
 
@@ -118,7 +118,7 @@ void remove_psd(){
 	}
 }
 
-void read_results(){
+void read_results(){                                        // leser inn resultater fra fil
 	ifstream* infile = new ifstream("results.dta");
 
 	if (*infile){
@@ -135,7 +135,7 @@ void read_results(){
 	}
 }
 
-void write_results(){
+void write_results(){                                   // skriver resultater til fil
 	ofstream* outfile = new ofstream("results_ut.dta");
 
 	if (*outfile){
