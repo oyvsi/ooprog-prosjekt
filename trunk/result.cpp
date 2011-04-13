@@ -31,7 +31,7 @@ vector<int>* Result::all_goals(){
 void Result::set_date(char in_date[DATELEN]) {
     strcpy(date, in_date);
 }
-
+	
 void Result::get_date(char in_date[]) {
     strcpy(in_date, date);
 }
@@ -43,20 +43,20 @@ int Result::get_hgls() {
 int Result::get_agls() {
     return a_goals;
 }
-
+	// Read results from file
 bool Result::read_result(istream* infile, char in_date[], bool update) {
 	char* dummy;
 	int valid_h_goals, valid_a_goals, game_l;
-	if (update) {
+	if (update) {	// Read if the validation succeeded 
 		*infile >> h_goals >> a_goals >> extra_time;
 
-		for(int i = 0; i < h_goals; i++)
+		for(int i = 0; i < h_goals; i++)  // Loop and insert goal scoreres
 			*infile >> h_scorers[i];
 		for(int i = 0; i < a_goals; i++)
 			*infile >> a_scorers[i];
-		infile->ignore();
+		infile->ignore();	// Skip \n
 		return true;
-	} else {
+	} else {	// We're validating the file
 		game_l = 0;
 		*infile >> valid_h_goals >> valid_a_goals; infile->ignore();
 		game_l += (valid_h_goals) ? 0 : 1;	// If there are no goals, there's no line
@@ -66,7 +66,7 @@ bool Result::read_result(istream* infile, char in_date[], bool update) {
 			dummy = io.read_string(infile);
 			delete [] dummy;
 		}
-		return (!strcmp(in_date, date));
+		return (!strcmp(in_date, date)); // Return if date in file is right or not
 	}
 }
 
@@ -94,17 +94,17 @@ void Result::table_add(tableobject* home, tableobject* away, int tabletype) {
 	}
 }
 
-void Result::write(ostream* out) {
-	io.write_blank(out, LEVEL_BLANKS*4);
+void Result::write(ostream* out) { // Write the result to file
+	io.write_blank(out, LEVEL_BLANKS*4); // Indent to level 4
 	*out << h_goals << ' ';
 	*out << a_goals << '\n';
 	io.write_blank(out, LEVEL_BLANKS*4);
 	*out << extra_time << '\n';
 
-	if (h_goals) {
-		io.write_blank(out, LEVEL_BLANKS*4-1);	//Subtract 1 because we can't
-		for (int i = 0; i < h_goals; i++)		//leave trailing space
-			*out << ' ' << h_scorers[i];		//and must use leading instead
+	if (h_goals) {	// No goals, no goalscorers
+		io.write_blank(out, LEVEL_BLANKS*4-1); // -1 because we use leading space
+		for (int i = 0; i < h_goals; i++) // Write goal scoreres		
+			*out << ' ' << h_scorers[i];	
 		*out << '\n';
 	}
 

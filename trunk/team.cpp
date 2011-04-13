@@ -15,15 +15,15 @@ extern Players players;
 Team::Team() {
 }
 
-Team::Team(istream* infile) {  //Read such things as name, address, no_players
+Team::Team(istream* infile) {  // Read from file
     name = io.read_string(infile);
     address = io.read_string(infile);
     *infile >> no_players; infile->ignore();
-    for(int i = 0; i < no_players; i++)
+    for(int i = 0; i < no_players; i++)	// Players reads each player
         player_nos[i] = players.read_player(infile);
 }
 
-Team::~Team() {
+Team::~Team() {  // Deallocate memory
     delete [] name;
     delete [] address;
 }
@@ -32,7 +32,7 @@ char* Team::get_team() {
     return name;
 }
 
-int Team::get_player(int player_no) {
+int Team::get_player(int player_no) {  // Find no in array from player no
 	int hit = -1;
 	for(int i = 0; i < no_players; i++) {
         if(player_nos[i] == player_no)
@@ -44,7 +44,7 @@ int Team::get_player(int player_no) {
 void Team::add_player(int player_no) {
     if (no_players < MAXPLAYERS) {
 		if (get_player(player_no != -1))
-			player_nos[no_players++] = player_no;	// add after since array
+			player_nos[no_players++] = player_no;	// inc. after since array
 		else										// begins at 0
 			cout << player_no << " er allerede pÃ¥ " << name << '\n';
 		} else {
@@ -76,7 +76,7 @@ void Team::edit_team() {
 	char choice;
 	int player_no;
 	do {
-		cout << "Ã˜nsker du Ã¥ (f)jerne eller (l)egge til spiller? ";
+		cout << "¯nsker du Œ (f)jerne eller (l)egge til spiller? ";
 		cin >> choice;
 	} while (choice != 'f' && choice != 'l');
 
