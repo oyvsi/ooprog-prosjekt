@@ -123,8 +123,8 @@ void read_results(){                                        // leser inn resulta
 
 	if (*infile){
 		if (sports.read_results(infile, false)) {	// Leser uten å oppdatere resultater
-			infile->clear();
-			infile->seekg(0, ios::beg);
+			infile->clear();						// Fjern filflagg
+			infile->seekg(0, ios::beg);             // GŒ til starten av fila
 			sports.read_results(infile, true);		// Ingen feil funnet, oppdater res.
 		} else {
 			cout << "Fila inneheld feil, fool!\n";

@@ -111,9 +111,9 @@ void Division::result_list(ostream* out, char* in_date) {
     char date[DATELEN];
     int h_goals;
 	char* h_team, * a_team;
-    for (int i = 0; i < no_teams; i++) {	// Home teams
-        for (int j = 0; j < no_teams; j++) {	// Away teams
-            if(i != j) {					// No team will play itself
+    for (int i = 0; i < no_teams; i++) {	  // Home teams
+        for (int j = 0; j < no_teams; j++) {  // Away teams
+            if(i != j) {					  // No team will play itself
 				results[i][j]->get_date(date); 
 				if (!strcmp(date, in_date)) {  // Check user date vs match date
 					h_team = teams[i]->get_team(); // Get and display team names
@@ -177,18 +177,18 @@ bool Division::read_results(istream* in, bool update) {
 	return valid;
 }
 
-void Division::write(ostream* out) {
+void Division::write(ostream* out) {	// Write division data to file
 	char date[DATELEN];
 	*out << DIVLVL << text << '\n';
 	*out << DIVLVL << no_teams << '\n';
 
-	for (int i = 0; i < no_teams; i++)
+	for (int i = 0; i < no_teams; i++)	// Each team write it's own data
 		teams[i]->write(out);
-
-	for (int i = 0; i < no_teams; i++) {
-		for (int j = 0; j < no_teams; j++) {
-			if(i != j) {
-				results[i][j]->get_date(date);
+										  // Schedule
+	for (int i = 0; i < no_teams; i++) {    // Loop home teams
+		for (int j = 0; j < no_teams; j++) {  // Loop away teams
+			if(i != j) {					 // home team won't be same as away
+				results[i][j]->get_date(date);	// Write game data
 				*out << TEAMLVL << teams[i]->get_team() << '\n';
 				*out << TEAMLVL << teams[j]->get_team() << '\n';
 				*out << TEAMLVL << date << '\n';
@@ -202,7 +202,7 @@ Team* Division::get_team() { // Ask user for team name and return ptr to object
 	char* team_name = io.read_valid("Lag", NAME);
 	int team_no = get_team(team_name);
 	if(team_no != -1)
-		team_ptr = teams[team_no];	// We got a match (Yippee ki-yay)
+		team_ptr = teams[team_no];	// We got a match
 	else
 		cout << "Laget " << team_name << " finnes ikke!\n";
 	delete [] team_name;
@@ -223,8 +223,8 @@ void Division::edit_team() { // Menu option E.
 }
 
 void Division::remove_player(int player_no) {  // Remove a player for all teams
-	for (int i = 0; i < no_teams; i++)		  // Loop all teams
-		teams[i]->remove_player(player_no);   // The team will take care of it
+	for (int i = 0; i < no_teams; i++)		  // Loop all teams and remove
+		teams[i]->remove_player(player_no);   
 }
 
 void Division::write_results(ostream* out) {	// Write all results
