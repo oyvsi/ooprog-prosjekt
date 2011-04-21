@@ -50,7 +50,7 @@ char IOfunc::to_upper(char up){			//Returnerer uppercaset char
 	return ((char) toupper(up));
 }
 
-char* IOfunc::strip(char* input) {  // trimmer vekk whitespace foran en tekst
+char* IOfunc::strip(char* input) {  // Trims whitespace from string
 	char temp_str[STRLEN], * return_str;
 	int startstr = 0;
 
@@ -63,7 +63,7 @@ char* IOfunc::strip(char* input) {  // trimmer vekk whitespace foran en tekst
 	for(int i = startstr, j = 0; i <= strlen(input); i++)  // copy over
 		temp_str[j++] = input[i];
 
-	return_str = new char[strlen(temp_str)+1];
+	return_str = new char[strlen(temp_str)+1];  // allocate memory
 	strcpy(return_str, temp_str);
 	return return_str;
 }

@@ -22,7 +22,6 @@ public:
 	int get_player(int player_no);
     ~Team();
 
-    bool in_team(int player);
 	void write(ostream* out);
     void add_player(int player_no);
     bool remove_player(int player_no);
